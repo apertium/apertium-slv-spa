@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+  <mode name="sl-es-postproc" install="yes">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="sl-es.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g">
+        <file name="sl-es.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-sl-es.sl-es.t1x"/>
+        <file name="sl-es.t1x.bin"/>
+        <file name="sl-es.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -n">
+        <file name="apertium-sl-es.postprocessrules_n_-sl-es.xml"/>
+        <file name="sl-es.post-n.t1x.bin"/>
+      </program>
+      <program name="apertium-transfer -n">
+        <file name="apertium-sl-es.postprocessrules_adj_-sl-es.xml"/>
+        <file name="sl-es.post-adj.t1x.bin"/>
+      </program>
+      <program name="apertium-transfer -n">
+        <file name="apertium-sl-es.postprocessrules_adv_-sl-es.xml"/>
+        <file name="sl-es.post-adv.t1x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="sl-es" install="yes">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="sl-es.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g">
+        <file name="sl-es.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-sl-es.sl-es.t1x"/>
+        <file name="sl-es.t1x.bin"/>
+        <file name="sl-es.autobil.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="sl-es.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="es-sl" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="es-sl.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g">
+        <file name="es-sl.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-sl-es.es-sl.t1x"/>
+        <file name="es-sl.t1x.bin"/>
+        <file name="es-sl.autobil.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="es-sl.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="sl-es-transfer" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="sl-es.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="sl-es.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g">
+        <file name="sl-es.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-sl-es.sl-es.t1x"/>
+        <file name="sl-es.t1x.bin"/>
+        <file name="sl-es.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="sl-es-tagger" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="sl-es.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="sl-es.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g">
+        <file name="sl-es.prob"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+
+
+</modes>
