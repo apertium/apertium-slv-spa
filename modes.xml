@@ -77,6 +77,15 @@
   </mode>
 
 
+  <mode name="sl-es-morph" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="sl-es.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
 
 
 </modes>

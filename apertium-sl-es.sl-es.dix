@@ -12,6 +12,8 @@
     <sdef n="vbhaver"  c="Verb 'to have'"/>
 
     <sdef n="pos"      c="Possessive"/>
+    <sdef n="pro"      c="Proclitic"/>
+    <sdef n="ref"      c="Reflexive"/>
 
     <sdef n="m"        c="Masculine"/>
     <sdef n="f"        c="Feminine"/>
@@ -41,6 +43,8 @@
     <e c="  0"><p><l>naš<s n="prn"/><s n="pos"/></l><r>nuestro<s n="prn"/><s n="pos"/></r></p></e>
     <e c="  0"><p><l>vaš<s n="prn"/><s n="pos"/></l><r>vuestro<s n="prn"/><s n="pos"/></r></p></e>
 
+    <e c="  0"><p><l>se<s n="prn"/><s n="ref"/></l><r>se<s n="prn"/><s n="pro"/><s n="ref"/></r></p></e>
+
 
     <!-- SECTION: Nouns -->
 
@@ -54,10 +58,17 @@
     <e c="  0"><p><l>dekle<s n="n"/><s n="nt"/></l><r>chica<s n="n"/><s n="f"/></r></p></e>
     <e c="  0"><p><l>brat<s n="n"/><s n="m"/></l><r>hermano<s n="n"/><s n="m"/></r></p></e>
     <e c="  0"><p><l>svet<s n="n"/><s n="m"/></l><r>mundo<s n="n"/><s n="m"/></r></p></e>
+    <e c="  0"><p><l>burja<s n="n"/><s n="f"/></l><r>viento<s n="n"/><s n="m"/></r></p></e>
+    <e slr="1"><p><l>burja<s n="n"/><s n="f"/></l><r>tempesto<s n="n"/><s n="m"/></r></p></e>
+    <e c="  0"><p><l>slovan<s n="n"/><s n="m"/></l><r>eslavo<s n="n"/><s n="m"/></r></p></e>
+    <e c="  0"><p><l>veka<s n="n"/><s n="f"/></l><r>siglo<s n="n"/><s n="m"/></r></p></e>
+    <e c="  0"><p><l>duh<s n="n"/><s n="m"/></l><r>espíritu<s n="n"/><s n="m"/></r></p></e>
 
     <!-- SECTION: Adjetives -->
 
     <e c="  0"><p><l>lep<s n="adj"/></l><r>guapo<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>slovanski<s n="adj"/></l><r>eslavo<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>trden<s n="adj"/></l><r>firme<s n="adj"/></r></p></e>
 
     <!-- SECTION: Verbs -->
 
@@ -66,6 +77,9 @@
 
     <e c="  0"><p><l>imeti<s n="vblex"/></l><r>tener<s n="vblex"/></r></p></e>
     <e c="  0"><p><l>priti<s n="vblex"/></l><r>venir<s n="vblex"/></r></p></e> <!-- perf -->
+    <e c="  0"><p><l>stati<s n="vblex"/></l><r>quedar<s n="vblex"/></r></p></e> <!-- ? -->
+    <e c="  0"><p><l>stresti<s n="vblex"/></l><r>sacudir<s n="vblex"/></r></p></e> <!-- ? -->
+    <e c="  0"><p><l>živeti<s n="vblex"/></l><r>vivir<s n="vblex"/></r></p></e> <!-- ? -->
 
     <!-- SECTION: Punctuation -->
 
