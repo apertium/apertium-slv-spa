@@ -5,6 +5,7 @@
     <sdef n="cnjcoo"   c="Coordinating conjunction"/>
     <sdef n="vblex"    c="Verb"/>
     <sdef n="vbser"    c="Verb 'to be'"/>
+    <sdef n="adj"      c="Adjective"/>
     <sdef n="prn"      c="Pronoun"/>
     <sdef n="ij"       c="Interjection"/>
     <sdef n="pr"       c="Preposition"/>
@@ -51,6 +52,10 @@
     <e c="  0"><p><l>dekle<s n="n"/><s n="nt"/></l><r>chica<s n="n"/><s n="f"/></r></p></e>
     <e c="  0"><p><l>brat<s n="n"/><s n="m"/></l><r>hermano<s n="n"/><s n="m"/></r></p></e>
     <e c="  0"><p><l>svet<s n="n"/><s n="m"/></l><r>mundo<s n="n"/><s n="m"/></r></p></e>
+
+    <!-- SECTION: Adjetives -->
+
+    <e c="  0"><p><l>lep<s n="adj"/></l><r>guapo<s n="adj"/></r></p></e>
 
     <!-- SECTION: Verbs -->
 
