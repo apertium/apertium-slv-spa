@@ -18,6 +18,9 @@
       <program name="lt-proc $1">
         <file name="sl-es.autogen.bin"/>
       </program>
+      <program name="lt-proc -p">
+        <file name="sl-es.autopgen.bin"/>
+      </program>
     </pipeline>
   </mode>
 

@@ -2534,7 +2534,6 @@
             <clip pos="1" side="tl" part="a_prn"/>
             <clip pos="1" side="tl" part="gen"/>
             <clip pos="1" side="tl" part="nbr"/>
-            <lit-tag v="ind"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
         </out>
@@ -2628,7 +2627,6 @@
 	    <clip pos="1" side="tl" part="a_adjec"/>
 	    <clip pos="1" side="tl" part="gen"/>
 	    <clip pos="1" side="tl" part="nbr"/>
-	    <lit-tag v="nom.ind"/>
 	</lu>
 	<b pos="1"/>
 	<lu> 
@@ -2636,8 +2634,6 @@
 		<clip pos="2" side="tl" part="a_nom"/>
 		<clip pos="2" side="tl" part="gen"/>
 		<clip pos="2" side="tl" part="nbr"/>
-		<clip pos="2" side="tl" part="sklon"/> 
-		<lit-tag v="ind"/>
 	</lu>
         </out>
       </action>
@@ -2669,7 +2665,6 @@
 			<clip pos="1" side="tl" part="a_adj"/>
 			<clip pos="3" side="tl" part="gen"/>
 			<clip pos="3" side="tl" part="nbr"/>
-			<lit-tag v="ind"/>
 		</lu>
 		<b pos="1"/>
 		<lu>  
@@ -2677,7 +2672,6 @@
 			<clip pos="2" side="tl" part="a_adj"/>
 			<clip pos="3" side="tl" part="gen"/>
 			<clip pos="3" side="tl" part="nbr"/>
-			<lit-tag v="ind"/>
 		</lu>
 		<b pos="2"/>
 		<lu> 
@@ -2685,8 +2679,6 @@
 			<clip pos="3" side="tl" part="a_nom"/>
 			<clip pos="3" side="tl" part="gen"/>
 			<clip pos="3" side="tl" part="nbr"/>
-			<clip pos="3" side="tl" part="sklon"/>
-			<lit-tag v="ind"/>
 		</lu>
 	</out>
       </action>
@@ -2722,7 +2714,6 @@
 			<clip pos="1" side="tl" part="a_adj"/>
 			<clip pos="4" side="tl" part="gen"/>
 			<clip pos="4" side="tl" part="nbr"/>
-			<lit-tag v="ind"/>
 		</lu>
 		<b pos="1"/>
 		<lu>  
@@ -2730,7 +2721,6 @@
 			<clip pos="2" side="tl" part="a_adj"/>
 			<clip pos="4" side="tl" part="gen"/>
 			<clip pos="4" side="tl" part="nbr"/>
-			<lit-tag v="ind"/>
 		</lu>
 		<b pos="2"/>
 		<lu>  
@@ -2738,7 +2728,6 @@
 			<clip pos="3" side="tl" part="a_adj"/>
 			<clip pos="4" side="tl" part="gen"/>
 			<clip pos="4" side="tl" part="nbr"/>
-			<lit-tag v="ind"/>
 		</lu>
 		<b pos="3"/>
 		<lu> 
@@ -2746,8 +2735,6 @@
 			<clip pos="4" side="tl" part="a_nom"/>
 			<clip pos="4" side="tl" part="gen"/>
 			<clip pos="4" side="tl" part="nbr"/>
-			<clip pos="4" side="tl" part="sklon"/>
-			<lit-tag v="ind"/>
 		</lu>
 	</out>
       </action>
