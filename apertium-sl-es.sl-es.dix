@@ -6,6 +6,7 @@
     <sdef n="vblex"    c="Verb"/>
     <sdef n="vbser"    c="Verb 'to be'"/>
     <sdef n="adj"      c="Adjective"/>
+    <sdef n="det"      c="Determiner"/>
     <sdef n="adv"      c="Adverb"/>
     <sdef n="prn"      c="Pronoun"/>
     <sdef n="ij"       c="Interjection"/>
@@ -48,6 +49,16 @@
     <e c="  0"><p><l>vaš<s n="prn"/><s n="pos"/></l><r>vuestro<s n="prn"/><s n="pos"/></r></p></e>
 
     <e c="  0"><p><l>se<s n="prn"/><s n="ref"/></l><r>se<s n="prn"/><s n="pro"/><s n="ref"/></r></p></e>
+
+
+ 
+    <!-- SECTION: Determiners -->
+
+    <e c="  0"><p><l>moj<s n="det"/><s n="pos"/></l><r>mi<s n="det"/><s n="pos"/></r></p></e>
+    <e c="  0"><p><l>naš<s n="det"/><s n="pos"/></l><r>nuestro<s n="det"/><s n="pos"/></r></p></e>
+    <e c="  0"><p><l>vaš<s n="det"/><s n="pos"/></l><r>vuestro<s n="det"/><s n="pos"/></r></p></e>
+
+    <!-- SECTION: Numerals -->
 
 
     <!-- SECTION: Nouns -->

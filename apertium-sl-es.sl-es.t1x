@@ -2412,17 +2412,55 @@
 
   <section-rules>
 
-    <rule> <!-- REGLA: DETERMINANT -->
+    <rule comment="regla: det"> 
       <pattern>
         <pattern-item n="det"/>
       </pattern>
       <action>
-        <call-macro n="f_concord1">
+        <call-macro n="f_du_to_pl1">
           <with-param pos="1"/>
         </call-macro>
         <out>
           <lu>
-            <clip pos="1" side="tl" part="whole"/>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_det"/>
+            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="nbr"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="regla: det nom"> 
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="f_du_to_pl1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_du_to_pl1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_concord2">
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_det"/>
+            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="nbr"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="2" side="tl" part="lemh"/>
+            <clip pos="2" side="tl" part="a_nom"/>
+            <clip pos="2" side="tl" part="gen"/>
+            <clip pos="2" side="tl" part="nbr"/>
           </lu>
         </out>
       </action>
