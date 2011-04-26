@@ -7,6 +7,7 @@
     <sdef n="vbser"    c="Verb 'to be'"/>
     <sdef n="prn"      c="Pronoun"/>
     <sdef n="ij"       c="Interjection"/>
+    <sdef n="pr"       c="Preposition"/>
     <sdef n="vbhaver"  c="Verb 'to have'"/>
 
     <sdef n="pos"      c="Possessive"/>
@@ -25,10 +26,15 @@
     <e c="  0"><p><l>i<s n="cnjcoo"/></l><r>y<s n="cnjcoo"/></r></p></e>
     <e c="  0"><p><l>a<s n="cnjcoo"/></l><r>y<s n="cnjcoo"/></r></p></e>
 
+    <!-- SECTION: Preposition -->
+
+    <e c="  0"><p><l>v<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
+
     <!-- SECTION: Pronouns -->
 
     <e c="  0"><p><l>prpers<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
 
+    <e c="  0"><p><l>moj<s n="prn"/><s n="pos"/></l><r>mi<s n="prn"/><s n="pos"/></r></p></e>
     <e c="  0"><p><l>naš<s n="prn"/><s n="pos"/></l><r>nuestro<s n="prn"/><s n="pos"/></r></p></e>
     <e c="  0"><p><l>vaš<s n="prn"/><s n="pos"/></l><r>vuestro<s n="prn"/><s n="pos"/></r></p></e>
 
@@ -40,8 +46,11 @@
     <e c="  0"><p><l>narod<s n="n"/><s n="m"/></l><r>nación<s n="n"/><s n="f"/></r></p></e>
     <e slr="1"><p><l>narod<s n="n"/><s n="m"/></l><r>pueblo<s n="n"/><s n="m"/></r></p></e>
     <e c="  0"><p><l>zemlja<s n="n"/><s n="f"/></l><r>tierra<s n="n"/><s n="f"/></r></p></e>
+    <e c="  0"><p><l>hiša<s n="n"/><s n="f"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
     <e c="  0"><p><l>srce<s n="n"/><s n="nt"/></l><r>corazón<s n="n"/><s n="m"/></r></p></e>
+    <e c="  0"><p><l>dekle<s n="n"/><s n="nt"/></l><r>chica<s n="n"/><s n="f"/></r></p></e>
     <e c="  0"><p><l>brat<s n="n"/><s n="m"/></l><r>hermano<s n="n"/><s n="m"/></r></p></e>
+    <e c="  0"><p><l>svet<s n="n"/><s n="m"/></l><r>mundo<s n="n"/><s n="m"/></r></p></e>
 
     <!-- SECTION: Verbs -->
 
@@ -49,6 +58,7 @@
     <e c="  0"><p><l>imeti<s n="vbhaver"/></l><r>haber<s n="vbhaver"/></r></p></e>
 
     <e c="  0"><p><l>imeti<s n="vblex"/></l><r>tener<s n="vblex"/></r></p></e>
+    <e c="  0"><p><l>priti<s n="vblex"/></l><r>venir<s n="vblex"/></r></p></e> <!-- perf -->
 
     <!-- SECTION: Punctuation -->
 
