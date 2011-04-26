@@ -39,6 +39,7 @@
     <e c="  0"><p><l>nad<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
     <e c="  0"><p><l>za<s n="pr"/></l><r>por<s n="pr"/></r></p></e>
     <e slr="1"><p><l>za<s n="pr"/></l><r>después<b/>de<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>proti<s n="pr"/></l><r>contra<s n="pr"/></r></p></e>
 
     <!-- SECTION: Pronouns -->
 
@@ -82,6 +83,7 @@
     <e c="  0"><p><l>doba<s n="n"/><s n="f"/></l><r>epoca<s n="n"/><s n="f"/></r></p></e>
     <e slr="1"><p><l>doba<s n="n"/><s n="f"/></l><r>tiempo<s n="n"/><s n="m"/></r></p></e>
     <e c="  0"><p><l>skala<s n="n"/><s n="f"/></l><r>roca<s n="n"/><s n="f"/></r></p></e>
+    <e c="  0"><p><l>nada<s n="n"/><s n="f"/></l><r>esperanza<s n="n"/><s n="f"/></r></p></e>
 
     <!-- SECTION: Adjectives -->
 
@@ -90,6 +92,7 @@
     <e c="  0"><p><l>trden<s n="adj"/></l><r>firme<s n="adj"/></r></p></e>
     <e c="  0"><p><l>živ<s n="adj"/></l><r>vivo<s n="adj"/></r></p></e>
     <e c="  0"><p><l>črn<s n="adj"/></l><r>negro<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>prazen<s n="adj"/></l><r>vacio<s n="adj"/></r></p></e>
 
     <!-- SECTION: Adverbs -->
 
