@@ -6,6 +6,7 @@
     <sdef n="vblex"    c="Verb"/>
     <sdef n="vbser"    c="Verb 'to be'"/>
     <sdef n="adj"      c="Adjective"/>
+    <sdef n="adv"      c="Adverb"/>
     <sdef n="prn"      c="Pronoun"/>
     <sdef n="ij"       c="Interjection"/>
     <sdef n="pr"       c="Preposition"/>
@@ -34,6 +35,9 @@
     <e c="  0"><p><l>v<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
     <e c="  0"><p><l>na<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
     <e slr="1"><p><l>na<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>nad<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>za<s n="pr"/></l><r>por<s n="pr"/></r></p></e>
+    <e slr="1"><p><l>za<s n="pr"/></l><r>después<b/>de<s n="pr"/></r></p></e>
 
     <!-- SECTION: Pronouns -->
 
@@ -63,12 +67,22 @@
     <e c="  0"><p><l>slovan<s n="n"/><s n="m"/></l><r>eslavo<s n="n"/><s n="m"/></r></p></e>
     <e c="  0"><p><l>veka<s n="n"/><s n="f"/></l><r>siglo<s n="n"/><s n="m"/></r></p></e>
     <e c="  0"><p><l>duh<s n="n"/><s n="m"/></l><r>espíritu<s n="n"/><s n="m"/></r></p></e>
+    <e c="  0"><p><l>grom<s n="n"/><s n="m"/></l><r>trueno<s n="n"/><s n="m"/></r></p></e>
+    <e c="  0"><p><l>doba<s n="n"/><s n="f"/></l><r>epoca<s n="n"/><s n="f"/></r></p></e>
+    <e slr="1"><p><l>doba<s n="n"/><s n="f"/></l><r>tiempo<s n="n"/><s n="m"/></r></p></e>
+    <e c="  0"><p><l>skala<s n="n"/><s n="f"/></l><r>roca<s n="n"/><s n="f"/></r></p></e>
 
-    <!-- SECTION: Adjetives -->
+    <!-- SECTION: Adjectives -->
 
     <e c="  0"><p><l>lep<s n="adj"/></l><r>guapo<s n="adj"/></r></p></e>
     <e c="  0"><p><l>slovanski<s n="adj"/></l><r>eslavo<s n="adj"/></r></p></e>
     <e c="  0"><p><l>trden<s n="adj"/></l><r>firme<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>živ<s n="adj"/></l><r>vivo<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>črn<s n="adj"/></l><r>negro<s n="adj"/></r></p></e>
+
+    <!-- SECTION: Adverbs -->
+
+    <e c="  0"><p><l>kakor<s n="adv"/></l><r>como<s n="adv"/></r></p></e>
 
     <!-- SECTION: Verbs -->
 
@@ -80,6 +94,8 @@
     <e c="  0"><p><l>stati<s n="vblex"/></l><r>quedar<s n="vblex"/></r></p></e> <!-- ? -->
     <e c="  0"><p><l>stresti<s n="vblex"/></l><r>sacudir<s n="vblex"/></r></p></e> <!-- ? -->
     <e c="  0"><p><l>živeti<s n="vblex"/></l><r>vivir<s n="vblex"/></r></p></e> <!-- ? -->
+    <e c="  0"><p><l>lomiti<s n="vblex"/></l><r>quebrar<s n="vblex"/></r></p></e> <!-- imperf, tv, ref -->
+    <e slr="1"><p><l>lomiti<s n="vblex"/></l><r>romper<s n="vblex"/></r></p></e> <!-- imperf, tv, ref -->
 
     <!-- SECTION: Punctuation -->
 
