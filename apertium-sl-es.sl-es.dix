@@ -30,6 +30,8 @@
     <!-- SECTION: Preposition -->
 
     <e c="  0"><p><l>v<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
+    <e c="  0"><p><l>na<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
+    <e slr="1"><p><l>na<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
 
     <!-- SECTION: Pronouns -->
 
