@@ -10,6 +10,7 @@
     <sdef n="adv"      c="Adverb"/>
     <sdef n="prn"      c="Pronoun"/>
     <sdef n="ij"       c="Interjection"/>
+    <sdef n="np"       c="Proper noun"/>
     <sdef n="pr"       c="Preposition"/>
     <sdef n="vbhaver"  c="Verb 'to have'"/>
 
@@ -17,13 +18,28 @@
     <sdef n="pro"      c="Proclitic"/>
     <sdef n="ref"      c="Reflexive"/>
 
+    <sdef n="ant"      c="Anthroponym"/>
+
     <sdef n="m"        c="Masculine"/>
     <sdef n="f"        c="Feminine"/>
     <sdef n="nt"       c="Neuter"/>
+    <sdef n="mf"       c="Masculine / feminine"/>
+
+    <sdef n="sg"       c="Singular"/>
+
+    <sdef n="GD"       c="Gender to be determined"/>
 
     <sdef n="cm"       c="Comma"/>
     <sdef n="sent"     c="Sentence marker"/>
   </sdefs>
+  <pardefs>
+    <pardef n="moj_mío__det">
+      <e r="LR"><p><l><s n="m"/></l><r><s n="mf"/></r></p></e>
+      <e r="LR"><p><l><s n="f"/></l><r><s n="mf"/></r></p></e>
+      <e r="LR"><p><l><s n="nt"/></l><r><s n="mf"/></r></p></e>
+      <e r="RL"><p><l><s n="GD"/></l><r><s n="mf"/></r></p></e>
+    </pardef>
+  </pardefs>
   <section id="main" type="standard">
 
     <!-- SECTION: Conjunctions -->
@@ -45,7 +61,7 @@
 
     <e c="  0"><p><l>prpers<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
 
-    <e c="  0"><p><l>moj<s n="prn"/><s n="pos"/></l><r>mi<s n="prn"/><s n="pos"/></r></p></e>
+    <e c="  0"><p><l>moj<s n="prn"/><s n="pos"/></l><r>mío<s n="prn"/><s n="pos"/></r></p></e>
     <e c="  0"><p><l>naš<s n="prn"/><s n="pos"/></l><r>nuestro<s n="prn"/><s n="pos"/></r></p></e>
     <e c="  0"><p><l>vaš<s n="prn"/><s n="pos"/></l><r>vuestro<s n="prn"/><s n="pos"/></r></p></e>
 
@@ -55,7 +71,7 @@
  
     <!-- SECTION: Determiners -->
 
-    <e c="  0"><p><l>moj<s n="det"/><s n="pos"/></l><r>mi<s n="det"/><s n="pos"/></r></p></e>
+    <e c="  0"><p><l>moj<s n="det"/><s n="pos"/></l><r>mío<s n="det"/><s n="pos"/></r></p><par n="moj_mío__det"/></e>
     <e c="  0"><p><l>naš<s n="det"/><s n="pos"/></l><r>nuestro<s n="det"/><s n="pos"/></r></p></e>
     <e c="  0"><p><l>vaš<s n="det"/><s n="pos"/></l><r>vuestro<s n="det"/><s n="pos"/></r></p></e>
 
@@ -84,6 +100,10 @@
     <e slr="1"><p><l>doba<s n="n"/><s n="f"/></l><r>tiempo<s n="n"/><s n="m"/></r></p></e>
     <e c="  0"><p><l>skala<s n="n"/><s n="f"/></l><r>roca<s n="n"/><s n="f"/></r></p></e>
     <e c="  0"><p><l>nada<s n="n"/><s n="f"/></l><r>esperanza<s n="n"/><s n="f"/></r></p></e>
+
+    <!-- SECTION: Proper nouns -->
+
+    <e c="  0"><p><l>Sergio<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Sergio<s n="np"/><s n="ant"/></r></p></e>
 
     <!-- SECTION: Adjectives -->
 

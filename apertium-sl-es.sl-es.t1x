@@ -36,7 +36,7 @@
       <cat-item tags="vblex.past.*"/>
     </def-cat>
     <def-cat n="nomp">
-      <cat-item tags="np.ant"/>
+      <cat-item tags="np.ant.*"/>
     </def-cat>
     <def-cat n="nploc">
       <cat-item tags="np.loc"/>
@@ -155,6 +155,7 @@
     <def-attr n="a_nom">
       <attr-item tags="n"/>
       <attr-item tags="n.acr"/>
+      <attr-item tags="np.ant"/>
     </def-attr>
     <def-attr n="a_nomp">
       <attr-item tags="np.ant"/>
@@ -2565,6 +2566,25 @@
 
     <rule> <!-- REGLA:  NOM mk has no cases, nom into nominative-->
       <pattern>
+        <pattern-item n="nomp"/>
+      </pattern>
+      <action>
+        <call-macro n="f_du_to_pl1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_nom"/>
+            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="nbr"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule> <!-- REGLA:  NOM mk has no cases, nom into nominative-->
+      <pattern>
         <pattern-item n="nom"/>
       </pattern>
       <action>
@@ -2762,6 +2782,10 @@
         <pattern-item n="vbserpres"/>
       </pattern>
       <action>
+        <let>
+            <clip pos="1" side="tl" part="temps"/>
+            <lit-tag v="pri"/>
+        </let>
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole"/>
