@@ -44,14 +44,14 @@
     </pipeline>
   </mode>
 
-  <mode name="sl-es-transfer" install="no">
+  <mode name="sl-es-transfer" install="yes">
     <pipeline>
       <program name="lt-proc">
         <file name="sl-es.automorf.bin"/>
       </program>
-      <program name="cg-proc">
+      <!--<program name="cg-proc">
         <file name="sl-es.rlx.bin"/>
-      </program>
+      </program> -->
       <program name="apertium-tagger -g">
         <file name="sl-es.prob"/>
       </program>
@@ -65,14 +65,14 @@
   </mode>
 
 
-  <mode name="sl-es-tagger" install="no">
+  <mode name="sl-es-tagger" install="yes">
     <pipeline>
       <program name="lt-proc">
         <file name="sl-es.automorf.bin"/>
       </program>
-      <program name="cg-proc">
+      <!--<program name="cg-proc">
         <file name="sl-es.rlx.bin"/>
-      </program>
+      </program> -->
       <program name="apertium-tagger -g">
         <file name="sl-es.prob"/>
       </program>
@@ -80,7 +80,7 @@
   </mode>
 
 
-  <mode name="sl-es-morph" install="no">
+  <mode name="sl-es-morph" install="yes">
     <pipeline>
       <program name="lt-proc">
         <file name="sl-es.automorf.bin"/>

@@ -1,6 +1,7 @@
 <dictionary>
   <alphabet/>
   <sdefs>
+    <sdef n="p1"       c="1. person"/>
     <sdef n="n"        c="Noun"/>
     <sdef n="cnjcoo"   c="Coordinating conjunction"/>
     <sdef n="vblex"    c="Verb"/>
@@ -62,8 +63,7 @@
 
     <!-- SECTION: Pronouns -->
 
-    <e c="  0"><p><l>jaz<s n="prn"/><s n="pers"/></l><r>yo<s n="prn"/><s n="tn"/></r></p></e>
-
+    <e c="  0"><p><l>jaz<s n="prn"/><s n="pers"/></l><r>yo<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/></r></p></e>
     <e c="  0"><p><l>prpers<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
 
     <e c="  0"><p><l>moj<s n="prn"/><s n="pos"/></l><r>mío<s n="prn"/><s n="pos"/></r></p></e>
