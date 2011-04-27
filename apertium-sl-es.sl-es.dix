@@ -17,7 +17,10 @@
     <sdef n="pos"      c="Possessive"/>
     <sdef n="pro"      c="Proclitic"/>
     <sdef n="ref"      c="Reflexive"/>
+    <sdef n="pers"     c="Personal"/>
+    <sdef n="tn"       c="Tònic"/>
 
+    <sdef n="top"      c="Toponym"/>
     <sdef n="ant"      c="Anthroponym"/>
 
     <sdef n="m"        c="Masculine"/>
@@ -59,6 +62,8 @@
 
     <!-- SECTION: Pronouns -->
 
+    <e c="  0"><p><l>jaz<s n="prn"/><s n="pers"/></l><r>yo<s n="prn"/><s n="tn"/></r></p></e>
+
     <e c="  0"><p><l>prpers<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
 
     <e c="  0"><p><l>moj<s n="prn"/><s n="pos"/></l><r>mío<s n="prn"/><s n="pos"/></r></p></e>
@@ -95,6 +100,7 @@
     <e c="  0"><p><l>slovan<s n="n"/><s n="m"/></l><r>eslavo<s n="n"/><s n="m"/></r></p></e>
     <e c="  0"><p><l>veka<s n="n"/><s n="f"/></l><r>siglo<s n="n"/><s n="m"/></r></p></e>
     <e c="  0"><p><l>duh<s n="n"/><s n="m"/></l><r>espíritu<s n="n"/><s n="m"/></r></p></e>
+    <e c="  0"><p><l>parlament<s n="n"/><s n="m"/></l><r>parlamento<s n="n"/><s n="m"/></r></p></e>
     <e c="  0"><p><l>grom<s n="n"/><s n="m"/></l><r>trueno<s n="n"/><s n="m"/></r></p></e>
     <e c="  0"><p><l>doba<s n="n"/><s n="f"/></l><r>epoca<s n="n"/><s n="f"/></r></p></e>
     <e slr="1"><p><l>doba<s n="n"/><s n="f"/></l><r>tiempo<s n="n"/><s n="m"/></r></p></e>
@@ -102,6 +108,8 @@
     <e c="  0"><p><l>nada<s n="n"/><s n="f"/></l><r>esperanza<s n="n"/><s n="f"/></r></p></e>
 
     <!-- SECTION: Proper nouns -->
+
+    <e c="  0"><p><l>Slovenija<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Eslovenia<s n="np"/><s n="top"/></r></p></e>
 
     <e c="  0"><p><l>Sergio<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Sergio<s n="np"/><s n="ant"/></r></p></e>
 
