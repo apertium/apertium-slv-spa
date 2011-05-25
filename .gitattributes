@@ -12,6 +12,7 @@
 /apertium-sl-es.sl.dix -text
 /autogen.sh -text
 /configure.ac -text
+dev/apertium-sl-es.sl-es-crossed.dix -text
 /es-sl.prob -text svneol=unset#unset
 /lexchoicebil.xsl -text
 /modes.xml -text
