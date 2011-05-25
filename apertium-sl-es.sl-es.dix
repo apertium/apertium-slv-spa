@@ -155,6 +155,12 @@
     <e><p><l>kultura<s n="n"/><s n="f"/></l><r>cultura<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nomenklatura<s n="n"/><s n="f"/></l><r>nomenclatura<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>temperatura<s n="n"/><s n="f"/></l><r>temperatura<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>alkimist<s n="n"/><s n="ma"/></l><r>alquimista<s n="mf"/><s n="n"/></r></p></e>
+    <e><p><l>kapitalist<s n="n"/><s n="ma"/></l><r>capitalista<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>nacionalist<s n="n"/><s n="ma"/></l><r>nacionalista<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>pesimist<s n="n"/><s n="ma"/></l><r>pesimista<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>pianist<s n="n"/><s n="ma"/></l><r>pianista<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>protagonist<s n="n"/><s n="ma"/></l><r>protagonista<s n="n"/><s n="mf"/></r></p></e>
 
     <!-- SECTION: Proper nouns -->
 
