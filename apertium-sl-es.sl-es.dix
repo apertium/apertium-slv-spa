@@ -106,6 +106,22 @@
     <e slr="1"><p><l>doba<s n="n"/><s n="f"/></l><r>tiempo<s n="n"/><s n="m"/></r></p></e>
     <e c="  0"><p><l>skala<s n="n"/><s n="f"/></l><r>roca<s n="n"/><s n="f"/></r></p></e>
     <e c="  0"><p><l>nada<s n="n"/><s n="f"/></l><r>esperanza<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>agencija<s n="n"/><s n="f"/></l><r>agencia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>alergija<s n="n"/><s n="f"/></l><r>alergia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>alkimija<s n="n"/><s n="f"/></l><r>alquimia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>anestezija<s n="n"/><s n="f"/></l><r>anestesia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>aristokracija<s n="n"/><s n="f"/></l><r>aristocracia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>arterija<s n="n"/><s n="f"/></l><r>arteria<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>birokracija<s n="n"/><s n="f"/></l><r>burocracia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>demokracija<s n="n"/><s n="f"/></l><r>democracia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>diplomacija<s n="n"/><s n="f"/></l><r>diplomacia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>kopija<s n="n"/><s n="f"/></l><r>copia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>levkemija<s n="n"/><s n="f"/></l><r>leucemia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>mafija<s n="n"/><s n="f"/></l><r>mafia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nostalgija<s n="n"/><s n="f"/></l><r>nostalgia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>parodija<s n="n"/><s n="f"/></l><r>parodia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>shizofrenija<s n="n"/><s n="f"/></l><r>esquizofrenia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tragedija<s n="n"/><s n="f"/></l><r>tragedia<s n="n"/><s n="f"/></r></p></e>
 
     <!-- SECTION: Proper nouns -->
 
