@@ -267,12 +267,27 @@
     <e><p><l>jablana<s n="n"/><s n="f"/></l><r>manzano<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>jabolko<s n="n"/><s n="nt"/></l><r>manzana<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>adrenalin<s n="n"/><s n="mi"/></l><r>adrenalina<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>žargon<s n="n"/><s n="mi"/></l><r>jerga<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>rimljan<s n="n"/><s n="ma"/></l><r>romano<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>norvežan<s n="n"/><s n="ma"/></l><r>noruego<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>rusjan<s n="n"/><s n="ma"/></l><r>ruso<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>albin<s n="n"/><s n="ma"/></l><r>albino<s n="n"/><s n="m"/></r></p></e>
 
     <!-- SECTION: Proper nouns -->
 
-    <e c="  0"><p><l>Slovenija<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Eslovenia<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Slovenija<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Eslovenia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Benečija<s n="np"/><s n="top"/><s n="f"/></l><r>Véneto<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>Barcelona<s n="np"/><s n="top"/><s n="f"/></l><r>Barcelona<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 
-    <e c="  0"><p><l>Sergio<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Sergio<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Sergio<s n="np"/><s n="ant"/><s n="ma"/></l><r>Sergio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Kajn<s n="np"/><s n="ant"/><s n="ma"/></l><r>Caín<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Sokrat<s n="np"/><s n="ant"/><s n="ma"/></l><r>Sócrates<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Aštarot<s n="np"/><s n="ant"/><s n="ma"/></l><r>Astaroth<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Pilat<s n="np"/><s n="ant"/><s n="ma"/></l><r>Pilato<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Ana<s n="np"/><s n="ant"/><s n="f"/></l><r>Ana<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+    <e><p><l>Angela<s n="np"/><s n="ant"/><s n="f"/></l><r>Angela<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+    <e><p><l>Angelca<s n="np"/><s n="ant"/><s n="f"/></l><r>Angelca<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+    <e><p><l>Barbara<s n="np"/><s n="ant"/><s n="f"/></l><r>Barbara<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
     <!-- SECTION: Adjectives -->
 
