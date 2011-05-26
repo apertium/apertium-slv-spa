@@ -51,7 +51,7 @@
 
     <!-- SECTION: Conjunctions -->
 
-    <e c="  0"><p><l>i<s n="cnjcoo"/></l><r>y<s n="cnjcoo"/></r></p></e>
+    <e><p><l>in<s n="cnjcoo"/></l><r>y<s n="cnjcoo"/></r></p></e>
     <e c="  0"><p><l>a<s n="cnjcoo"/></l><r>y<s n="cnjcoo"/></r></p></e>
 
     <!-- SECTION: Preposition -->
