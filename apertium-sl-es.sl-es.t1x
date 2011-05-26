@@ -37,9 +37,10 @@
     </def-cat>
     <def-cat n="nomp">
       <cat-item tags="np.ant.*"/>
+      <cat-item tags="np.cog.*"/>
     </def-cat>
     <def-cat n="nploc">
-      <cat-item tags="np.loc"/>
+      <cat-item tags="np.top"/>
     </def-cat>
     <def-cat n="det">
       <cat-item tags="det.*"/>
@@ -156,12 +157,14 @@
       <attr-item tags="n"/>
       <attr-item tags="n.acr"/>
       <attr-item tags="np.ant"/>
+      <attr-item tags="np.cog"/>
     </def-attr>
     <def-attr n="a_nomp">
       <attr-item tags="np.ant"/>
+      <attr-item tags="np.cog"/>
     </def-attr>
     <def-attr n="a_nploc">
-      <attr-item tags="np.loc"/>
+      <attr-item tags="np.top"/>
     </def-attr>
     <def-attr n="a_det">
       <attr-item tags="det.def"/>

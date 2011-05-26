@@ -23,6 +23,7 @@
 
     <sdef n="top"      c="Toponym"/>
     <sdef n="ant"      c="Anthroponym"/>
+    <sdef n="cog"      c="Cognomen"/>
 
     <sdef n="m"        c="Masculine"/>
     <sdef n="mi"       c="Masculine inanimate"/>
@@ -315,6 +316,29 @@
     <e><p><l>Tarzan<s n="np"/><s n="ant"/><s n="ma"/></l><r>Tarzan<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Zoran<s n="np"/><s n="ant"/><s n="ma"/></l><r>Zoran<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Winston<s n="np"/><s n="ant"/><s n="ma"/></l><r>Winston<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Benečan<s n="np"/><s n="cog"/><s n="ma"/></l><r>Benečan<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Brien<s n="np"/><s n="cog"/><s n="ma"/></l><r>Brien<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Kocjan<s n="np"/><s n="cog"/><s n="ma"/></l><r>Kocjan<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Kučan<s n="np"/><s n="cog"/><s n="ma"/></l><r>Kučan<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Vilfan<s n="np"/><s n="cog"/><s n="ma"/></l><r>Vilfan<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Zemljan<s n="np"/><s n="cog"/><s n="ma"/></l><r>Zemljan<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Zupan<s n="np"/><s n="cog"/><s n="ma"/></l><r>Zupan<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Byron<s n="np"/><s n="cog"/><s n="ma"/></l><r>Byron<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Charrington<s n="np"/><s n="cog"/><s n="ma"/></l><r>Charrington<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Clinton<s n="np"/><s n="cog"/><s n="ma"/></l><r>Clinton<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Darwin<s n="np"/><s n="cog"/><s n="ma"/></l><r>Darwin<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Einstein<s n="np"/><s n="cog"/><s n="ma"/></l><r>Einstein<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Goldstein<s n="np"/><s n="cog"/><s n="ma"/></l><r>Goldstein<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Magellan<s n="np"/><s n="cog"/><s n="ma"/></l><r>Magellan<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Milton<s n="np"/><s n="cog"/><s n="ma"/></l><r>Milton<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>O'Brien<s n="np"/><s n="cog"/><s n="ma"/></l><r>O'Brien<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Stalin<s n="np"/><s n="cog"/><s n="ma"/></l><r>Stalin<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Tillotson<s n="np"/><s n="cog"/><s n="ma"/></l><r>Tillotson<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Aaronson<s n="np"/><s n="cog"/><s n="ma"/></l><r>Aaronson<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Edison<s n="np"/><s n="cog"/><s n="ma"/></l><r>Edison<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Jefferson<s n="np"/><s n="cog"/><s n="ma"/></l><r>Jefferson<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Watson<s n="np"/><s n="cog"/><s n="ma"/></l><r>Watson<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Wilson<s n="np"/><s n="cog"/><s n="ma"/></l><r>Wilson<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 
     <!-- SECTION: Adjectives -->
 
