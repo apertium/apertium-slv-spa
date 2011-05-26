@@ -288,6 +288,8 @@
     <e><p><l>bolnišnica<s n="n"/><s n="f"/></l><r>hospital<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>center<s n="n"/><s n="mi"/></l><r>centro<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>izobraževanje<s n="n"/><s n="nt"/></l><r>educación<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>učitelj<s n="n"/><s n="ma"/></l><r>estudiante<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>študent<s n="n"/><s n="ma"/></l><r>estudiante<s n="n"/><s n="mf"/></r></p></e>
 
     <!-- SECTION: Proper nouns -->
 
@@ -365,6 +367,9 @@
     <e c="  0"><p><l>živ<s n="adj"/></l><r>vivo<s n="adj"/></r></p></e>
     <e c="  0"><p><l>črn<s n="adj"/></l><r>negro<s n="adj"/></r></p></e>
     <e c="  0"><p><l>prazen<s n="adj"/></l><r>vacio<s n="adj"/></r></p></e>
+
+    <e><p><l>humanističen<s n="adj"/></l><r>humanístico<s n="adj"/></r></p></e>
+    <e><p><l>mednaroden<s n="adj"/></l><r>internacional<s n="adj"/><s n="mf"/></r></p></e>
 
     <!-- SECTION: Adverbs -->
 
