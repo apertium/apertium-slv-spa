@@ -25,6 +25,8 @@
     <sdef n="ant"      c="Anthroponym"/>
 
     <sdef n="m"        c="Masculine"/>
+    <sdef n="mi"       c="Masculine inanimate"/>
+    <sdef n="ma"       c="Masculine animate"/>
     <sdef n="f"        c="Feminine"/>
     <sdef n="nt"       c="Neuter"/>
     <sdef n="mf"       c="Masculine / feminine"/>
