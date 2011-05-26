@@ -36,6 +36,9 @@
 
     <sdef n="GD"       c="Gender to be determined"/>
 
+    <sdef n="imperf"   c="Imperfective"/>
+    <sdef n="perf"     c="Perfective"/>
+
     <sdef n="cm"       c="Comma"/>
     <sdef n="sent"     c="Sentence marker"/>
   </sdefs>
@@ -45,6 +48,14 @@
       <e r="LR"><p><l><s n="f"/></l><r><s n="mf"/></r></p></e>
       <e r="LR"><p><l><s n="nt"/></l><r><s n="mf"/></r></p></e>
       <e r="RL"><p><l><s n="GD"/></l><r><s n="mf"/></r></p></e>
+    </pardef>
+    <pardef n="imperf">
+      <e r="LR"><p><l><s n="imperf"/></l><r></r></p></e>
+      <e r="RL"><p><l><s n="imperf"/></l><r><s n="imperf"/></r></p></e>
+    </pardef>
+    <pardef n="perf">
+      <e r="LR"><p><l><s n="perf"/></l><r></r></p></e>
+      <e r="RL"><p><l><s n="perf"/></l><r><s n="perf"/></r></p></e>
     </pardef>
   </pardefs>
   <section id="main" type="standard">
@@ -273,6 +284,7 @@
     <e><p><l>norvežan<s n="n"/><s n="ma"/></l><r>noruego<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>rusjan<s n="n"/><s n="ma"/></l><r>ruso<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>albin<s n="n"/><s n="ma"/></l><r>albino<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sestra<s n="n"/><s n="f"/></l><r>hermano<s n="n"/><s n="f"/></r></p></e>
 
     <!-- SECTION: Proper nouns -->
 
@@ -367,6 +379,10 @@
     <e c="  0"><p><l>živeti<s n="vblex"/></l><r>vivir<s n="vblex"/></r></p></e> <!-- ? -->
     <e c="  0"><p><l>lomiti<s n="vblex"/></l><r>quebrar<s n="vblex"/></r></p></e> <!-- imperf, tv, ref -->
     <e slr="1"><p><l>lomiti<s n="vblex"/></l><r>romper<s n="vblex"/></r></p></e> <!-- imperf, tv, ref -->
+
+
+    <e><p><l>dajati<s n="vblex"/></l><r>dar<s n="vblex"/></r></p><par n="imperf"/></e>
+    <e><p><l>dati<s n="vblex"/></l><r>dar<s n="vblex"/></r></p><par n="perf"/></e>
 
     <!-- SECTION: Punctuation -->
 
