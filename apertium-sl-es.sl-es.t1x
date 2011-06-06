@@ -2416,884 +2416,275 @@
 
   <section-rules>
 
-    <rule comment="regla: det"> 
+   <rule> <!-- REGLA: DETERMINANT -->
       <pattern>
-        <pattern-item n="det"/>
+  <pattern-item n="det"/>
       </pattern>
       <action>
-        <call-macro n="f_du_to_pl1">
-          <with-param pos="1"/>
-        </call-macro>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="a_det"/>
-            <clip pos="1" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="nbr"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
+  <call-macro n="f_concord1">
+      <with-param pos="1"/>
+    </call-macro>     
+          <out> 
+      <lu>   
+        <clip pos="1" side="tl" part="whole"/> 
+      </lu> 
+         </out>
+       </action>
+     </rule>
+  
+  <rule> <!-- REGLA: VBSERPRES io sono it OK ~?-->
+     <pattern>
+       <pattern-item n="vbserpres"/>
+     </pattern>
+     <action>
+       <let>
+         <clip pos="1" side="tl" part="temps"/>
+         <lit-tag v="pri"/>
+       </let>
+       <out>
+         <lu> 
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="a_vbser"/>
+           <clip pos="1" side="tl" part="temps"/>
+           <clip pos="1" side="tl" part="persona"/>
+           <clip pos="1" side="tl" part="nbr"/>
+         </lu>
+       </out>
+     </action>
+   </rule>
 
-
-    <rule comment="regla: det nom"> 
-      <pattern>
-        <pattern-item n="det"/>
-        <pattern-item n="nom"/>
-      </pattern>
-      <action>
-        <call-macro n="f_du_to_pl1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="f_du_to_pl1">
-          <with-param pos="2"/>
-        </call-macro>
-        <call-macro n="f_concord2">
-          <with-param pos="2"/>
-          <with-param pos="1"/>
-        </call-macro>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="a_det"/>
-            <clip pos="1" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="nbr"/>
+ <rule> <!-- REGLA: VBLEXPRES io cammino it OK -->
+     <pattern>
+       <pattern-item n="vblexpres"/>
+     </pattern>
+     <action>
+       <let>
+         <clip pos="1" side="tl" part="temps"/>
+         <lit-tag v="pri"/>
+       </let>
+       <out>
+         <lu> 
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="a_vblex"/>
+           <clip pos="1" side="tl" part="temps"/>
+           <clip pos="1" side="tl" part="persona"/>
+           <clip pos="1" side="tl" part="nbr"/>
+         </lu>
+       </out>
+     </action>
+   </rule> 
+  
+       <!-- REGLA: passato 1 jaz sem hodil - io ho camminato --> 
+   <rule> 
+     <pattern>
+       <pattern-item n="vbserpres"/>
+       <pattern-item n="vblex"/>
+     </pattern>
+     <action>
+       <let>
+         <clip pos="1" side="tl" part="lemh"/>
+         <lit v="avere"/>
+       </let>
+       <let>
+         <clip pos="1" side="tl" part="temps"/>
+         <lit-tag v="pri"/>
+       </let>
+       <let>
+         <clip pos="2" side="tl" part="temps"/>
+         <lit-tag v="pp"/>
+       </let>
+       <out>
+          <lu> 
+             <clip pos="1" side="tl" part="lemh"/>
+             <lit-tag v="vbhaver"/>
+             <clip pos="1" side="tl" part="temps"/>
+             <clip pos="1" side="tl" part="persona"/>
+             <clip pos="1" side="tl" part="nbr"/>
           </lu>
           <b pos="1"/>
+          <lu> 
+            <clip pos="2" side="tl" part="whole"/>
+          </lu>
+       </out>
+     </action>
+   </rule>
+   
+           <!-- REGLA: passato 2 bil sem - sono stato --> 
+   <rule> 
+     <pattern>
+       <pattern-item n="vbserpast"/>
+       <pattern-item n="vbserpres"/>
+     </pattern>
+     <action>
+       <let>
+         <clip pos="2" side="tl" part="temps"/>
+         <lit-tag v="pri"/>
+       </let>
+       <let>
+         <clip pos="1" side="tl" part="temps"/>
+         <lit-tag v="pp"/>
+       </let>
+       <out>
+          <lu> 
+             <clip pos="2" side="tl" part="whole"/>
+          </lu>
+          <b pos="1"/>
+          <lu> 
+             <clip pos="1" side="tl" part="whole"/>
+          </lu>
+       </out>
+     </action>
+   </rule>
+
+      <!-- REGLA: passato 3 sem bil - sono stato --> 
+   <rule> 
+     <pattern>
+       <pattern-item n="vbserpres"/>
+       <pattern-item n="vbserpast"/>
+     </pattern>
+     <action>
+       <let>
+         <clip pos="1" side="tl" part="temps"/>
+         <lit-tag v="pri"/>
+       </let>
+       <let>
+         <clip pos="2" side="tl" part="temps"/>
+         <lit-tag v="pp"/>
+       </let>
+       <out>
+          <lu> 
+             <clip pos="1" side="tl" part="whole"/>
+          </lu>
+          <b pos="1"/>
+          <lu> 
+             <clip pos="2" side="tl" part="whole"/>
+          </lu>
+       </out>
+     </action>
+   </rule>
+   
+      <!-- REGLA: futuro 1.2 boš delal - lavorerai  -->
+   <rule> 
+     <pattern>
+       <pattern-item n="vbserfti"/>
+       <pattern-item n="vblex"/>
+     </pattern>
+     <action>
+       <let>
+         <clip pos="2" side="tl" part="temps"/>
+         <lit-tag v="fti"/>
+       </let>
+       
+       <out>
+         <lu> 
+           <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="a_vblex"/>
+           <clip pos="2" side="tl" part="temps"/>
+           <clip pos="1" side="tl" part="persona"/>
+           <clip pos="1" side="tl" part="nbr"/>
+         </lu>
+       </out>
+     </action>
+   </rule>
+   
+ <!-- REGLA: futuro 1.3 delal boš - lavorerai  -->
+   <rule> 
+     <pattern>
+       <pattern-item n="vblex"/>
+       <pattern-item n="vbserfti"/>       
+     </pattern>
+     <action>
+       <let>
+         <clip pos="1" side="tl" part="temps"/>
+         <lit-tag v="fti"/>
+       </let>
+       
+       <out>
+         <lu> 
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="a_vblex"/>
+           <clip pos="1" side="tl" part="temps"/>
+           <clip pos="2" side="tl" part="persona"/>
+           <clip pos="2" side="tl" part="nbr"/>
+         </lu>
+       </out>
+     </action>
+   </rule>
+   
+   
+    <rule> <!-- REGLA:  NOM it OK ~?-->
+       <pattern>
+         <pattern-item n="nom"/>
+       </pattern>
+       <action>
+         <out>
           <lu>
+            <get-case-from pos="1">
+              <lit v="il"/>
+            </get-case-from>
+            <lit-tag v="det"/>
+            <lit-tag v="def"/>
+            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="nbr"/>
+          </lu>
+          <b/> 
+          <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="tl" part="nbr"/>
+          </lu> 
+         </out>
+       </action>
+   </rule>
+
+   <rule> <!-- REGLA: ADJECTIU ADJECTIU NOM it OK ~? -->
+       <pattern>
+         <pattern-item n="adj"/>
+         <pattern-item n="nom"/>
+       </pattern>
+       <action>
+         <out>
+           <lu>
+            <get-case-from pos="1">
+              <lit v="il"/>
+            </get-case-from>
+            <lit-tag v="det"/>
+            <lit-tag v="def"/>
+            <clip pos="2" side="tl" part="gen"/>
+            <clip pos="2" side="tl" part="nbr"/>
+          </lu>
+          <b pos="1"/> 
+          <lu>   
             <clip pos="2" side="tl" part="lemh"/>
             <clip pos="2" side="tl" part="a_nom"/>
             <clip pos="2" side="tl" part="gen"/>
             <clip pos="2" side="tl" part="nbr"/>
           </lu>
-        </out>
-      </action>
-    </rule>
-
-    <rule comment="REGLA: PRNDEM → PRNDEM">
-      <pattern>
-        <pattern-item n="prn_dem"/>
-      </pattern>
-      <action>
-        <call-macro n="f_du_to_pl1">
-          <with-param pos="1"/>
-        </call-macro>
-        <choose> 
-          <when>
-            <test>
-              <equal>
-                <clip pos="1" side="tl" part="nbr"/>
-                <lit-tag v="pl"/>
-              </equal>
-            </test>
-            <let>
-              <clip pos="1" side="tl" part="gen"/>
-              <lit-tag v="mfn"/>
-            </let>
-          </when>
-        </choose>
-  
-
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="a_prn"/>
-            <clip pos="1" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="nbr"/>
-            <clip pos="1" side="tl" part="lemq"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
-
-    <rule comment="REGLA: PRNPOS → PRNPOS">
-      <pattern>
-        <pattern-item n="prn_pos"/>
-      </pattern>
-      <action>
-        <call-macro n="f_du_to_pl1">
-          <with-param pos="1"/>
-        </call-macro>
-        <choose> 
-          <when>
-            <test>
-              <equal>
-                <clip pos="1" side="tl" part="nbr"/>
-                <lit-tag v="pl"/>
-              </equal>
-            </test>
-            <let>
-              <clip pos="1" side="tl" part="gen"/>
-              <lit-tag v="mfn"/>
-            </let>
-          </when>
-        </choose>
-  
-
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="a_prn"/>
-            <clip pos="1" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="nbr"/>
-            <clip pos="1" side="tl" part="lemq"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
-    <rule comment="REGLA: PRNPERS → PRNPERS">
-      <pattern>
-        <pattern-item n="prn_pers"/>
-      </pattern>
-      <action>
-        <call-macro n="f_du_to_pl_mfn1">
-          <with-param pos="1"/>
-        </call-macro>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="a_prn"/>
-            <clip pos="1" side="tl" part="persona"/>
-            <clip pos="1" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="nbr"/>
-            <clip pos="1" side="tl" part="sklon"/>
-            <clip pos="1" side="tl" part="lemq"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
-
-    <rule> <!-- REGLA:  NOM mk has no cases, nom into nominative-->
-      <pattern>
-        <pattern-item n="nomp"/>
-      </pattern>
-      <action>
-        <call-macro n="f_du_to_pl1">
-          <with-param pos="1"/>
-        </call-macro>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="a_nom"/>
-            <clip pos="1" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="nbr"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
-    <rule> <!-- REGLA:  NOM mk has no cases, nom into nominative-->
-      <pattern>
-        <pattern-item n="nom"/>
-      </pattern>
-      <action>
-        <let>
-          <clip pos="1" side="tl" part="sklon"/>
-          <lit-tag v="nom"/>
-        </let>
-        <call-macro n="f_du_to_pl1">
-          <with-param pos="1"/>
-        </call-macro>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="a_nom"/>
-            <clip pos="1" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="nbr"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
-    <rule> <!-- REGLA: ADJECTIU NOM mk has no cases, nom into nominative, adj lose case-->
-      <pattern>
-        <pattern-item n="adj"/>
-        <pattern-item n="nom"/>
-      </pattern>
-      <action>
-        <call-macro n="f_set_gen_num_head1">
-          <with-param pos="2"/>
-        </call-macro>
-        <call-macro n="f_conj_adjec1">
-          <with-param pos="1"/>
-        </call-macro> 
-        <let>
-          <clip pos="2" side="tl" part="sklon"/>
-          <lit-tag v="nom"/>
-        </let>
-        <out>
-           <lu> 
-	    <clip pos="1" side="tl" part="lemh"/>
-	    <clip pos="1" side="tl" part="a_adjec"/>
-	    <clip pos="1" side="tl" part="gen"/>
-	    <clip pos="1" side="tl" part="nbr"/>
-	</lu>
-	<b pos="1"/>
-	<lu> 
-		<clip pos="2" side="tl" part="lemh"/>
-		<clip pos="2" side="tl" part="a_nom"/>
-		<clip pos="2" side="tl" part="gen"/>
-		<clip pos="2" side="tl" part="nbr"/>
-	</lu>
-        </out>
-      </action>
-    </rule>
-
-    <rule comment="REGLA: ADJECTIU ADJECTIU NOM">
-      <pattern>
-        <pattern-item n="adj"/>
-        <pattern-item n="adj"/>
-        <pattern-item n="nom"/>
-      </pattern>
-      <action>
-        <call-macro n="f_set_gen_num_head1">
-          <with-param pos="3"/>
-        </call-macro>
-        <call-macro n="f_conj_adjec1">
-          <with-param pos="1"/>
-        </call-macro> 
-        <call-macro n="f_conj_adjec1">
-          <with-param pos="2"/>
-        </call-macro> 
-        <let>
-          <clip pos="3" side="tl" part="sklon"/>
-          <lit-tag v="nom"/>
-        </let>
-        <out>
-		<lu>  
-			<clip pos="1" side="tl" part="lemh"/>
-			<clip pos="1" side="tl" part="a_adj"/>
-			<clip pos="3" side="tl" part="gen"/>
-			<clip pos="3" side="tl" part="nbr"/>
-		</lu>
-		<b pos="1"/>
-		<lu>  
-			<clip pos="2" side="tl" part="lemh"/>
-			<clip pos="2" side="tl" part="a_adj"/>
-			<clip pos="3" side="tl" part="gen"/>
-			<clip pos="3" side="tl" part="nbr"/>
-		</lu>
-		<b pos="2"/>
-		<lu> 
-			<clip pos="3" side="tl" part="lemh"/>
-			<clip pos="3" side="tl" part="a_nom"/>
-			<clip pos="3" side="tl" part="gen"/>
-			<clip pos="3" side="tl" part="nbr"/>
-		</lu>
-	</out>
-      </action>
-    </rule>
-
-    <rule> <!-- REGLA: ADJECTIU ADJECTIU ADJECTIU NOM -->
-      <pattern>
-        <pattern-item n="adj"/>
-        <pattern-item n="adj"/>
-        <pattern-item n="adj"/>
-        <pattern-item n="nom"/>
-      </pattern>
-      <action>
-        <call-macro n="f_set_gen_num_head1">
-          <with-param pos="4"/>
-        </call-macro>
-        <call-macro n="f_conj_adjec1">
-          <with-param pos="1"/>
-        </call-macro> 
-        <call-macro n="f_conj_adjec1">
-          <with-param pos="2"/>
-        </call-macro> 
-        <call-macro n="f_conj_adjec1">
-          <with-param pos="3"/>
-        </call-macro> 
-        <let>
-          <clip pos="4" side="tl" part="sklon"/>
-          <lit-tag v="nom"/>
-        </let>
+          <b pos="1"/>
+           <lu>
+                <clip pos="1" side="tl" part="lemh"/>
+                <clip pos="1" side="tl" part="a_adjec"/>
+                <clip pos="2" side="tl" part="gen"/>
+                <clip pos="2" side="tl" part="nbr"/>
+           </lu>
+         </out>
+       </action>
+   </rule>
+<!-- ************************************ TEST ***************************************** -->
+   <rule> <!-- REGLA: ADP it OK -->
+       <pattern>
+         <pattern-item n="adp"/>
+       </pattern>
+       <action>
          <out>
-		<lu>  
-			<clip pos="1" side="tl" part="lemh"/>
-			<clip pos="1" side="tl" part="a_adj"/>
-			<clip pos="4" side="tl" part="gen"/>
-			<clip pos="4" side="tl" part="nbr"/>
-		</lu>
-		<b pos="1"/>
-		<lu>  
-			<clip pos="2" side="tl" part="lemh"/>
-			<clip pos="2" side="tl" part="a_adj"/>
-			<clip pos="4" side="tl" part="gen"/>
-			<clip pos="4" side="tl" part="nbr"/>
-		</lu>
-		<b pos="2"/>
-		<lu>  
-			<clip pos="3" side="tl" part="lemh"/>
-			<clip pos="3" side="tl" part="a_adj"/>
-			<clip pos="4" side="tl" part="gen"/>
-			<clip pos="4" side="tl" part="nbr"/>
-		</lu>
-		<b pos="3"/>
-		<lu> 
-			<clip pos="4" side="tl" part="lemh"/>
-			<clip pos="4" side="tl" part="a_nom"/>
-			<clip pos="4" side="tl" part="gen"/>
-			<clip pos="4" side="tl" part="nbr"/>
-		</lu>
-	</out>
-      </action>
-    </rule>
-
-    <rule> <!-- REGLA: ADJECTIU mk has no case, nom into nominative, adj lose case -->
-      <pattern>
-        <pattern-item n="adj"/>
-      </pattern>
-      <action>
-        <call-macro n="f_set_gen_num_head1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="f_conj_adjec1">
-          <with-param pos="1"/>
-        </call-macro> 
-        <out>
           <lu>
-          <clip pos="1" side="tl" part="lemh"/>
-	    <clip pos="1" side="tl" part="a_adj"/>
-	    <clip pos="1" side="tl" part="gen"/>
-	    <clip pos="1" side="tl" part="nbr"/>
-	    <lit-tag v="nom.ind"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
-    <!-- REGLA: presente -->
-    <rule>
-      <pattern>
-        <pattern-item n="vbserpres"/>
-      </pattern>
-      <action>
-        <let>
-            <clip pos="1" side="tl" part="temps"/>
-            <lit-tag v="pri"/>
-        </let>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="whole"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
-    <rule>
-      <pattern>
-        <pattern-item n="vbpii"/>
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="whole"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
-
-    <!-- REGLA: jaz bi šel ta je OK, kaj pa da bi šel na potep? -->
-    <rule>
-      <pattern>
-        <pattern-item n="vbserempty"/>
-      </pattern>
-      <action>
-        <let>
-          <clip pos="1" side="tl" part="lemh"/>
-          <lit v="biti"/>
-        </let>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="a_vbser"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
-    <!-- REGLA: jaz bi šel ta je OK, kaj pa da bi šel na potep? -->
-    <rule>
-      <pattern>
-        <pattern-item n="vbsercni"/>
-      </pattern>
-      <action>
-        <let>
-          <clip pos="1" side="tl" part="lemh"/>
-          <lit v="biti"/>
-        </let>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="a_vbser"/>
-            <clip pos="1" side="tl" part="a_cni"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-    <rule>
-
-      <!-- REGLA: NOM VBSER VBLEX -->
-      <pattern>
-        <pattern-item n="nom"/>
-        <pattern-item n="vbser"/>
-        <pattern-item n="vblex"/>
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="whole"/>
-          </lu>
-          <b pos="1"/>
-          <lu>
-            <clip pos="2" side="tl" part="whole"/>
-          </lu>
-          <b pos="2"/>
-          <lu>
-            <clip pos="3" side="tl" part="lemh"/>
-            <clip pos="3" side="tl" part="a_vblex"/>
-            <clip pos="3" side="tl" part="temps"/>
-            <clip pos="1" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="nbr"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
-    <!-- REGLA: passato 1 bil sem-->
-    <rule>
-      <pattern>
-        <pattern-item n="vbserpast"/>
-        <pattern-item n="vbserpres"/>
-      </pattern>
-      <action>
-        <let>
-          <clip pos="1" side="tl" part="lemh"/>
-          <lit v="biti"/>
-        </let>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="a_vbser"/>
-            <clip pos="1" side="tl" part="temps"/>
-            <clip pos="1" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="nbr"/>
-          </lu>
-          <b pos="1"/>
-          <lu>
-            <clip pos="2" side="tl" part="whole"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
-    <!-- REGLA: passato 2 sem bil-->
-    <rule>
-      <pattern>
-        <pattern-item n="vbserpres"/>
-        <pattern-item n="vbserpast"/>
-      </pattern>
-      <action>
-        <let>
-          <clip pos="2" side="tl" part="lemh"/>
-          <lit v="biti"/>
-        </let>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="whole"/>
-          </lu>
-          <b pos="1"/>
-          <lu>
-            <clip pos="2" side="tl" part="lemh"/>
-            <clip pos="2" side="tl" part="a_vbser"/>
-            <clip pos="2" side="tl" part="temps"/>
-            <clip pos="2" side="tl" part="gen"/>
-            <clip pos="2" side="tl" part="nbr"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
-    <rule>
-      <pattern>
-        <pattern-item n="vblexpast"/>
-      </pattern>
-      <action>
-        <let>
-          <clip pos="1" side="tl" part="temps"/>
-          <lit-tag v="pii"/>
-        </let>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="a_vblex"/>
-            <clip pos="1" side="tl" part="aspect"/>
-            <clip pos="1" side="tl" part="transitivity"/>
-            <clip pos="1" side="tl" part="temps"/>
-            <clip pos="1" side="tl" part="persona"/>
-            <clip pos="1" side="tl" part="nbr"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
-
-    <!-- REGLA: passato 3 jaz sem hodil-->
-    <rule>
-      <pattern>
-        <pattern-item n="vbserpres"/>
-        <pattern-item n="vblexpast"/>
-      </pattern>
-      <action>
-        <let>
-          <clip pos="2" side="tl" part="temps"/>
-          <lit-tag v="pii"/>
-        </let>
-        <out>
-          <lu>
-            <clip pos="2" side="tl" part="lemh"/>
-            <clip pos="2" side="tl" part="a_vblex"/>
-            <clip pos="2" side="tl" part="aspect"/>
-            <clip pos="2" side="tl" part="transitivity"/>
-            <clip pos="2" side="tl" part="temps"/>
-            <clip pos="1" side="tl" part="persona"/>
-            <clip pos="1" side="tl" part="nbr"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
-    <!-- REGLA: passato 3 hodil sem po zemlji nasi-->
-    <rule>
-      <pattern>
-        <pattern-item n="vblexpast"/>
-        <pattern-item n="vbserpres"/>
-      </pattern>
-      <action>
-        <let>
-          <clip pos="1" side="tl" part="temps"/>
-          <lit-tag v="pii"/>
-        </let>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="a_vblex"/>
-            <clip pos="1" side="tl" part="aspect"/>
-            <clip pos="1" side="tl" part="transitivity"/>
-            <clip pos="1" side="tl" part="temps"/>
-            <clip pos="2" side="tl" part="persona"/>
-            <clip pos="2" side="tl" part="nbr"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
-    <!-- OK REGLA: futuro 1 bom si kupil-->
-    <rule>
-      <pattern>
-        <pattern-item n="vbserfti"/>
-        <pattern-item n="prnalone"/>
-        <pattern-item n="vblex"/>
-      </pattern>
-      <action>
-        <let>
-          <clip pos="3" side="tl" part="temps"/>
-          <lit-tag v="pres"/>
-        </let>
-        <out>
-          <lu>
-            <get-case-from pos="1">
-              <lit v="ќе"/>
-            </get-case-from>
-            <lit-tag v="part.exp"/>
-          </lu>
-          <b pos="1"/>
-          <lu>
-            <get-case-from pos="2">
-              <clip pos="3" side="tl" part="lemh"/>
-            </get-case-from>
-            <clip pos="3" side="tl" part="a_vblex"/>
-            <clip pos="3" side="tl" part="temps"/>
-            <clip pos="1" side="tl" part="persona"/>
-            <clip pos="1" side="tl" part="nbr"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
-    <!-- OK REGLA: futuro 2 si bom kupil-->
-    <rule>
-      <pattern>
-        <pattern-item n="prnalone"/>
-        <pattern-item n="vbserfti"/>
-        <pattern-item n="vblex"/>
-      </pattern>
-      <action>
-        <let>
-          <clip pos="3" side="tl" part="temps"/>
-          <lit-tag v="pres"/>
-        </let>
-        <out>
-          <lu>
-            <get-case-from pos="1">
-              <lit v="ќе"/>
-            </get-case-from>
-            <lit-tag v="part.exp"/>
-          </lu>
-          <b pos="1"/>
-          <lu>
-            <get-case-from pos="2">
-              <clip pos="3" side="tl" part="lemh"/>
-            </get-case-from>
-            <clip pos="3" side="tl" part="a_vblex"/>
-            <clip pos="3" side="tl" part="temps"/>
-            <clip pos="2" side="tl" part="persona"/>
-            <clip pos="2" side="tl" part="nbr"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
-    <!-- REGLA: futuro 3 kupil si bom-->
-    <rule>
-      <pattern>
-        <pattern-item n="vblex"/>
-        <pattern-item n="prnalone"/>
-        <pattern-item n="vbserfti"/>
-      </pattern>
-      <action>
-        <let>
-          <clip pos="1" side="tl" part="temps"/>
-          <lit-tag v="pres"/>
-        </let>
-        <out>
-          <lu>
-            <get-case-from pos="1">
-              <lit v="ќе"/>
-            </get-case-from>
-            <lit-tag v="part.exp"/>
-          </lu>
-          <b pos="1"/>
-          <lu>
-            <get-case-from pos="2">
               <clip pos="1" side="tl" part="lemh"/>
-            </get-case-from>
-            <clip pos="1" side="tl" part="a_vblex"/>
-            <clip pos="1" side="tl" part="temps"/>
-            <clip pos="3" side="tl" part="persona"/>
-            <clip pos="3" side="tl" part="nbr"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
+              <lit-tag v="pr"/>
+          </lu> 
+         </out>
+       </action>
+   </rule>
 
-    <!-- REGLA: futuro 4 jutri bo lep dan-->
-    <rule>
-      <pattern>
-        <pattern-item n="vbserfti"/>
-      </pattern>
-      <action>
-        <let>
-          <clip pos="1" side="tl" part="temps"/>
-          <lit-tag v="pres"/>
-        </let>
-        <out>
-          <lu>
-            <get-case-from pos="1">
-              <lit v="ќе"/>
-            </get-case-from>
-            <lit-tag v="part.exp"/>
-          </lu>
-          <b pos="1"/>
-          <lu>
-            <get-case-from pos="1">
-              <clip pos="1" side="tl" part="lemh"/>
-            </get-case-from>
-            <clip pos="1" side="tl" part="a_vbser"/>
-            <clip pos="1" side="tl" part="temps"/>
-            <clip pos="1" side="tl" part="persona"/>
-            <clip pos="1" side="tl" part="nbr"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
-    <!-- OK REGLA: futuro 1 bom si kupil from error-->
-    <rule>
-      <pattern>
-        <pattern-item n="vbserfti"/>
-        <pattern-item n="vbser"/>
-        <pattern-item n="vblex"/>
-      </pattern>
-      <action>
-        <let>
-          <clip pos="3" side="tl" part="temps"/>
-          <lit-tag v="pres"/>
-        </let>
-        <out>
-          <lu>
-            <get-case-from pos="1">
-              <lit v="ќе"/>
-            </get-case-from>
-            <lit-tag v="part.exp"/>
-          </lu>
-          <b pos="1"/>
-          <lu>
-            <get-case-from pos="2">
-              <clip pos="3" side="tl" part="lemh"/>
-            </get-case-from>
-            <clip pos="3" side="tl" part="a_vblex"/>
-            <clip pos="3" side="tl" part="temps"/>
-            <clip pos="1" side="tl" part="persona"/>
-            <clip pos="1" side="tl" part="nbr"/>
-            <clip pos="3" side="tl" part="lemh"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
-    <!-- REGLA: futuro 1.1 kupil bom si-->
-    <rule>
-      <pattern>
-        <pattern-item n="vblex"/>
-        <pattern-item n="vbserfti"/>
-        <pattern-item n="prnalone"/>
-      </pattern>
-      <action>
-        <let>
-          <clip pos="3" side="tl" part="temps"/>
-          <lit-tag v="pres"/>
-        </let>
-        <out>
-          <lu>
-            <get-case-from pos="1">
-              <lit v="ќе"/>
-            </get-case-from>
-            <lit-tag v="part.exp"/>
-          </lu>
-          <b pos="1"/>
-          <lu>
-            <get-case-from pos="2">
-              <clip pos="1" side="tl" part="lemh"/>
-            </get-case-from>
-            <clip pos="1" side="tl" part="a_vblex"/>
-            <clip pos="1" side="tl" part="temps"/>
-            <clip pos="2" side="tl" part="persona"/>
-            <clip pos="2" side="tl" part="nbr"/>
-            <clip pos="1" side="tl" part="lemq"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
-    <!--OK REGLA: futuro 1.2 bom kupil-->
-    <rule>
-      <pattern>
-        <pattern-item n="vbserfti"/>
-        <pattern-item n="vblex"/>
-      </pattern>
-      <action>
-        <let>
-          <clip pos="1" side="tl" part="temps"/>
-          <lit-tag v="pres"/>
-        </let>
-        <out>
-          <lu>
-            <get-case-from pos="1">
-              <lit v="ќе"/>
-            </get-case-from>
-            <lit-tag v="part.exp"/>
-          </lu>
-          <b pos="1"/>
-          <lu>
-            <get-case-from pos="2">
-              <clip pos="2" side="tl" part="lemh"/>
-            </get-case-from>
-            <clip pos="2" side="tl" part="a_vblex"/>
-            <clip pos="1" side="tl" part="temps"/>
-            <clip pos="1" side="tl" part="persona"/>
-            <clip pos="1" side="tl" part="nbr"/>
-              <clip pos="2" side="tl" part="lemq"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
-    <!-- REGLA: futuro 2 kupil bom-->
-    <rule>
-      <pattern>
-        <pattern-item n="vblex"/>
-        <pattern-item n="vbserfti"/>
-      </pattern>
-      <action>
-        <let>
-          <clip pos="2" side="tl" part="temps"/>
-          <lit-tag v="pres"/>
-        </let>
-        <out>
-          <lu>
-            <get-case-from pos="1">
-              <lit v="ќе"/>
-            </get-case-from>
-            <lit-tag v="part.exp"/>
-          </lu>
-          <b pos="1"/>
-          <lu>
-            <get-case-from pos="2">
-              <clip pos="1" side="tl" part="lemh"/>
-            </get-case-from>
-            <clip pos="1" side="tl" part="a_vblex"/>
-            <clip pos="2" side="tl" part="temps"/>
-            <clip pos="2" side="tl" part="persona"/>
-            <clip pos="2" side="tl" part="nbr"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
-    <!-- REGLA: ???-->
-    <rule>
-      <pattern>
-        <pattern-item n="prn_se"/>
-        <pattern-item n="vbser"/>
-        <pattern-item n="vblex"/>
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <clip pos="3" side="tl" part="whole"/>
-          </lu>
-          <b pos="1"/>
-          <lu>
-            <clip pos="1" side="tl" part="whole"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
-    <!-- REGLA: ???-->
-    <rule>
-      <pattern>
-        <pattern-item n="vblex"/>
-        <pattern-item n="prn_se"/>
-        <pattern-item n="vbser"/>
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="whole"/>
-          </lu>
-          <b pos="1"/>
-          <lu>
-            <clip pos="2" side="tl" part="whole"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
   </section-rules>
 </transfer>
