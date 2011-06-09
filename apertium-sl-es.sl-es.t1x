@@ -2459,7 +2459,7 @@
      </action>
    </rule>
 
- <rule> <!-- REGLA: VBLEXPRES io cammino it OK -->
+<!-- <rule>  REGLA: VBLEXPRES io cammino it OK 
      <pattern>
        <pattern-item n="vblexpres"/>
      </pattern>
@@ -2478,7 +2478,7 @@
          </lu>
        </out>
      </action>
-   </rule> 
+   </rule> -->
   
        <!-- REGLA: passato 1 jaz sem hodil - io ho camminato --> 
    <rule> 
@@ -2678,7 +2678,7 @@
        </action>
    </rule>
 <!-- ************************************ TEST ***************************************** -->
-   <rule> <!-- REGLA: ADP it OK -->
+<!--   <rule> REGLA: ADP it OK 
        <pattern>
          <pattern-item n="adp"/>
        </pattern>
@@ -2690,7 +2690,7 @@
           </lu> 
          </out>
        </action>
-   </rule>
+   </rule>-->
 
   </section-rules>
 </transfer>
