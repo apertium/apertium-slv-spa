@@ -2,6 +2,12 @@
 <!-- -*- nxml -*- -->
 <transfer>
   <section-def-cats>
+    <def-cat n="adp">
+      <cat-item tags="adp"/>
+    </def-cat>
+    <def-cat n="vblexpres">
+      <cat-item tags="vblex.pres.*"/>
+    </def-cat>
     <def-cat n="pref">
       <cat-item tags="pref.*"/>
     </def-cat>
