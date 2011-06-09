@@ -125,29 +125,6 @@
     <def-cat n="num">
       <cat-item tags="num.*"/>
     </def-cat>
-    <def-cat n="en">
-      <cat-item lemma="en" tags="pr"/>
-    </def-cat>
-    <def-cat n="a">
-      <cat-item lemma="a" tags="pr"/>
-    </def-cat>
-    <def-cat n="haber3p">
-      <!--	  <cat-item tags="vbhaver.pri.p3.sg"/> -->
-      <cat-item tags="vbhaver.prs.p1.sg"/>
-      <cat-item tags="vbhaver.prs.p3.sg"/>
-      <cat-item tags="vbhaver.pii.p1.sg"/>
-      <cat-item tags="vbhaver.pii.p3.sg"/>
-      <cat-item tags="vbhaver.pis.p1.sg"/>
-      <cat-item tags="vbhaver.pis.p3.sg"/>
-      <cat-item tags="vbhaver.ifi.p3.sg"/>
-      <cat-item tags="vbhaver.fts.p1.sg"/>
-      <cat-item tags="vbhaver.fts.p3.sg"/>
-      <cat-item tags="vbhaver.fti.p3.sg"/>
-      <cat-item tags="vbhaver.cni.p1.sg"/>
-      <cat-item tags="vbhaver.cni.p3.sg"/>
-      <cat-item tags="vbhaver.inf"/>
-      <cat-item tags="vbhaver.ger"/>
-    </def-cat>
     <def-cat n="pp_nohaber">
       <cat-item tags="vblex.pp.*"/>
       <cat-item tags="vbser.pp.*"/>
