@@ -4,6 +4,7 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
+/TEST -text
 /apertium-sl-es.es-sl.t1x -text
 /apertium-sl-es.es.dix -text
 /apertium-sl-es.es.tsx -text
