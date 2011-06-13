@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- -*- nxml -*- -->
+<!--test jernej -->
 <transfer>
   <section-def-cats>
     <def-cat n="adp">
