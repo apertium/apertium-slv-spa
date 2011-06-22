@@ -20,7 +20,6 @@ dev/parcount -text
 /es-sl.prob -text svneol=unset#unset
 eval/Makefile -text
 eval/makeMeteorFormat -text
-eval/meteor-1.2.jar -text
 eval/test.es.txt -text
 eval/test.sl.txt -text
 /lexchoicebil.xsl -text
