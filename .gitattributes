@@ -18,6 +18,7 @@ dev/apertium-sl-es.sl-es-crossed2.dix -text
 dev/crossed-common.dix -text
 dev/parcount -text
 /es-sl.prob -text svneol=unset#unset
+eval/INSTALL -text
 eval/Makefile -text
 eval/makeMeteorFormat -text
 eval/test.es.txt -text
