@@ -63,63 +63,63 @@
     <!-- SECTION: Conjunctions -->
 
     <e><p><l>in<s n="cnjcoo"/></l><r>y<s n="cnjcoo"/></r></p></e>
-    <e c="  0"><p><l>a<s n="cnjcoo"/></l><r>y<s n="cnjcoo"/></r></p></e>
+    <e><p><l>a<s n="cnjcoo"/></l><r>y<s n="cnjcoo"/></r></p></e>
 
     <!-- SECTION: Preposition -->
 
-    <e c="  0"><p><l>v<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
-    <e c="  0"><p><l>na<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
+    <e><p><l>v<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
+    <e><p><l>na<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
     <e slr="1"><p><l>na<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
-    <e c="  0"><p><l>nad<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
-    <e c="  0"><p><l>za<s n="pr"/></l><r>por<s n="pr"/></r></p></e>
+    <e><p><l>nad<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
+    <e><p><l>za<s n="pr"/></l><r>por<s n="pr"/></r></p></e>
     <e slr="1"><p><l>za<s n="pr"/></l><r>después<b/>de<s n="pr"/></r></p></e>
-    <e c="  0"><p><l>proti<s n="pr"/></l><r>contra<s n="pr"/></r></p></e>
+    <e><p><l>proti<s n="pr"/></l><r>contra<s n="pr"/></r></p></e>
 
     <!-- SECTION: Pronouns -->
 
-    <e c="  0"><p><l>jaz<s n="prn"/><s n="pers"/></l><r>yo<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/></r></p></e>
-    <e c="  0"><p><l>prpers<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
+    <e><p><l>jaz<s n="prn"/><s n="pers"/></l><r>yo<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
 
-    <e c="  0"><p><l>moj<s n="prn"/><s n="pos"/></l><r>mío<s n="prn"/><s n="pos"/></r></p></e>
-    <e c="  0"><p><l>naš<s n="prn"/><s n="pos"/></l><r>nuestro<s n="prn"/><s n="pos"/></r></p></e>
-    <e c="  0"><p><l>vaš<s n="prn"/><s n="pos"/></l><r>vuestro<s n="prn"/><s n="pos"/></r></p></e>
+    <e><p><l>moj<s n="prn"/><s n="pos"/></l><r>mío<s n="prn"/><s n="pos"/></r></p></e>
+    <e><p><l>naš<s n="prn"/><s n="pos"/></l><r>nuestro<s n="prn"/><s n="pos"/></r></p></e>
+    <e><p><l>vaš<s n="prn"/><s n="pos"/></l><r>vuestro<s n="prn"/><s n="pos"/></r></p></e>
 
-    <e c="  0"><p><l>se<s n="prn"/><s n="ref"/></l><r>se<s n="prn"/><s n="pro"/><s n="ref"/></r></p></e>
+    <e><p><l>se<s n="prn"/><s n="ref"/></l><r>se<s n="prn"/><s n="pro"/><s n="ref"/></r></p></e>
 
 
  
     <!-- SECTION: Determiners -->
 
-    <e c="  0"><p><l>moj<s n="det"/><s n="pos"/></l><r>mío<s n="det"/><s n="pos"/></r></p><par n="moj_mío__det"/></e>
-    <e c="  0"><p><l>naš<s n="det"/><s n="pos"/></l><r>nuestro<s n="det"/><s n="pos"/></r></p></e>
-    <e c="  0"><p><l>vaš<s n="det"/><s n="pos"/></l><r>vuestro<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>moj<s n="det"/><s n="pos"/></l><r>mío<s n="det"/><s n="pos"/></r></p><par n="moj_mío__det"/></e>
+    <e><p><l>naš<s n="det"/><s n="pos"/></l><r>nuestro<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>vaš<s n="det"/><s n="pos"/></l><r>vuestro<s n="det"/><s n="pos"/></r></p></e>
 
     <!-- SECTION: Numerals -->
 
 
     <!-- SECTION: Nouns -->
 
-    <e c="  0"><p><l>jezik<s n="n"/><s n="m"/></l><r>lengua<s n="n"/><s n="f"/></r></p></e>
-    <e c="  0"><p><l>reč<s n="n"/><s n="f"/></l><r>cosa<s n="n"/><s n="f"/></r></p></e>
-    <e c="  0"><p><l>narod<s n="n"/><s n="m"/></l><r>nación<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>jezik<s n="n"/><s n="m"/></l><r>lengua<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>reč<s n="n"/><s n="f"/></l><r>cosa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>narod<s n="n"/><s n="m"/></l><r>nación<s n="n"/><s n="f"/></r></p></e>
     <e slr="1"><p><l>narod<s n="n"/><s n="m"/></l><r>pueblo<s n="n"/><s n="m"/></r></p></e>
-    <e c="  0"><p><l>zemlja<s n="n"/><s n="f"/></l><r>tierra<s n="n"/><s n="f"/></r></p></e>
-    <e c="  0"><p><l>hiša<s n="n"/><s n="f"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
-    <e c="  0"><p><l>srce<s n="n"/><s n="nt"/></l><r>corazón<s n="n"/><s n="m"/></r></p></e>
-    <e c="  0"><p><l>dekle<s n="n"/><s n="nt"/></l><r>chico<s n="n"/><s n="f"/></r></p></e>
-    <e c="  0"><p><l>brat<s n="n"/><s n="m"/></l><r>hermano<s n="n"/><s n="m"/></r></p></e>
-    <e c="  0"><p><l>svet<s n="n"/><s n="m"/></l><r>mundo<s n="n"/><s n="m"/></r></p></e>
-    <e c="  0"><p><l>burja<s n="n"/><s n="f"/></l><r>viento<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>zemlja<s n="n"/><s n="f"/></l><r>tierra<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>hiša<s n="n"/><s n="f"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>srce<s n="n"/><s n="nt"/></l><r>corazón<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dekle<s n="n"/><s n="nt"/></l><r>chico<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>brat<s n="n"/><s n="m"/></l><r>hermano<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>svet<s n="n"/><s n="m"/></l><r>mundo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>burja<s n="n"/><s n="f"/></l><r>viento<s n="n"/><s n="m"/></r></p></e>
     <e slr="1"><p><l>burja<s n="n"/><s n="f"/></l><r>tempesto<s n="n"/><s n="m"/></r></p></e>
-    <e c="  0"><p><l>slovan<s n="n"/><s n="m"/></l><r>eslavo<s n="n"/><s n="m"/></r></p></e>
-    <e c="  0"><p><l>veka<s n="n"/><s n="f"/></l><r>siglo<s n="n"/><s n="m"/></r></p></e>
-    <e c="  0"><p><l>duh<s n="n"/><s n="m"/></l><r>espíritu<s n="n"/><s n="m"/></r></p></e>
-    <e c="  0"><p><l>parlament<s n="n"/><s n="m"/></l><r>parlamento<s n="n"/><s n="m"/></r></p></e>
-    <e c="  0"><p><l>grom<s n="n"/><s n="m"/></l><r>trueno<s n="n"/><s n="m"/></r></p></e>
-    <e c="  0"><p><l>doba<s n="n"/><s n="f"/></l><r>epoca<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>slovan<s n="n"/><s n="m"/></l><r>eslavo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>veka<s n="n"/><s n="f"/></l><r>siglo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>duh<s n="n"/><s n="m"/></l><r>espíritu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>parlament<s n="n"/><s n="m"/></l><r>parlamento<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>grom<s n="n"/><s n="m"/></l><r>trueno<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>doba<s n="n"/><s n="f"/></l><r>epoca<s n="n"/><s n="f"/></r></p></e>
     <e slr="1"><p><l>doba<s n="n"/><s n="f"/></l><r>tiempo<s n="n"/><s n="m"/></r></p></e>
-    <e c="  0"><p><l>skala<s n="n"/><s n="f"/></l><r>roca<s n="n"/><s n="f"/></r></p></e>
-    <e c="  0"><p><l>nada<s n="n"/><s n="f"/></l><r>esperanza<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>skala<s n="n"/><s n="f"/></l><r>roca<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nada<s n="n"/><s n="f"/></l><r>esperanza<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>agencija<s n="n"/><s n="f"/></l><r>agencia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>alergija<s n="n"/><s n="f"/></l><r>alergia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>alkimija<s n="n"/><s n="f"/></l><r>alquimia<s n="n"/><s n="f"/></r></p></e>
@@ -363,31 +363,31 @@
 
     <!-- SECTION: Adjectives -->
 
-    <e c="  0"><p><l>lep<s n="adj"/></l><r>guapo<s n="adj"/></r></p></e>
-    <e c="  0"><p><l>slovanski<s n="adj"/></l><r>eslavo<s n="adj"/></r></p></e>
-    <e c="  0"><p><l>trden<s n="adj"/></l><r>firme<s n="adj"/></r></p></e>
-    <e c="  0"><p><l>živ<s n="adj"/></l><r>vivo<s n="adj"/></r></p></e>
-    <e c="  0"><p><l>črn<s n="adj"/></l><r>negro<s n="adj"/></r></p></e>
-    <e c="  0"><p><l>prazen<s n="adj"/></l><r>vacio<s n="adj"/></r></p></e>
+    <e><p><l>lep<s n="adj"/></l><r>guapo<s n="adj"/></r></p></e>
+    <e><p><l>slovanski<s n="adj"/></l><r>eslavo<s n="adj"/></r></p></e>
+    <e><p><l>trden<s n="adj"/></l><r>firme<s n="adj"/></r></p></e>
+    <e><p><l>živ<s n="adj"/></l><r>vivo<s n="adj"/></r></p></e>
+    <e><p><l>črn<s n="adj"/></l><r>negro<s n="adj"/></r></p></e>
+    <e><p><l>prazen<s n="adj"/></l><r>vacio<s n="adj"/></r></p></e>
 
     <e><p><l>humanističen<s n="adj"/></l><r>humanístico<s n="adj"/></r></p></e>
     <e><p><l>mednaroden<s n="adj"/></l><r>internacional<s n="adj"/><s n="mf"/></r></p></e>
 
     <!-- SECTION: Adverbs -->
 
-    <e c="  0"><p><l>kakor<s n="adv"/></l><r>como<s n="adv"/></r></p></e>
+    <e><p><l>kakor<s n="adv"/></l><r>como<s n="adv"/></r></p></e>
 
     <!-- SECTION: Verbs -->
 
-    <e c="  0"><p><l>biti<s n="vbser"/></l><r>ser<s n="vbser"/></r></p></e>
-    <e c="  0"><p><l>imeti<s n="vbhaver"/></l><r>haber<s n="vbhaver"/></r></p></e>
+    <e><p><l>biti<s n="vbser"/></l><r>ser<s n="vbser"/></r></p></e>
+    <e><p><l>imeti<s n="vbhaver"/></l><r>haber<s n="vbhaver"/></r></p></e>
 
-    <e c="  0"><p><l>imeti<s n="vblex"/></l><r>tener<s n="vblex"/></r></p></e>
-    <e c="  0"><p><l>priti<s n="vblex"/></l><r>venir<s n="vblex"/></r></p></e> <!-- perf -->
-    <e c="  0"><p><l>stati<s n="vblex"/></l><r>quedar<s n="vblex"/></r></p></e> <!-- ? -->
-    <e c="  0"><p><l>stresti<s n="vblex"/></l><r>sacudir<s n="vblex"/></r></p></e> <!-- ? -->
-    <e c="  0"><p><l>živeti<s n="vblex"/></l><r>vivir<s n="vblex"/></r></p></e> <!-- ? -->
-    <e c="  0"><p><l>lomiti<s n="vblex"/></l><r>quebrar<s n="vblex"/></r></p></e> <!-- imperf, tv, ref -->
+    <e><p><l>imeti<s n="vblex"/></l><r>tener<s n="vblex"/></r></p></e>
+    <e><p><l>priti<s n="vblex"/></l><r>venir<s n="vblex"/></r></p></e> <!-- perf -->
+    <e><p><l>stati<s n="vblex"/></l><r>quedar<s n="vblex"/></r></p></e> <!-- ? -->
+    <e><p><l>stresti<s n="vblex"/></l><r>sacudir<s n="vblex"/></r></p></e> <!-- ? -->
+    <e><p><l>živeti<s n="vblex"/></l><r>vivir<s n="vblex"/></r></p></e> <!-- ? -->
+    <e><p><l>lomiti<s n="vblex"/></l><r>quebrar<s n="vblex"/></r></p></e> <!-- imperf, tv, ref -->
     <e slr="1"><p><l>lomiti<s n="vblex"/></l><r>romper<s n="vblex"/></r></p></e> <!-- imperf, tv, ref -->
 
 
@@ -396,10 +396,10 @@
 
     <!-- SECTION: Punctuation -->
 
-    <e c="  0"><p><l>hej<s n="ij"/></l><r>ei<s n="ij"/></r></p></e>
+    <e><p><l>hej<s n="ij"/></l><r>ei<s n="ij"/></r></p></e>
 
     <!-- SECTION: Punctuation -->
-    <e c="  0"><re>[.!\?]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
-    <e c="  0"><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+    <e><re>[.!\?]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+    <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
   </section> 
 </dictionary>
