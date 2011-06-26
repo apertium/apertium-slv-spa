@@ -424,6 +424,10 @@
     <e><p><l>kaotičen<s n="adj"/></l><r>caótico<s n="adj"/></r></p></e>
     <e><p><l>kapitalističen<s n="adj"/></l><r>capitalista<s n="adj"/><s n="mf"/></r></p></e>
     <e><p><l>katastrofalen<s n="adj"/></l><r>catastrófico<s n="adj"/></r></p></e>
+    <e><p><l>keramičen<s n="adj"/></l><r>cerámico<s n="adj"/></r></p></e>
+    <e><p><l>klasičen<s n="adj"/></l><r>clásico<s n="adj"/></r></p></e>
+    <e><p><l>kliničen<s n="adj"/></l><r>clínico<s n="adj"/></r></p></e>
+    <e><p><l>klasicističen<s n="adj"/></l><r>clasicista<s n="adj"/><s n="mf"/></r></p></e>
 
 
     <!-- SECTION: Adverbs -->
@@ -437,11 +441,11 @@
 
     <e><p><l>imeti<s n="vblex"/></l><r>tener<s n="vblex"/></r></p></e>
     <e><p><l>priti<s n="vblex"/></l><r>venir<s n="vblex"/></r></p></e> <!-- perf -->
-    <e><p><l>stati<s n="vblex"/></l><r>quedar<s n="vblex"/></r></p></e> <!-- ? -->
-    <e><p><l>stresti<s n="vblex"/></l><r>sacudir<s n="vblex"/></r></p></e> <!-- ? -->
-    <e><p><l>živeti<s n="vblex"/></l><r>vivir<s n="vblex"/></r></p></e> <!-- ? -->
-    <e><p><l>lomiti<s n="vblex"/></l><r>quebrar<s n="vblex"/></r></p></e> <!-- imperf, tv, ref -->
-    <e slr="1"><p><l>lomiti<s n="vblex"/></l><r>romper<s n="vblex"/></r></p></e> <!-- imperf, tv, ref -->
+    <e><p><l>stati<s n="vblex"/></l><r>quedar<s n="vblex"/></r></p></e>
+    <e><p><l>stresti<s n="vblex"/></l><r>sacudir<s n="vblex"/></r></p></e>
+    <e><p><l>živeti<s n="vblex"/></l><r>vivir<s n="vblex"/></r></p></e>
+    <e><p><l>lomiti<s n="vblex"/></l><r>quebrar<s n="vblex"/></r></p></e>
+    <e slr="romper"><p><l>lomiti<s n="vblex"/></l><r>romper<s n="vblex"/></r></p></e>
 
 
     <e><p><l>dajati<s n="vblex"/></l><r>dar<s n="vblex"/></r></p><par n="imperf"/></e>
