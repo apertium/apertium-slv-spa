@@ -7,6 +7,7 @@
     <sdef n="vblex"    c="Verb"/>
     <sdef n="vbser"    c="Verb 'to be'"/>
     <sdef n="adj"      c="Adjective"/>
+    <sdef n="num"      c="Numeral"/>
     <sdef n="det"      c="Determiner"/>
     <sdef n="adv"      c="Adverb"/>
     <sdef n="prn"      c="Pronoun"/>
@@ -279,6 +280,7 @@
     <e><p><l>jablana<s n="n"/><s n="f"/></l><r>manzano<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>jabolko<s n="n"/><s n="nt"/></l><r>manzana<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>adrenalin<s n="n"/><s n="mi"/></l><r>adrenalina<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>junij<s n="n"/><s n="mi"/></l><r>julio<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>žargon<s n="n"/><s n="mi"/></l><r>jerga<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>rimljan<s n="n"/><s n="ma"/></l><r>romano<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>norvežan<s n="n"/><s n="ma"/></l><r>noruego<s n="n"/><s n="m"/></r></p></e>
@@ -297,6 +299,7 @@
 
     <e><p><l>Slovenija<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Eslovenia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
     <e><p><l>Benečija<s n="np"/><s n="top"/><s n="f"/></l><r>Véneto<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>Koreja<s n="np"/><s n="top"/><s n="f"/></l><r>Corea<s n="np"/><s n="top"/><s n="f"/></r></p></e>
     <e><p><l>Barcelona<s n="np"/><s n="top"/><s n="f"/></l><r>Barcelona<s n="np"/><s n="top"/><s n="f"/></r></p></e>
     <e><p><l>Sodoma<s n="np"/><s n="top"/><s n="f"/></l><r>Sodoma<s n="np"/><s n="top"/><s n="f"/></r></p></e>
     <e><p><l>Varšava<s n="np"/><s n="top"/><s n="f"/></l><r>Varsovia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
@@ -491,6 +494,9 @@
     <e><p><l>teoretičen<s n="adj"/></l><r>teórico<s n="adj"/></r></p></e>
     <e><p><l>teritorialen<s n="adj"/></l><r>territorio<s n="adj"/></r></p></e>
 
+    <e><p><l>južen<s n="adj"/></l><r>del<b/>sur<s n="adj"/></r></p></e>
+    <e><p><l>korejski<s n="adj"/></l><r>koreano<s n="adj"/></r></p></e>
+
 
     <!-- SECTION: Adverbs -->
 
@@ -513,12 +519,16 @@
     <e><p><l>dajati<s n="vblex"/></l><r>dar<s n="vblex"/></r></p><par n="imperf"/></e>
     <e><p><l>dati<s n="vblex"/></l><r>dar<s n="vblex"/></r></p><par n="perf"/></e>
 
-    <!-- SECTION: Punctuation -->
+    <!-- SECTION: Interjections -->
 
     <e><p><l>hej<s n="ij"/></l><r>ei<s n="ij"/></r></p></e>
 
     <!-- SECTION: Punctuation -->
     <e><re>[.!\?]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
     <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+
+    <e><re>%?[0-9]+([.,][0-9]+)?[.,]?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+    <e><re>%?[0-9]+([.,][0-9]+)?([.,][0-9]+)?([.,]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+
   </section> 
 </dictionary>

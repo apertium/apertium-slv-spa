@@ -2604,7 +2604,7 @@
          <out>
           <lu>
             <get-case-from pos="1">
-              <lit v="il"/>
+              <lit v="el"/>
             </get-case-from>
             <lit-tag v="det"/>
             <lit-tag v="def"/>
@@ -2631,7 +2631,7 @@
          <out>
            <lu>
             <get-case-from pos="1">
-              <lit v="il"/>
+              <lit v="el"/>
             </get-case-from>
             <lit-tag v="det"/>
             <lit-tag v="def"/>
