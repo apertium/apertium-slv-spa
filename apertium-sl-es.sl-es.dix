@@ -280,7 +280,26 @@
     <e><p><l>jablana<s n="n"/><s n="f"/></l><r>manzano<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>jabolko<s n="n"/><s n="nt"/></l><r>manzana<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>adrenalin<s n="n"/><s n="mi"/></l><r>adrenalina<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>junij<s n="n"/><s n="mi"/></l><r>julio<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>januar<s n="n"/><s n="mi"/></l><r>enero<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>prosinec<s n="n"/><s n="mi"/></l><r>enero<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>februar<s n="n"/><s n="mi"/></l><r>febrero<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>svečan<s n="n"/><s n="mi"/></l><r>febrero<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>marec<s n="n"/><s n="mi"/></l><r>marzo<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>sušec<s n="n"/><s n="mi"/></l><r>marzo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>april<s n="n"/><s n="mi"/></l><r>abril<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>maj<s n="n"/><s n="mi"/></l><r>mayo<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>junij<s n="n"/><s n="mi"/></l><r>junio<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>rožnik<s n="n"/><s n="mi"/></l><r>junio<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>julij<s n="n"/><s n="mi"/></l><r>julio<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>avgust<s n="n"/><s n="mi"/></l><r>agosto<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>september<s n="n"/><s n="mi"/></l><r>septiembre<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>kimavec<s n="n"/><s n="mi"/></l><r>septiembre<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>oktober<s n="n"/><s n="mi"/></l><r>octubre<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>vinotok<s n="n"/><s n="mi"/></l><r>octubre<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>november<s n="n"/><s n="mi"/></l><r>noviembre<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>listopad<s n="n"/><s n="mi"/></l><r>noviembre<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>december<s n="n"/><s n="mi"/></l><r>diciembre<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>gruden<s n="n"/><s n="mi"/></l><r>diciembre<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>žargon<s n="n"/><s n="mi"/></l><r>jerga<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>rimljan<s n="n"/><s n="ma"/></l><r>romano<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>norvežan<s n="n"/><s n="ma"/></l><r>noruego<s n="n"/><s n="m"/></r></p></e>
