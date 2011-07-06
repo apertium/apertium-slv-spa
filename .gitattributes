@@ -2,6 +2,7 @@
 /AUTHORS -text
 /ChangeLog -text
 /Makefile.am -text
+/MidtermEvalTestCase.txt -text
 /NEWS -text
 /README -text
 /apertium-sl-es.es-sl.t1x -text
