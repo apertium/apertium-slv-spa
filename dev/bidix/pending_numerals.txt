@@ -1,0 +1,9 @@
+      5 ^@prvi<num>$
+      2 ^@trije<num>$
+      1 ^@tretji<num>$
+      1 ^@šest<num>$
+      1 ^@mi<num>$
+      1 ^@en<num>$
+      1 ^@drugi<num>$
+      1 ^@deveti<num>$
+      1 ^@četrti<num>$

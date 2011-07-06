@@ -1,0 +1,53 @@
+
+===============================================================================
+Multiple surface forms for a single lexical form
+===============================================================================
+
+
+===============================================================================
+Multiple bidix entries for a single source language lexical form
+===============================================================================
+
+
+===============================================================================
+Tag mismatch between transfer and generation
+===============================================================================
+     20 #el\<det\>\<def\>\<sg\>	^el<det><def><sg>$
+     10 #el\<det\>\<def\>\<nt\>\<sg\>	^el<det><def><nt><sg>$
+      8 #se\<prn\>\<pro\>\<ref\>\<mf\>\<sp\>\<gen\>	^se<prn><pro><ref><mf><sp><gen>$
+      5 #El\<det\>\<def\>\<sg\>	^El<det><def><sg>$
+      5 #el\<det\>\<def\>\<pl\>	^el<det><def><pl>$
+      5 #el\<det\>\<def\>\<f\>	^el<det><def><f><du>$
+      5 #avere\<vbhaver\>\<pri\>\<p3\>\<sg\>	^avere<vbhaver><pri><p3><sg>$
+      4 #ser\<vbser\>\<p1\>\<sg\>	^ser<vbser><fut><p1><sg>$
+      4 #el\<det\>\<def\>	^el<det><def><du>$
+      2 #ser\<vbser\>\<pp\>\<nt\>\<sg\>	^ser<vbser><pp><nt><sg>$
+      2 #ser\<vbser\>\<pp\>\<m\>	^ser<vbser><pp><m><du>$
+      2 #ser\<vbser\>\<pp\>\<f\>\<pl\>	^ser<vbser><pp><f><pl>$
+      2 #prpers\<prn\>\<p1\>\<sg\>	^prpers<prn><pers><p1><mfn><sg><nom>$
+      2 #prpers\<prn\>\<p3\>\<pl\>	^prpers<prn><emph><p3><mfn><pl><dat>$
+      2 #mío\<det\>\<pos\>\<mf\>	^mío<det><pos><mf><du><nom>$
+      2 #el\<det\>\<def\>\<nt\>	^el<det><def><nt><du>$
+      2 #avere\<vbhaver\>\<pri\>\<p3\>\<pl\>	^avere<vbhaver><pri><p3><pl>$
+      2 #avere\<vbhaver\>\<pri\>\<p1\>\<sg\>	^avere<vbhaver><pri><p1><sg>$
+      2 #Ana\<np\>\<ant\>\<f\>\<sg\>	^Ana<np><ant><f><sg><nom>$
+      1 #ser\<vbser\>\<pri\>\<p2\>	^ser<vbser><pri><p2><du>$
+      1 #Ser\<vbser\>\<past\>\<m\>	^Ser<vbser><past><m><du>$
+      1 #ser\<vbser\>\<p3\>\<sg\>	^ser<vbser><fut><p3><sg>$
+      1 #ser\<vbser\>\<p1\>\<pl\>	^ser<vbser><fut><p1><pl>$
+      1 #prpers\<prn\>\<p1\>\<pl\>\<gen\>	^prpers<prn><pers><p1><mfn><pl><gen>$
+      1 #prpers\<prn\>\<p3\>\<pl\>\<gen\>	^prpers<prn><emph><p3><mfn><pl><gen>$
+      1 #mío\<det\>\<pos\>\<mf\>\<sg\>	^mío<det><pos><mf><sg><nom>$
+      1 #Mío\<det\>\<pos\>\<mf\>\<pl\>	^Mío<det><pos><mf><pl><nom>$
+      1 #mío\<det\>\<pos\>\<mf\>\<pl\>	^mío<det><pos><mf><pl><nom>$
+      1 #El\<det\>\<def\>\<pl\>	^El<det><def><pl>$
+      1 #El\<det\>\<def\>\<f\>	^El<det><def><f><du>$
+
+
+===============================================================================
+Summary
+===============================================================================
+   0 /tmp/sl-es.multiform
+   0 /tmp/sl-es.multibidix
+  30 /tmp/sl-es.tagmismatch
+  30 total

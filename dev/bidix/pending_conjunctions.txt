@@ -1,0 +1,10 @@
+      6 ^@ne<cnjcoo>$
+      6 ^@da<cnjsub>$
+      5 ^@ko<cnjsub>$
+      3 ^@ki<cnjsub>$
+      2 ^@vendar<cnjcoo>$
+      1 ^@toda<cnjcoo>$
+      1 ^@pa<cnjcoo>$
+      1 ^@ker<cnjsub>$
+      1 ^@ampak<cnjcoo>$
+      1 ^@ali<cnjcoo>$

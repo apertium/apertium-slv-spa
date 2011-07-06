@@ -1,0 +1,14 @@
+      3 ^@vedno<adv>$
+      3 ^@nikoli<adv>$
+      2 ^@vse<adv>$
+      2 ^@prvič<adv>$
+      1 ^@tako<adv>$
+      1 ^@smeje<adv>$
+      1 ^@skupaj<adv>$
+      1 ^@prav<adv>$
+      1 ^@pozno<adv><sint><comp>$
+      1 ^@medtem<adv>$
+      1 ^@lani<adv>$
+      1 ^@kdaj<adv>$
+      1 ^@kako<adv>$
+      1 ^@dobro<adv><sint><sup>$
