@@ -1,17 +1,7 @@
       6 ^@z<pr>$
       4 ^@s<pr>$
-      2 ^@ta<prn><dem><f><sg><acc>$
       2 ^@pri<pr>$
-      1 ^@ta<prn><dem><m><du><gen>$
-      1 ^@svoj<prn><ref><m><du><nom>$
       1 ^@pred<pr>$
       1 ^@poleg<pr>$
-      1 ^@oni<prn><dem><m><sg><nom>$
-      1 ^@oni<prn><dem><m><du><nom>$
-      1 ^@nobeden<prn><neg><m><pl><nom>$
-      1 ^@njihov<prn><pos><p3><m><sg><nom>$
-      1 ^@njen<prn><pos><p3><m><pl><acc>$
-      1 ^@nič<prn><neg><sg><loc>$
-      1 ^@kateri<prn><itg><m><sg><gen>$
       1 ^@h<pr>$
       1 ^@do<pr>$
