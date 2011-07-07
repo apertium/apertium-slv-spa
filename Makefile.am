@@ -7,15 +7,13 @@ PREFIX2=$(LANG2)-$(LANG1)
 BASENAME=apertium-sl-es
 
 TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
-	$(PREFIX1).autopgen.bin 
+	$(PREFIX1).autopgen.bin $(PREFIX2).autopgen.bin \
 	$(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
 	$(PREFIX1).autogen.bin $(PREFIX2).autogen.bin \
 	$(PREFIX1).t1x.bin $(PREFIX2).t1x.bin \
 	$(PREFIX1).t2x.bin $(PREFIX2).t2x.bin \
 	$(PREFIX1).t3x.bin $(PREFIX2).t3x.bin \
 	modes
-
-#$(PREFIX2).autopgen.bin 
 
 TARGETS = $(TARGETS_COMMON)
 
@@ -69,15 +67,15 @@ $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
 	lt-comp lr $(BASENAME).$(PREFIX1).dix $@
 
-$(PREFIX1).autopgen.bin: $(BASENAME).post-$(LANG2).dix
+$(PREFIX1).autopgen.bin: $(BASENAME).post-$(LANG1).dix
+	apertium-validate-dictionary $(BASENAME).post-$(LANG1).dix
+	lt-comp lr $(BASENAME).post-$(LANG1).dix $@
+
+$(PREFIX2).autopgen.bin: $(BASENAME).post-$(LANG2).dix
 	apertium-validate-dictionary $(BASENAME).post-$(LANG2).dix
 	lt-comp lr $(BASENAME).post-$(LANG2).dix $@
 
-#$(PREFIX2).autopgen.bin: $(BASENAME).post-$(LANG2).dix
-#	apertium-validate-dictionary $(BASENAME).post-$(LANG2).dix
-#	lt-comp lr $(BASENAME).post-$(LANG2).dix $@
-
-EXTRA_DIST=$(BASENAME).post-$(LANG1).dix \
+EXTRA_DIST=$(BASENAME).post-$(LANG1).dix $(BASENAME).post-$(LANG2).dix \
 	$(BASENAME).$(LANG1).tsx \
 	$(BASENAME).$(LANG2).tsx \
 	$(PREFIX1).prob $(PREFIX2).prob \
@@ -90,22 +88,18 @@ EXTRA_DIST=$(BASENAME).post-$(LANG1).dix \
 	$(BASENAME).$(LANG1).acx $(BASENAME).$(LANG2).acx \
 	modes.xml
 
-#	$(BASENAME).post-$(LANG2).dix 
-
 clean-dicts:
 	if [ -d .deps ]; then rm .deps/*; fi
 
 apertium_sl_es_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
 		$(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
 		$(PREFIX1).autogen.bin $(PREFIX2).autogen.bin \
-		$(PREFIX1).autopgen.bin \
+		$(PREFIX1).autopgen.bin $(PREFIX2).autopgen.bin \
 		$(PREFIX1).prob $(PREFIX2).prob \
 		$(PREFIX1).t1x.bin $(PREFIX2).t1x.bin \
 		$(PREFIX1).t2x.bin $(PREFIX2).t2x.bin \
 		$(PREFIX1).t3x.bin $(PREFIX2).t3x.bin \
 		$(PREFIX1).mode $(PREFIX2).mode 
-
-#		$(PREFIX2).autopgen.bin 
 
 apertium_sl_esdir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 apertium_sl_es_modesdir=$(prefix)/share/apertium/modes/
