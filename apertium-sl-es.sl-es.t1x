@@ -20,6 +20,20 @@
       <cat-item tags="adj.sint"/>
       <cat-item tags="adj.sint.*"/>
     </def-cat>
+
+    <def-cat n="bi">
+      <cat-item lemma="bi" tags="cnjsub*"/>
+      <cat-item lemma="biti" tags="vbser.cni"/>
+    </def-cat>
+
+    <def-cat n="bil">
+      <cat-item lemma="biti" tags="vbser.past.*"/>
+    </def-cat>
+
+    <def-cat n="vbpast">
+      <cat-item tags="vblex.perf.past.*"/>
+      <cat-item tags="vblex.imperf.past.*"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -64,7 +78,45 @@
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
       <attr-item tags="adj.pos"/>
-    </def-attr>  
+    </def-attr>
+
+    <def-attr n="a_verb">
+      <attr-item tags="vblex"/>	  
+      <attr-item tags="vbhaver"/>
+      <attr-item tags="vbser"/>
+      <attr-item tags="vbmod"/>
+    </def-attr>
+
+    <def-attr n="aspect">
+      <attr-item tags="perf"/>
+      <attr-item tags="imperf"/>
+    </def-attr>
+
+    <def-attr n="temps">
+      <attr-item tags="cni"/>
+      <attr-item tags="fti"/>  
+      <attr-item tags="ifi"/>
+      <attr-item tags="imp"/>
+      <attr-item tags="pii"/>
+      <attr-item tags="pis"/>
+      <attr-item tags="inf"/>
+      <attr-item tags="prs"/>
+      <attr-item tags="pres"/>
+      <attr-item tags="fut"/>
+      <attr-item tags="past"/>
+      <attr-item tags="pri"/>
+      <attr-item tags="pp"/>
+      <attr-item tags="ger"/>
+      <attr-item tags="pprs"/>
+      <attr-item tags="subs"/>
+    </def-attr>
+
+    <def-attr n="pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+      <attr-item tags="PD"/>
+    </def-attr>
   </section-def-attrs>
 
   <section-def-vars>
@@ -73,6 +125,24 @@
   </section-def-vars>
 
   <section-def-macros>
+
+    <def-macro n="f_bcond" npar="2"><!--Per mirar si el blanc conté o no format. Cal posar aquesta funció en les regles en què desaparegui alguna paraula, per tal de decidir si el blanc de la paraula eliminada s'ha d'eliminar o conservar. Si conté format cal conservar-la, si no en conté cal eliminar-la perquè no apareguin dos espais seguits. -->
+      <choose>
+	<when>
+	  <test>
+	    <not>
+	      <equal>
+		<b pos="1"/>
+		<lit v=" "/>
+	      </equal>
+	    </not>
+	  </test>
+	  <out>
+	    <b pos="1"/>
+	  </out>
+	</when>     	    
+      </choose>
+    </def-macro>
 
     <def-macro n="firstWord" npar="1" c="modified by mginesti 11/nov/10">
       <choose>
@@ -247,6 +317,89 @@
          </chunk>
        </out>
      </action>
+  </rule>
+  <rule comment="REGLA: bi bil PAST">
+      <pattern>
+        <pattern-item n="bi"/>
+        <pattern-item n="bil"/>
+        <pattern-item n="vbpast"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="3" side="sl" part="aspect"/>
+                <lit-tag v="perf"/>
+              </equal>
+            </test>
+            <out>
+              <chunk name="haver_pp" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="3" side="tl" part="a_verb"/></tag>
+                  <tag><clip pos="3" side="sl" part="aspect"/></tag>
+                  <tag><clip pos="3" side="tl" part="temps"/></tag>
+                  <tag><lit-tag v="p3"/></tag> <!--FIXME: PD-->
+                  <tag><clip pos="3" side="tl" part="nbr"/></tag>
+                </tags>
+                <lu>
+                  <lit v="haber"/>
+                  <lit-tag v="vbhaver.cni"/>
+                  <lit-tag v="5"/>
+                  <clip pos="3" side="tl" part="nbr" link-to="6"/>
+                </lu>
+                <b pos="1"/>
+                <lu>
+                  <clip pos="3" side="tl" part="lemh"/>
+                  <clip pos="3" side="tl" part="a_verb"/>
+                  <lit-tag v="pp.m.sg"/>
+                  <clip pos="3" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+	    <call-macro n="f_bcond">
+	      <with-param pos="2"/>
+	      <with-param pos="3"/>
+   	    </call-macro>  
+          </when>
+          <otherwise>
+            <out>
+              <chunk name="haver_pp_ger" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><clip pos="3" side="tl" part="a_verb"/></tag>
+                  <tag><clip pos="3" side="sl" part="aspect"/></tag>
+                  <tag><clip pos="3" side="tl" part="temps"/></tag>
+                  <tag><lit-tag v="p3"/></tag> <!--FIXME: PD-->
+                  <tag><clip pos="3" side="tl" part="nbr"/></tag>
+                </tags>
+                <lu>
+                  <lit v="haber"/>
+                  <lit-tag v="vbhaver.cni"/>
+                  <lit-tag v="5"/>
+                  <clip pos="3" side="tl" part="nbr" link-to="6"/>
+                </lu>
+                <b pos="1"/>
+                <lu>
+                  <lit v="ser"/>
+                  <lit-tag v="vbser.pp.m.sg"/>
+                </lu>
+                <b pos="2"/>
+                <lu>
+                  <clip pos="3" side="tl" part="lemh"/>
+                  <clip pos="3" side="tl" part="a_verb"/>
+                  <lit-tag v="pp.m.sg"/>
+                  <clip pos="3" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+        </otherwise>
+      </choose>
+    </action>
   </rule>
 
   </section-rules>
