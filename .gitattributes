@@ -14,7 +14,6 @@
 /apertium-sl-es.post-es.dix -text
 /apertium-sl-es.post-sl.dix -text
 /apertium-sl-es.sl-es.dix -text
-/apertium-sl-es.sl-es.t1x -text
 /apertium-sl-es.sl-es.t2x -text
 /apertium-sl-es.sl-es.t3x -text
 /apertium-sl-es.sl.acx -text
@@ -23,6 +22,7 @@
 /configure.ac -text
 dev/apertium-sl-es.sl-es-crossed.dix -text
 dev/apertium-sl-es.sl-es-crossed2.dix -text
+dev/apertium-sl-es.sl-es.t1x -text
 dev/bidix/pending_adjectives.txt -text
 dev/bidix/pending_adverbs.txt -text
 dev/bidix/pending_conjunctions.txt -text
