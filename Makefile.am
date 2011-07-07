@@ -11,7 +11,7 @@ BASENAME=apertium-$(PREFIX1)
 ##
 
 TARGETS_COMMON =  \
-     $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autogen.bin \
+     $(PREFIX1).automorf.bin $(PREFIX2).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autogen.bin \
      $(PREFIX1).t1x.bin $(PREFIX1).mode $(PREFIX1).autopgen.bin #$(PREFIX).rlx.bin
 
 # $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin $(PREFIX1).lex.bin 
@@ -23,6 +23,11 @@ TARGETS_COMMON =  \
 $(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).dix
 	apertium-validate-dictionary $(BASENAME).$(LANG1).dix
 	lt-comp lr $(BASENAME).$(LANG1).dix $@
+
+$(PREFIX2).automorf.bin: $(BASENAME).$(LANG2).dix
+	apertium-validate-dictionary $(BASENAME).$(LANG2).dix
+	lt-comp lr $(BASENAME).$(LANG2).dix $@
+
 
 .deps/$(BASENAME).$(PREFIX1).dix: $(BASENAME).$(PREFIX1).dix lexchoicebil.xsl
 	if [ ! -d .deps ]; then mkdir .deps; fi
