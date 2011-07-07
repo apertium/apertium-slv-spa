@@ -322,6 +322,7 @@
     <e r="RL"><p><l>dva<s n="num"/><s n="GD"/><s n="du"/></l><r>dos<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
 
     <e><p><l>knjiga<s n="n"/><s n="f"/></l><r>libro<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ženska<s n="n"/><s n="f"/></l><r>mujer<s n="n"/><s n="f"/></r></p></e>
 
     <!-- SECTION: Proper nouns -->
 
@@ -523,6 +524,7 @@
     <e><p><l>teritorialen<s n="adj"/></l><r>territorio<s n="adj"/></r></p></e>
     <e><p><l>sam<s n="adj"/></l><r>solo<s n="adj"/></r></p></e>
     <e><p><l>potreben<s n="adj"/></l><r>necesario<s n="adj"/></r></p></e>
+    <e><p><l>ženski<s n="adj"/></l><r>femenino<s n="adj"/></r></p></e>
 
     <e><p><l>južen<s n="adj"/></l><r>del<b/>sur<s n="adj"/></r></p></e>
     <e><p><l>korejski<s n="adj"/></l><r>koreano<s n="adj"/></r></p></e>
