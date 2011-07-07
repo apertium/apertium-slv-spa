@@ -392,7 +392,7 @@
                 <lu>
                   <clip pos="3" side="tl" part="lemh"/>
                   <clip pos="3" side="tl" part="a_verb"/>
-                  <lit-tag v="pp.m.sg"/>
+                  <lit-tag v="ger"/>
                   <clip pos="3" side="tl" part="lemq"/>
                 </lu>
               </chunk>
