@@ -8,6 +8,7 @@
 /apertium-sl-es.es-sl.t1x -text
 /apertium-sl-es.es-sl.t2x -text
 /apertium-sl-es.es-sl.t3x -text
+/apertium-sl-es.es.acx -text
 /apertium-sl-es.es.dix -text
 /apertium-sl-es.es.tsx -text
 /apertium-sl-es.post-es.dix -text
@@ -15,6 +16,7 @@
 /apertium-sl-es.sl-es.t1x -text
 /apertium-sl-es.sl-es.t2x -text
 /apertium-sl-es.sl-es.t3x -text
+/apertium-sl-es.sl.acx -text
 /apertium-sl-es.sl.dix -text
 /autogen.sh -text
 /configure.ac -text

@@ -1,7 +1,5 @@
 #! /bin/sh
 
-# $Id: autogen.sh,v 1.1 2006/07/13 11:06:16 sortiz Exp $
-#
 # Copyright (c) 2002  Daniel Elstner  <daniel.elstner@gmx.net>
 #
 # This program is free software; you can redistribute it and/or modify
@@ -35,12 +33,11 @@ echo "- aclocal."		&& \
 aclocal				&& \
 echo "- autoconf."		&& \
 autoconf			&& \
-#echo "- autoheader."		&& \
-#autoheader			&& \
+echo "- autoheader."		&& \
+autoheader			&& \
 echo "- automake."		&& \
 automake --add-missing --gnu	&& \
 echo				&& \
 ./configure "$@"		&& exit 0
 
 exit 1
-
