@@ -388,8 +388,8 @@
                 </lu>
                 <b pos="1"/>
                 <lu>
-                  <lit v="ser"/>
-                  <lit-tag v="vbser.pp.m.sg"/>
+                  <lit v="estar"/>
+                  <lit-tag v="vblex.pp.m.sg"/>
                 </lu>
                 <b pos="2"/>
                 <lu>
