@@ -1,8 +1,7 @@
       2 ^@ta<prn><dem><f>$
-      1 ^@ta<prn><dem><m><du>$
-      1 ^@svoj<prn><ref><m><du>$
-      1 ^@oni<prn><dem><m><du>$
-      1 ^@oni<prn><dem><m>$
+      2 ^@oni<prn><dem><m>$
+      1 ^@ta<prn><dem><m>$
+      1 ^@svoj<prn><ref><m>$
       1 ^@nobeden<prn><neg><m>$
       1 ^@njihov<prn><pos><p3><m>$
       1 ^@njen<prn><pos><p3><m>$
