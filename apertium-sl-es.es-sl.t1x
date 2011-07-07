@@ -750,8 +750,6 @@
 	  </choose>
 	</when>
       </choose>
-      <choose>
-      </choose>
 </def-macro>
 
 
