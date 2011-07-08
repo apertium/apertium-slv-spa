@@ -22,9 +22,16 @@
     </def-cat>
 
     <def-cat n="verb">
-      <cat-item tags="vbser.*"/>
-      <cat-item tags="vblex.imperf.*"/>
-      <cat-item tags="vblex.perf.*"/>
+      <cat-item tags="vbser.pres.*"/>
+      <cat-item tags="vblex.imperf.pres.*"/>
+      <cat-item tags="vbser.fut.*"/>
+      <cat-item tags="vblex.perf.fut.*"/>
+      <cat-item tags="vbser.past.*"/>
+      <cat-item tags="vblex.imperf.past.*"/>
+      <cat-item tags="vblex.perf.past.*"/>
+      <cat-item tags="vbser.imp.*"/>
+      <cat-item tags="vblex.imperf.imp.*"/>
+      <cat-item tags="vblex.perf.imp.*"/>
     </def-cat>
     <def-cat n="bi">
       <cat-item lemma="bi" tags="cnjsub.*"/>
