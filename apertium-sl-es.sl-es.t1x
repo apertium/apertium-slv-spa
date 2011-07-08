@@ -21,8 +21,13 @@
       <cat-item tags="adj.sint.*"/>
     </def-cat>
 
+    <def-cat n="verb">
+      <cat-item tags="vbser.*"/>
+      <cat-item tags="vblex.imperf.*"/>
+      <cat-item tags="vblex.perf.*"/>
+    </def-cat>
     <def-cat n="bi">
-      <cat-item lemma="bi" tags="cnjsub*"/>
+      <cat-item lemma="bi" tags="cnjsub.*"/>
       <cat-item lemma="biti" tags="vbser.cni"/>
     </def-cat>
 
@@ -90,6 +95,7 @@
     <def-attr n="aspect">
       <attr-item tags="perf"/>
       <attr-item tags="imperf"/>
+      <attr-item tags="NONE"/>
     </def-attr>
 
     <def-attr n="temps">
@@ -122,6 +128,7 @@
   <section-def-vars>
     <def-var n="caseFirstWord"/>
     <def-var n="EOS" v="true"/>
+    <def-var n="chaspect"/>
   </section-def-vars>
 
   <section-def-macros>
@@ -251,6 +258,28 @@
             <lit-tag v="m"/>
           </let>
         </when>
+      </choose>
+    </def-macro>
+    <def-macro n="aspect_chunk" npar="1">
+      <choose>
+        <when>
+          <test>
+            <equal>
+              <clip pos="1" side="sl" part="a_verb"/>
+              <lit-tag v="vbser"/>
+            </equal>
+          </test>
+          <let>
+            <var n="chaspect"/>
+            <lit-tag v="NONE"/>
+          </let>
+        </when>
+        <otherwise>
+          <let>
+            <var n="chaspect"/>
+            <clip pos="1" side="sl" part="aspect"/>
+          </let>
+        </otherwise>
       </choose>
     </def-macro>
   </section-def-macros>
@@ -402,6 +431,112 @@
             </out>
         </otherwise>
       </choose>
+    </action>
+  </rule>
+  <rule comment="REGLA: verb">
+      <pattern>
+        <pattern-item n="verb"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="aspect_chunk">
+          <with-param pos="1"/>
+        </call-macro>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="sl" part="temps"/>
+                <lit-tag v="pres"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="temps"/>
+              <lit-tag v="pri"/>
+            </let>
+          </when>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="sl" part="temps"/>
+                <lit-tag v="fut"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="temps"/>
+              <lit-tag v="fti"/>
+            </let>
+          </when>
+          <when>
+            <test>
+              <and>
+                <equal>
+                  <clip pos="1" side="sl" part="aspect"/>
+                  <lit-tag v="perf"/>
+                </equal>
+                <equal>
+                  <clip pos="1" side="sl" part="temps"/>
+                  <lit-tag v="past"/>
+                </equal>
+              </and>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="temps"/>
+              <lit-tag v="ifi"/>
+            </let>
+            <let>
+              <clip pos="1" side="tl" part="pers"/>
+              <lit-tag v="p3"/> <!--FIXME: PD-->
+            </let>
+          </when>
+          <when>
+            <test>
+              <and>
+                <equal>
+                  <clip pos="1" side="sl" part="aspect"/>
+                  <lit-tag v="imperf"/>
+                </equal>
+                <equal>
+                  <clip pos="1" side="sl" part="temps"/>
+                  <lit-tag v="past"/>
+                </equal>
+              </and>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="temps"/>
+              <lit-tag v="pii"/>
+            </let>
+            <let>
+              <clip pos="1" side="tl" part="pers"/>
+              <lit-tag v="p3"/> <!--FIXME: PD-->
+            </let>
+          </when>
+        </choose>
+        <out>
+          <chunk name="verbcj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+              <tag><var n="chaspect"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
+              <tag><clip pos="1" side="tl" part="pers"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps" link-to="4"/>
+              <clip pos="1" side="tl" part="pers" link-to="5"/>
+              <clip pos="1" side="tl" part="nbr" link-to="6"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
     </action>
   </rule>
 
