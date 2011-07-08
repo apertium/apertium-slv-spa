@@ -38,6 +38,11 @@
       <cat-item lemma="biti" tags="vbser.cni"/>
     </def-cat>
 
+    <def-cat n="bitimod">
+      <cat-item lemma="biti" tags="vbser.pres.*"/>
+      <cat-item lemma="biti" tags="vbser.past.*"/>
+      <cat-item lemma="biti" tags="vbser.fut.*"/>
+    </def-cat>
     <def-cat n="bil">
       <cat-item lemma="biti" tags="vbser.past.*"/>
     </def-cat>
@@ -137,6 +142,7 @@
     <def-var n="EOS" v="true"/>
     <def-var n="aspect_chunk"/>
     <def-var n="pers_chunk"/>
+    <def-var n="gender_chunk"/>
   </section-def-vars>
 
   <section-def-macros>
@@ -304,6 +310,10 @@
               <var n="pers_chunk"/>
               <lit-tag v="p3"/> <!--FIXME: PD-->
             </let>
+            <let>
+              <var n="gender_chunk"/>
+              <clip pos="1" side="sl" part="gen"/>
+            </let>
             <choose>
               <when>
                 <test>
@@ -329,6 +339,10 @@
             <let>
               <var n="pers_chunk"/>
               <clip pos="1" side="tl" part="pers"/>
+            </let>
+            <let>
+              <var n="gender_chunk"/>
+              <lit-tag v="mf"/>
             </let>
           </otherwise>
         </choose>
@@ -452,15 +466,17 @@
                   <tag><lit-tag v="SV"/></tag>
                   <tag><clip pos="3" side="tl" part="a_verb"/></tag>
                   <tag><clip pos="3" side="sl" part="aspect"/></tag>
-                  <tag><clip pos="3" side="tl" part="temps"/></tag>
+                  <tag><lit-tag v="cni"/></tag>
                   <tag><lit-tag v="p3"/></tag> <!--FIXME: PD-->
+                  <tag><clip pos="3" side="tl" part="gen"/></tag>
                   <tag><clip pos="3" side="tl" part="nbr"/></tag>
                 </tags>
                 <lu>
                   <lit v="haber"/>
-                  <lit-tag v="vbhaver.cni"/>
+                  <lit-tag v="vbhaver"/>
+                  <lit-tag v="4"/>
                   <lit-tag v="5"/>
-                  <clip pos="3" side="tl" part="nbr" link-to="6"/>
+                  <clip pos="3" side="tl" part="nbr" link-to="7"/>
                 </lu>
                 <b pos="1"/>
                 <lu>
@@ -483,15 +499,17 @@
                   <tag><lit-tag v="SV"/></tag>
                   <tag><clip pos="3" side="tl" part="a_verb"/></tag>
                   <tag><clip pos="3" side="sl" part="aspect"/></tag>
-                  <tag><clip pos="3" side="tl" part="temps"/></tag>
+                  <tag><lit-tag v="cni"/></tag>
                   <tag><lit-tag v="p3"/></tag> <!--FIXME: PD-->
+                  <tag><clip pos="3" side="tl" part="gen"/></tag>
                   <tag><clip pos="3" side="tl" part="nbr"/></tag>
                 </tags>
                 <lu>
                   <lit v="haber"/>
-                  <lit-tag v="vbhaver.cni"/>
+                  <lit-tag v="vbhaver"/>
+                  <lit-tag v="4"/>
                   <lit-tag v="5"/>
-                  <clip pos="3" side="tl" part="nbr" link-to="6"/>
+                  <clip pos="3" side="tl" part="nbr" link-to="7"/>
                 </lu>
                 <b pos="1"/>
                 <lu>
@@ -536,6 +554,7 @@
               <tag><var n="aspect_chunk"/></tag>
               <tag><clip pos="1" side="tl" part="temps"/></tag>
               <tag><var n="pers_chunk"/></tag>
+              <tag><var n="gender_chunk"/></tag>
               <tag><clip pos="1" side="tl" part="nbr"/></tag>
             </tags>
             <lu>
@@ -543,7 +562,7 @@
               <clip pos="1" side="tl" part="a_verb"/>
               <clip pos="1" side="tl" part="temps" link-to="4"/>
               <lit-tag v="5"/>
-              <clip pos="1" side="tl" part="nbr" link-to="6"/>
+              <clip pos="1" side="tl" part="nbr" link-to="7"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
