@@ -65,7 +65,7 @@ $(PREFIX1).autobil.bin: $(BASENAME).$(PREFIX1).dix
 
 $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
-	lt-comp lr $(BASENAME).$(PREFIX1).dix $@
+	lt-comp rl $(BASENAME).$(PREFIX1).dix $@
 
 $(PREFIX1).autopgen.bin: $(BASENAME).post-$(LANG1).dix
 	apertium-validate-dictionary $(BASENAME).post-$(LANG1).dix
