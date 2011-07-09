@@ -35,10 +35,14 @@ dev/bidix/pending_proper_nouns.txt -text
 dev/bidix/pending_verbs.txt -text
 dev/bilingual-summary.txt -text
 dev/crossed-common.dix -text
+dev/es.ord -text
+dev/gen-ord.pl -text
 dev/generation-summary.sl-es.txt -text
 dev/generation-test.py -text
 dev/missing-bidix-freq.sh -text
 dev/parcount -text
+dev/sl-es.ord -text
+dev/sl.ord -text
 dev/tests/pending-tests.sh -text
 dev/tests/regression-tests.sh -text
 dev/tests/wiki-tests.sh -text
