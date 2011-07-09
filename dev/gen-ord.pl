@@ -51,6 +51,9 @@ for my $es_mon_ten (@es_tens) {
 }
 
 for my $sl_mon_ten (@sl_tens) {
+	print $sl "    <e lm=\"${sl_mon_ten}i\">";
+	print $sl "<i>${sl_mon_ten}</i>";
+	print $sl "<par n=\"prv/i__det\"/></e>\n";
 	for my $sl_mon_one (@sl_card) {
 		print $sl "    <e lm=\"${sl_mon_one}in${sl_mon_ten}i\">";
 		print $sl "<i>${sl_mon_one}in${sl_mon_ten}</i>";
@@ -59,11 +62,14 @@ for my $sl_mon_ten (@sl_tens) {
 }
 
 for (my $i = 0; $i <= $#sl_tens; $i++) {
+	print $sles "    <e><p><l>$sl_tens[$i]i";
+	print $sles "<s n=\"det\"/><s n=\"ord\"/></l><r>$es_tens[$i]o";
+	print $sles "<s n=\"det\"/><s n=\"ord\"/></r></p></e>\n";
 	for (my $j = 0; $j <= $#sl_card; $j++) {
 		print $sles "    <e><p><l>";
 		print $sles "$sl_card[$j]in$sl_tens[$i]i";
 		print $sles "<s n=\"det\"/><s n=\"ord\"/></l><r>";
 		print $sles "$es_tens[$i]o<b/>$es_ones[$j]o";
-		print $sles "<s n=\"det\"/><s n=\"ord\"/></r></p></e>\n"
+		print $sles "<s n=\"det\"/><s n=\"ord\"/></r></p></e>\n";
 	}
 }

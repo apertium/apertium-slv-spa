@@ -1,3 +1,4 @@
+    <e><p><l>dvajseti<s n="det"/><s n="ord"/></l><r>vigésimo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>enaindvajseti<s n="det"/><s n="ord"/></l><r>vigésimo<b/>primero<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>dvaindvajseti<s n="det"/><s n="ord"/></l><r>vigésimo<b/>segundo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>triindvajseti<s n="det"/><s n="ord"/></l><r>vigésimo<b/>tercio<s n="det"/><s n="ord"/></r></p></e>
@@ -7,6 +8,7 @@
     <e><p><l>sedemindvajseti<s n="det"/><s n="ord"/></l><r>vigésimo<b/>séptimo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>osemindvajseti<s n="det"/><s n="ord"/></l><r>vigésimo<b/>octavo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>devetindvajseti<s n="det"/><s n="ord"/></l><r>vigésimo<b/>noveno<s n="det"/><s n="ord"/></r></p></e>
+    <e><p><l>trideseti<s n="det"/><s n="ord"/></l><r>trigésimo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>enaintrideseti<s n="det"/><s n="ord"/></l><r>trigésimo<b/>primero<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>dvaintrideseti<s n="det"/><s n="ord"/></l><r>trigésimo<b/>segundo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>triintrideseti<s n="det"/><s n="ord"/></l><r>trigésimo<b/>tercio<s n="det"/><s n="ord"/></r></p></e>
@@ -16,6 +18,7 @@
     <e><p><l>sedemintrideseti<s n="det"/><s n="ord"/></l><r>trigésimo<b/>séptimo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>osemintrideseti<s n="det"/><s n="ord"/></l><r>trigésimo<b/>octavo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>devetintrideseti<s n="det"/><s n="ord"/></l><r>trigésimo<b/>noveno<s n="det"/><s n="ord"/></r></p></e>
+    <e><p><l>štirideseti<s n="det"/><s n="ord"/></l><r>cuadragésimo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>enainštirideseti<s n="det"/><s n="ord"/></l><r>cuadragésimo<b/>primero<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>dvainštirideseti<s n="det"/><s n="ord"/></l><r>cuadragésimo<b/>segundo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>triinštirideseti<s n="det"/><s n="ord"/></l><r>cuadragésimo<b/>tercio<s n="det"/><s n="ord"/></r></p></e>
@@ -25,6 +28,7 @@
     <e><p><l>sedeminštirideseti<s n="det"/><s n="ord"/></l><r>cuadragésimo<b/>séptimo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>oseminštirideseti<s n="det"/><s n="ord"/></l><r>cuadragésimo<b/>octavo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>devetinštirideseti<s n="det"/><s n="ord"/></l><r>cuadragésimo<b/>noveno<s n="det"/><s n="ord"/></r></p></e>
+    <e><p><l>petdeseti<s n="det"/><s n="ord"/></l><r>quincuagésimo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>enainpetdeseti<s n="det"/><s n="ord"/></l><r>quincuagésimo<b/>primero<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>dvainpetdeseti<s n="det"/><s n="ord"/></l><r>quincuagésimo<b/>segundo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>triinpetdeseti<s n="det"/><s n="ord"/></l><r>quincuagésimo<b/>tercio<s n="det"/><s n="ord"/></r></p></e>
@@ -34,6 +38,7 @@
     <e><p><l>sedeminpetdeseti<s n="det"/><s n="ord"/></l><r>quincuagésimo<b/>séptimo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>oseminpetdeseti<s n="det"/><s n="ord"/></l><r>quincuagésimo<b/>octavo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>devetinpetdeseti<s n="det"/><s n="ord"/></l><r>quincuagésimo<b/>noveno<s n="det"/><s n="ord"/></r></p></e>
+    <e><p><l>šestdeseti<s n="det"/><s n="ord"/></l><r>sexagésimo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>enainšestdeseti<s n="det"/><s n="ord"/></l><r>sexagésimo<b/>primero<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>dvainšestdeseti<s n="det"/><s n="ord"/></l><r>sexagésimo<b/>segundo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>triinšestdeseti<s n="det"/><s n="ord"/></l><r>sexagésimo<b/>tercio<s n="det"/><s n="ord"/></r></p></e>
@@ -43,6 +48,7 @@
     <e><p><l>sedeminšestdeseti<s n="det"/><s n="ord"/></l><r>sexagésimo<b/>séptimo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>oseminšestdeseti<s n="det"/><s n="ord"/></l><r>sexagésimo<b/>octavo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>devetinšestdeseti<s n="det"/><s n="ord"/></l><r>sexagésimo<b/>noveno<s n="det"/><s n="ord"/></r></p></e>
+    <e><p><l>sedemdeseti<s n="det"/><s n="ord"/></l><r>septuagésimo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>enainsedemdeseti<s n="det"/><s n="ord"/></l><r>septuagésimo<b/>primero<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>dvainsedemdeseti<s n="det"/><s n="ord"/></l><r>septuagésimo<b/>segundo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>triinsedemdeseti<s n="det"/><s n="ord"/></l><r>septuagésimo<b/>tercio<s n="det"/><s n="ord"/></r></p></e>
@@ -52,6 +58,7 @@
     <e><p><l>sedeminsedemdeseti<s n="det"/><s n="ord"/></l><r>septuagésimo<b/>séptimo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>oseminsedemdeseti<s n="det"/><s n="ord"/></l><r>septuagésimo<b/>octavo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>devetinsedemdeseti<s n="det"/><s n="ord"/></l><r>septuagésimo<b/>noveno<s n="det"/><s n="ord"/></r></p></e>
+    <e><p><l>osemdeseti<s n="det"/><s n="ord"/></l><r>octogésimo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>enainosemdeseti<s n="det"/><s n="ord"/></l><r>octogésimo<b/>primero<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>dvainosemdeseti<s n="det"/><s n="ord"/></l><r>octogésimo<b/>segundo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>triinosemdeseti<s n="det"/><s n="ord"/></l><r>octogésimo<b/>tercio<s n="det"/><s n="ord"/></r></p></e>
@@ -61,6 +68,7 @@
     <e><p><l>sedeminosemdeseti<s n="det"/><s n="ord"/></l><r>octogésimo<b/>séptimo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>oseminosemdeseti<s n="det"/><s n="ord"/></l><r>octogésimo<b/>octavo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>devetinosemdeseti<s n="det"/><s n="ord"/></l><r>octogésimo<b/>noveno<s n="det"/><s n="ord"/></r></p></e>
+    <e><p><l>devetdeseti<s n="det"/><s n="ord"/></l><r>nonagésimo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>enaindevetdeseti<s n="det"/><s n="ord"/></l><r>nonagésimo<b/>primero<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>dvaindevetdeseti<s n="det"/><s n="ord"/></l><r>nonagésimo<b/>segundo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>triindevetdeseti<s n="det"/><s n="ord"/></l><r>nonagésimo<b/>tercio<s n="det"/><s n="ord"/></r></p></e>

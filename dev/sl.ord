@@ -1,3 +1,4 @@
+    <e lm="dvajseti"><i>dvajset</i><par n="prv/i__det"/></e>
     <e lm="enaindvajseti"><i>enaindvajset</i><par n="prv/i__det"/></e>
     <e lm="dvaindvajseti"><i>dvaindvajset</i><par n="prv/i__det"/></e>
     <e lm="triindvajseti"><i>triindvajset</i><par n="prv/i__det"/></e>
@@ -7,6 +8,7 @@
     <e lm="sedemindvajseti"><i>sedemindvajset</i><par n="prv/i__det"/></e>
     <e lm="osemindvajseti"><i>osemindvajset</i><par n="prv/i__det"/></e>
     <e lm="devetindvajseti"><i>devetindvajset</i><par n="prv/i__det"/></e>
+    <e lm="trideseti"><i>trideset</i><par n="prv/i__det"/></e>
     <e lm="enaintrideseti"><i>enaintrideset</i><par n="prv/i__det"/></e>
     <e lm="dvaintrideseti"><i>dvaintrideset</i><par n="prv/i__det"/></e>
     <e lm="triintrideseti"><i>triintrideset</i><par n="prv/i__det"/></e>
@@ -16,6 +18,7 @@
     <e lm="sedemintrideseti"><i>sedemintrideset</i><par n="prv/i__det"/></e>
     <e lm="osemintrideseti"><i>osemintrideset</i><par n="prv/i__det"/></e>
     <e lm="devetintrideseti"><i>devetintrideset</i><par n="prv/i__det"/></e>
+    <e lm="štirideseti"><i>štirideset</i><par n="prv/i__det"/></e>
     <e lm="enainštirideseti"><i>enainštirideset</i><par n="prv/i__det"/></e>
     <e lm="dvainštirideseti"><i>dvainštirideset</i><par n="prv/i__det"/></e>
     <e lm="triinštirideseti"><i>triinštirideset</i><par n="prv/i__det"/></e>
@@ -25,6 +28,7 @@
     <e lm="sedeminštirideseti"><i>sedeminštirideset</i><par n="prv/i__det"/></e>
     <e lm="oseminštirideseti"><i>oseminštirideset</i><par n="prv/i__det"/></e>
     <e lm="devetinštirideseti"><i>devetinštirideset</i><par n="prv/i__det"/></e>
+    <e lm="petdeseti"><i>petdeset</i><par n="prv/i__det"/></e>
     <e lm="enainpetdeseti"><i>enainpetdeset</i><par n="prv/i__det"/></e>
     <e lm="dvainpetdeseti"><i>dvainpetdeset</i><par n="prv/i__det"/></e>
     <e lm="triinpetdeseti"><i>triinpetdeset</i><par n="prv/i__det"/></e>
@@ -34,6 +38,7 @@
     <e lm="sedeminpetdeseti"><i>sedeminpetdeset</i><par n="prv/i__det"/></e>
     <e lm="oseminpetdeseti"><i>oseminpetdeset</i><par n="prv/i__det"/></e>
     <e lm="devetinpetdeseti"><i>devetinpetdeset</i><par n="prv/i__det"/></e>
+    <e lm="šestdeseti"><i>šestdeset</i><par n="prv/i__det"/></e>
     <e lm="enainšestdeseti"><i>enainšestdeset</i><par n="prv/i__det"/></e>
     <e lm="dvainšestdeseti"><i>dvainšestdeset</i><par n="prv/i__det"/></e>
     <e lm="triinšestdeseti"><i>triinšestdeset</i><par n="prv/i__det"/></e>
@@ -43,6 +48,7 @@
     <e lm="sedeminšestdeseti"><i>sedeminšestdeset</i><par n="prv/i__det"/></e>
     <e lm="oseminšestdeseti"><i>oseminšestdeset</i><par n="prv/i__det"/></e>
     <e lm="devetinšestdeseti"><i>devetinšestdeset</i><par n="prv/i__det"/></e>
+    <e lm="sedemdeseti"><i>sedemdeset</i><par n="prv/i__det"/></e>
     <e lm="enainsedemdeseti"><i>enainsedemdeset</i><par n="prv/i__det"/></e>
     <e lm="dvainsedemdeseti"><i>dvainsedemdeset</i><par n="prv/i__det"/></e>
     <e lm="triinsedemdeseti"><i>triinsedemdeset</i><par n="prv/i__det"/></e>
@@ -52,6 +58,7 @@
     <e lm="sedeminsedemdeseti"><i>sedeminsedemdeset</i><par n="prv/i__det"/></e>
     <e lm="oseminsedemdeseti"><i>oseminsedemdeset</i><par n="prv/i__det"/></e>
     <e lm="devetinsedemdeseti"><i>devetinsedemdeset</i><par n="prv/i__det"/></e>
+    <e lm="osemdeseti"><i>osemdeset</i><par n="prv/i__det"/></e>
     <e lm="enainosemdeseti"><i>enainosemdeset</i><par n="prv/i__det"/></e>
     <e lm="dvainosemdeseti"><i>dvainosemdeset</i><par n="prv/i__det"/></e>
     <e lm="triinosemdeseti"><i>triinosemdeset</i><par n="prv/i__det"/></e>
@@ -61,6 +68,7 @@
     <e lm="sedeminosemdeseti"><i>sedeminosemdeset</i><par n="prv/i__det"/></e>
     <e lm="oseminosemdeseti"><i>oseminosemdeset</i><par n="prv/i__det"/></e>
     <e lm="devetinosemdeseti"><i>devetinosemdeset</i><par n="prv/i__det"/></e>
+    <e lm="devetdeseti"><i>devetdeset</i><par n="prv/i__det"/></e>
     <e lm="enaindevetdeseti"><i>enaindevetdeset</i><par n="prv/i__det"/></e>
     <e lm="dvaindevetdeseti"><i>dvaindevetdeset</i><par n="prv/i__det"/></e>
     <e lm="triindevetdeseti"><i>triindevetdeset</i><par n="prv/i__det"/></e>
