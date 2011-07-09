@@ -4,6 +4,7 @@
     <sdef n="p1"       c="1. person"/>
     <sdef n="n"        c="Noun"/>
     <sdef n="cnjcoo"   c="Coordinating conjunction"/>
+    <sdef n="cnjadv"   c="Adverbial conjunction"/>
     <sdef n="vblex"    c="Verb"/>
     <sdef n="vbser"    c="Verb 'to be'"/>
     <sdef n="adj"      c="Adjective"/>
@@ -959,7 +960,8 @@
 	<e><p><l>arhitekt<s n="n"/><s n="m"/></l><r>arquitecto<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>diplomat<s n="n"/><s n="m"/></l><r>diplomático<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>pianist<s n="n"/><s n="m"/></l><r>pianista<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>pilot<s n="n"/><s n="m"/></l><r>piloto<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>pilot<s n="n"/><s n="ma"/></l><r>piloto<s n="n"/><s n="mf"/></r></p></e>
+	<e r="LR"><p><l>pilotka<s n="n"/><s n="f"/></l><r>piloto<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>poet<s n="n"/><s n="m"/></l><r>poeta<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>dokaz<s n="n"/><s n="m"/></l><r>prueba<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>izraz<s n="n"/><s n="m"/></l><r>expresión<s n="n"/><s n="f"/></r></p></e>
@@ -2757,6 +2759,8 @@
 	<e><p><l>rob<s n="n"/><s n="mi"/></l><r>bordo<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>vid<s n="n"/><s n="ma"/></l><r>visión<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>šola<s n="n"/><s n="f"/></l><r>escuela<s n="n"/><s n="f"/></r></p></e> 
+	<e><p><l>akademija<s n="n"/><s n="f"/></l><r>academia<s n="n"/><s n="f"/></r></p></e> 
+	<e><p><l>kandidatov<s n="n"/><s n="ma"/></l><r>candidato<s n="n"/><s n="m"/></r></p></e> 
 	
     <!-- SECTION: Proper nouns -->
 
@@ -2764,6 +2768,7 @@
     <e><p><l>Benečija<s n="np"/><s n="top"/><s n="f"/></l><r>Véneto<s n="np"/><s n="top"/><s n="m"/></r></p></e>
     <e><p><l>Koreja<s n="np"/><s n="top"/><s n="f"/></l><r>Corea<s n="np"/><s n="top"/><s n="f"/></r></p></e>
     <e><p><l>Barcelona<s n="np"/><s n="top"/><s n="f"/></l><r>Barcelona<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Beograd<s n="np"/><s n="top"/><s n="mi"/></l><r>Beogrado<s n="np"/><s n="top"/><s n="m"/></r></p></e>
     <e><p><l>Sodoma<s n="np"/><s n="top"/><s n="f"/></l><r>Sodoma<s n="np"/><s n="top"/><s n="f"/></r></p></e>
     <e><p><l>Varšava<s n="np"/><s n="top"/><s n="f"/></l><r>Varsovia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 
@@ -2830,6 +2835,7 @@
     <!-- SECTION: Adjectives -->
 
     <e><p><l>lep<s n="adj"/></l><r>guapo<s n="adj"/></r></p></e>
+    <e><p><l>mlad<s n="adj"/></l><r>joven<s n="adj"/></r></p></e>
     <e><p><l>slovanski<s n="adj"/></l><r>eslavo<s n="adj"/></r></p></e>
     <e><p><l>trden<s n="adj"/></l><r>firme<s n="adj"/></r></p></e>
     <e><p><l>živ<s n="adj"/></l><r>vivo<s n="adj"/></r></p></e>
@@ -2972,7 +2978,7 @@
 	<e><p><l>samostojen<s n="adj"/></l><r>independiente<s n="adj"/></r></p></e> 
 	<e><p><l>skromen<s n="adj"/></l><r>modesto<s n="adj"/></r></p></e> 
 	<e><p><l>srečen<s n="adj"/></l><r>feliz<s n="adj"/></r></p></e> 
-	<e><p><l>velik<s n="adj"/></l><r>grande<s n="adj"/></r></p></e> 
+	<e><p><l>velik<s n="adj"/></l><r>grande<s n="adj"/></r></p><par n="moj_mío__det"/></e> 
 	<e><p><l>drag<s n="adj"/></l><r>caro<s n="adj"/></r></p></e> 
 	<e><p><l>slep<s n="adj"/></l><r>ciego<s n="adj"/></r></p></e> 
 	<e><p><l>visok<s n="adj"/></l><r>alto<s n="adj"/></r></p></e> 
@@ -3212,7 +3218,7 @@
 	<e><p><l>umski<s n="adj"/></l><r>mental<s n="adj"/></r></p></e>
 	<e><p><l>uporniški<s n="adj"/></l><r>rebelde<s n="adj"/></r></p></e>
 	<e><p><l>velikanski<s n="adj"/></l><r>gigante<s n="adj"/></r></p></e>
-	<e><p><l>vojaški<s n="adj"/></l><r>militar<s n="adj"/></r></p></e>
+	<e><p><l>vojaški<s n="adj"/></l><r>militar<s n="adj"/></r></p><par n="moj_mío__det"/></e>
 	<e><p><l>vsestranski<s n="adj"/></l><r>universal<s n="adj"/></r></p></e>
 	<e><p><l>zadnji<s n="adj"/></l><r>último<s n="adj"/></r></p></e>
 	<e><p><l>zavezniški<s n="adj"/></l><r>aliado<s n="adj"/></r></p></e>
@@ -3565,7 +3571,7 @@
 	<e><p><l>kjerkoli<s n="adv"/></l><r>dondequiera<s n="adv"/></r></p></e>
 	<e><p><l>malce<s n="adv"/></l><r>poco<s n="adv"/></r></p></e>
 	<e><p><l>marsikdaj<s n="adv"/></l><r>a<b/>menudo<s n="adv"/></r></p></e>
-	<e><p><l>medtem<s n="adv"/></l><r>mientras<s n="adv"/></r></p></e>
+	<e><p><l>medtem<s n="adv"/></l><r>mientras<s n="cnjadv"/></r></p></e>
 	<e><p><l>mnogokrat<s n="adv"/></l><r>a<b/>menudo<s n="adv"/></r></p></e>
 	<e><p><l>nadvse<s n="adv"/></l><r>muy<s n="adv"/></r></p></e>
 	<e><p><l>mukoma<s n="adv"/></l><r>dolorosamente<s n="adv"/></r></p></e>
@@ -4258,7 +4264,7 @@
     <e><p><l>hej<s n="ij"/></l><r>ei<s n="ij"/></r></p></e>
 
     <!-- SECTION: Punctuation -->
-    <e><re>[.!\?]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+    <e><re>[.!;:\?]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
     <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
 
     <e><re>%?[0-9]+([.,][0-9]+)?[.,]?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>

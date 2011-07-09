@@ -48,5 +48,6 @@ dev/tests/regression-tests.sh -text
 dev/tests/wiki-tests.sh -text
 /es-sl.prob -text svneol=unset#unset
 /lexchoicebil.xsl -text
+midterm/article.sl.txt -text
 /modes.xml -text
 /sl-es.prob -text
