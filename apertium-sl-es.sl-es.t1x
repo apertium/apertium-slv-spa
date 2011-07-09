@@ -411,6 +411,160 @@
         </when>
       </choose>
     </def-macro>
+    <def-macro n="f_concord3" npar="3">
+      <choose>
+        <when>
+          <test>
+            <equal>
+              <clip pos="1" side="sl" part="nbr"/>
+              <lit-tag v="du"/>
+            </equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="nbr"/>
+            <lit-tag v="pl"/>
+          </let>
+        </when>
+      </choose>
+      <choose>
+        <when>
+          <test>
+            <equal>
+              <clip pos="2" side="sl" part="nbr"/>
+              <lit-tag v="du"/>
+            </equal>
+          </test>
+          <let>
+            <clip pos="2" side="tl" part="nbr"/>
+            <lit-tag v="pl"/>
+          </let>
+        </when>
+      </choose>
+      <choose>
+        <when>
+          <test>
+            <equal>
+              <clip pos="3" side="sl" part="nbr"/>
+              <lit-tag v="du"/>
+            </equal>
+          </test>
+          <let>
+            <clip pos="3" side="tl" part="nbr"/>
+            <lit-tag v="pl"/>
+          </let>
+        </when>
+      </choose>
+      <choose>
+        <when>
+          <test>
+            <or>
+              <equal>
+                <clip pos="2" side="sl" part="a_def"/>
+                <lit-tag v="def"/>
+              </equal>
+              <equal>
+                <clip pos="3" side="sl" part="a_def"/>
+                <lit-tag v="def"/>
+              </equal>
+            </or>
+          </test>
+          <let>
+            <var n="det_type"/>
+            <lit-tag v="DET"/>
+          </let>
+        </when>
+        <when>
+          <test>
+            <equal>
+              <clip pos="2" side="sl" part="a_def"/>
+              <lit-tag v="ind"/>
+            </equal>
+          </test>
+          <let>
+            <var n="det_type"/>
+            <lit-tag v="UNDET"/>
+          </let>
+        </when>
+        <otherwise>
+          <let>
+            <var n="det_type"/>
+            <lit-tag v="UNDETadd"/>
+          </let>
+        </otherwise>
+      </choose>
+      <choose>
+        <when>
+          <test>
+            <and>
+              <or>
+                <equal>
+                  <clip pos="2" side="sl" part="a_adj"/>
+                  <lit-tag v="adj"/>
+                </equal>
+                <equal>
+                  <clip pos="2" side="sl" part="a_det"/>
+                  <lit-tag v="det.ord"/>
+                </equal>
+              </or>
+              <or>
+                <equal>
+                  <clip pos="2" side="sl" part="gen"/>
+                  <lit-tag v="ma"/>
+                </equal>
+                <equal>
+                  <clip pos="2" side="sl" part="gen"/>
+                  <lit-tag v="mi"/>
+                </equal>
+                <equal>
+                  <clip pos="2" side="sl" part="gen"/>
+                  <lit-tag v="nt"/>
+                </equal>
+              </or>
+            </and>
+          </test>
+          <let>
+            <clip pos="2" side="tl" part="gen"/>
+            <lit-tag v="m"/>
+          </let>
+        </when>
+      </choose>
+      <choose>
+        <when>
+          <test>
+            <and>
+              <or>
+                <equal>
+                  <clip pos="3" side="sl" part="a_adj"/>
+                  <lit-tag v="adj"/>
+                </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="a_det"/>
+                  <lit-tag v="det.ord"/>
+                </equal>
+              </or>
+              <or>
+                <equal>
+                  <clip pos="3" side="sl" part="gen"/>
+                  <lit-tag v="ma"/>
+                </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="gen"/>
+                  <lit-tag v="mi"/>
+                </equal>
+                <equal>
+                  <clip pos="3" side="sl" part="gen"/>
+                  <lit-tag v="nt"/>
+                </equal>
+              </or>
+            </and>
+          </test>
+          <let>
+            <clip pos="3" side="tl" part="gen"/>
+            <lit-tag v="m"/>
+          </let>
+        </when>
+      </choose>
+    </def-macro>
 
     <def-macro n="conj_verb" npar="1">
         <choose>
@@ -591,6 +745,58 @@
              <clip pos="1" side="tl" part="gen" link-to="3"/>
              <clip pos="1" side="tl" part="nbr" link-to="4"/>
              <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+       </out>
+     </action>
+  </rule>
+  <rule comment="REGLA: det adj nom">
+     <pattern>
+       <pattern-item n="det"/>
+       <pattern-item n="adj"/>
+       <pattern-item n="nom"/>
+     </pattern>
+     <action>
+       <call-macro n="firstWord">
+         <with-param pos="1"/>
+       </call-macro>
+       <call-macro n="f_concord3">
+         <with-param pos="3"/>
+         <with-param pos="1"/>
+         <with-param pos="2"/>
+       </call-macro>
+       <out>
+         <chunk name="det_adj_nom" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="SN"/></tag>
+             <tag><var n="det_type"/></tag>
+             <tag><clip pos="3" side="tl" part="gen"/></tag>
+             <tag><clip pos="3" side="tl" part="nbr"/></tag>
+             <tag><clip pos="2" side="sl" part="cas"/></tag>
+             <tag><clip pos="2" side="sl" part="a_def"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="a_det"/>
+             <clip pos="1" side="tl" part="gen" link-to="3"/>
+             <clip pos="1" side="tl" part="nbr" link-to="4"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="a_nom"/>
+             <clip pos="3" side="tl" part="gen" link-to="3"/>
+             <clip pos="3" side="tl" part="nbr" link-to="4"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="a_adj"/>
+             <clip pos="2" side="tl" part="gen" link-to="3"/>
+             <clip pos="2" side="tl" part="nbr" link-to="4"/>
+             <clip pos="2" side="tl" part="lemq"/>
            </lu>
          </chunk>
        </out>
