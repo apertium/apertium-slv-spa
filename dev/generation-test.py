@@ -19,14 +19,14 @@ direc = sys.argv[1];
 mode = sys.argv[2];
 corp = sys.argv[3];
 
-command = 'cat ' + corp + ' | apertium -d ' + direc + ' ' + mode + '-transfer > ' + TEMPDIR + mode + '.gentest.raw';
+command = 'cat ' + corp + ' | apertium -d ' + direc + ' ' + mode + '-postchunk > ' + TEMPDIR + mode + '.gentest.raw';
 commands.getstatusoutput(command);
 
 raw = codecs.getreader('utf-8')(file(TEMPDIR + mode + '.gentest.raw'));
 
 counts = {};
 
-outf = file(TEMPDIR + mode + '.gentest.transfer', 'w+');
+outf = file(TEMPDIR + mode + '.gentest.postchunk', 'w+');
 c = raw.read(1);
 inWord = False;
 buf = '';
@@ -54,7 +54,7 @@ while c: #{
 
 os.remove(TEMPDIR + mode + '.gentest.raw');
 
-command = 'cat ' + TEMPDIR + mode + '.gentest.transfer | sort -f | uniq -c | sort -gr > ' + TEMPDIR + mode + '.gentest.stripped'; 
+command = 'cat ' + TEMPDIR + mode + '.gentest.postchunk | sort -f | uniq -c | sort -gr > ' + TEMPDIR + mode + '.gentest.stripped'; 
 commands.getstatusoutput(command);
 
 command = 'cat ' + TEMPDIR + mode + '.gentest.stripped | lt-proc -d ../' + mode + '.autogen.bin > ' + TEMPDIR + mode + '.gentest.surface';
@@ -92,7 +92,7 @@ for line in file(TEMPDIR + mode + '.multibidix').read().split('\n'): #{
 
 print "";
 print "===============================================================================";
-print "Tag mismatch between transfer and generation";
+print "Tag mismatch between postchunk and generation";
 print "==============================================================================="; 
 for line in file(TEMPDIR + mode + '.tagmismatch').read().split('\n'): #{
 	print line;
