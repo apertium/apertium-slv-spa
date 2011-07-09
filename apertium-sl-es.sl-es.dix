@@ -961,7 +961,7 @@
 	<e><p><l>arhitekt<s n="n"/><s n="m"/></l><r>arquitecto<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>diplomat<s n="n"/><s n="m"/></l><r>diplomático<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>pianist<s n="n"/><s n="m"/></l><r>pianista<s n="n"/><s n="m"/></r></p></e>
-	<e r="RL"><p><l>pilot<s n="n"/></l><r>piloto<s n="n"/><s n="mf"/></r></p></e>
+	<e r="LR"><p><l>pilot<s n="n"/></l><r>piloto<s n="n"/><s n="mf"/></r></p></e>
 	<e r="RL"><p><l>pilot<s n="n"/><s n="GD"/></l><r>piloto<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>poet<s n="n"/><s n="m"/></l><r>poeta<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>dokaz<s n="n"/><s n="m"/></l><r>prueba<s n="n"/><s n="f"/></r></p></e>
