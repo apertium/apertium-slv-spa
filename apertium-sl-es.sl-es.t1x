@@ -3,10 +3,6 @@
 <transfer default="chunk">
 
   <section-def-cats>
-    <def-cat n="nom">
-      <cat-item tags="n.*"/>
-      <cat-item tags="np.*"/>
-    </def-cat>
 
     <def-cat n="adj">
       <cat-item tags="adj"/>
@@ -19,7 +15,20 @@
       <cat-item tags="adj.pos.*"/>
       <cat-item tags="adj.sint"/>
       <cat-item tags="adj.sint.*"/>
+      <cat-item tags="n.posm"/>
+      <cat-item tags="n.posm.*"/>
+      <cat-item tags="n.posf"/>
+      <cat-item tags="n.posf.*"/>
     </def-cat>
+
+    <def-cat n="nom">
+      <cat-item tags="n.ma.*"/>
+      <cat-item tags="n.mi.*"/>
+      <cat-item tags="n.f.*"/>
+      <cat-item tags="n.nt.*"/>
+      <cat-item tags="np.*"/>
+    </def-cat>
+
     <def-cat n="det">
       <cat-item tags="det"/>
       <cat-item tags="det.*"/>
@@ -101,10 +110,19 @@
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
       <attr-item tags="adj.pos"/>
+      <attr-item tags="n.posm"/>
+      <attr-item tags="n.posf"/>
+      <attr-item tags="np.ant.posm"/>
+      <attr-item tags="np.ant.posf"/>
     </def-attr>
     <def-attr n="a_det">
       <attr-item tags="det"/>
       <attr-item tags="det.ord"/>
+    </def-attr>
+
+    <def-attr n="noun_pos">
+      <attr-item tags="posm"/>
+      <attr-item tags="posf"/>
     </def-attr>
 
     <def-attr n="a_verb">
@@ -154,6 +172,8 @@
     <def-var n="pers_chunk"/>
     <def-var n="gender_chunk"/>
     <def-var n="det_type"/>
+    <def-var n="gen_nompos"/>
+    <def-var n="gen_nomposdet"/>
   </section-def-vars>
 
   <section-def-macros>
@@ -173,6 +193,69 @@
 	    <b pos="1"/>
 	  </out>
 	</when>     	    
+      </choose>
+    </def-macro>
+
+    <def-macro n="f_nompos1" npar="1">
+      <choose>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <lit-tag v="mf"/>
+	    </equal>
+	  </test>
+          <let>
+            <var n="gen_nompos"/>
+            <lit-tag v="mf"/>
+          </let>
+          <choose>
+            <when>
+              <test>
+                <equal>
+                  <clip pos="1" side="sl" part="noun_pos"/>
+                  <lit-tag v="posf"/>
+                </equal>
+              </test>
+              <let>
+                <var n="gen_nomposdet"/>
+                <lit-tag v="f"/>
+              </let>
+            </when>
+            <otherwise>
+              <let>
+                <var n="gen_nomposdet"/>
+                <lit-tag v="m"/>
+              </let>
+            </otherwise>
+          </choose>
+	</when>
+        <when>
+          <test>
+            <equal>
+              <clip pos="1" side="sl" part="noun_pos"/>
+              <lit-tag v="posf"/>
+            </equal>
+          </test>
+          <let>
+            <var n="gen_nompos"/>
+            <lit-tag v="f"/>
+          </let>
+          <let>
+            <var n="gen_nomposdet"/>
+            <lit-tag v="f"/>
+          </let>
+	</when>
+        <otherwise>
+          <let>
+            <var n="gen_nompos"/>
+            <lit-tag v="m"/>
+          </let>
+          <let>
+            <var n="gen_nomposdet"/>
+            <lit-tag v="m"/>
+          </let>
+        </otherwise>
       </choose>
     </def-macro>
 
@@ -685,27 +768,74 @@
        <call-macro n="firstWord">
          <with-param pos="1"/>
        </call-macro>
-       <call-macro n="f_concord1">
-         <with-param pos="1"/>
-       </call-macro>
-       <out>
-         <chunk name="adj" case="caseFirstWord">
-           <tags>
-             <tag><lit-tag v="SA.UNDET"/></tag>
-             <tag><clip pos="1" side="tl" part="gen"/></tag>
-             <tag><clip pos="1" side="tl" part="nbr"/></tag>
-             <tag><clip pos="1" side="sl" part="cas"/></tag>
-             <tag><clip pos="1" side="sl" part="a_def"/></tag>
-           </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="a_adj"/>
-             <clip pos="1" side="tl" part="gen" link-to="3"/>
-             <clip pos="1" side="tl" part="nbr" link-to="4"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
-       </out>
+       <choose>
+         <when>
+           <test>
+             <or> 
+               <equal>
+                 <clip pos="1" side="sl" part="noun_pos"/>
+                 <lit-tag v="posm"/>
+               </equal>
+               <equal>
+                 <clip pos="1" side="sl" part="noun_pos"/>
+                 <lit-tag v="posf"/>
+               </equal>
+             </or>
+           </test>
+           <call-macro n="f_nompos1">
+             <with-param pos="1"/>
+           </call-macro>
+           <out>
+             <chunk name="de_det_nom" case="caseFirstWord">
+               <tags>
+                 <tag><lit-tag v="SPR"/></tag>
+               </tags>
+               <lu>
+                 <lit v="de"/>
+                 <lit-tag v="pr"/>
+               </lu>
+               <b/>
+               <lu>
+                 <lit v="el"/>
+                 <lit-tag v="det.def"/>
+                 <var n="gen_nomposdet"/>
+                 <lit-tag v="sg"/>
+               </lu>
+               <b/>
+               <lu>
+                 <clip pos="1" side="tl" part="lemh"/>
+                 <clip pos="1" side="tl" part="a_nom"/>
+                 <var n="gen_nompos"/>
+                 <lit-tag v="sg"/>
+                 <clip pos="1" side="tl" part="lemq"/>
+               </lu>
+             </chunk>
+           </out>
+         </when>
+         <otherwise>
+           <call-macro n="f_concord1">
+             <with-param pos="1"/>
+           </call-macro>
+           <out>
+             <chunk name="adj" case="caseFirstWord">
+               <tags>
+                 <tag><lit-tag v="SA.UNDET"/></tag>
+                 <tag><clip pos="1" side="tl" part="gen"/></tag>
+                 <tag><clip pos="1" side="tl" part="nbr"/></tag>
+                 <tag><clip pos="1" side="sl" part="cas"/></tag>
+                 <tag><clip pos="1" side="sl" part="a_def"/></tag>
+               </tags>
+               <lu>
+                 <clip pos="1" side="tl" part="lemh"/>
+                 <clip pos="1" side="tl" part="a_adj"/>
+                 <clip pos="1" side="tl" part="gen" link-to="3"/>
+                 <clip pos="1" side="tl" part="nbr" link-to="4"/>
+                 <clip pos="1" side="tl" part="lemq"/>
+               </lu>
+             </chunk>
+           </out>
+         </otherwise>
+       </choose>
      </action>
   </rule>
   <rule comment="REGLA: adj nom">

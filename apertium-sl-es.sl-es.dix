@@ -330,7 +330,8 @@
     <e><p><l>center<s n="n"/><s n="mi"/></l><r>centro<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>izobraževanje<s n="n"/><s n="nt"/></l><r>educación<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>učitelj<s n="n"/><s n="ma"/></l><r>profesor<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>študent<s n="n"/><s n="ma"/></l><r>estudiante<s n="n"/><s n="mf"/></r></p></e>
+    <e r="LR"><p><l>študent<s n="n"/></l><r>estudiante<s n="n"/><s n="mf"/></r></p></e>
+    <e r="RL"><p><l>študent<s n="n"/><s n="GD"/></l><r>estudiante<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>sled<s n="n"/><s n="ma"/></l><r>arenque<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sled<s n="n"/><s n="f"/></l><r>rastro<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mačka<s n="n"/><s n="f"/></l><r>gato<s n="n"/><s n="m"/></r></p></e>
@@ -960,8 +961,8 @@
 	<e><p><l>arhitekt<s n="n"/><s n="m"/></l><r>arquitecto<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>diplomat<s n="n"/><s n="m"/></l><r>diplomático<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>pianist<s n="n"/><s n="m"/></l><r>pianista<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>pilot<s n="n"/><s n="ma"/></l><r>piloto<s n="n"/><s n="mf"/></r></p></e>
-	<e r="LR"><p><l>pilotka<s n="n"/><s n="f"/></l><r>piloto<s n="n"/><s n="mf"/></r></p></e>
+	<e r="RL"><p><l>pilot<s n="n"/></l><r>piloto<s n="n"/><s n="mf"/></r></p></e>
+	<e r="RL"><p><l>pilot<s n="n"/><s n="GD"/></l><r>piloto<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>poet<s n="n"/><s n="m"/></l><r>poeta<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>dokaz<s n="n"/><s n="m"/></l><r>prueba<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>izraz<s n="n"/><s n="m"/></l><r>expresión<s n="n"/><s n="f"/></r></p></e>
