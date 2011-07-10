@@ -65,6 +65,12 @@
       <e r="LR"><p><l><s n="perf"/></l><r></r></p></e>
       <e r="RL"><p><l><s n="perf"/></l><r><s n="perf"/></r></p></e>
     </pardef>
+    <pardef n="arhitekt">
+      <e><p><l><s n="ma"/></l><r><s n="m"/></r></p></e>
+      <e><p><l><s n="f"/></l><r><s n="f"/></r></p></e>
+      <e r="LR"><p><l><s n="posm"/></l><r><s n="m"/></r></p></e>
+      <e r="LR"><p><l><s n="posf"/></l><r><s n="f"/></r></p></e>
+    </pardef>
   </pardefs>
   <section id="main" type="standard">
 
@@ -964,7 +970,7 @@
 	<e><p><l>prijateljstvo<s n="n"/><s n="nt"/></l><r>amistad<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>rojstvo<s n="n"/><s n="nt"/></l><r>nacimiento<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>mati<s n="n"/><s n="m"/></l><r>madre<s n="n"/><s n="f"/></r></p></e>
-	<e><p><l>arhitekt<s n="n"/><s n="m"/></l><r>arquitecto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>arhitekt<s n="n"/></l><r>arquitecto<s n="n"/></r></p><par n="arhitekt"/></e>
 	<e><p><l>diplomat<s n="n"/><s n="m"/></l><r>diplomático<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>pianist<s n="n"/><s n="m"/></l><r>pianista<s n="n"/><s n="m"/></r></p></e>
 	<e r="LR"><p><l>pilot<s n="n"/></l><r>piloto<s n="n"/><s n="mf"/></r></p></e>
