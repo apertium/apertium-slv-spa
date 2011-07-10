@@ -18,6 +18,8 @@
     <sdef n="vbhaver"  c="Verb 'to have'"/>
 
     <sdef n="pos"      c="Possessive"/>
+    <sdef n="posm"     c="Possessive"/>
+    <sdef n="posf"     c="Possessive"/>
     <sdef n="dem"      c="Demonstrative"/>
     <sdef n="pro"      c="Proclitic"/>
     <sdef n="ref"      c="Reflexive"/>
@@ -2773,7 +2775,7 @@
 	<e><p><l>vid<s n="n"/><s n="ma"/></l><r>visión<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>šola<s n="n"/><s n="f"/></l><r>escuela<s n="n"/><s n="f"/></r></p></e> 
 	<e><p><l>akademija<s n="n"/><s n="f"/></l><r>academia<s n="n"/><s n="f"/></r></p></e> 
-	<e><p><l>kandidatov<s n="n"/><s n="ma"/></l><r>candidato<s n="n"/><s n="m"/></r></p></e> 
+	<e><p><l>kandidat<s n="n"/></l><r>candidato<s n="n"/></r></p><par n="arhitekt"/></e> 
 	<e><p><l>kapitan<s n="n"/><s n="ma"/></l><r>capitán<s n="n"/><s n="m"/></r></p></e> 
 	
     <!-- SECTION: Proper nouns -->
