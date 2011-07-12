@@ -39,6 +39,7 @@ dev/es.ord -text
 dev/gen-ord.pl -text
 dev/generation-summary.sl-es.txt -text
 dev/generation-test.py -text
+dev/midterm/article.es.txt -text
 dev/midterm/article.sl.txt -text
 dev/missing-bidix-freq.sh -text
 dev/parcount -text
