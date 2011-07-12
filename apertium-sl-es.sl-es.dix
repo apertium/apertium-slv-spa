@@ -5,6 +5,7 @@
     <sdef n="n"        c="Noun"/>
     <sdef n="cnjcoo"   c="Coordinating conjunction"/>
     <sdef n="cnjadv"   c="Adverbial conjunction"/>
+    <sdef n="cnjsub"   c="Subordinating conjunction"/>
     <sdef n="vblex"    c="Verb"/>
     <sdef n="vbser"    c="Verb 'to be'"/>
     <sdef n="adj"      c="Adjective"/>
@@ -141,7 +142,6 @@
     <e><p><l>zemlja<s n="n"/><s n="f"/></l><r>tierra<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>hiša<s n="n"/><s n="f"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>srce<s n="n"/><s n="nt"/></l><r>corazón<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>dekle<s n="n"/><s n="nt"/></l><r>chico<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>brat<s n="n"/><s n="ma"/></l><r>hermano<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>svet<s n="n"/><s n="mi"/></l><r>mundo<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>burja<s n="n"/><s n="f"/></l><r>viento<s n="n"/><s n="m"/></r></p></e>
@@ -572,7 +572,6 @@
 	<e><p><l>zbirka<s n="n"/><s n="f"/></l><r>colección<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>zima<s n="n"/><s n="f"/></l><r>invierno<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>znamka<s n="n"/><s n="f"/></l><r>sello<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>ženska<s n="n"/><s n="m"/></l><r>mujer<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>žica<s n="n"/><s n="f"/></l><r>alambre<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>žleza<s n="n"/><s n="f"/></l><r>glándula<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>žlica<s n="n"/><s n="f"/></l><r>cuchara<s n="n"/><s n="f"/></r></p></e>
@@ -846,7 +845,7 @@
 	<e><p><l>vozel<s n="n"/><s n="m"/></l><r>nudo<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>julij<s n="n"/><s n="m"/></l><r>julio<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>strah<s n="n"/><s n="m"/></l><r>miedo<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>steza<s n="n"/><s n="f"/></l><r>senda<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>steza<s n="n"/><s n="f"/></l><r>sendero<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>vročina<s n="n"/><s n="f"/></l><r>calor<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>grad<s n="n"/><s n="m"/></l><r>castillo<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>most<s n="n"/><s n="m"/></l><r>puente<s n="n"/><s n="m"/></r></p></e>
@@ -2777,7 +2776,7 @@
 	<e><p><l>akademija<s n="n"/><s n="f"/></l><r>academia<s n="n"/><s n="f"/></r></p></e> 
 	<e><p><l>kandidat<s n="n"/></l><r>candidato<s n="n"/></r></p><par n="arhitekt"/></e> 
 	<e><p><l>kapitan<s n="n"/><s n="ma"/></l><r>capitán<s n="n"/><s n="m"/></r></p></e> 
-	
+		
     <!-- SECTION: Proper nouns -->
 
     <e><p><l>Slovenija<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Eslovenia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
@@ -3606,7 +3605,6 @@
 	<e><p><l>počez<s n="adv"/></l><r>del<b/>otro<b/>lado<s n="adv"/></r></p></e>
 	<e><p><l>pojutrišnjem<s n="adv"/></l><r>pasado<b/>mañana<s n="adv"/></r></p></e>
 	<e><p><l>polagoma<s n="adv"/></l><r>lentamente<s n="adv"/></r></p></e>
-	<e><p><l>poleg<s n="adv"/></l><r>más<b/>de<s n="adv"/></r></p></e>
 	<e><p><l>pomotoma<s n="adv"/></l><r>accidentalmente<s n="adv"/></r></p></e>
 	<e><p><l>popolnoma<s n="adv"/></l><r>por<b/>completo<s n="adv"/></r></p></e>
 	<e><p><l>poredko<s n="adv"/></l><r>raramente<s n="adv"/></r></p></e>
@@ -5076,7 +5074,7 @@
 	<e><p><l>ugajati<s n="vblex"/></l><r>agradar<s n="vblex"/></r></p></e>
 	<e><p><l>upadati<s n="vblex"/></l><r>bajar<s n="vblex"/></r></p></e>
 	<e><p><l>upirati<s n="vblex"/></l><r>fijar<s n="vblex"/></r></p></e>
-	<e><p><l>upravljati<s n="vblex"/></l><r>dirigir<s n="vblex"/></r></p></e>
+	<e><p><l>upravljati<s n="vblex"/></l><r>manejar<s n="vblex"/></r></p></e>
 	<e><p><l>urejati<s n="vblex"/></l><r>ordenar<s n="vblex"/></r></p></e>
 	<e><p><l>usmerjati<s n="vblex"/></l><r>dirigir<s n="vblex"/></r></p></e>
 	<e><p><l>ustanavljati<s n="vblex"/></l><r>fundar<s n="vblex"/></r></p></e>
@@ -5851,6 +5849,61 @@
 
     <e><re>%?[0-9]+([.,][0-9]+)?[.,]?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
     <e><re>%?[0-9]+([.,][0-9]+)?([.,][0-9]+)?([.,]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+
+
+
+
+
+	<!-- MANUAL ADDON FOR MIDTERM ARTICLE -->
+	
+	<!-- Nouns -->
+	<e><p><l>enota<s n="n"/><s n="f"/></l><r>unidad<s n="n"/><s n="f"/></r></p></e> 
+	<e><p><l>narednik<s n="n"/><s n="ma"/></l><r>sargento<s n="n"/><s n="mf"/></r></p></e> 
+	<e><p><l>razred<s n="n"/><s n="mi"/></l><r>clase<s n="n"/><s n="f"/></r></p></e> 
+	<e><p><l>letalo<s n="n"/><s n="nt"/></l><r>avión<s n="n"/><s n="m"/></r></p></e> 	
+	<e><p><l>dekle<s n="n"/><s n="nt"/></l><r>joven<s n="n"/><s n="mf"/></r></p></e> 
+	<e><p><l>hitrost<s n="n"/><s n="f"/></l><r>velocidad<s n="n"/><s n="f"/></r></p></e> 
+	<!-- <e><p><l>nadmorska<b/>višina<s n="n"/><s n="f"/></l><r>metros<b/>sobre<b/>el<b/>nivel<b/>del<b/>mar<s n="n"/><s n="f"/></r></p></e>  ADD TO SL MONO -->
+	<e><p><l>avto<s n="n"/><s n="mi"/></l><r>coche<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kadet<s n="n"/><s n="ma"/></l><r>cadete<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>nasmeh<s n="n"/><s n="mi"/></l><r>sonrisa<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>vožnja<s n="n"/><s n="f"/></l><r>viaje<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>padalo<s n="n"/><s n="nt"/></l><r>paracaídas<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>helikopter<s n="n"/><s n="mi"/></l><r>helicóptero<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>vrata<s n="n"/><s n="f"/></l><r>puerta<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>trenutek<s n="n"/><s n="mi"/></l><r>momento<s n="n"/><s n="m"/></r></p></e>
+	
+	
+	<!-- AJD -->
+	<e><p><l>star<s n="adj"/></l><r>viejo<s n="adj"/></r></p></e>
+	<!-- <e><p><l>sprejemni<b/>izpit<s n="adj"/></l><r>prueba<b/>de<b/>admisión<s n="adj"/></r></p></e>  ADD TO SL MONO -->
+	<e><p><l>sprejet<s n="adj"/></l><r>aceptable<s n="adj"/></r></p></e>
+	
+	<!-- ADV -->
+	<e><p><l>kako<s n="adv"/></l><r>cómo<s n="adv"/></r></p></e>
+	
+	<!-- PRN -->
+	<e><p><l>svoj<s n="prn"/></l><r>suyo<s n="det"/></r></p></e><!-- Not cool -->
+	
+	<!-- VBLEX -->
+	<e><p><l>manevrirati<s n="vblex"/></l><r>maniobrar<s n="vblex"/></r></p></e>
+	<e><p><l>skakati<s n="vblex"/></l><r>saltar<s n="vblex"/></r></p></e> <!-- ES: CNI etc -->
+	
+	<!-- CNJSUB -->
+	<e><p><l>ki<s n="cnjsub"/></l><r>que<s n="cnjsub"/></r></p></e>
+	<e><p><l>da<s n="cnjsub"/></l><r>que<s n="cnjsub"/></r></p></e>
+	<e><p><l>ko<s n="cnjsub"/></l><r>cuando<s n="cnjadv"/></r></p></e>
+	<e><p><l>kot<s n="cnjsub"/></l><r>como<s n="cnjadv"/></r></p></e> <!-- can be cnjcoo too ? -->
+	
+	<!-- PR -->
+	<e><p><l>z<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
+	<e><p><l>s<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
+	<e><p><l>do<s n="pr"/></l><r>hasta<s n="pr"/></r></p></e>
+	<e><p><l>poleg<s n="pr"/></l><r>además<b/>de<s n="pr"/></r></p></e>
+	
+	<!-- NP -->
+	<e><p><l>Srbija<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Serbia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+	<e><p><l>Beograd<s n="np"/><s n="top"/><s n="mi"/></l><r>Belgrado<s n="np"/><s n="top"/><s n="m"/></r></p></e>
 
   </section> 
 </dictionary>
