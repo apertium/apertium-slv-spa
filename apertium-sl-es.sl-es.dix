@@ -131,7 +131,8 @@
     <e><p><l>vaš<s n="det"/><s n="pos"/></l><r>vuestro<s n="det"/><s n="pos"/></r></p></e>
 
     <!-- SECTION: Numerals -->
-
+	<!-- Ordinal -->
+	
 	<e><p><l>prvi<s n="det"/><s n="ord"/></l><r>primer<s n="det"/><s n="ord"/></r></p></e>
 	<e><p><l>drugi<s n="det"/><s n="ord"/></l><r>segundo<s n="det"/><s n="ord"/></r></p></e>
 	<e><p><l>tretji<s n="det"/><s n="ord"/></l><r>tercer<s n="det"/><s n="ord"/></r></p></e>
@@ -257,11 +258,23 @@
     <e><p><l>trideseti<s n="det"/><s n="ord"/></l><r>trigésimo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>triindvajseti<s n="det"/><s n="ord"/></l><r>vigésimo<b/>tercer<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>triintrideseti<s n="det"/><s n="ord"/></l><r>trigésimo<b/>tercer<s n="det"/><s n="ord"/></r></p></e>
-    <e><p><l>tristoti<s n="det"/><s n="ord"/></l><r>tricentésimo<s n="det"/><s n="ord"/></r></p></e>
-	
-	
+    <e><p><l>tristoti<s n="det"/><s n="ord"/></l><r>tricentésimo<s n="det"/><s n="ord"/></r></p></e>	
 	-->
 	
+	<!-- Cardinal -->
+    <e><p><l>en<s n="num"/></l><r>un<s n="num"/></r></p></e>	
+    <e><p><l>dva<s n="num"/></l><r>dos<s n="num"/></r></p></e>
+    <e><p><l>tri<s n="num"/></l><r>tres<s n="num"/></r></p></e>
+    <e><p><l>štiri<s n="num"/></l><r>cuatro<s n="num"/></r></p></e>
+    <e><p><l>pet<s n="num"/></l><r>cinco<s n="num"/></r></p></e>
+    <e><p><l>šest<s n="num"/></l><r>seis<s n="num"/></r></p></e>
+    <e><p><l>sedem<s n="num"/></l><r>siete<s n="num"/></r></p></e>
+    <e><p><l>osem<s n="num"/></l><r>ocho<s n="num"/></r></p></e>
+    <e><p><l>devet<s n="num"/></l><r>nueve<s n="num"/></r></p></e>
+    <e><p><l>deset<s n="num"/></l><r>diez<s n="num"/></r></p></e>
+
+
+
 
     <!-- SECTION: Nouns -->
 
