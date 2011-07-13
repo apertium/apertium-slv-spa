@@ -5972,13 +5972,23 @@
 	<e><p><l>helikopter<s n="n"/><s n="mi"/></l><r>helicóptero<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>vrata<s n="n"/><s n="f"/></l><r>puerta<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>trenutek<s n="n"/><s n="mi"/></l><r>momento<s n="n"/><s n="m"/></r></p></e>
-	
+	<e><p><l>moški<s n="n"/><s n="ma"/></l><r>hombre<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ptica<s n="n"/><s n="f"/></l><r>ave<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>kolega<s n="n"/><s n="ma"/></l><r>compañero<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kolegica<s n="n"/><s n="f"/></l><r>compañero<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>odnos<s n="n"/><s n="mi"/></l><r>relación<s n="n"/><s n="f"/></r></p></e>
 	
 	<!-- AJD -->
 	<e><p><l>star<s n="adj"/></l><r>viejo<s n="adj"/></r></p></e>
 	<!-- <e><p><l>sprejemni<b/>izpit<s n="adj"/></l><r>prueba<b/>de<b/>admisión<s n="adj"/></r></p></e>  ADD TO SL MONO -->
 	<e><p><l>sprejet<s n="adj"/></l><r>aceptable<s n="adj"/></r></p></e>
-	
+	<e><p><l>prijateljski<s n="adj"/></l><r>amistoso<s n="adj"/></r></p></e>
+	<e><p><l>dober<s n="adj"/></l><r>bueno<s n="adj"/></r></p></e>
+	<e><p><l>usposobljen<s n="adj"/></l><r>competente<s n="adj"/></r></p></e>
+	<e><p><l>bodoč<s n="adj"/></l><r>futuro<s n="adj"/></r></p></e>
+	<e><p><l>čudovit<s n="adj"/></l><r>maravilloso<s n="adj"/></r></p></e>
+	 
+	 
 	<!-- ADV -->
 	<e><p><l>kako<s n="adv"/></l><r>cómo<s n="adv"/></r></p></e>
 	
@@ -5987,6 +5997,7 @@
 	
 	<!-- VBLEX -->
 	<e><p><l>manevrirati<s n="vblex"/></l><r>maniobrar<s n="vblex"/></r></p></e>
+	<e><p><l>pasti<s n="vblex"/></l><r>caer<s n="vblex"/></r></p></e>
 	<e><p><l>skakati<s n="vblex"/></l><r>saltar<s n="vblex"/></r></p></e> <!-- ES: CNI etc -->
 	
 	<!-- CNJSUB -->
@@ -5994,6 +6005,8 @@
 	<e><p><l>da<s n="cnjsub"/></l><r>que<s n="cnjsub"/></r></p></e>
 	<e><p><l>ko<s n="cnjsub"/></l><r>cuando<s n="cnjadv"/></r></p></e>
 	<e><p><l>kot<s n="cnjsub"/></l><r>como<s n="cnjadv"/></r></p></e> <!-- can be cnjcoo too ? -->
+	<e><p><l>ker<s n="cnjsub"/></l><r>porque<s n="cnjadv"/></r></p></e>
+	
 	
 	<!-- PR -->
 	<e><p><l>z<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
