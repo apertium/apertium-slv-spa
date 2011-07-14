@@ -93,20 +93,112 @@
 	<e><p><l>temveč<s n="cnjcoo"/></l><r>mas<s n="cnjcoo"/></r></p></e>
 	<e><p><l>ter<s n="cnjcoo"/></l><r>y<s n="cnjcoo"/></r></p></e>
 	<e><p><l>toda<s n="cnjcoo"/></l><r>mas<s n="cnjcoo"/></r></p></e>
+	
 
     <!-- SECTION: Preposition -->
 
-    <e><p><l>v<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
-    <e><p><l>na<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
     <e slr="1"><p><l>na<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
-    <e><p><l>nad<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
-    <e><p><l>za<s n="pr"/></l><r>por<s n="pr"/></r></p></e>
     <e slr="1"><p><l>za<s n="pr"/></l><r>después<b/>de<s n="pr"/></r></p></e>
-    <e><p><l>proti<s n="pr"/></l><r>contra<s n="pr"/></r></p></e>
-    <e><p><l>pri<s n="pr"/></l><r>cerca<s n="pr"/></r></p></e>
+    <e slr="1"><p><l>pri<s n="pr"/></l><r>cerca<s n="pr"/></r></p></e>
     <e slr="1"><p><l>pri<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
     <e slr="1"><p><l>pri<s n="pr"/></l><r>al<b/>lado<b/>de<s n="pr"/></r></p></e>
 
+	<!-- New ones -->
+	<e><p><l>z<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
+	<e><p><l>s<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
+	<e><p><l>do<s n="pr"/></l><r>hasta<s n="pr"/></r></p></e>
+	<e><p><l>poleg<s n="pr"/></l><r>además<b/>de<s n="pr"/></r></p></e>
+	<e><p><l>blizu<s n="pr"/></l><r>cerca<s n="pr"/></r></p></e>
+	<e><p><l>brez<s n="pr"/></l><r>sin<s n="pr"/></r></p></e>
+	<e><p><l>čez<s n="pr"/></l><r>por<s n="pr"/></r></p></e>
+	<e><p><l>čez<s n="pr"/></l><r>en<s n="pr"/></r></p></e>
+	<e><p><l>čez<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
+	<e><p><l>do<s n="pr"/></l><r>hasta<s n="pr"/></r></p></e>
+	<e><p><l>do<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
+	<e><p><l>h<s n="pr"/></l><r>hacia<s n="pr"/></r></p></e>
+	<e><p><l>h<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
+	<e><p><l>k<s n="pr"/></l><r>hacia<s n="pr"/></r></p></e>
+	<e><p><l>k<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
+	<e><p><l>iz<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
+	<e><p><l>iz<s n="pr"/></l><r>por<s n="pr"/></r></p></e>
+	<e><p><l>izmed<s n="pr"/></l><r>entre<s n="pr"/></r></p></e>
+	<e><p><l>izmed<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
+	<e><p><l>izven<s n="pr"/></l><r>fuera<b/>de<s n="pr"/></r></p></e>
+	<e><p><l>izza<s n="pr"/></l><r>cerca<s n="pr"/></r></p></e>
+	<e><p><l>kljub<s n="pr"/></l><r>a<b/>pesar<b/>de<s n="pr"/></r></p></e>
+	<e><p><l>kljub<s n="pr"/></l><r>pese a<s n="pr"/></r></p></e>
+	<e><p><l>med<s n="pr"/></l><r>entre<s n="pr"/></r></p></e>
+	<e><p><l>med<s n="pr"/></l><r>durante<s n="pr"/></r></p></e>
+	<e><p><l>med<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
+	<e><p><l>mimo<s n="pr"/></l><r>delante<b/>de<s n="pr"/></r></p></e>
+	<e><p><l>nad<s n="pr"/></l><r>más<b/>de<s n="pr"/></r></p></e>
+	<e><p><l>nad<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
+	<e><p><l>na<s n="pr"/></l><r>en<s n="pr"/></r></p></e>
+	<e><p><l>na<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
+	<e><p><l>namesto<s n="pr"/></l><r>en<b/>vez<b/>de<s n="pr"/></r></p></e>
+	<e><p><l>nasproti<s n="pr"/></l><r>frente<b/>a<s n="pr"/></r></p></e>
+	<e><p><l>navkljub<s n="pr"/></l><r>a<b/>pesar<b/>de<s n="pr"/></r></p></e>
+	<e><p><l>navkljub<s n="pr"/></l><r>pese<b/>a<s n="pr"/></r></p></e>
+	<e><p><l>ob<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
+	<e><p><l>ob<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
+	<e><p><l>ob<s n="pr"/></l><r>contra<s n="pr"/></r></p></e>
+	<e><p><l>od<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
+	<e><p><l>od<s n="pr"/></l><r>desde<s n="pr"/></r></p></e>
+	<e><p><l>od<s n="pr"/></l><r>a<b/>partir<b/>de<s n="pr"/></r></p></e>
+	<e><p><l>o<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
+	<e><p><l>o<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
+	<e><p><l>okoli<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
+	<e><p><l>okoli<s n="pr"/></l><r>alrededor<b/>de<s n="pr"/></r></p></e>
+	<e><p><l>okrog<s n="pr"/></l><r>en<b/>torno<b/>a<s n="pr"/></r></p></e>
+	<e><p><l>okrog<s n="pr"/></l><r>alrededor<b/>de<s n="pr"/></r></p></e>
+	<e><p><l>okrog<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
+	<e><p><l>onkraj<s n="pr"/></l><r>al<b/>otro<b/>lado<b/>de<s n="pr"/></r></p></e>
+	<e><p><l>onstran<s n="pr"/></l><r>al<b/>otro<b/>lado<b/>de<s n="pr"/></r></p></e>
+	<e><p><l>pod<s n="pr"/></l><r>bajo<s n="pr"/></r></p></e>
+	<e><p><l>pod<s n="pr"/></l><r>debajo<b/>de<s n="pr"/></r></p></e>
+	<e><p><l>pod<s n="pr"/></l><r>menos<b/>de<s n="pr"/></r></p></e>
+	<e><p><l>po<s n="pr"/></l><r>después<b/>de<s n="pr"/></r></p></e>
+	<e><p><l>po<s n="pr"/></l><r>por<s n="pr"/></r></p></e>
+	<e><p><l>po<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
+	<e><p><l>po<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
+	<e><p><l>po<s n="pr"/></l><r>como<s n="pr"/></r></p></e>
+	<e><p><l>poleg<s n="pr"/></l><r>además<b/>de<s n="pr"/></r></p></e>
+	<e><p><l>povrh<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
+	<e><p><l>povrhu<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
+	<e><p><l>pred<s n="pr"/></l><r>delante<b/>de<s n="pr"/></r></p></e>
+	<e><p><l>pred<s n="pr"/></l><r>frente<b/>a<s n="pr"/></r></p></e>
+	<e><p><l>prek<s n="pr"/></l><r>a<b/>través<b/>de<s n="pr"/></r></p></e>
+	<e><p><l>preko<s n="pr"/></l><r>a<b/>través<b/>de<s n="pr"/></r></p></e>
+	<e><p><l>pri<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
+	<e><p><l>pri<s n="pr"/></l><r>junto<b/>a<s n="pr"/></r></p></e>
+	<e><p><l>proti<s n="pr"/></l><r>hacia<s n="pr"/></r></p></e>
+	<e><p><l>proti<s n="pr"/></l><r>contra<s n="pr"/></r></p></e>
+	<e><p><l>proti<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
+	<e><p><l>skozi<s n="pr"/></l><r>por<s n="pr"/></r></p></e>
+	<e><p><l>skozi<s n="pr"/></l><r>a<b/>través<b/>de<s n="pr"/></r></p></e>
+	<e><p><l>skozi<s n="pr"/></l><r>durante<s n="pr"/></r></p></e>
+	<e><p><l>skoz<s n="pr"/></l><r>por<s n="pr"/></r></p></e>
+	<e><p><l>skoz<s n="pr"/></l><r>a<b/>través<b/>de<s n="pr"/></r></p></e>
+	<e><p><l>skoz<s n="pr"/></l><r>durante<s n="pr"/></r></p></e>
+	<e><p><l>sredi<s n="pr"/></l><r>a<b/>mediados<b/>de<s n="pr"/></r></p></e>
+	<e><p><l>sredi<s n="pr"/></l><r>en<b/>medio<b/>de<s n="pr"/></r></p></e>
+	<e><p><l>v<s n="pr"/></l><r>dentro<b/>de<s n="pr"/></r></p></e>
+	<e><p><l>v<s n="pr"/></l><r>en<s n="pr"/></r></p></e>
+	<e><p><l>v<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
+	<e><p><l>vpričo<s n="pr"/></l><r>ante<s n="pr"/></r></p></e>
+	<e><p><l>vštric<s n="pr"/></l><r>junto<b/>a<s n="pr"/></r></p></e>
+	<e><p><l>vzdolž<s n="pr"/></l><r>a<b/>lo<b/>largo<b/>de<s n="pr"/></r></p></e>
+	<e><p><l>za<s n="pr"/></l><r>detrás<b/>de<s n="pr"/></r></p></e>
+	<e><p><l>za<s n="pr"/></l><r>para<s n="pr"/></r></p></e>
+	<e><p><l>za<s n="pr"/></l><r>por<s n="pr"/></r></p></e>
+	<e><p><l>za<s n="pr"/></l><r>tras<s n="pr"/></r></p></e>
+	<e><p><l>za<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
+	<e><p><l>zaradi<s n="pr"/></l><r>por<s n="pr"/></r></p></e>
+	<e><p><l>zoper<s n="pr"/></l><r>contra<s n="pr"/></r></p></e>
+	<e><p><l>razen<s n="pr"/></l><r>excepto<s n="pr"/></r></p></e>
+	<e><p><l>razen<s n="pr"/></l><r>salvo<s n="pr"/></r></p></e>
+	
+	
     <!-- SECTION: Pronouns -->
 
     <e><p><l>jaz<s n="prn"/><s n="pers"/></l><r>yo<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/></r></p></e>
@@ -131,8 +223,8 @@
     <e><p><l>vaš<s n="det"/><s n="pos"/></l><r>vuestro<s n="det"/><s n="pos"/></r></p></e>
 
     <!-- SECTION: Numerals -->
-	<!-- Ordinal -->
 	
+	<!-- Ordinal -->
 	<e><p><l>prvi<s n="det"/><s n="ord"/></l><r>primer<s n="det"/><s n="ord"/></r></p></e>
 	<e><p><l>drugi<s n="det"/><s n="ord"/></l><r>segundo<s n="det"/><s n="ord"/></r></p></e>
 	<e><p><l>tretji<s n="det"/><s n="ord"/></l><r>tercer<s n="det"/><s n="ord"/></r></p></e>
@@ -143,8 +235,6 @@
 	<e><p><l>osmi<s n="det"/><s n="ord"/></l><r>octavo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>deveti<s n="det"/><s n="ord"/></l><r>noveno<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>deseti<s n="det"/><s n="ord"/></l><r>décimo<s n="det"/><s n="ord"/></r></p></e>
-
-	<!-- check -->
 	<e><p><l>enajsti<s n="det"/><s n="ord"/></l><r>undécimo<s n="det"/><s n="ord"/></r></p></e>
 	<e><p><l>dvanajsti<s n="det"/><s n="ord"/></l><r>duodécimo<s n="det"/><s n="ord"/></r></p></e>
 	<e><p><l>trinajsti<s n="det"/><s n="ord"/></l><r>decimotercero<s n="det"/><s n="ord"/></r></p></e>
@@ -155,8 +245,6 @@
 	<e><p><l>osemnajsti<s n="det"/><s n="ord"/></l><r>decimoctavo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>devetnajsti<s n="det"/><s n="ord"/></l><r>decimonoveno<s n="det"/><s n="ord"/></r></p></e>	
 	<e><p><l>dvajseti<s n="det"/><s n="ord"/></l><r>vigésimo<s n="det"/><s n="ord"/></r></p></e>
-	<!-- till here -->
-	
     <e><p><l>enaindvajseti<s n="det"/><s n="ord"/></l><r>vigésimo<b/>primero<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>dvaindvajseti<s n="det"/><s n="ord"/></l><r>vigésimo<b/>segundo<s n="det"/><s n="ord"/></r></p></e>
     <e><p><l>triindvajseti<s n="det"/><s n="ord"/></l><r>vigésimo<b/>tercio<s n="det"/><s n="ord"/></r></p></e>
@@ -6022,10 +6110,7 @@
 	
 	
 	<!-- PR -->
-	<e><p><l>z<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
-	<e><p><l>s<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
-	<e><p><l>do<s n="pr"/></l><r>hasta<s n="pr"/></r></p></e>
-	<e><p><l>poleg<s n="pr"/></l><r>además<b/>de<s n="pr"/></r></p></e>
+	
 	
 	<!-- NP -->
 	<e><p><l>Srbija<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Serbia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
