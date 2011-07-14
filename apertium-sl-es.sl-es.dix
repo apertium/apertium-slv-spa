@@ -6078,6 +6078,11 @@
 	<e><p><l>kolega<s n="n"/><s n="ma"/></l><r>compañero<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>kolegica<s n="n"/><s n="f"/></l><r>compañero<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>odnos<s n="n"/><s n="mi"/></l><r>relación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>inštruktor<s n="n"/><s n="ma"/></l><r>instructor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>inštruktorica<s n="n"/><s n="f"/></l><r>instructor<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>instruktor<s n="n"/><s n="ma"/></l><r>instructor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>instruktorica<s n="n"/><s n="f"/></l><r>instructor<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>kabina<s n="n"/><s n="f"/></l><r>cabina<s n="n"/><s n="f"/></r></p></e>
 	
 	<!-- AJD -->
 	<e><p><l>star<s n="adj"/></l><r>viejo<s n="adj"/></r></p></e>
