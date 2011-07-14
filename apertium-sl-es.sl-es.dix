@@ -6083,6 +6083,15 @@
 	<e><p><l>instruktor<s n="n"/><s n="ma"/></l><r>instructor<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>instruktorica<s n="n"/><s n="f"/></l><r>instructor<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>kabina<s n="n"/><s n="f"/></l><r>cabina<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>leto<s n="n"/><s n="nt"/></l><r>año<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>izpit<s n="n"/><s n="mi"/></l><r>examen<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>letenje<s n="n"/><s n="nt"/></l><r>vuelo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>torta<s n="n"/><s n="f"/></l><r>tarta<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>sorodnik<s n="n"/><s n="ma"/></l><r>pariente<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>posel<s n="n"/><s n="mi"/></l><r>negocio<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>vpis<s n="n"/><s n="mi"/></l><r>inscripción<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>mesto<s n="n"/><s n="nt"/></l><r>puesto<s n="n"/><s n="m"/></r></p></e>
+	
 	
 	<!-- AJD -->
 	<e><p><l>star<s n="adj"/></l><r>viejo<s n="adj"/></r></p></e>
@@ -6093,13 +6102,27 @@
 	<e><p><l>usposobljen<s n="adj"/></l><r>competente<s n="adj"/></r></p></e>
 	<e><p><l>bodoč<s n="adj"/></l><r>futuro<s n="adj"/></r></p></e>
 	<e><p><l>čudovit<s n="adj"/></l><r>maravilloso<s n="adj"/></r></p></e>
+	<e><p><l>mnog<s n="adj"/></l><r>maravilloso<s n="adj"/></r></p></e>
+	<e><p><l>težek<s n="adj"/></l><r>pesado<s n="adj"/></r></p></e>
+	<e><p><l>vojaški<s n="adj"/></l><r>militar<s n="adj"/></r></p></e>
+	<e><p><l>ostal<s n="adj"/></l><r>restante<s n="adj"/></r></p></e>
+	<e><p><l>dober<s n="adj"/></l><r>bueno<s n="adj"/></r></p></e>
+	<e><p><l>pripravljen<s n="adj"/></l><r>pronto<s n="adj"/></r></p></e>
+	<e><p><l>leten<s n="adj"/></l><r>anual<s n="adj"/></r></p></e>
+	<e><p><l>velik<s n="adj"/></l><r>grande<s n="adj"/></r></p></e>
 	 
 	 
 	<!-- ADV -->
 	<e><p><l>kako<s n="adv"/></l><r>cómo<s n="adv"/></r></p></e>
+	<e><p><l>pozno<s n="adv"/></l><r>tarde<s n="adv"/></r></p></e>
+	<e><p><l>dobro<s n="adv"/></l><r>bien<s n="adv"/></r></p></e>
 	
 	<!-- PRN -->
-	<e><p><l>svoj<s n="prn"/></l><r>suyo<s n="det"/></r></p></e><!-- Not cool -->
+	<e><p><l>njen<s n="prn"/></l><r>el<b/>suyo<s n="prn"/></r></p></e>
+	<e><p><l>nič<s n="prn"/></l><r>nada<s n="prn"/></r></p></e>
+	<e><p><l>kateri<s n="prn"/></l><r>cuál<s n="prn"/></r></p></e>
+	<e><p><l>ves<s n="prn"/></l><r>todo<s n="prn"/></r></p></e>
+	<e><p><l>noben<s n="prn"/></l><r>ninguno<s n="prn"/></r></p></e>
 	
 	<!-- VBLEX -->
 	<e><p><l>manevrirati<s n="vblex"/></l><r>maniobrar<s n="vblex"/></r></p></e>
@@ -6113,6 +6136,9 @@
 	<e><p><l>kot<s n="cnjsub"/></l><r>como<s n="cnjadv"/></r></p></e> <!-- can be cnjcoo too ? -->
 	<e><p><l>ker<s n="cnjsub"/></l><r>porque<s n="cnjadv"/></r></p></e>
 	
+	<!-- CNJCOO -->
+	<e><p><l>ne<s n="cnjcoo"/></l><r>que<s n="cnjcoo"/></r></p></e>
+	<e><p><l>niti<s n="cnjcoo"/></l><r>ni<s n="cnjcoo"/></r></p></e>
 	
 	<!-- PR -->
 	
