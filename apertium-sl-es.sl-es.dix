@@ -209,6 +209,17 @@
 	<e><p><l>razen<s n="pr"/></l><r>excepto<s n="pr"/></r></p></e>
 	<e><p><l>razen<s n="pr"/></l><r>salvo<s n="pr"/></r></p></e>
 	
+	<e><p><l>iznad<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
+	<e><p><l>izpod<s n="pr"/></l><r>bajo<s n="pr"/></r></p></e> <!-- desde abajo de - not in ES mono -->
+	<e><p><l>izpred<s n="pr"/></l><r>frente<b/>a<s n="pr"/></r></p></e> <!-- from in front of = "desde frente a" o "desde enfrente de" - not in ES mono -->
+	<e><p><l>naokoli<s n="pr"/></l><r>alrededor<b/>de<b/>a<s n="pr"/></r></p></e>
+	<e><p><l>navzlic<s n="pr"/></l><r>a<b/>pesar<b/>de<s n="pr"/></r></p></e>
+	<e><p><l>spod<s n="pr"/></l><r>desde<b/>debajo<b/>de<s n="pr"/></r></p></e> <!-- Not found in ES mono -->
+	<e><p><l>spričo<s n="pr"/></l><r>en<b/>vista<b/>de<s n="pr"/></r></p></e>
+	<e><p><l>vrhu<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
+	<e><p><l>vrh<s n="pr"/></l><r>sobre<s n="pr"/></r></p></e>
+	<e><p><l>zavoljo<s n="pr"/></l><r>por<b/>el<b/>bien<b/>de<s n="pr"/></r></p></e> <!-- Not found in ES mono -->
+	
 	
     <!-- SECTION: Pronouns -->
     <!-- prpers -->
