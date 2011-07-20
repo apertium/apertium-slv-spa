@@ -13,6 +13,7 @@
     <sdef n="adj"      c="Adjective"/>
     <sdef n="num"      c="Numeral"/>
     <sdef n="det"      c="Determiner"/>
+    <sdef n="predet"       c="Pre-determiner"/>
     <sdef n="adv"      c="Adverb"/>
     <sdef n="prn"      c="Pronoun"/>
     <sdef n="ij"       c="Interjection"/>
@@ -104,6 +105,13 @@
 	<e><p><l>temveč<s n="cnjcoo"/></l><r>mas<s n="cnjcoo"/></r></p></e>
 	<e><p><l>ter<s n="cnjcoo"/></l><r>y<s n="cnjcoo"/></r></p></e>
 	<e><p><l>toda<s n="cnjcoo"/></l><r>mas<s n="cnjcoo"/></r></p></e>
+	
+	<e><p><l>ne<s n="cnjcoo"/></l><r>sin<s n="cnjcoo"/></r></p></e>
+	<e><p><l>zakaj<s n="cnjcoo"/></l><r>por qué<s n="cnjcoo"/></r></p></e>
+	<e><p><l>a<s n="cnjcoo"/></l><r>pero<s n="cnjcoo"/></r></p></e> 
+	<e><p><l>kajti<s n="cnjcoo"/></l><r>porque<s n="cnjcoo"/></r></p></e>
+	<e><p><l>saj<s n="cnjcoo"/></l><r>pues<s n="cnjcoo"/></r></p></e>
+	<e><p><l>torej<s n="cnjcoo"/></l><r>entonces<s n="cnjcoo"/></r></p></e>
 	
 
     <!-- SECTION: Preposition -->
@@ -3670,6 +3678,1092 @@
 	<e><p><l>prebivalec<s n="n"/><s n="ma"/></l><r>habitante<s n="n"/><s n="mf"/></r></p></e>
 	<e><p><l>dobiček<s n="n"/><s n="mi"/></l><r>beneficio<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>dimnikar<s n="n"/><s n="ma"/></l><r>deshollinador<s n="n"/><s n="m"/></r></p></e>
+	
+	 <e><p><l>perilo<s n="n"/><s n="nt"/></l><r>ropa<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>delnica<s n="n"/><s n="f"/></l><r>acción<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>hoja<s n="n"/><s n="f"/></l><r>caminata<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>izkaznica<s n="n"/><s n="f"/></l><r>documento<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kartica<s n="n"/><s n="f"/></l><r>tarjeta<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>lista<s n="n"/><s n="mi"/></l><r>lista<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>mora<s n="n"/><s n="f"/></l><r>pesadilla<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>para<s n="n"/><s n="mi"/></l><r>vapor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>predstava<s n="n"/><s n="f"/></l><r>representación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>vrvica<s n="n"/><s n="f"/></l><r>cuerda<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>salon<s n="n"/><s n="mi"/></l><r>salón<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>poklic<s n="n"/><s n="mi"/></l><r>profesión<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>up<s n="n"/><s n="mi"/></l><r>esperanza<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>ničla<s n="n"/><s n="f"/></l><r>cero<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>naliv<s n="n"/><s n="mi"/></l><r>aguacero<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>las<s n="n"/><s n="mi"/></l><r>cabello<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>park<s n="n"/><s n="mi"/></l><r>parque<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>aparat<s n="n"/><s n="mi"/></l><r>aparato<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>post<s n="n"/><s n="mi"/></l><r>ayuno<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>predmet<s n="n"/><s n="mi"/></l><r>objeto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>plavanje<s n="n"/><s n="nt"/></l><r>natación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>slikanje<s n="n"/><s n="nt"/></l><r>pintura<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>prašiček<s n="n"/><s n="ma"/></l><r>cerdo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>slap<s n="n"/><s n="mi"/></l><r>cascada<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>invalid<s n="n"/><s n="ma"/></l><r>discapacitado<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ogled<s n="n"/><s n="mi"/></l><r>visita<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>tečaj<s n="n"/><s n="mi"/></l><r>curso<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>relief<s n="n"/><s n="mi"/></l><r>relieve<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>les<s n="n"/><s n="mi"/></l><r>madera<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>lovec<s n="n"/><s n="mi"/></l><r>cazador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>pretres<s n="n"/><s n="mi"/></l><r>conmoción<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>knez<s n="n"/><s n="ma"/></l><r>príncipe<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>prekršek<s n="n"/><s n="mi"/></l><r>infracción<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>voziček<s n="n"/><s n="mi"/></l><r>carro<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>gospodinjstvo<s n="n"/><s n="nt"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>niz<s n="n"/><s n="mi"/></l><r>secuencia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>last<s n="n"/><s n="f"/></l><r>propiedad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>pero<s n="n"/><s n="nt"/></l><r>pluma<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>baker<s n="n"/><s n="mi"/></l><r>cobre<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>avto<s n="n"/><s n="mi"/></l><r>coche<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>hitrost<s n="n"/><s n="f"/></l><r>velocidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>odgovornost<s n="n"/><s n="f"/></l><r>responsabilidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>trst<s n="n"/><s n="mi"/></l><r>caña<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>cedilo<s n="n"/><s n="nt"/></l><r>colador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>čistilo<s n="n"/><s n="nt"/></l><r>limpiador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>črnilo<s n="n"/><s n="nt"/></l><r>tinta<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>čudo<s n="n"/><s n="nt"/></l><r>maravilla<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>držalo<s n="n"/><s n="nt"/></l><r>soporte<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>gorivo<s n="n"/><s n="nt"/></l><r>combustible<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>gostilo<s n="n"/><s n="nt"/></l><r>anfitrión<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>govorilo<s n="n"/><s n="nt"/></l><r>hablar<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>hranilo<s n="n"/><s n="nt"/></l><r>comida<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>mamilo<s n="n"/><s n="nt"/></l><r>droga<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>merilo<s n="n"/><s n="nt"/></l><r>escala<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>nadomestilo<s n="n"/><s n="nt"/></l><r>compensación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>naslanjalo<s n="n"/><s n="nt"/></l><r>respaldo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>odpiralo<s n="n"/><s n="nt"/></l><r>abridor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>opravičilo<s n="n"/><s n="nt"/></l><r>disculpa<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>opravilo<s n="n"/><s n="nt"/></l><r>tarea<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>pisalo<s n="n"/><s n="nt"/></l><r>bolígrafo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>plačilo<s n="n"/><s n="nt"/></l><r>pago<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>pomirjevalo<s n="n"/><s n="nt"/></l><r>calmante<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>poživilo<s n="n"/><s n="nt"/></l><r>estimulante<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>rezilo<s n="n"/><s n="nt"/></l><r>hoja<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>sito<s n="n"/><s n="f"/></l><r>tamiz<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>spolovilo<s n="n"/><s n="nt"/></l><r>sexo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>strgalo<s n="n"/><s n="nt"/></l><r>rasqueta<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>sušilo<s n="n"/><s n="nt"/></l><r>secador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>zrno<s n="n"/><s n="nt"/></l><r>grano<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>hinavstvo<s n="n"/><s n="nt"/></l><r>hipocresía<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>meščanstvo<s n="n"/><s n="nt"/></l><r>burguesía<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>mrtvilo<s n="n"/><s n="nt"/></l><r>letargo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>plemstvo<s n="n"/><s n="nt"/></l><r>nobleza<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>računalništvo<s n="n"/><s n="nt"/></l><r>informática<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>seno<s n="n"/><s n="nt"/></l><r>heno<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>strelivo<s n="n"/><s n="nt"/></l><r>munición<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>suženjstvo<s n="n"/><s n="nt"/></l><r>esclavitud<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>vinogradništvo<s n="n"/><s n="nt"/></l><r>viticultura<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>akademija<s n="n"/><s n="f"/></l><r>academia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>aktovka<s n="n"/><s n="f"/></l><r>cartera<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>aleja<s n="n"/><s n="f"/></l><r>avenida<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>amputacija<s n="n"/><s n="f"/></l><r>amputación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>antologija<s n="n"/><s n="f"/></l><r>antología<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>aparatura<s n="n"/><s n="f"/></l><r>aparato<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>arkada<s n="n"/><s n="f"/></l><r>arcada<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>avantura<s n="n"/><s n="f"/></l><r>aventura<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>avenija<s n="n"/><s n="f"/></l><r>avenida<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>avtoriteta<s n="n"/><s n="f"/></l><r>autoridad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>bajta<s n="n"/><s n="f"/></l><r>cabaña<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>barikada<s n="n"/><s n="f"/></l><r>barricada<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>barka<s n="n"/><s n="f"/></l><r>barca<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>beda<s n="n"/><s n="f"/></l><r>miseria<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>begunka<s n="n"/><s n="f"/></l><r>refugiado<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>beležka<s n="n"/><s n="f"/></l><r>nota<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>blaginja<s n="n"/><s n="f"/></l><r>prosperidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>bledica<s n="n"/><s n="f"/></l><r>palidez<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>bleščava<s n="n"/><s n="f"/></l><r>brillante<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>bližina<s n="n"/><s n="f"/></l><r>proximidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>bližnjica<s n="n"/><s n="f"/></l><r>atajo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>bradica<s n="n"/><s n="f"/></l><r>barba<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>brazda<s n="n"/><s n="f"/></l><r>surco<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>breza<s n="n"/><s n="f"/></l><r>abedul<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>brošura<s n="n"/><s n="f"/></l><r>folleto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>celota<s n="n"/><s n="f"/></l><r>todo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>centrala<s n="n"/><s n="f"/></l><r>central<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>ceremonija<s n="n"/><s n="f"/></l><r>ceremonia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>cevka<s n="n"/><s n="f"/></l><r>tubo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ciganka<s n="n"/><s n="f"/></l><r>gitano<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>civilizacija<s n="n"/><s n="f"/></l><r>civilización<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>cona<s n="n"/><s n="f"/></l><r>zona<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>cunja<s n="n"/><s n="f"/></l><r>trapo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>čaša<s n="n"/><s n="f"/></l><r>taza<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>četa<s n="n"/><s n="f"/></l><r>tropa<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>četrtina<s n="n"/><s n="f"/></l><r>cuarto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>daljava<s n="n"/><s n="f"/></l><r>distancia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>davnina<s n="n"/><s n="f"/></l><r>antigüedad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>degradacija<s n="n"/><s n="f"/></l><r>degradación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>delavnica<s n="n"/><s n="f"/></l><r>taller<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>demoralizacija<s n="n"/><s n="f"/></l><r>desmoralización<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>desetina<s n="n"/><s n="f"/></l><r>décimo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>detelja<s n="n"/><s n="f"/></l><r>trébol<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>diskvalifikacija<s n="n"/><s n="f"/></l><r>descalificación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>dišava<s n="n"/><s n="f"/></l><r>fragancia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>dobrina<s n="n"/><s n="f"/></l><r>bien<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>dobrota<s n="n"/><s n="f"/></l><r>bondad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>dogodivščina<s n="n"/><s n="f"/></l><r>aventura<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>dohodnina<s n="n"/><s n="f"/></l><r>impuesto sobre la renta<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>dosega<s n="n"/><s n="mi"/></l><r>resultado<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ekipa<s n="n"/><s n="f"/></l><r>equipo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ekskurzija<s n="n"/><s n="f"/></l><r>excursión<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>ekstaza<s n="n"/><s n="f"/></l><r>éxtasis<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>elastika<s n="n"/><s n="f"/></l><r>elástico<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>elita<s n="n"/><s n="f"/></l><r>élite<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>enota<s n="n"/><s n="f"/></l><r>unidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>erozija<s n="n"/><s n="f"/></l><r>erosión<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>fakulteta<s n="n"/><s n="f"/></l><r>facultad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>frazeologija<s n="n"/><s n="f"/></l><r>fraseología<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>fronta<s n="n"/><s n="f"/></l><r>frente<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>gazela<s n="n"/><s n="f"/></l><r>gacela<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>globina<s n="n"/><s n="f"/></l><r>profundidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>godba<s n="n"/><s n="f"/></l><r>banda<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>gostiteljica<s n="n"/><s n="f"/></l><r>anfitrión<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>gostota<s n="n"/><s n="f"/></l><r>densidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>goščava<s n="n"/><s n="f"/></l><r>matorral<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>govorica<s n="n"/><s n="f"/></l><r>rumor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>granata<s n="n"/><s n="f"/></l><r>granada<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>grdota<s n="n"/><s n="f"/></l><r>fealdad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>grenkoba<s n="n"/><s n="f"/></l><r>amargura<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>gruča<s n="n"/><s n="f"/></l><r>grupo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>hala<s n="n"/><s n="f"/></l><r>sala<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>hipoteza<s n="n"/><s n="f"/></l><r>hipótesis<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>histerija<s n="n"/><s n="f"/></l><r>histeria<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>hiška<s n="n"/><s n="f"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>identiteta<s n="n"/><s n="f"/></l><r>identidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>idila<s n="n"/><s n="f"/></l><r>idilio<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>iglica<s n="n"/><s n="f"/></l><r>aguja<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>informacija<s n="n"/><s n="f"/></l><r>información<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>infrastruktura<s n="n"/><s n="f"/></l><r>infraestructura<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>infuzija<s n="n"/><s n="f"/></l><r>infusión<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>inkvizicija<s n="n"/><s n="f"/></l><r>inquisición<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>instanca<s n="n"/><s n="f"/></l><r>instancia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>integriteta<s n="n"/><s n="f"/></l><r>integridad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>inteligenca<s n="n"/><s n="f"/></l><r>inteligencia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>izmenjava<s n="n"/><s n="f"/></l><r>intercambio<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>iztočnica<s n="n"/><s n="f"/></l><r>punto de partida<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>jasa<s n="n"/><s n="f"/></l><r>claro<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kalorija<s n="n"/><s n="f"/></l><r>caloría<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>kapsula<s n="n"/><s n="f"/></l><r>cápsula<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>karavana<s n="n"/><s n="f"/></l><r>caravana<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>kariera<s n="n"/><s n="f"/></l><r>carrera<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>kašča<s n="n"/><s n="f"/></l><r>granero<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>klica<s n="n"/><s n="mi"/></l><r>germen<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>klima<s n="n"/><s n="f"/></l><r>clima<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>klofuta<s n="n"/><s n="f"/></l><r>bofetada<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>komplikacija<s n="n"/><s n="f"/></l><r>complicación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>kontraindikacija<s n="n"/><s n="f"/></l><r>contraindicación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>konzerva<s n="n"/><s n="f"/></l><r>lata<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>korenina<s n="n"/><s n="f"/></l><r>raíz<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>kraljevina<s n="n"/><s n="f"/></l><r>reino<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kritika<s n="n"/><s n="ma"/></l><r>crítica<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>krivda<s n="n"/><s n="f"/></l><r>culpa<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>krpa<s n="n"/><s n="f"/></l><r>trapo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kupa<s n="n"/><s n="mi"/></l><r>copa<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>kurjava<s n="n"/><s n="f"/></l><r>calefacción<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>kvaliteta<s n="n"/><s n="f"/></l><r>calidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>legija<s n="n"/><s n="f"/></l><r>legión<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>lepenka<s n="n"/><s n="f"/></l><r>cartón<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>letina<s n="n"/><s n="f"/></l><r>cosecha<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>ličnica<s n="n"/><s n="f"/></l><r>pómulo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>manekenka<s n="n"/><s n="f"/></l><r>modelo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>marka<s n="n"/><s n="f"/></l><r>marco<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>mehanizacija<s n="n"/><s n="f"/></l><r>mecanización<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>mena<s n="n"/><s n="f"/></l><r>menopausia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>mera<s n="n"/><s n="f"/></l><r>medida<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>mistika<s n="n"/><s n="ma"/></l><r>místico<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>množica<s n="n"/><s n="f"/></l><r>multitud<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>modrina<s n="n"/><s n="f"/></l><r>azul<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>mojstrica<s n="n"/><s n="f"/></l><r>maestro<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>mokrota<s n="n"/><s n="f"/></l><r>humedad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>molilnica<s n="n"/><s n="f"/></l><r>oratoria<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>morilka<s n="n"/><s n="f"/></l><r>asesino<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>municija<s n="n"/><s n="f"/></l><r>munición<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>nadloga<s n="n"/><s n="f"/></l><r>molestia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>naglica<s n="n"/><s n="f"/></l><r>prisa<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>naloga<s n="n"/><s n="mi"/></l><r>tarea<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>naložba<s n="n"/><s n="f"/></l><r>inversión<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>naslada<s n="n"/><s n="f"/></l><r>placer<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>nedisciplina<s n="n"/><s n="f"/></l><r>indisciplina<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>nega<s n="n"/><s n="f"/></l><r>cuidado<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>nemorala<s n="n"/><s n="f"/></l><r>inmoralidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>neoseba<s n="n"/><s n="f"/></l><r>impersonal<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>nepokorščina<s n="n"/><s n="f"/></l><r>desobediencia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>neresnica<s n="n"/><s n="f"/></l><r>mentira<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>nesnaga<s n="n"/><s n="f"/></l><r>suciedad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>nitka<s n="n"/><s n="f"/></l><r>hilo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>noviteta<s n="n"/><s n="f"/></l><r>novedad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>nožnica<s n="n"/><s n="f"/></l><r>vagina<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>nuja<s n="n"/><s n="f"/></l><r>necesidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>nula<s n="n"/><s n="f"/></l><r>cero<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>obtožnica<s n="n"/><s n="f"/></l><r>acusación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>odškodnina<s n="n"/><s n="f"/></l><r>indemnización<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>ofenziva<s n="n"/><s n="f"/></l><r>ofensiva<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>oligarhija<s n="n"/><s n="f"/></l><r>oligarquía<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>omemba<s n="n"/><s n="f"/></l><r>mención<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>omotica<s n="n"/><s n="f"/></l><r>mareo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>opcija<s n="n"/><s n="f"/></l><r>opción<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>opora<s n="n"/><s n="f"/></l><r>apoyo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ožina<s n="n"/><s n="f"/></l><r>estrecho<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>parada<s n="n"/><s n="f"/></l><r>desfile<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>partija<s n="n"/><s n="f"/></l><r>partido<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>partnerica<s n="n"/><s n="f"/></l><r>pareja<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>patrulja<s n="n"/><s n="f"/></l><r>patrulla<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>pečina<s n="n"/><s n="f"/></l><r>peña<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>pega<s n="n"/><s n="f"/></l><r>mancha<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>pehota<s n="n"/><s n="f"/></l><r>infantería<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>pekarna<s n="n"/><s n="f"/></l><r>panadería<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>petina<s n="n"/><s n="f"/></l><r>quinto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>pika<s n="n"/><s n="mi"/></l><r>punto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>piramida<s n="n"/><s n="f"/></l><r>pirámide<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>pisava<s n="n"/><s n="f"/></l><r>escritura<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>pivnica<s n="n"/><s n="f"/></l><r>cervecería<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>ploščica<s n="n"/><s n="f"/></l><r>almohadilla<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>podoba<s n="n"/><s n="f"/></l><r>imagen<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>podobica<s n="n"/><s n="f"/></l><r>avatar<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>polica<s n="n"/><s n="f"/></l><r>estante<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>politizacija<s n="n"/><s n="f"/></l><r>politización<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>polovica<s n="n"/><s n="f"/></l><r>mitad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>pomaranča<s n="n"/><s n="f"/></l><r>naranja<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>ponaredba<s n="n"/><s n="f"/></l><r>falsificación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>posadka<s n="n"/><s n="f"/></l><r>tripulación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>postava<s n="n"/><s n="f"/></l><r>figura<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>pošiljka<s n="n"/><s n="f"/></l><r>envío<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>poštnina<s n="n"/><s n="f"/></l><r>franqueo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>poteza<s n="n"/><s n="f"/></l><r>rasgo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>potreba<s n="n"/><s n="f"/></l><r>necesidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>povezava<s n="n"/><s n="f"/></l><r>conexión<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>predhodnica<s n="n"/><s n="f"/></l><r>predecesor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>preglavica<s n="n"/><s n="f"/></l><r>dificultad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>pregrada<s n="n"/><s n="f"/></l><r>barrera<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>preobleka<s n="n"/><s n="f"/></l><r>disfraz<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>pretveza<s n="n"/><s n="f"/></l><r>pretexto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>priča<s n="n"/><s n="f"/></l><r>testigo<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>pripomba<s n="n"/><s n="f"/></l><r>observación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>prodajalka<s n="n"/><s n="f"/></l><r>vendedor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>proga<s n="n"/><s n="f"/></l><r>pista<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>protekcija<s n="n"/><s n="f"/></l><r>protección<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>psovka<s n="n"/><s n="f"/></l><r>insulto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>puberteta<s n="n"/><s n="f"/></l><r>pubertad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>raba<s n="n"/><s n="f"/></l><r>uso<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>rasa<s n="n"/><s n="f"/></l><r>raza<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>razbitina<s n="n"/><s n="f"/></l><r>ruina<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>razpoka<s n="n"/><s n="mi"/></l><r>grieta<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>reklama<s n="n"/><s n="f"/></l><r>publicidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>relacija<s n="n"/><s n="f"/></l><r>distancia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>rešetka<s n="n"/><s n="f"/></l><r>reja<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>reva<s n="n"/><s n="f"/></l><r>cobarde<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>rezidenca<s n="n"/><s n="f"/></l><r>residencia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>reža<s n="n"/><s n="f"/></l><r>fisura<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>roža<s n="n"/><s n="f"/></l><r>flor<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>rudnina<s n="n"/><s n="f"/></l><r>mineral<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ruševina<s n="n"/><s n="f"/></l><r>ruina<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>samota<s n="n"/><s n="f"/></l><r>soledad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>sanjarija<s n="n"/><s n="f"/></l><r>ensueño<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>sapa<s n="n"/><s n="f"/></l><r>aliento<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>scena<s n="n"/><s n="f"/></l><r>escena<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>sedmica<s n="n"/><s n="f"/></l><r>siete<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>silhueta<s n="n"/><s n="f"/></l><r>silueta<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>simpatija<s n="n"/><s n="f"/></l><r>simpatía<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>skodela<s n="n"/><s n="f"/></l><r>taza<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>skušnjava<s n="n"/><s n="f"/></l><r>tentación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>slepota<s n="n"/><s n="f"/></l><r>ceguera<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>sodba<s n="n"/><s n="f"/></l><r>sentencia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>sodnica<s n="n"/><s n="f"/></l><r>juez<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>soseda<s n="n"/><s n="ma"/></l><r>vecino<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>specialiteta<s n="n"/><s n="f"/></l><r>especialidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>sperma<s n="n"/><s n="f"/></l><r>esperma<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>starka<s n="n"/><s n="f"/></l><r>anciano<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>stegnenica<s n="n"/><s n="f"/></l><r>fémur<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>steklenina<s n="n"/><s n="f"/></l><r>cristalería<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>stepa<s n="n"/><s n="f"/></l><r>estepa<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>stiska<s n="n"/><s n="mi"/></l><r>angustia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>stojnica<s n="n"/><s n="f"/></l><r>puesto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>strmina<s n="n"/><s n="f"/></l><r>pendiente<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>stroka<s n="n"/><s n="mi"/></l><r>profesión<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>šahovnica<s n="n"/><s n="f"/></l><r>tablero de ajedrez<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>ščitnica<s n="n"/><s n="f"/></l><r>tiroides<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>šipa<s n="n"/><s n="f"/></l><r>cristal<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>škoda<s n="n"/><s n="f"/></l><r>daño<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>školjka<s n="n"/><s n="f"/></l><r>concha<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>špranja<s n="n"/><s n="f"/></l><r>grieta<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>tablica<s n="n"/><s n="f"/></l><r>placa<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>taca<s n="n"/><s n="f"/></l><r>pata<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>tarča<s n="n"/><s n="f"/></l><r>blanco<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>tehtnica<s n="n"/><s n="f"/></l><r>balanza<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>tekmovalka<s n="n"/><s n="f"/></l><r>competidor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>telovadnica<s n="n"/><s n="f"/></l><r>gimnasio<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>tiranija<s n="n"/><s n="f"/></l><r>tiranía<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>toplota<s n="n"/><s n="f"/></l><r>calor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>trgovka<s n="n"/><s n="f"/></l><r>comerciante<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>trma<s n="n"/><s n="f"/></l><r>obstinación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>tujka<s n="n"/><s n="mi"/></l><r>desconocido<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ubijalka<s n="n"/><s n="f"/></l><r>asesino<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ujma<s n="n"/><s n="f"/></l><r>desastre<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ulica<s n="n"/><s n="f"/></l><r>calle<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>uličica<s n="n"/><s n="f"/></l><r>calle<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>umazanija<s n="n"/><s n="f"/></l><r>suciedad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>upornica<s n="n"/><s n="f"/></l><r>rebelde<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>usedlina<s n="n"/><s n="f"/></l><r>sedimento<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>uspešnica<s n="n"/><s n="f"/></l><r>éxito<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>vaba<s n="n"/><s n="f"/></l><r>anzuelo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>varianta<s n="n"/><s n="f"/></l><r>variante<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>večina<s n="n"/><s n="f"/></l><r>mayoría<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>veteranka<s n="n"/><s n="f"/></l><r>veterano<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>veza<s n="n"/><s n="f"/></l><r>sentido<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>vezalka<s n="n"/><s n="f"/></l><r>cordón<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>vijačnica<s n="n"/><s n="f"/></l><r>hélice<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>vizija<s n="n"/><s n="f"/></l><r>visión<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>vohunka<s n="n"/><s n="f"/></l><r>espía<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>vojašnica<s n="n"/><s n="f"/></l><r>cuartel<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>volja<s n="n"/><s n="f"/></l><r>voluntad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>vonjava<s n="n"/><s n="m"/></l><r>olor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>votlina<s n="n"/><s n="f"/></l><r>cueva<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>vprega<s n="n"/><s n="f"/></l><r>aprovechar<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>vsota<s n="n"/><s n="f"/></l><r>suma<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>začetnica<s n="n"/><s n="f"/></l><r>inicial<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>zadeva<s n="n"/><s n="f"/></l><r>asunto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>zahteva<s n="n"/><s n="f"/></l><r>demanda<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>zahvala<s n="n"/><s n="f"/></l><r>agradecimiento<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>zajemalka<s n="n"/><s n="f"/></l><r>cucharón<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>zamera<s n="n"/><s n="f"/></l><r>rencor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>zanka<s n="n"/><s n="f"/></l><r>punto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>zasluga<s n="n"/><s n="f"/></l><r>mérito<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>zaveza<s n="n"/><s n="f"/></l><r>antiguo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>zibelka<s n="n"/><s n="f"/></l><r>cuna<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>zmeda<s n="n"/><s n="f"/></l><r>confusión<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>zora<s n="n"/><s n="f"/></l><r>amanecer<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>zvestoba<s n="n"/><s n="f"/></l><r>lealtad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>žirija<s n="n"/><s n="f"/></l><r>jurado<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>žitarica<s n="n"/><s n="f"/></l><r>cereal<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>antika<s n="n"/><s n="f"/></l><r>antigüedad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>analgetik<s n="n"/><s n="mi"/></l><r>analgésico<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>anestetik<s n="n"/><s n="mi"/></l><r>anestésico<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>blesk<s n="n"/><s n="mi"/></l><r>brillo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>bombnik<s n="n"/><s n="mi"/></l><r>bombardero<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>dnevnik<s n="n"/><s n="mi"/></l><r>diario<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>frank<s n="n"/><s n="mi"/></l><r>franco<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>gorilnik<s n="n"/><s n="mi"/></l><r>quemador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>hudournik<s n="n"/><s n="mi"/></l><r>torrente<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>izvirnik<s n="n"/><s n="mi"/></l><r>original<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>jajčnik<s n="n"/><s n="mi"/></l><r>ovario<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>krik<s n="n"/><s n="mi"/></l><r>grito<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>letak<s n="n"/><s n="mi"/></l><r>panfleto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>lijak<s n="n"/><s n="mi"/></l><r>embudo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>lik<s n="n"/><s n="mi"/></l><r>figura<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>obelisk<s n="n"/><s n="mi"/></l><r>obelisco<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>oddajnik<s n="n"/><s n="mi"/></l><r>transmisor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>odtok<s n="n"/><s n="mi"/></l><r>desagüe<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>parnik<s n="n"/><s n="mi"/></l><r>barco de vapor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>podočnik<s n="n"/><s n="mi"/></l><r>colmillo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>potok<s n="n"/><s n="mi"/></l><r>arroyo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>pravokotnik<s n="n"/><s n="mi"/></l><r>rectángulo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>razpok<s n="n"/><s n="mi"/></l><r>grieta<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>smodnik<s n="n"/><s n="mi"/></l><r>pólvora<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>šok<s n="n"/><s n="mi"/></l><r>choque<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>tank<s n="n"/><s n="mi"/></l><r>tanque<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>trik<s n="n"/><s n="mi"/></l><r>truco<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>umik<s n="n"/><s n="mi"/></l><r>retirada<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>urok<s n="n"/><s n="mi"/></l><r>hechizo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ustnik<s n="n"/><s n="mi"/></l><r>boquilla<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>vsakdanjik<s n="n"/><s n="mi"/></l><r>día<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>vzklik<s n="n"/><s n="mi"/></l><r>exclamación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>četrt<s n="n"/><s n="f"/></l><r>cuarto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>os<s n="n"/><s n="f"/></l><r>eje<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>filolog<s n="n"/><s n="ma"/></l><r>filólogo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ideolog<s n="n"/><s n="ma"/></l><r>ideólogo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kardiolog<s n="n"/><s n="ma"/></l><r>cardiólogo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>teolog<s n="n"/><s n="ma"/></l><r>teólogo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>breme<s n="n"/><s n="nt"/></l><r>carga<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>pleme<s n="n"/><s n="nt"/></l><r>tribu<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>sleme<s n="n"/><s n="nt"/></l><r>cresta<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>cinizem<s n="n"/><s n="mi"/></l><r>cinismo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>despotizem<s n="n"/><s n="mi"/></l><r>despotismo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>individualizem<s n="n"/><s n="mi"/></l><r>individualismo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>katekizem<s n="n"/><s n="mi"/></l><r>catecismo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kolektivizem<s n="n"/><s n="mi"/></l><r>colectivismo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>konformizem<s n="n"/><s n="mi"/></l><r>conformismo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>misticizem<s n="n"/><s n="mi"/></l><r>misticismo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>patriotizem<s n="n"/><s n="mi"/></l><r>patriotismo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>skepticizem<s n="n"/><s n="mi"/></l><r>escepticismo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>tradicionalizem<s n="n"/><s n="mi"/></l><r>tradicionalismo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>antisemitizem<s n="n"/><s n="mi"/></l><r>antisemitismo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>egoizem<s n="n"/><s n="mi"/></l><r>egoísmo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>humanizem<s n="n"/><s n="mi"/></l><r>humanismo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>nacizem<s n="n"/><s n="mi"/></l><r>nazismo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>racionalizem<s n="n"/><s n="mi"/></l><r>racionalismo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>rasizem<s n="n"/><s n="mi"/></l><r>racismo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>madžar<s n="n"/><s n="ma"/></l><r>húngaro<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>balon<s n="n"/><s n="mi"/></l><r>globo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>bon<s n="n"/><s n="mi"/></l><r>vale<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>jermen<s n="n"/><s n="mi"/></l><r>correa<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>kombinezon<s n="n"/><s n="mi"/></l><r>mono<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>koren<s n="n"/><s n="mi"/></l><r>raíz<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>milijon<s n="n"/><s n="mi"/></l><r>millón<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>plen<s n="n"/><s n="mi"/></l><r>presa<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>pogon<s n="n"/><s n="mi"/></l><r>tracción<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>priklon<s n="n"/><s n="mi"/></l><r>inclinación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>sklon<s n="n"/><s n="mi"/></l><r>caso<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>trn<s n="n"/><s n="mi"/></l><r>espina<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>cev<s n="n"/><s n="f"/></l><r>tubo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>premoč<s n="n"/><s n="f"/></l><r>superioridad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>kriminal<s n="n"/><s n="mi"/></l><r>crimen<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>starš<s n="n"/><s n="ma"/></l><r>padre<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>dimlje<s n="n"/><s n="f"/></l><r>ingle<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>svinec<s n="n"/><s n="mi"/></l><r>plomo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>detonator<s n="n"/><s n="mi"/></l><r>detonador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>komentar<s n="n"/><s n="mi"/></l><r>comentario<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>reflektor<s n="n"/><s n="mi"/></l><r>reflector<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>regulator<s n="n"/><s n="mi"/></l><r>regulador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>stabilizator<s n="n"/><s n="mi"/></l><r>estabilizador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>tanker<s n="n"/><s n="mi"/></l><r>petrolero<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>valjar<s n="n"/><s n="mi"/></l><r>rodillo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>fosfor<s n="n"/><s n="mi"/></l><r>fósforo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>mislec<s n="n"/><s n="ma"/></l><r>pensador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>mrtvec<s n="n"/><s n="ma"/></l><r>muerto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>princ<s n="n"/><s n="ma"/></l><r>príncipe<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>tekmec<s n="n"/><s n="ma"/></l><r>rival<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>izgovor<s n="n"/><s n="mi"/></l><r>excusa<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>nazor<s n="n"/><s n="mi"/></l><r>concepto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>pogovor<s n="n"/><s n="mi"/></l><r>conversación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>pregovor<s n="n"/><s n="mi"/></l><r>proverbio<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>premor<s n="n"/><s n="mi"/></l><r>pausa<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>prezir<s n="n"/><s n="mi"/></l><r>desprecio<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>akademik<s n="n"/><s n="ma"/></l><r>académico<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>alkoholik<s n="n"/><s n="ma"/></l><r>alcohólico<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>bedak<s n="n"/><s n="ma"/></l><r>tonto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>blagajnik<s n="n"/><s n="ma"/></l><r>tesorero<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>čarovnik<s n="n"/><s n="ma"/></l><r>mago<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>častnik<s n="n"/><s n="ma"/></l><r>oficial<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>dolžnik<s n="n"/><s n="ma"/></l><r>deudor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>dopisnik<s n="n"/><s n="ma"/></l><r>corresponsal<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>fanatik<s n="n"/><s n="ma"/></l><r>fanático<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>grešnik<s n="n"/><s n="ma"/></l><r>pecador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>južnjak<s n="n"/><s n="ma"/></l><r>sureño<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>katolik<s n="n"/><s n="ma"/></l><r>católico<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>matematik<s n="n"/><s n="ma"/></l><r>matemático<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>metafizik<s n="n"/><s n="ma"/></l><r>metafísico<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>mistik<s n="n"/><s n="ma"/></l><r>místico<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>namestnik<s n="n"/><s n="ma"/></l><r>sustituto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>nesrečnik<s n="n"/><s n="ma"/></l><r>desgraciado<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>oskrbnik<s n="n"/><s n="ma"/></l><r>administrador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>pobudnik<s n="n"/><s n="ma"/></l><r>iniciador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>posameznik<s n="n"/><s n="ma"/></l><r>individuo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>predhodnik<s n="n"/><s n="ma"/></l><r>antecesor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>razbojnik<s n="n"/><s n="ma"/></l><r>bandido<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>rojak<s n="n"/><s n="ma"/></l><r>compatriota<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>severnjak<s n="n"/><s n="ma"/></l><r>norteño<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>služabnik<s n="n"/><s n="ma"/></l><r>sirviente<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ubežnik<s n="n"/><s n="ma"/></l><r>fugitivo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>učenjak<s n="n"/><s n="ma"/></l><r>erudito<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>upornik<s n="n"/><s n="ma"/></l><r>rebelde<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>upravnik<s n="n"/><s n="ma"/></l><r>gerente<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>urednik<s n="n"/><s n="ma"/></l><r>editor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>vernik<s n="n"/><s n="ma"/></l><r>creyente<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>voznik<s n="n"/><s n="ma"/></l><r>conductor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>začetnik<s n="n"/><s n="ma"/></l><r>principiante<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>zvezdnik<s n="n"/><s n="ma"/></l><r>estrella<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>kolega<s n="n"/><s n="ma"/></l><r>colega<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>truplo<s n="n"/><s n="nt"/></l><r>cadáver<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>biro<s n="n"/><s n="mi"/></l><r>oficina<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>pano<s n="n"/><s n="mi"/></l><r>cartelera<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>odcepitev<s n="n"/><s n="f"/></l><r>separación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>oprostitev<s n="n"/><s n="f"/></l><r>exención<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>ponev<s n="n"/><s n="f"/></l><r>sartén<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>postavitev<s n="n"/><s n="f"/></l><r>disposición<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>storitev<s n="n"/><s n="f"/></l><r>servicio<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>trditev<s n="n"/><s n="f"/></l><r>afirmación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>trgatev<s n="n"/><s n="f"/></l><r>vendimia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>upokojitev<s n="n"/><s n="f"/></l><r>jubilación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>usmrtitev<s n="n"/><s n="f"/></l><r>ejecución<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>zadušitev<s n="n"/><s n="f"/></l><r>asfixia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>dih<s n="n"/><s n="mi"/></l><r>aliento<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>oddih<s n="n"/><s n="mi"/></l><r>descanso<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>vdih<s n="n"/><s n="mi"/></l><r>inspiración<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>vzdih<s n="n"/><s n="mi"/></l><r>suspiro<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>zamah<s n="n"/><s n="mi"/></l><r>golpe<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>smeh<s n="n"/><s n="mi"/></l><r>risa<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>janež<s n="n"/><s n="mi"/></l><r>anís<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>delež<s n="n"/><s n="mi"/></l><r>parte<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>madež<s n="n"/><s n="mi"/></l><r>mancha<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>izstop<s n="n"/><s n="mi"/></l><r>salida<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>odstop<s n="n"/><s n="mi"/></l><r>dimisión<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>oklep<s n="n"/><s n="mi"/></l><r>armadura<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>pohlep<s n="n"/><s n="mi"/></l><r>codicia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>prekop<s n="n"/><s n="mi"/></l><r>canal<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>razcep<s n="n"/><s n="mi"/></l><r>división<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>trop<s n="n"/><s n="mi"/></l><r>rebaño<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>utrip<s n="n"/><s n="mi"/></l><r>pulso<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>vstop<s n="n"/><s n="mi"/></l><r>entrada<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>rabelj<s n="n"/><s n="ma"/></l><r>verdugo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>gib<s n="n"/><s n="mi"/></l><r>movimiento<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>mandelj<s n="n"/><s n="mi"/></l><r>almendra<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>barbar<s n="n"/><s n="mi"/></l><r>bárbaro<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>smrad<s n="n"/><s n="mi"/></l><r>hedor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>macesen<s n="n"/><s n="mi"/></l><r>alerce<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>joga<s n="n"/><s n="f"/></l><r>yoga<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>pluta<s n="n"/><s n="f"/></l><r>corcho<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>portugalščina<s n="n"/><s n="f"/></l><r>portugués<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>publiciteta<s n="n"/><s n="f"/></l><r>publicidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>vlaga<s n="n"/><s n="f"/></l><r>humedad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>rog<s n="n"/><s n="mi"/></l><r>cuerno<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>diapozitiv<s n="n"/><s n="mi"/></l><r>diapositiva<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>kolektiv<s n="n"/><s n="mi"/></l><r>colectivo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>odmev<s n="n"/><s n="mi"/></l><r>eco<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>rov<s n="n"/><s n="mi"/></l><r>galería<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>ulov<s n="n"/><s n="mi"/></l><r>presa<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>as<s n="n"/><s n="ma"/></l><r>as<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kretnja<s n="n"/><s n="f"/></l><r>gesto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>slutnja<s n="n"/><s n="f"/></l><r>presentimiento<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>stopnja<s n="n"/><s n="f"/></l><r>nivel<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>sužnja<s n="n"/><s n="ma"/></l><r>esclavo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>seks<s n="n"/><s n="mi"/></l><r>sexo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>suženj<s n="n"/><s n="ma"/></l><r>esclavo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>alibi<s n="n"/><s n="mi"/></l><r>coartada<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>kaki<s n="n"/><s n="m"/></l><r>caqui<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>peni<s n="n"/><s n="mi"/></l><r>centavo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>krempelj<s n="n"/><s n="mi"/></l><r>garra<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>gostitelj<s n="n"/><s n="ma"/></l><r>anfitrión<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>mučitelj<s n="n"/><s n="ma"/></l><r>torturador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>pokrovitelj<s n="n"/><s n="ma"/></l><r>patrocinador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>prireditelj<s n="n"/><s n="ma"/></l><r>organizador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>upravitelj<s n="n"/><s n="ma"/></l><r>administrador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>zbiratelj<s n="n"/><s n="ma"/></l><r>coleccionista<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>jadro<s n="n"/><s n="nt"/></l><r>vela<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>jedro<s n="n"/><s n="nt"/></l><r>núcleo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>vedro<s n="n"/><s n="f"/></l><r>cubo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>hlebec<s n="n"/><s n="mi"/></l><r>hogar<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kazalec<s n="n"/><s n="mi"/></l><r>indicador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>sukanec<s n="n"/><s n="mi"/></l><r>hilo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>vrhunec<s n="n"/><s n="mi"/></l><r>culminación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>agregat<s n="n"/><s n="mi"/></l><r>agregado<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>amulet<s n="n"/><s n="mi"/></l><r>amuleto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>argument<s n="n"/><s n="mi"/></l><r>argumento<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>asfalt<s n="n"/><s n="mi"/></l><r>asfalto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>dekret<s n="n"/><s n="mi"/></l><r>decreto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>grafit<s n="n"/><s n="mi"/></l><r>grafito<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>hit<s n="n"/><s n="mi"/></l><r>éxito<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>inšpektorat<s n="n"/><s n="mi"/></l><r>inspector<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>komplet<s n="n"/><s n="mi"/></l><r>conjunto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kontakt<s n="n"/><s n="mi"/></l><r>contacto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kontrast<s n="n"/><s n="mi"/></l><r>contraste<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>magnet<s n="n"/><s n="mi"/></l><r>imán<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>mat<s n="n"/><s n="mi"/></l><r>mate<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>mit<s n="n"/><s n="mi"/></l><r>mito<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>oktet<s n="n"/><s n="mi"/></l><r>octeto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>pakt<s n="n"/><s n="mi"/></l><r>pacto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>pečat<s n="n"/><s n="mi"/></l><r>sello<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>plebiscit<s n="n"/><s n="mi"/></l><r>plebiscito<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>preobrat<s n="n"/><s n="mi"/></l><r>cambio<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>procent<s n="n"/><s n="mi"/></l><r>porcentaje<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>razplet<s n="n"/><s n="mi"/></l><r>desenlace<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>sekretariat<s n="n"/><s n="mi"/></l><r>secretaría<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>svit<s n="n"/><s n="mi"/></l><r>amanecer<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>šepet<s n="n"/><s n="mi"/></l><r>susurro<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>temperament<s n="n"/><s n="mi"/></l><r>temperamento<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>transparent<s n="n"/><s n="mi"/></l><r>transparente<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>vrh<s n="n"/><s n="mi"/></l><r>cumbre<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>pranje<s n="n"/><s n="nt"/></l><r>lavado<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>priznanje<s n="n"/><s n="nt"/></l><r>reconocimiento<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>premoženje<s n="n"/><s n="nt"/></l><r>hacienda<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>skrivališče<s n="n"/><s n="nt"/></l><r>escondite<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>spoznanje<s n="n"/><s n="nt"/></l><r>conocimiento<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>svetišče<s n="n"/><s n="nt"/></l><r>templo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>tekmovanje<s n="n"/><s n="nt"/></l><r>concurso<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>vesolje<s n="n"/><s n="nt"/></l><r>universo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>dolgočasje<s n="n"/><s n="nt"/></l><r>aburrimiento<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>domoljubje<s n="n"/><s n="nt"/></l><r>patriotismo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>gostoljubje<s n="n"/><s n="nt"/></l><r>hospitalidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>grmičevje<s n="n"/><s n="nt"/></l><r>arbusto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>grmovje<s n="n"/><s n="nt"/></l><r>arbusto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ivje<s n="n"/><s n="nt"/></l><r>escarcha<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>oglje<s n="n"/><s n="nt"/></l><r>carbón<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>podeželje<s n="n"/><s n="nt"/></l><r>campo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>vresje<s n="n"/><s n="nt"/></l><r>brezo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>hrbet<s n="n"/><s n="mi"/></l><r>espalda<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>spodnjice<s n="n"/><s n="f"/></l><r>calzoncillos<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>brlog<s n="n"/><s n="mi"/></l><r>guarida<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>dialog<s n="n"/><s n="mi"/></l><r>diálogo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>premog<s n="n"/><s n="mi"/></l><r>carbón<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>zlog<s n="n"/><s n="mi"/></l><r>sílaba<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>angelček<s n="n"/><s n="ma"/></l><r>ángel<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>maček<s n="n"/><s n="ma"/></l><r>gato<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>norček<s n="n"/><s n="ma"/></l><r>loco<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>žužek<s n="n"/><s n="ma"/></l><r>gorgojo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>stratosfera<s n="n"/><s n="f"/></l><r>estratosfera<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>herbicid<s n="n"/><s n="mi"/></l><r>herbicida<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>nasad<s n="n"/><s n="mi"/></l><r>plantación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>obred<s n="n"/><s n="mi"/></l><r>ceremonia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>pregled<s n="n"/><s n="mi"/></l><r>revisión<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>protinapad<s n="n"/><s n="mi"/></l><r>contraataque<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>svod<s n="n"/><s n="mi"/></l><r>bóveda<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>zaklad<s n="n"/><s n="mi"/></l><r>tesoro<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>regrat<s n="n"/><s n="mi"/></l><r>diente de león<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>bič<s n="n"/><s n="mi"/></l><r>látigo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>trušč<s n="n"/><s n="mi"/></l><r>alboroto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>blišč<s n="n"/><s n="mi"/></l><r>brillo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>naslanjač<s n="n"/><s n="mi"/></l><r>sillón<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>rožič<s n="n"/><s n="mi"/></l><r>algarroba<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>vrč<s n="n"/><s n="mi"/></l><r>jarra<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>žolč<s n="n"/><s n="mi"/></l><r>bilis<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>maršal<s n="n"/><s n="ma"/></l><r>mariscal<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>jod<s n="n"/><s n="mi"/></l><r>yodo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>garač<s n="n"/><s n="ma"/></l><r>trabajador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kovač<s n="n"/><s n="ma"/></l><r>herrero<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>mrlič<s n="n"/><s n="ma"/></l><r>cadáver<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>plemič<s n="n"/><s n="ma"/></l><r>noble<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>sanjač<s n="n"/><s n="ma"/></l><r>soñador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>vodič<s n="n"/><s n="ma"/></l><r>guía<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>voh<s n="n"/><s n="mi"/></l><r>olfato<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>mojster<s n="n"/><s n="mi"/></l><r>maestro<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>severozahod<s n="n"/><s n="mi"/></l><r>noroeste<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kotel<s n="n"/><s n="mi"/></l><r>caldera<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>polbrat<s n="n"/><s n="ma"/></l><r>medio hermano<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>debeluh<s n="n"/><s n="ma"/></l><r>gordo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>demon<s n="n"/><s n="ma"/></l><r>demonio<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>domačin<s n="n"/><s n="ma"/></l><r>nativo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>katoličan<s n="n"/><s n="ma"/></l><r>católico<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kristjan<s n="n"/><s n="ma"/></l><r>cristiano<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>nobeden<s n="n"/><s n="m"/></l><r>ninguno<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>orangutan<s n="n"/><s n="ma"/></l><r>orangután<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>škorpijon<s n="n"/><s n="ma"/></l><r>escorpión<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>plazma<s n="n"/><s n="f"/></l><r>plasma<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>imperij<s n="n"/><s n="mi"/></l><r>imperio<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>jubilej<s n="n"/><s n="mi"/></l><r>aniversario<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kolegij<s n="n"/><s n="mi"/></l><r>colegio<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kriterij<s n="n"/><s n="mi"/></l><r>criterio<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>oklepaj<s n="n"/><s n="mi"/></l><r>paréntesis<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>primanjkljaj<s n="n"/><s n="mi"/></l><r>déficit<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>pripetljaj<s n="n"/><s n="mi"/></l><r>suceso<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>raj<s n="n"/><s n="mi"/></l><r>paraíso<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>sij<s n="n"/><s n="mi"/></l><r>brillo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>simpozij<s n="n"/><s n="mi"/></l><r>simposio<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>spermij<s n="n"/><s n="mi"/></l><r>esperma<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>uboj<s n="n"/><s n="mi"/></l><r>homicidio<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>zaboj<s n="n"/><s n="mi"/></l><r>caja<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>cezij<s n="n"/><s n="mi"/></l><r>cesio<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>loj<s n="n"/><s n="mi"/></l><r>sebo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>magnezij<s n="n"/><s n="mi"/></l><r>magnesio<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>znoj<s n="n"/><s n="mi"/></l><r>sudor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ekologija<s n="n"/><s n="f"/></l><r>ecología<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>gotika<s n="n"/><s n="f"/></l><r>gótico<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>hrvaščina<s n="n"/><s n="f"/></l><r>croata<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>magnezija<s n="n"/><s n="mi"/></l><r>magnesio<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>metafizika<s n="n"/><s n="ma"/></l><r>metafísica<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>nezvestoba<s n="n"/><s n="f"/></l><r>infidelidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>revščina<s n="n"/><s n="f"/></l><r>pobreza<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>skleroza<s n="n"/><s n="f"/></l><r>esclerosis<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>drva<s n="n"/><s n="nt"/></l><r>leña<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>škaf<s n="n"/><s n="mi"/></l><r>tina<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>nasilnež<s n="n"/><s n="ma"/></l><r>matón<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>nesrečnež<s n="n"/><s n="ma"/></l><r>desgraciado<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>perverznež<s n="n"/><s n="ma"/></l><r>perversión<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>revež<s n="n"/><s n="ma"/></l><r>pobre<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>strežnik<s n="n"/><s n="ma"/></l><r>servidor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ataše<s n="n"/><s n="ma"/></l><r>agregado<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>avtomobil<s n="n"/><s n="mi"/></l><r>automóvil<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>pokal<s n="n"/><s n="m"/></l><r>copa<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>pol<s n="n"/><s n="mi"/></l><r>polo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>pomol<s n="n"/><s n="mi"/></l><r>muelle<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>predal<s n="n"/><s n="m"/></l><r>cajón<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>preval<s n="n"/><s n="mi"/></l><r>voltereta<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>radikal<s n="n"/><s n="mi"/></l><r>radical<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ugodje<s n="n"/><s n="nt"/></l><r>placer<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>trsje<s n="n"/><s n="nt"/></l><r>cañaveral<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>veselje<s n="n"/><s n="nt"/></l><r>alegría<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>zatišje<s n="n"/><s n="nt"/></l><r>calma<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>zelenje<s n="n"/><s n="nt"/></l><r>parque<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>sad<s n="n"/><s n="mi"/></l><r>fruto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>dolgčas<s n="n"/><s n="mi"/></l><r>aburrimiento<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>biceps<s n="n"/><s n="mi"/></l><r>bíceps<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>gnus<s n="n"/><s n="mi"/></l><r>asco<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>izpis<s n="n"/><s n="mi"/></l><r>extracto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>nanos<s n="n"/><s n="mi"/></l><r>aluvión<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>obris<s n="n"/><s n="mi"/></l><r>silueta<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>odnos<s n="n"/><s n="mi"/></l><r>relación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>plus<s n="n"/><s n="mi"/></l><r>más<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>razpis<s n="n"/><s n="mi"/></l><r>convocatoria<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>refleks<s n="n"/><s n="mi"/></l><r>reflejo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>tloris<s n="n"/><s n="mi"/></l><r>planta<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>vpis<s n="n"/><s n="mi"/></l><r>inscripción<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>pentlja<s n="n"/><s n="f"/></l><r>lazo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>čistilec<s n="n"/><s n="ma"/></l><r>limpiador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>domorodec<s n="n"/><s n="ma"/></l><r>nativo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>glodalec<s n="n"/><s n="ma"/></l><r>roedor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>hlapec<s n="n"/><s n="ma"/></l><r>mozo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>jezikoslovec<s n="n"/><s n="ma"/></l><r>lingüista<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>kriminalec<s n="n"/><s n="ma"/></l><r>criminal<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>nesposobnost<s n="n"/><s n="f"/></l><r>incapacidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>nestrpnost<s n="n"/><s n="f"/></l><r>intolerancia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>nežnost<s n="n"/><s n="f"/></l><r>ternura<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>norost<s n="n"/><s n="f"/></l><r>locura<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>notranjost<s n="n"/><s n="f"/></l><r>interior<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>novost<s n="n"/><s n="f"/></l><r>novedad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>nujnost<s n="n"/><s n="f"/></l><r>necesidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>občutljivost<s n="n"/><s n="f"/></l><r>sensibilidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>objektivnost<s n="n"/><s n="f"/></l><r>objetividad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>objestnost<s n="n"/><s n="f"/></l><r>arrogancia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>oblačnost<s n="n"/><s n="f"/></l><r>nubosidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>očaranost<s n="n"/><s n="f"/></l><r>fascinación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>okrutnost<s n="n"/><s n="f"/></l><r>crueldad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>onemoglost<s n="n"/><s n="f"/></l><r>debilidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>osebnost<s n="n"/><s n="f"/></l><r>personalidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>pasivnost<s n="n"/><s n="f"/></l><r>pasividad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>plodnost<s n="n"/><s n="f"/></l><r>fertilidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>podobnost<s n="n"/><s n="f"/></l><r>semejanza<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>ponarejenost<s n="n"/><s n="f"/></l><r>falsificación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>ponižnost<s n="n"/><s n="f"/></l><r>humildad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>posebnost<s n="n"/><s n="f"/></l><r>particularidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>praprot<s n="n"/><s n="f"/></l><r>helecho<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>pravilnost<s n="n"/><s n="f"/></l><r>regularidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>preciznost<s n="n"/><s n="f"/></l><r>precisión<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>predrznost<s n="n"/><s n="f"/></l><r>insolencia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>prihodnost<s n="n"/><s n="f"/></l><r>futuro<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>prijaznost<s n="n"/><s n="f"/></l><r>amabilidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>priljubljenost<s n="n"/><s n="f"/></l><r>popularidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>priložnost<s n="n"/><s n="f"/></l><r>ocasión<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>produktivnost<s n="n"/><s n="f"/></l><r>productividad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>pronicljivost<s n="n"/><s n="f"/></l><r>penetración<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>prosojnost<s n="n"/><s n="f"/></l><r>transparencia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>prostost<s n="n"/><s n="f"/></l><r>libertad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>prožnost<s n="n"/><s n="f"/></l><r>flexibilidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>radovednost<s n="n"/><s n="f"/></l><r>curiosidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>razdvojenost<s n="n"/><s n="f"/></l><r>separación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>različnost<s n="n"/><s n="f"/></l><r>diversidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>realnost<s n="n"/><s n="f"/></l><r>realidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>redkost<s n="n"/><s n="f"/></l><r>rareza<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>resničnost<s n="n"/><s n="f"/></l><r>realidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>resnost<s n="n"/><s n="f"/></l><r>gravedad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>rodovitnost<s n="n"/><s n="f"/></l><r>fertilidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>sebičnost<s n="n"/><s n="f"/></l><r>egoísmo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>sitnost<s n="n"/><s n="f"/></l><r>molestia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>skupnost<s n="n"/><s n="f"/></l><r>comunidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>slabost<s n="n"/><s n="f"/></l><r>malestar<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>slovesnost<s n="n"/><s n="f"/></l><r>ceremonia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>smrtnost<s n="n"/><s n="f"/></l><r>mortalidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>solidarnost<s n="n"/><s n="f"/></l><r>solidaridad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>sorodnost<s n="n"/><s n="f"/></l><r>afinidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>sovražnost<s n="n"/><s n="f"/></l><r>hostilidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>splošnost<s n="n"/><s n="f"/></l><r>generalidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>spolnost<s n="n"/><s n="f"/></l><r>sexualidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>sposobnost<s n="n"/><s n="f"/></l><r>capacidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>spremenljivost<s n="n"/><s n="f"/></l><r>variabilidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>spretnost<s n="n"/><s n="f"/></l><r>habilidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>sproščenost<s n="n"/><s n="f"/></l><r>relajación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>starost<s n="n"/><s n="ma"/></l><r>edad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>strahopetnost<s n="n"/><s n="f"/></l><r>cobardía<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>strokovnost<s n="n"/><s n="f"/></l><r>pericia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>stvarnost<s n="n"/><s n="f"/></l><r>realidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>suhost<s n="n"/><s n="f"/></l><r>sequedad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>surovost<s n="n"/><s n="f"/></l><r>brutalidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>svečanost<s n="n"/><s n="f"/></l><r>ceremonia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>temačnost<s n="n"/><s n="f"/></l><r>oscuridad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>točnost<s n="n"/><s n="f"/></l><r>precisión<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>togost<s n="n"/><s n="f"/></l><r>rigidez<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>učljivost<s n="n"/><s n="f"/></l><r>docilidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>udobnost<s n="n"/><s n="f"/></l><r>comodidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>ukrivljenost<s n="n"/><s n="f"/></l><r>curvatura<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>umazanost<s n="n"/><s n="f"/></l><r>suciedad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>umrljivost<s n="n"/><s n="f"/></l><r>mortalidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>uniformnost<s n="n"/><s n="f"/></l><r>uniformidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>uslužnost<s n="n"/><s n="f"/></l><r>cortesía<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>uspešnost<s n="n"/><s n="f"/></l><r>rendimiento<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ustrežljivost<s n="n"/><s n="f"/></l><r>utilidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>ustvarjalnost<s n="n"/><s n="f"/></l><r>creatividad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>utrujenost<s n="n"/><s n="f"/></l><r>fatiga<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>večnost<s n="n"/><s n="f"/></l><r>eternidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>večvrednost<s n="n"/><s n="f"/></l><r>superioridad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>vednost<s n="n"/><s n="f"/></l><r>información<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>veljavnost<s n="n"/><s n="f"/></l><r>validez<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>verjetnost<s n="n"/><s n="f"/></l><r>probabilidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>vernost<s n="n"/><s n="f"/></l><r>fidelidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>verodostojnost<s n="n"/><s n="f"/></l><r>credibilidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>vezanost<s n="n"/><s n="f"/></l><r>esclavitud<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>vljudnost<s n="n"/><s n="f"/></l><r>cortesía<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>vsebnost<s n="n"/><s n="f"/></l><r>contenido<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>všečnost<s n="n"/><s n="f"/></l><r>simpatía<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>začasnost<s n="n"/><s n="f"/></l><r>temporal<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>zagnanost<s n="n"/><s n="f"/></l><r>entusiasmo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>zakonitost<s n="n"/><s n="f"/></l><r>legalidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>zanemarjenost<s n="n"/><s n="f"/></l><r>miseria<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>zanimivost<s n="n"/><s n="f"/></l><r>interesante<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>zapletenost<s n="n"/><s n="f"/></l><r>complejidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>zaprtost<s n="n"/><s n="f"/></l><r>estreñimiento<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>zastarelost<s n="n"/><s n="f"/></l><r>obsolescencia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>zaupnost<s n="n"/><s n="f"/></l><r>confidencialidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>zavzetost<s n="n"/><s n="f"/></l><r>compromiso<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>zmožnost<s n="n"/><s n="f"/></l><r>capacidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>ženskost<s n="n"/><s n="f"/></l><r>feminidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>živahnost<s n="n"/><s n="f"/></l><r>vivacidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>živost<s n="n"/><s n="f"/></l><r>intensidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>pad<s n="n"/><s n="mi"/></l><r>almohadilla<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>dragica<s n="n"/><s n="f"/></l><r>querido<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>zemljan<s n="n"/><s n="ma"/></l><r>terrestre<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>iztok<s n="n"/><s n="mi"/></l><r>efluente<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>neža<s n="n"/><s n="f"/></l><r>cardo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>krek<s n="n"/><s n="mi"/></l><r>grieta<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>tisoč<s n="n"/><s n="mi"/></l><r>mil<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>absurdnost<s n="n"/><s n="f"/></l><r>absurdo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>aktivnost<s n="n"/><s n="f"/></l><r>actividad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>angažiranost<s n="n"/><s n="f"/></l><r>compromiso<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>avtohtonost<s n="n"/><s n="f"/></l><r>originalidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>bistroumnost<s n="n"/><s n="f"/></l><r>ingenio<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>blaženost<s n="n"/><s n="f"/></l><r>felicidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>bodočnost<s n="n"/><s n="f"/></l><r>futuro<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>bridkost<s n="n"/><s n="f"/></l><r>miseria<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>čistost<s n="n"/><s n="f"/></l><r>pureza<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>človečnost<s n="n"/><s n="f"/></l><r>humanidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>čutnost<s n="n"/><s n="f"/></l><r>sensualidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>debelost<s n="n"/><s n="f"/></l><r>obesidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>dednost<s n="n"/><s n="f"/></l><r>herencia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>dejavnost<s n="n"/><s n="f"/></l><r>actividad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>discipliniranost<s n="n"/><s n="f"/></l><r>disciplina<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>dolgoživost<s n="n"/><s n="f"/></l><r>longevidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>dominantnost<s n="n"/><s n="f"/></l><r>dominio<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>dragocenost<s n="n"/><s n="f"/></l><r>tesoro<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>dvoumnost<s n="n"/><s n="f"/></l><r>ambigüedad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>edinost<s n="n"/><s n="f"/></l><r>unidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>ekscentričnost<s n="n"/><s n="f"/></l><r>excentricidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>enakopravnost<s n="n"/><s n="f"/></l><r>igualdad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>enotnost<s n="n"/><s n="f"/></l><r>unidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>formalnost<s n="n"/><s n="f"/></l><r>formalidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>funkcionalnost<s n="n"/><s n="f"/></l><r>funcionalidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>gobavost<s n="n"/><s n="f"/></l><r>lepra<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>goljufivost<s n="n"/><s n="f"/></l><r>fraudulento<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>gostoljubnost<s n="n"/><s n="f"/></l><r>hospitalidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>gotovost<s n="n"/><s n="f"/></l><r>certeza<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>hladnost<s n="n"/><s n="f"/></l><r>frialdad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>homoseksualnost<s n="n"/><s n="f"/></l><r>homosexualidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>hrabrost<s n="n"/><s n="f"/></l><r>valor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>intenzivnost<s n="n"/><s n="f"/></l><r>intensidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>intimnost<s n="n"/><s n="f"/></l><r>intimidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>izčrpanost<s n="n"/><s n="f"/></l><r>agotamiento<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>jasnost<s n="n"/><s n="f"/></l><r>claridad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>koristnost<s n="n"/><s n="f"/></l><r>utilidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>krutost<s n="n"/><s n="f"/></l><r>crueldad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>lahkomiselnost<s n="n"/><s n="f"/></l><r>frivolidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>lastnost<s n="n"/><s n="f"/></l><r>propiedad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>legitimnost<s n="n"/><s n="f"/></l><r>legitimidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>lepljivost<s n="n"/><s n="f"/></l><r>adhesión<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>lojalnost<s n="n"/><s n="f"/></l><r>lealtad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>majhnost<s n="n"/><s n="f"/></l><r>pequeño<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>malenkost<s n="n"/><s n="f"/></l><r>ligeramente<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>manjvrednost<s n="n"/><s n="f"/></l><r>inferioridad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>miselnost<s n="n"/><s n="f"/></l><r>mentalidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>mističnost<s n="n"/><s n="f"/></l><r>misterio<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>mladost<s n="n"/><s n="f"/></l><r>juventud<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>moškost<s n="n"/><s n="f"/></l><r>masculinidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>možnost<s n="n"/><s n="f"/></l><r>posibilidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>nacionalnost<s n="n"/><s n="f"/></l><r>nacionalidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>napačnost<s n="n"/><s n="f"/></l><r>mal<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>natančnost<s n="n"/><s n="f"/></l><r>precisión<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>navdušenost<s n="n"/><s n="f"/></l><r>entusiasmo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>nedorečenost<s n="n"/><s n="f"/></l><r>incompleto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>neenakost<s n="n"/><s n="f"/></l><r>desigualdad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>negibnost<s n="n"/><s n="f"/></l><r>inmovilidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>nejasnost<s n="n"/><s n="f"/></l><r>ambigüedad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>nekoristnost<s n="n"/><s n="f"/></l><r>inutilidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>nenormalnost<s n="n"/><s n="f"/></l><r>anormalidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>neodgovornost<s n="n"/><s n="f"/></l><r>irresponsabilidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>nepismenost<s n="n"/><s n="f"/></l><r>analfabetismo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>nepravilnost<s n="n"/><s n="f"/></l><r>irregularidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>nerodnost<s n="n"/><s n="f"/></l><r>torpeza<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>nesmiselnost<s n="n"/><s n="f"/></l><r>absurdo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>liberalec<s n="n"/><s n="ma"/></l><r>liberal<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>mogotec<s n="n"/><s n="ma"/></l><r>magnate<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>napadalec<s n="n"/><s n="ma"/></l><r>agresor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>navdušenec<s n="n"/><s n="ma"/></l><r>entusiasta<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>neznanec<s n="n"/><s n="ma"/></l><r>desconocido<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>norec<s n="n"/><s n="ma"/></l><r>loco<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>obsojenec<s n="n"/><s n="ma"/></l><r>condenado<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>odposlanec<s n="n"/><s n="ma"/></l><r>enviado<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>parlamentarec<s n="n"/><s n="ma"/></l><r>parlamentario<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>partijec<s n="n"/><s n="ma"/></l><r>partido<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>planinec<s n="n"/><s n="ma"/></l><r>montañero<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>pogajalec<s n="n"/><s n="ma"/></l><r>negociador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>poslanec<s n="n"/><s n="ma"/></l><r>diputado<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>posredovalec<s n="n"/><s n="ma"/></l><r>mediante<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>potomec<s n="n"/><s n="ma"/></l><r>descendiente<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>poznavalec<s n="n"/><s n="ma"/></l><r>experto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>pričevalec<s n="n"/><s n="ma"/></l><r>testigo<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>pritlikavec<s n="n"/><s n="ma"/></l><r>enano<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>privrženec<s n="n"/><s n="ma"/></l><r>seguidor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>prodajalec<s n="n"/><s n="ma"/></l><r>vendedor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>prostovoljec<s n="n"/><s n="ma"/></l><r>voluntario<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>raznašalec<s n="n"/><s n="ma"/></l><r>mensajero<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>republikanec<s n="n"/><s n="ma"/></l><r>republicano<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>sestavljalec<s n="n"/><s n="ma"/></l><r>constructor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>sestavljavec<s n="n"/><s n="ma"/></l><r>constructor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>smrkavec<s n="n"/><s n="ma"/></l><r>niño<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>stanovalec<s n="n"/><s n="ma"/></l><r>inquilino<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>starec<s n="n"/><s n="ma"/></l><r>anciano<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>staroselec<s n="n"/><s n="ma"/></l><r>indígena<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>strelec<s n="n"/><s n="ma"/></l><r>tirador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>talec<s n="n"/><s n="ma"/></l><r>rehén<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>tepec<s n="n"/><s n="ma"/></l><r>tonto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>tožilec<s n="n"/><s n="ma"/></l><r>acusador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ubijalec<s n="n"/><s n="ma"/></l><r>asesino<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ustvarjalec<s n="n"/><s n="ma"/></l><r>creador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>vlomilec<s n="n"/><s n="ma"/></l><r>ladrón<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>volivec<s n="n"/><s n="ma"/></l><r>elector<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>vsiljivec<s n="n"/><s n="ma"/></l><r>intruso<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>zbiralec<s n="n"/><s n="ma"/></l><r>coleccionista<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>zelenec<s n="n"/><s n="ma"/></l><r>novato<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>davek<s n="n"/><s n="mi"/></l><r>impuesto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>dodatek<s n="n"/><s n="mi"/></l><r>aditivo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>griček<s n="n"/><s n="mi"/></l><r>montículo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>grmiček<s n="n"/><s n="mi"/></l><r>arbusto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>izcedek<s n="n"/><s n="mi"/></l><r>secreción<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>jermenček<s n="n"/><s n="mi"/></l><r>correa<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>kamenček<s n="n"/><s n="mi"/></l><r>piedra<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>kanček<s n="n"/><s n="mi"/></l><r>poco<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>košček<s n="n"/><s n="mi"/></l><r>pieza<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>listek<s n="n"/><s n="mi"/></l><r>billete<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>lonček<s n="n"/><s n="mi"/></l><r>taza<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>metek<s n="n"/><s n="mi"/></l><r>bala<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>nadomestek<s n="n"/><s n="mi"/></l><r>sustituto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>napitek<s n="n"/><s n="mi"/></l><r>bebida<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>napotek<s n="n"/><s n="mi"/></l><r>indicación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>napredek<s n="n"/><s n="mi"/></l><r>progreso<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>oblaček<s n="n"/><s n="mi"/></l><r>nube<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>podatek<s n="n"/><s n="mi"/></l><r>información<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>popek<s n="n"/><s n="mi"/></l><r>ombligo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>posnetek<s n="n"/><s n="mi"/></l><r>imitación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>poudarek<s n="n"/><s n="mi"/></l><r>énfasis<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>požirek<s n="n"/><s n="mi"/></l><r>sorbo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>prestopek<s n="n"/><s n="mi"/></l><r>delito<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>pridelek<s n="n"/><s n="mi"/></l><r>cosecha<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>pridržek<s n="n"/><s n="mi"/></l><r>reserva<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>razloček<s n="n"/><s n="mi"/></l><r>distinción<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>skupek<s n="n"/><s n="mi"/></l><r>conjunto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>strdek<s n="n"/><s n="mi"/></l><r>coágulo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>sunek<s n="n"/><s n="mi"/></l><r>golpe<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>venček<s n="n"/><s n="mi"/></l><r>corona<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>vršiček<s n="n"/><s n="mi"/></l><r>brote<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>vzdevek<s n="n"/><s n="mi"/></l><r>apodo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>zadek<s n="n"/><s n="mi"/></l><r>trasero<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>zaimek<s n="n"/><s n="mi"/></l><r>pronombre<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>brezumje<s n="n"/><s n="nt"/></l><r>locura<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>brezvetrje<s n="n"/><s n="nt"/></l><r>calma<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>četrtletje<s n="n"/><s n="nt"/></l><r>trimestre<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>imetje<s n="n"/><s n="nt"/></l><r>propiedad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>izginotje<s n="n"/><s n="nt"/></l><r>desaparición<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>ladjevje<s n="n"/><s n="nt"/></l><r>flota<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>litje<s n="n"/><s n="nt"/></l><r>fundición<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>nesoglasje<s n="n"/><s n="nt"/></l><r>desacuerdo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>neurje<s n="n"/><s n="nt"/></l><r>tormenta<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>obeležje<s n="n"/><s n="nt"/></l><r>memorial<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>obrobje<s n="n"/><s n="nt"/></l><r>periferia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>ospredje<s n="n"/><s n="nt"/></l><r>frente<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>pitje<s n="n"/><s n="nt"/></l><r>beber<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>početje<s n="n"/><s n="nt"/></l><r>hacer<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>posodje<s n="n"/><s n="nt"/></l><r>vajilla<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>razkošje<s n="n"/><s n="nt"/></l><r>lujo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>razpotje<s n="n"/><s n="nt"/></l><r>encrucijada<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>šibje<s n="n"/><s n="nt"/></l><r>mimbre<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>štetje<s n="n"/><s n="nt"/></l><r>contar<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>tisočletje<s n="n"/><s n="nt"/></l><r>milenio<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>udobje<s n="n"/><s n="nt"/></l><r>comodidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>vpitje<s n="n"/><s n="nt"/></l><r>gritar<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>zavetrje<s n="n"/><s n="nt"/></l><r>sotavento<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>zavzetje<s n="n"/><s n="nt"/></l><r>conquista<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>zmagoslavje<s n="n"/><s n="nt"/></l><r>triunfo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>vez<s n="n"/><s n="f"/></l><r>enlace<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kožuh<s n="n"/><s n="mi"/></l><r>piel<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>živalca<s n="n"/><s n="f"/></l><r>criatura<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>reženj<s n="n"/><s n="mi"/></l><r>pedazo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>semenj<s n="n"/><s n="mi"/></l><r>feria<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>škorenj<s n="n"/><s n="mi"/></l><r>bota<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>dežurni<s n="n"/><s n="m"/></l><r>encargado<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kopel<s n="n"/><s n="f"/></l><r>baño<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>zibel<s n="n"/><s n="f"/></l><r>cuna<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>bogokletstvo<s n="n"/><s n="nt"/></l><r>blasfemia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>bogoskrunstvo<s n="n"/><s n="nt"/></l><r>blasfemia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>bratstvo<s n="n"/><s n="nt"/></l><r>fraternidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>cesarstvo<s n="n"/><s n="nt"/></l><r>imperio<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>človeštvo<s n="n"/><s n="nt"/></l><r>humanidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>dostojanstvo<s n="n"/><s n="nt"/></l><r>dignidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>društvo<s n="n"/><s n="nt"/></l><r>sociedad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>grozodejstvo<s n="n"/><s n="nt"/></l><r>atrocidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>hudodelstvo<s n="n"/><s n="nt"/></l><r>crimen<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>izdajstvo<s n="n"/><s n="nt"/></l><r>traición<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>jetništvo<s n="n"/><s n="nt"/></l><r>esclavitud<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>lastništvo<s n="n"/><s n="nt"/></l><r>propiedad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>materinstvo<s n="n"/><s n="nt"/></l><r>maternidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>mučeništvo<s n="n"/><s n="nt"/></l><r>martirio<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>nadzorstvo<s n="n"/><s n="nt"/></l><r>supervisión<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>predsedstvo<s n="n"/><s n="nt"/></l><r>presidencia<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>predstavništvo<s n="n"/><s n="nt"/></l><r>representación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>prostranstvo<s n="n"/><s n="nt"/></l><r>extensión<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>puritanstvo<s n="n"/><s n="nt"/></l><r>puritanismo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>sodstvo<s n="n"/><s n="nt"/></l><r>judicial<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>spremstvo<s n="n"/><s n="nt"/></l><r>escolta<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>sredstvo<s n="n"/><s n="nt"/></l><r>medio<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>tožilstvo<s n="n"/><s n="nt"/></l><r>acusador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>veličanstvo<s n="n"/><s n="nt"/></l><r>majestad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>vodstvo<s n="n"/><s n="nt"/></l><r>liderato<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>zločinstvo<s n="n"/><s n="nt"/></l><r>criminal<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>abstinent<s n="n"/><s n="ma"/></l><r>abstinente<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>alpinist<s n="n"/><s n="ma"/></l><r>alpinista<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>bandit<s n="n"/><s n="ma"/></l><r>bandido<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>delegat<s n="n"/><s n="ma"/></l><r>delegado<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>demokrat<s n="n"/><s n="ma"/></l><r>demócrata<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>karikaturist<s n="n"/><s n="ma"/></l><r>caricaturista<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>kronist<s n="n"/><s n="ma"/></l><r>cronista<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>marksist<s n="n"/><s n="ma"/></l><r>marxista<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>optimist<s n="n"/><s n="ma"/></l><r>optimista<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>patriot<s n="n"/><s n="ma"/></l><r>patriota<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>psihopat<s n="n"/><s n="ma"/></l><r>psicópata<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>skavt<s n="n"/><s n="ma"/></l><r>explorador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>specialist<s n="n"/><s n="ma"/></l><r>especialista<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>terapevt<s n="n"/><s n="ma"/></l><r>terapeuta<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>terorist<s n="n"/><s n="ma"/></l><r>terrorista<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>dovoz<s n="n"/><s n="mi"/></l><r>entrada<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>prelaz<s n="n"/><s n="mi"/></l><r>pasar<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>prikaz<s n="n"/><s n="mi"/></l><r>representación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>verz<s n="n"/><s n="mi"/></l><r>verso<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>nepridiprav<s n="n"/><s n="ma"/></l><r>villano<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kres<s n="n"/><s n="mi"/></l><r>hoguera<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>register<s n="n"/><s n="mi"/></l><r>registro<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>spektrometer<s n="n"/><s n="mi"/></l><r>espectrómetro<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>aksiom<s n="n"/><s n="mi"/></l><r>axioma<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>diagram<s n="n"/><s n="mi"/></l><r>diagrama<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ekcem<s n="n"/><s n="mi"/></l><r>eczema<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>encim<s n="n"/><s n="mi"/></l><r>enzima<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>forum<s n="n"/><s n="mi"/></l><r>foro<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>nesporazum<s n="n"/><s n="mi"/></l><r>malentendido<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>odvzem<s n="n"/><s n="mi"/></l><r>retirada<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>prejem<s n="n"/><s n="mi"/></l><r>recibo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>prelom<s n="n"/><s n="mi"/></l><r>rotura<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>prevzem<s n="n"/><s n="mi"/></l><r>aceptación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>laso<s n="n"/><s n="mi"/></l><r>lazo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>amater<s n="n"/><s n="ma"/></l><r>aficionado<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>dezerter<s n="n"/><s n="ma"/></l><r>desertor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>dihur<s n="n"/><s n="ma"/></l><r>turón<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>inšpektor<s n="n"/><s n="ma"/></l><r>inspector<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kavalir<s n="n"/><s n="ma"/></l><r>caballero<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kolonizator<s n="n"/><s n="ma"/></l><r>colonizador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>komentator<s n="n"/><s n="ma"/></l><r>comentarista<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>kontrolor<s n="n"/><s n="ma"/></l><r>controlador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>lektor<s n="n"/><s n="ma"/></l><r>lector<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>levičar<s n="n"/><s n="ma"/></l><r>zurdo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>major<s n="n"/><s n="ma"/></l><r>mayor<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>oficir<s n="n"/><s n="ma"/></l><r>oficial<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>organizator<s n="n"/><s n="ma"/></l><r>organizador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>partner<s n="n"/><s n="ma"/></l><r>socio<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>pionir<s n="n"/><s n="ma"/></l><r>pionero<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>poglavar<s n="n"/><s n="ma"/></l><r>cacique<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>reformator<s n="n"/><s n="ma"/></l><r>reformador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>romar<s n="n"/><s n="ma"/></l><r>peregrino<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ropar<s n="n"/><s n="ma"/></l><r>ladrón<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>samotar<s n="n"/><s n="ma"/></l><r>solitario<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>sponzor<s n="n"/><s n="ma"/></l><r>patrocinador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>vikar<s n="n"/><s n="ma"/></l><r>vicario<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>vladar<s n="n"/><s n="ma"/></l><r>gobernante<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>žongler<s n="n"/><s n="ma"/></l><r>malabarista<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>biograf<s n="n"/><s n="ma"/></l><r>biógrafo<s n="n"/><s n="m"/></r></p></e>
 		
     <!-- SECTION: Proper nouns -->
 
@@ -4410,6 +5504,694 @@
 	<e><p><l>gibljiv<s n="adj"/></l><r>flexible<s n="adj"/></r></p></e>
 	<e><p><l>nesprejemljiv<s n="adj"/></l><r>inaceptable<s n="adj"/></r></p></e>
 	<e><p><l>srbski<s n="adj"/></l><r>serbio<s n="adj"/></r></p></e>
+	
+	<e><p><l>čist<s n="adj"/></l><r>limpio<s n="adj"/></r></p></e>
+	<e><p><l>čudovit<s n="adj"/></l><r>maravilloso<s n="adj"/></r></p></e>
+	<e><p><l>svet<s n="adj"/></l><r>mundo<s n="adj"/></r></p></e>
+	<e><p><l>miren<s n="adj"/></l><r>tranquilo<s n="adj"/></r></p></e>
+	<e><p><l>raven<s n="adj"/></l><r>liso<s n="adj"/></r></p></e>
+	<e><p><l>gladek<s n="adj"/></l><r>suave<s n="adj"/></r></p></e>
+	<e><p><l>mehek<s n="adj"/></l><r>blando<s n="adj"/></r></p></e>
+	<e><p><l>dolg<s n="adj"/></l><r>deuda<s n="adj"/></r></p></e>
+	<e><p><l>razen<s n="adj"/></l><r>excepto<s n="adj"/></r></p></e>
+	<e><p><l>kamen<s n="adj"/></l><r>piedra<s n="adj"/></r></p></e>
+	<e><p><l>krvav<s n="adj"/></l><r>sangriento<s n="adj"/></r></p></e>
+	<e><p><l>nalezljiv<s n="adj"/></l><r>contagioso<s n="adj"/></r></p></e>
+	<e><p><l>surov<s n="adj"/></l><r>crudo<s n="adj"/></r></p></e>
+	<e><p><l>živ<s n="adj"/></l><r>vivo<s n="adj"/></r></p></e>
+	<e><p><l>kratek<s n="adj"/></l><r>corto<s n="adj"/></r></p></e>
+	<e><p><l>izpit<s n="adj"/></l><r>examen<s n="adj"/></r></p></e>
+	<e><p><l>oblast<s n="adj"/></l><r>autoridad<s n="adj"/></r></p></e>
+	<e><p><l>duhovit<s n="adj"/></l><r>ingenioso<s n="adj"/></r></p></e>
+	<e><p><l>moker<s n="adj"/></l><r>mojado<s n="adj"/></r></p></e>
+	<e><p><l>pameten<s n="adj"/></l><r>sabio<s n="adj"/></r></p></e>
+	<e><p><l>ponosen<s n="adj"/></l><r>orgulloso<s n="adj"/></r></p></e>
+	<e><p><l>različen<s n="adj"/></l><r>diferente<s n="adj"/></r></p></e>
+	<e><p><l>temen<s n="adj"/></l><r>oscuro<s n="adj"/></r></p></e>
+	<e><p><l>varen<s n="adj"/></l><r>seguro<s n="adj"/></r></p></e>
+	<e><p><l>poročen<s n="adj"/></l><r>casado<s n="adj"/></r></p></e>
+	<e><p><l>otekel<s n="adj"/></l><r>hinchado<s n="adj"/></r></p></e>
+	<e><p><l>okrogel<s n="adj"/></l><r>redondo<s n="adj"/></r></p></e>
+	<e><p><l>pošten<s n="adj"/></l><r>honesto<s n="adj"/></r></p></e>
+	<e><p><l>češki<s n="adj"/></l><r>checo<s n="adj"/></r></p></e>
+	<e><p><l>indijski<s n="adj"/></l><r>indio<s n="adj"/></r></p></e>
+	<e><p><l>islandski<s n="adj"/></l><r>islandés<s n="adj"/></r></p></e>
+	<e><p><l>izraelski<s n="adj"/></l><r>israelí<s n="adj"/></r></p></e>
+	<e><p><l>japonski<s n="adj"/></l><r>japonés<s n="adj"/></r></p></e>
+	<e><p><l>katoliški<s n="adj"/></l><r>católico<s n="adj"/></r></p></e>
+	<e><p><l>kmetijski<s n="adj"/></l><r>rural<s n="adj"/></r></p></e>
+	<e><p><l>korejski<s n="adj"/></l><r>coreano<s n="adj"/></r></p></e>
+	<e><p><l>krščanski<s n="adj"/></l><r>cristiano<s n="adj"/></r></p></e>
+	<e><p><l>levi<s n="adj"/></l><r>izquierda<s n="adj"/></r></p></e>
+	<e><p><l>libijski<s n="adj"/></l><r>libio<s n="adj"/></r></p></e>
+	<e><p><l>muslimanski<s n="adj"/></l><r>musulmán<s n="adj"/></r></p></e>
+	<e><p><l>skandinavski<s n="adj"/></l><r>escandinavo<s n="adj"/></r></p></e>
+	<e><p><l>slovaški<s n="adj"/></l><r>eslovaco<s n="adj"/></r></p></e>
+	<e><p><l>srbski<s n="adj"/></l><r>serbio<s n="adj"/></r></p></e>
+	<e><p><l>švicarski<s n="adj"/></l><r>suizo<s n="adj"/></r></p></e>
+	<e><p><l>cenen<s n="adj"/></l><r>barato<s n="adj"/></r></p></e>
+	<e><p><l>pripravljen<s n="adj"/></l><r>listo<s n="adj"/></r></p></e>
+	<e><p><l>rumen<s n="adj"/></l><r>amarillo<s n="adj"/></r></p></e>
+	<e><p><l>umazan<s n="adj"/></l><r>sucio<s n="adj"/></r></p></e>
+	<e><p><l>len<s n="adj"/></l><r>perezoso<s n="adj"/></r></p></e>
+	<e><p><l>poln<s n="adj"/></l><r>lleno<s n="adj"/></r></p></e>
+	<e><p><l>slan<s n="adj"/></l><r>salado<s n="adj"/></r></p></e>
+	<e><p><l>zelen<s n="adj"/></l><r>verde<s n="adj"/></r></p></e>
+	<e><p><l>suh<s n="adj"/></l><r>seco<s n="adj"/></r></p></e>
+	<e><p><l>ženin<s n="adj"/></l><r>novio<s n="adj"/></r></p></e>
+	<e><p><l>debel<s n="adj"/></l><r>gordo<s n="adj"/></r></p></e>
+	<e><p><l>oster<s n="adj"/></l><r>afilado<s n="adj"/></r></p></e>
+	<e><p><l>slab<s n="adj"/></l><r>malo<s n="adj"/></r></p></e>
+	<e><p><l>navzoč<s n="adj"/></l><r>presente<s n="adj"/></r></p></e>
+	<e><p><l>ljubosumen<s n="adj"/></l><r>celoso<s n="adj"/></r></p></e>
+	<e><p><l>mednaroden<s n="adj"/></l><r>internacional<s n="adj"/></r></p></e>
+	<e><p><l>naroden<s n="adj"/></l><r>nacional<s n="adj"/></r></p></e>
+	<e><p><l>navidezen<s n="adj"/></l><r>virtual<s n="adj"/></r></p></e>
+	<e><p><l>nezavesten<s n="adj"/></l><r>inconsciente<s n="adj"/></r></p></e>
+	<e><p><l>odsoten<s n="adj"/></l><r>ausente<s n="adj"/></r></p></e>
+	<e><p><l>pravokoten<s n="adj"/></l><r>rectangular<s n="adj"/></r></p></e>
+	<e><p><l>približen<s n="adj"/></l><r>aproximado<s n="adj"/></r></p></e>
+	<e><p><l>ravnodušen<s n="adj"/></l><r>indiferente<s n="adj"/></r></p></e>
+	<e><p><l>sončen<s n="adj"/></l><r>soleado<s n="adj"/></r></p></e>
+	<e><p><l>veljaven<s n="adj"/></l><r>válido<s n="adj"/></r></p></e>
+	<e><p><l>vetroven<s n="adj"/></l><r>ventoso<s n="adj"/></r></p></e>
+	<e><p><l>začasen<s n="adj"/></l><r>provisional<s n="adj"/></r></p></e>
+	<e><p><l>navaden<s n="adj"/></l><r>común<s n="adj"/></r></p></e>
+	<e><p><l>nedolžen<s n="adj"/></l><r>inocente<s n="adj"/></r></p></e>
+	<e><p><l>vlažen<s n="adj"/></l><r>húmedo<s n="adj"/></r></p></e>
+	<e><p><l>tih<s n="adj"/></l><r>silencioso<s n="adj"/></r></p></e>
+	<e><p><l>cel<s n="adj"/></l><r>entero<s n="adj"/></r></p></e>
+	<e><p><l>gnil<s n="adj"/></l><r>podrido<s n="adj"/></r></p></e>
+	<e><p><l>hvaležen<s n="adj"/></l><r>agradecido<s n="adj"/></r></p></e>
+	<e><p><l>pozen<s n="adj"/></l><r>tarde<s n="adj"/></r></p></e>
+	<e><p><l>slaven<s n="adj"/></l><r>famoso<s n="adj"/></r></p></e>
+	<e><p><l>mrtev<s n="adj"/></l><r>muerto<s n="adj"/></r></p></e>
+	<e><p><l>dolgočasen<s n="adj"/></l><r>aburrido<s n="adj"/></r></p></e>
+	<e><p><l>hudoben<s n="adj"/></l><r>malvado<s n="adj"/></r></p></e>
+	<e><p><l>nesrečen<s n="adj"/></l><r>desgraciado<s n="adj"/></r></p></e>
+	<e><p><l>zaseben<s n="adj"/></l><r>privado<s n="adj"/></r></p></e>
+	<e><p><l>majhen<s n="adj"/></l><r>pequeño<s n="adj"/></r></p></e>
+	<e><p><l>ljubezniv<s n="adj"/></l><r>amable<s n="adj"/></r></p></e>
+	<e><p><l>nizozemski<s n="adj"/></l><r>holandés<s n="adj"/></r></p></e>
+	<e><p><l>kapitalističen<s n="adj"/></l><r>capitalista<s n="adj"/></r></p></e>
+	<e><p><l>redek<s n="adj"/></l><r>raro<s n="adj"/></r></p></e>
+	<e><p><l>pet<s n="adj"/></l><r>cinco<s n="adj"/></r></p></e>
+	<e><p><l>divji<s n="adj"/></l><r>salvaje<s n="adj"/></r></p></e> 
+	<e><p><l>stranski<s n="adj"/></l><r>lateral<s n="adj"/></r></p></e> 
+	<e><p><l>dober<s n="adj"/></l><r>bueno<s n="adj"/></r></p></e> 
+	<e><p><l>star<s n="adj"/></l><r>viejo<s n="adj"/></r></p></e> 
+	<e><p><l>bojevit<s n="adj"/></l><r>luchador<s n="adj"/></r></p></e>
+	<e><p><l>čvrst<s n="adj"/></l><r>fuerte<s n="adj"/></r></p></e>
+	<e><p><l>grozovit<s n="adj"/></l><r>horrible<s n="adj"/></r></p></e>
+	<e><p><l>nerazvit<s n="adj"/></l><r>subdesarrollado<s n="adj"/></r></p></e>
+	<e><p><l>odkrit<s n="adj"/></l><r>franco<s n="adj"/></r></p></e>
+	<e><p><l>plemenit<s n="adj"/></l><r>noble<s n="adj"/></r></p></e>
+	<e><p><l>pogost<s n="adj"/></l><r>frecuente<s n="adj"/></r></p></e>
+	<e><p><l>silovit<s n="adj"/></l><r>enérgico<s n="adj"/></r></p></e>
+	<e><p><l>slikovit<s n="adj"/></l><r>pintoresco<s n="adj"/></r></p></e>
+	<e><p><l>temeljit<s n="adj"/></l><r>fundamental<s n="adj"/></r></p></e>
+	<e><p><l>krasen<s n="adj"/></l><r>hermoso<s n="adj"/></r></p></e>
+	<e><p><l>napačen<s n="adj"/></l><r>falso<s n="adj"/></r></p></e>
+	<e><p><l>neodločen<s n="adj"/></l><r>indeciso<s n="adj"/></r></p></e>
+	<e><p><l>nepravilen<s n="adj"/></l><r>incorrecto<s n="adj"/></r></p></e>
+	<e><p><l>neprimeren<s n="adj"/></l><r>inapropiado<s n="adj"/></r></p></e>
+	<e><p><l>nerealen<s n="adj"/></l><r>poco realista<s n="adj"/></r></p></e>
+	<e><p><l>neverjeten<s n="adj"/></l><r>increíble<s n="adj"/></r></p></e>
+	<e><p><l>nezmožen<s n="adj"/></l><r>incapaz<s n="adj"/></r></p></e>
+	<e><p><l>osnoven<s n="adj"/></l><r>básico<s n="adj"/></r></p></e>
+	<e><p><l>pozoren<s n="adj"/></l><r>atento<s n="adj"/></r></p></e>
+	<e><p><l>previden<s n="adj"/></l><r>cauteloso<s n="adj"/></r></p></e>
+	<e><p><l>primitiven<s n="adj"/></l><r>primitivo<s n="adj"/></r></p></e>
+	<e><p><l>razločen<s n="adj"/></l><r>claro<s n="adj"/></r></p></e>
+	<e><p><l>smešen<s n="adj"/></l><r>cómico<s n="adj"/></r></p></e>
+	<e><p><l>veličasten<s n="adj"/></l><r>magnífico<s n="adj"/></r></p></e>
+	<e><p><l>vzhoden<s n="adj"/></l><r>oriental<s n="adj"/></r></p></e>
+	<e><p><l>zajeten<s n="adj"/></l><r>voluminoso<s n="adj"/></r></p></e>
+	<e><p><l>neenak<s n="adj"/></l><r>desigual<s n="adj"/></r></p></e>
+	<e><p><l>plosk<s n="adj"/></l><r>plano<s n="adj"/></r></p></e>
+	<e><p><l>slok<s n="adj"/></l><r>delgado<s n="adj"/></r></p></e>
+	<e><p><l>nag<s n="adj"/></l><r>desnudo<s n="adj"/></r></p></e>
+	<e><p><l>ubog<s n="adj"/></l><r>pobre<s n="adj"/></r></p></e>
+	<e><p><l>tog<s n="adj"/></l><r>rígido<s n="adj"/></r></p></e>
+	<e><p><l>blag<s n="adj"/></l><r>suave<s n="adj"/></r></p></e>
+	<e><p><l>ljubek<s n="adj"/></l><r>bonito<s n="adj"/></r></p></e>
+	<e><p><l>opolzek<s n="adj"/></l><r>obsceno<s n="adj"/></r></p></e>
+	<e><p><l>spolzek<s n="adj"/></l><r>resbaladizo<s n="adj"/></r></p></e>
+	<e><p><l>trpek<s n="adj"/></l><r>acre<s n="adj"/></r></p></e>
+	<e><p><l>grenek<s n="adj"/></l><r>amargo<s n="adj"/></r></p></e>
+	<e><p><l>žarek<s n="adj"/></l><r>rayo<s n="adj"/></r></p></e>
+	<e><p><l>rezek<s n="adj"/></l><r>agudo<s n="adj"/></r></p></e>
+	<e><p><l>skop<s n="adj"/></l><r>avaro<s n="adj"/></r></p></e>
+	<e><p><l>poceni<s n="adj"/></l><r>barato<s n="adj"/></r></p></e>
+	<e><p><l>materin<s n="adj"/></l><r>maternal<s n="adj"/></r></p></e>
+	<e><p><l>voljen<s n="adj"/></l><r>flexible<s n="adj"/></r></p></e>
+	<e><p><l>zračen<s n="adj"/></l><r>aireado<s n="adj"/></r></p></e>
+	<e><p><l>nemočen<s n="adj"/></l><r>impotente<s n="adj"/></r></p></e>
+	<e><p><l>obseden<s n="adj"/></l><r>obsesionado<s n="adj"/></r></p></e>
+	<e><p><l>določen<s n="adj"/></l><r>determinado<s n="adj"/></r></p></e>
+	<e><p><l>duhoven<s n="adj"/></l><r>espiritual<s n="adj"/></r></p></e>
+	<e><p><l>leden<s n="adj"/></l><r>helado<s n="adj"/></r></p></e>
+	<e><p><l>lesen<s n="adj"/></l><r>de madera<s n="adj"/></r></p></e>
+	<e><p><l>mlačen<s n="adj"/></l><r>tibio<s n="adj"/></r></p></e>
+	<e><p><l>nedoločen<s n="adj"/></l><r>indefinido<s n="adj"/></r></p></e>
+	<e><p><l>nehoten<s n="adj"/></l><r>involuntario<s n="adj"/></r></p></e>
+	<e><p><l>položen<s n="adj"/></l><r>suave<s n="adj"/></r></p></e>
+	<e><p><l>častitljiv<s n="adj"/></l><r>venerable<s n="adj"/></r></p></e>
+	<e><p><l>čitljiv<s n="adj"/></l><r>legible<s n="adj"/></r></p></e>
+	<e><p><l>dvomljiv<s n="adj"/></l><r>dudoso<s n="adj"/></r></p></e>
+	<e><p><l>gotov<s n="adj"/></l><r>preparado<s n="adj"/></r></p></e>
+	<e><p><l>grabežljiv<s n="adj"/></l><r>codicioso<s n="adj"/></r></p></e>
+	<e><p><l>hranljiv<s n="adj"/></l><r>nutritivo<s n="adj"/></r></p></e>
+	<e><p><l>lepljiv<s n="adj"/></l><r>pegajoso<s n="adj"/></r></p></e>
+	<e><p><l>mlahav<s n="adj"/></l><r>flojo<s n="adj"/></r></p></e>
+	<e><p><l>nečitljiv<s n="adj"/></l><r>ilegible<s n="adj"/></r></p></e>
+	<e><p><l>nedoumljiv<s n="adj"/></l><r>profundo<s n="adj"/></r></p></e>
+	<e><p><l>negotov<s n="adj"/></l><r>inseguro<s n="adj"/></r></p></e>
+	<e><p><l>neozdravljiv<s n="adj"/></l><r>incurable<s n="adj"/></r></p></e>
+	<e><p><l>nepotrpežljiv<s n="adj"/></l><r>impaciente<s n="adj"/></r></p></e>
+	<e><p><l>nepremagljiv<s n="adj"/></l><r>invencible<s n="adj"/></r></p></e>
+	<e><p><l>nerešljiv<s n="adj"/></l><r>insoluble<s n="adj"/></r></p></e>
+	<e><p><l>nezadovoljiv<s n="adj"/></l><r>insatisfactorio<s n="adj"/></r></p></e>
+	<e><p><l>obvladljiv<s n="adj"/></l><r>manejable<s n="adj"/></r></p></e>
+	<e><p><l>opredeljiv<s n="adj"/></l><r>definible<s n="adj"/></r></p></e>
+	<e><p><l>podkupljiv<s n="adj"/></l><r>corrupto<s n="adj"/></r></p></e>
+	<e><p><l>potrpežljiv<s n="adj"/></l><r>paciente<s n="adj"/></r></p></e>
+	<e><p><l>presenetljiv<s n="adj"/></l><r>sorprendente<s n="adj"/></r></p></e>
+	<e><p><l>primerljiv<s n="adj"/></l><r>comparable<s n="adj"/></r></p></e>
+	<e><p><l>razpoložljiv<s n="adj"/></l><r>disponible<s n="adj"/></r></p></e>
+	<e><p><l>sanjav<s n="adj"/></l><r>soñador<s n="adj"/></r></p></e>
+	<e><p><l>smrkav<s n="adj"/></l><r>mocoso<s n="adj"/></r></p></e>
+	<e><p><l>sramežljiv<s n="adj"/></l><r>tímido<s n="adj"/></r></p></e>
+	<e><p><l>uresničljiv<s n="adj"/></l><r>realizable<s n="adj"/></r></p></e>
+	<e><p><l>zložljiv<s n="adj"/></l><r>plegable<s n="adj"/></r></p></e>
+	<e><p><l>neprizanesljiv<s n="adj"/></l><r>riguroso<s n="adj"/></r></p></e>
+	<e><p><l>osupljiv<s n="adj"/></l><r>asombroso<s n="adj"/></r></p></e>
+	<e><p><l>popustljiv<s n="adj"/></l><r>indulgente<s n="adj"/></r></p></e>
+	<e><p><l>prizanesljiv<s n="adj"/></l><r>indulgente<s n="adj"/></r></p></e>
+	<e><p><l>razburljiv<s n="adj"/></l><r>emocionante<s n="adj"/></r></p></e>
+	<e><p><l>razumljiv<s n="adj"/></l><r>comprensible<s n="adj"/></r></p></e>
+	<e><p><l>spoštljiv<s n="adj"/></l><r>respetuoso<s n="adj"/></r></p></e>
+	<e><p><l>škodljiv<s n="adj"/></l><r>nocivo<s n="adj"/></r></p></e>
+	<e><p><l>ubogljiv<s n="adj"/></l><r>obediente<s n="adj"/></r></p></e>
+	<e><p><l>vihrav<s n="adj"/></l><r>impetuoso<s n="adj"/></r></p></e>
+	<e><p><l>zapeljiv<s n="adj"/></l><r>seductor<s n="adj"/></r></p></e>
+	<e><p><l>gorat<s n="adj"/></l><r>montañoso<s n="adj"/></r></p></e>
+	<e><p><l>hrustančast<s n="adj"/></l><r>cartilaginoso<s n="adj"/></r></p></e>
+	<e><p><l>iglast<s n="adj"/></l><r>conífero<s n="adj"/></r></p></e>
+	<e><p><l>kodrast<s n="adj"/></l><r>rizado<s n="adj"/></r></p></e>
+	<e><p><l>luskast<s n="adj"/></l><r>escamoso<s n="adj"/></r></p></e>
+	<e><p><l>mesnat<s n="adj"/></l><r>carnoso<s n="adj"/></r></p></e>
+	<e><p><l>modrikast<s n="adj"/></l><r>azulado<s n="adj"/></r></p></e>
+	<e><p><l>muhast<s n="adj"/></l><r>caprichoso<s n="adj"/></r></p></e>
+	<e><p><l>napet<s n="adj"/></l><r>tenso<s n="adj"/></r></p></e>
+	<e><p><l>neštet<s n="adj"/></l><r>incontable<s n="adj"/></r></p></e>
+	<e><p><l>neumit<s n="adj"/></l><r>sucio<s n="adj"/></r></p></e>
+	<e><p><l>odpet<s n="adj"/></l><r>separado<s n="adj"/></r></p></e>
+	<e><p><l>odprt<s n="adj"/></l><r>abierto<s n="adj"/></r></p></e>
+	<e><p><l>oglat<s n="adj"/></l><r>angular<s n="adj"/></r></p></e>
+	<e><p><l>oprijet<s n="adj"/></l><r>contundente<s n="adj"/></r></p></e>
+	<e><p><l>piramidast<s n="adj"/></l><r>piramidal<s n="adj"/></r></p></e>
+	<e><p><l>ploščat<s n="adj"/></l><r>plano<s n="adj"/></r></p></e>
+	<e><p><l>požet<s n="adj"/></l><r>cosecha<s n="adj"/></r></p></e>
+	<e><p><l>preklet<s n="adj"/></l><r>maldito<s n="adj"/></r></p></e>
+	<e><p><l>presnet<s n="adj"/></l><r>dichoso<s n="adj"/></r></p></e>
+	<e><p><l>preživet<s n="adj"/></l><r>sobreviviente<s n="adj"/></r></p></e>
+	<e><p><l>rdečkast<s n="adj"/></l><r>rojizo<s n="adj"/></r></p></e>
+	<e><p><l>rožnat<s n="adj"/></l><r>rosado<s n="adj"/></r></p></e>
+	<e><p><l>rumenkast<s n="adj"/></l><r>amarillento<s n="adj"/></r></p></e>
+	<e><p><l>skalnat<s n="adj"/></l><r>rocoso<s n="adj"/></r></p></e>
+	<e><p><l>zabit<s n="adj"/></l><r>bolo<s n="adj"/></r></p></e>
+	<e><p><l>zaprt<s n="adj"/></l><r>cerrado<s n="adj"/></r></p></e>
+	<e><p><l>zelenkast<s n="adj"/></l><r>verdoso<s n="adj"/></r></p></e>
+	<e><p><l>pust<s n="adj"/></l><r>desierto<s n="adj"/></r></p></e>
+	<e><p><l>trmast<s n="adj"/></l><r>obstinado<s n="adj"/></r></p></e>
+	<e><p><l>piker<s n="adj"/></l><r>mordaz<s n="adj"/></r></p></e>
+	<e><p><l>nežen<s n="adj"/></l><r>suave<s n="adj"/></r></p></e>
+	<e><p><l>ohlapen<s n="adj"/></l><r>suelto<s n="adj"/></r></p></e>
+	<e><p><l>primeren<s n="adj"/></l><r>adecuado<s n="adj"/></r></p></e>
+	<e><p><l>relativen<s n="adj"/></l><r>relativo<s n="adj"/></r></p></e>
+	<e><p><l>složen<s n="adj"/></l><r>unánime<s n="adj"/></r></p></e>
+	<e><p><l>vpliven<s n="adj"/></l><r>influyente<s n="adj"/></r></p></e>
+	<e><p><l>poučen<s n="adj"/></l><r>educativo<s n="adj"/></r></p></e>
+	<e><p><l>sovražen<s n="adj"/></l><r>hostil<s n="adj"/></r></p></e>
+	<e><p><l>zmoten<s n="adj"/></l><r>equivocado<s n="adj"/></r></p></e>
+	<e><p><l>zatohel<s n="adj"/></l><r>cargado<s n="adj"/></r></p></e>
+	<e><p><l>zel<s n="adj"/></l><r>malo<s n="adj"/></r></p></e>
+	<e><p><l>nagel<s n="adj"/></l><r>rápido<s n="adj"/></r></p></e>
+	<e><p><l>medel<s n="adj"/></l><r>débil<s n="adj"/></r></p></e>
+	<e><p><l>ugoden<s n="adj"/></l><r>económico<s n="adj"/></r></p></e>
+	<e><p><l>tuj<s n="adj"/></l><r>extranjero<s n="adj"/></r></p></e>
+	<e><p><l>afriški<s n="adj"/></l><r>africano<s n="adj"/></r></p></e>
+	<e><p><l>alpski<s n="adj"/></l><r>alpino<s n="adj"/></r></p></e>
+	<e><p><l>amaterski<s n="adj"/></l><r>aficionado<s n="adj"/></r></p></e>
+	<e><p><l>astronomski<s n="adj"/></l><r>astronómico<s n="adj"/></r></p></e>
+	<e><p><l>atlantski<s n="adj"/></l><r>atlántico<s n="adj"/></r></p></e>
+	<e><p><l>atmosferski<s n="adj"/></l><r>atmosférico<s n="adj"/></r></p></e>
+	<e><p><l>avtomatski<s n="adj"/></l><r>automático<s n="adj"/></r></p></e>
+	<e><p><l>azijski<s n="adj"/></l><r>asiático<s n="adj"/></r></p></e>
+	<e><p><l>balkanski<s n="adj"/></l><r>balcánico<s n="adj"/></r></p></e>
+	<e><p><l>barbarski<s n="adj"/></l><r>bárbaro<s n="adj"/></r></p></e>
+	<e><p><l>bavarski<s n="adj"/></l><r>bávaro<s n="adj"/></r></p></e>
+	<e><p><l>begunski<s n="adj"/></l><r>refugiado<s n="adj"/></r></p></e>
+	<e><p><l>boksarski<s n="adj"/></l><r>boxeo<s n="adj"/></r></p></e>
+	<e><p><l>bolezenski<s n="adj"/></l><r>enfermedad<s n="adj"/></r></p></e>
+	<e><p><l>božanski<s n="adj"/></l><r>divino<s n="adj"/></r></p></e>
+	<e><p><l>božji<s n="adj"/></l><r>divino<s n="adj"/></r></p></e>
+	<e><p><l>britanski<s n="adj"/></l><r>británico<s n="adj"/></r></p></e>
+	<e><p><l>cesarski<s n="adj"/></l><r>imperial<s n="adj"/></r></p></e>
+	<e><p><l>cestninski<s n="adj"/></l><r>peaje<s n="adj"/></r></p></e>
+	<e><p><l>ciganski<s n="adj"/></l><r>gitano<s n="adj"/></r></p></e>
+	<e><p><l>civilizacijski<s n="adj"/></l><r>civilizador<s n="adj"/></r></p></e>
+	<e><p><l>črnski<s n="adj"/></l><r>negro<s n="adj"/></r></p></e>
+	<e><p><l>demografski<s n="adj"/></l><r>demográfico<s n="adj"/></r></p></e>
+	<e><p><l>desni<s n="adj"/></l><r>derecho<s n="adj"/></r></p></e>
+	<e><p><l>družinski<s n="adj"/></l><r>familiar<s n="adj"/></r></p></e>
+	<e><p><l>ekološki<s n="adj"/></l><r>ecológico<s n="adj"/></r></p></e>
+	<e><p><l>elektronski<s n="adj"/></l><r>electrónico<s n="adj"/></r></p></e>
+	<e><p><l>energetski<s n="adj"/></l><r>energético<s n="adj"/></r></p></e>
+	<e><p><l>etimološki<s n="adj"/></l><r>etimológico<s n="adj"/></r></p></e>
+	<e><p><l>etnološki<s n="adj"/></l><r>etnológico<s n="adj"/></r></p></e>
+	<e><p><l>evangeličanski<s n="adj"/></l><r>evangélico<s n="adj"/></r></p></e>
+	<e><p><l>evolucijski<s n="adj"/></l><r>evolutivo<s n="adj"/></r></p></e>
+	<e><p><l>filmski<s n="adj"/></l><r>cinematográfico<s n="adj"/></r></p></e>
+	<e><p><l>filozofski<s n="adj"/></l><r>filosófico<s n="adj"/></r></p></e>
+	<e><p><l>fotografski<s n="adj"/></l><r>fotográfico<s n="adj"/></r></p></e>
+	<e><p><l>genetski<s n="adj"/></l><r>genético<s n="adj"/></r></p></e>
+	<e><p><l>geografski<s n="adj"/></l><r>geográfico<s n="adj"/></r></p></e>
+	<e><p><l>geološki<s n="adj"/></l><r>geológico<s n="adj"/></r></p></e>
+	<e><p><l>germanski<s n="adj"/></l><r>germánico<s n="adj"/></r></p></e>
+	<e><p><l>gospodinjski<s n="adj"/></l><r>electrodoméstico<s n="adj"/></r></p></e>
+	<e><p><l>gotski<s n="adj"/></l><r>gótico<s n="adj"/></r></p></e>
+	<e><p><l>herojski<s n="adj"/></l><r>heroico<s n="adj"/></r></p></e>
+	<e><p><l>higienski<s n="adj"/></l><r>higiénico<s n="adj"/></r></p></e>
+	<e><p><l>hrvaški<s n="adj"/></l><r>croata<s n="adj"/></r></p></e>
+	<e><p><l>ideološki<s n="adj"/></l><r>ideológico<s n="adj"/></r></p></e>
+	<e><p><l>ignorantski<s n="adj"/></l><r>ignorante<s n="adj"/></r></p></e>
+	<e><p><l>imunski<s n="adj"/></l><r>inmunitario<s n="adj"/></r></p></e>
+	<e><p><l>indijanski<s n="adj"/></l><r>indio<s n="adj"/></r></p></e>
+	<e><p><l>jugoslovanski<s n="adj"/></l><r>yugoslavo<s n="adj"/></r></p></e>
+	<e><p><l>junaški<s n="adj"/></l><r>heroico<s n="adj"/></r></p></e>
+	<e><p><l>jutranji<s n="adj"/></l><r>matutino<s n="adj"/></r></p></e>
+	<e><p><l>kirurški<s n="adj"/></l><r>quirúrgico<s n="adj"/></r></p></e>
+	<e><p><l>kopenski<s n="adj"/></l><r>terrestre<s n="adj"/></r></p></e>
+	<e><p><l>kovinski<s n="adj"/></l><r>metálico<s n="adj"/></r></p></e>
+	<e><p><l>latinski<s n="adj"/></l><r>latino<s n="adj"/></r></p></e>
+	<e><p><l>lirski<s n="adj"/></l><r>lírico<s n="adj"/></r></p></e>
+	<e><p><l>ljubezenski<s n="adj"/></l><r>amoroso<s n="adj"/></r></p></e>
+	<e><p><l>metalurški<s n="adj"/></l><r>metalúrgico<s n="adj"/></r></p></e>
+	<e><p><l>mikroskopski<s n="adj"/></l><r>microscópico<s n="adj"/></r></p></e>
+	<e><p><l>milijonski<s n="adj"/></l><r>millonario<s n="adj"/></r></p></e>
+	<e><p><l>mladinski<s n="adj"/></l><r>juvenil<s n="adj"/></r></p></e>
+	<e><p><l>morilski<s n="adj"/></l><r>asesino<s n="adj"/></r></p></e>
+	<e><p><l>možganski<s n="adj"/></l><r>cerebral<s n="adj"/></r></p></e>
+	<e><p><l>nebeški<s n="adj"/></l><r>celestial<s n="adj"/></r></p></e>
+	<e><p><l>nečloveški<s n="adj"/></l><r>inhumano<s n="adj"/></r></p></e>
+	<e><p><l>nepravi<s n="adj"/></l><r>falso<s n="adj"/></r></p></e>
+	<e><p><l>neznanski<s n="adj"/></l><r>enorme<s n="adj"/></r></p></e>
+	<e><p><l>novinarski<s n="adj"/></l><r>periodístico<s n="adj"/></r></p></e>
+	<e><p><l>oceanski<s n="adj"/></l><r>oceánico<s n="adj"/></r></p></e>
+	<e><p><l>okenski<s n="adj"/></l><r>ventana<s n="adj"/></r></p></e>
+	<e><p><l>organski<s n="adj"/></l><r>orgánico<s n="adj"/></r></p></e>
+	<e><p><l>patološki<s n="adj"/></l><r>patológico<s n="adj"/></r></p></e>
+	<e><p><l>pedagoški<s n="adj"/></l><r>pedagógico<s n="adj"/></r></p></e>
+	<e><p><l>perujski<s n="adj"/></l><r>peruano<s n="adj"/></r></p></e>
+	<e><p><l>piratski<s n="adj"/></l><r>pirata<s n="adj"/></r></p></e>
+	<e><p><l>pisarniški<s n="adj"/></l><r>oficina<s n="adj"/></r></p></e>
+	<e><p><l>planinski<s n="adj"/></l><r>montaña<s n="adj"/></r></p></e>
+	<e><p><l>plemenski<s n="adj"/></l><r>tribal<s n="adj"/></r></p></e>
+	<e><p><l>plinski<s n="adj"/></l><r>gas<s n="adj"/></r></p></e>
+	<e><p><l>podmorniški<s n="adj"/></l><r>submarino<s n="adj"/></r></p></e>
+	<e><p><l>poganski<s n="adj"/></l><r>pagano<s n="adj"/></r></p></e>
+	<e><p><l>policijski<s n="adj"/></l><r>policíaco<s n="adj"/></r></p></e> 
+	<e><p><l>poljedelski<s n="adj"/></l><r>agrario<s n="adj"/></r></p></e>
+	<e><p><l>poljski<s n="adj"/></l><r>polaco<s n="adj"/></r></p></e>
+	<e><p><l>popoldanski<s n="adj"/></l><r>tarde<s n="adj"/></r></p></e>
+	<e><p><l>potniški<s n="adj"/></l><r>pasajero<s n="adj"/></r></p></e>
+	<e><p><l>površinski<s n="adj"/></l><r>superficial<s n="adj"/></r></p></e>
+	<e><p><l>prejšnji<s n="adj"/></l><r>anterior<s n="adj"/></r></p></e>
+	<e><p><l>protestantski<s n="adj"/></l><r>protestante<s n="adj"/></r></p></e>
+	<e><p><l>prvinski<s n="adj"/></l><r>primordial<s n="adj"/></r></p></e>
+	<e><p><l>psihološki<s n="adj"/></l><r>psicológico<s n="adj"/></r></p></e>
+	<e><p><l>pustolovski<s n="adj"/></l><r>aventurero<s n="adj"/></r></p></e>
+	<e><p><l>radijski<s n="adj"/></l><r>radio<s n="adj"/></r></p></e>
+	<e><p><l>rastlinski<s n="adj"/></l><r>vegetal<s n="adj"/></r></p></e>
+	<e><p><l>romanski<s n="adj"/></l><r>románico<s n="adj"/></r></p></e>
+	<e><p><l>samomorilski<s n="adj"/></l><r>suicida<s n="adj"/></r></p></e>
+	<e><p><l>slovanski<s n="adj"/></l><r>eslavo<s n="adj"/></r></p></e>
+	<e><p><l>sovjetski<s n="adj"/></l><r>soviético<s n="adj"/></r></p></e>
+	<e><p><l>spominski<s n="adj"/></l><r>memorial<s n="adj"/></r></p></e>
+	<e><p><l>srednjeveški<s n="adj"/></l><r>medieval<s n="adj"/></r></p></e>
+	<e><p><l>stenski<s n="adj"/></l><r>pared<s n="adj"/></r></p></e>
+	<e><p><l>strateški<s n="adj"/></l><r>estratégico<s n="adj"/></r></p></e>
+	<e><p><l>šahovski<s n="adj"/></l><r>ajedrez<s n="adj"/></r></p></e>
+	<e><p><l>šolski<s n="adj"/></l><r>escolar<s n="adj"/></r></p></e>
+	<e><p><l>telefonski<s n="adj"/></l><r>telefónico<s n="adj"/></r></p></e>
+	<e><p><l>tematski<s n="adj"/></l><r>temático<s n="adj"/></r></p></e>
+	<e><p><l>teniški<s n="adj"/></l><r>tenis<s n="adj"/></r></p></e>
+	<e><p><l>teološki<s n="adj"/></l><r>teológico<s n="adj"/></r></p></e>
+	<e><p><l>tonski<s n="adj"/></l><r>sonido<s n="adj"/></r></p></e>
+	<e><p><l>ubijalski<s n="adj"/></l><r>asesino<s n="adj"/></r></p></e>
+	<e><p><l>verski<s n="adj"/></l><r>religioso<s n="adj"/></r></p></e>
+	<e><p><l>viteški<s n="adj"/></l><r>caballeresco<s n="adj"/></r></p></e>
+	<e><p><l>vremenski<s n="adj"/></l><r>tiempo<s n="adj"/></r></p></e>
+	<e><p><l>vrhunski<s n="adj"/></l><r>superior<s n="adj"/></r></p></e>
+	<e><p><l>vsakdanji<s n="adj"/></l><r>diario<s n="adj"/></r></p></e>
+	<e><p><l>vsebinski<s n="adj"/></l><r>contenido<s n="adj"/></r></p></e>
+	<e><p><l>zakonski<s n="adj"/></l><r>legal<s n="adj"/></r></p></e>
+	<e><p><l>zgodovinski<s n="adj"/></l><r>histórico<s n="adj"/></r></p></e>
+	<e><p><l>zimski<s n="adj"/></l><r>invernal<s n="adj"/></r></p></e>
+	<e><p><l>življenjski<s n="adj"/></l><r>vital<s n="adj"/></r></p></e>
+	<e><p><l>citiran<s n="adj"/></l><r>citado<s n="adj"/></r></p></e>
+	<e><p><l>čustven<s n="adj"/></l><r>emocional<s n="adj"/></r></p></e>
+	<e><p><l>discipliniran<s n="adj"/></l><r>disciplinado<s n="adj"/></r></p></e>
+	<e><p><l>dostojanstven<s n="adj"/></l><r>digno<s n="adj"/></r></p></e>
+	<e><p><l>glasben<s n="adj"/></l><r>musical<s n="adj"/></r></p></e>
+	<e><p><l>gradben<s n="adj"/></l><r>construcción<s n="adj"/></r></p></e>
+	<e><p><l>izbuljen<s n="adj"/></l><r>sobresaliente<s n="adj"/></r></p></e>
+	<e><p><l>izdelan<s n="adj"/></l><r>hecho<s n="adj"/></r></p></e>
+	<e><p><l>izenačen<s n="adj"/></l><r>lazo<s n="adj"/></r></p></e>
+	<e><p><l>izgubljen<s n="adj"/></l><r>perdido<s n="adj"/></r></p></e>
+	<e><p><l>izmišljen<s n="adj"/></l><r>imaginario<s n="adj"/></r></p></e>
+	<e><p><l>izpran<s n="adj"/></l><r>lavado<s n="adj"/></r></p></e>
+	<e><p><l>kultiviran<s n="adj"/></l><r>culto<s n="adj"/></r></p></e>
+	<e><p><l>mešan<s n="adj"/></l><r>mixto<s n="adj"/></r></p></e>
+	<e><p><l>naročen<s n="adj"/></l><r>suscribir<s n="adj"/></r></p></e>
+	<e><p><l>nasičen<s n="adj"/></l><r>saturado<s n="adj"/></r></p></e>
+	<e><p><l>naveličan<s n="adj"/></l><r>harto<s n="adj"/></r></p></e>
+	<e><p><l>nebogljen<s n="adj"/></l><r>indefenso<s n="adj"/></r></p></e>
+	<e><p><l>nediscipliniran<s n="adj"/></l><r>indisciplinado<s n="adj"/></r></p></e>
+	<e><p><l>nemoten<s n="adj"/></l><r>continuo<s n="adj"/></r></p></e>
+	<e><p><l>nenadejan<s n="adj"/></l><r>inesperado<s n="adj"/></r></p></e>
+	<e><p><l>neomejen<s n="adj"/></l><r>ilimitado<s n="adj"/></r></p></e>
+	<e><p><l>neopažen<s n="adj"/></l><r>inadvertido<s n="adj"/></r></p></e>
+	<e><p><l>nepošten<s n="adj"/></l><r>injusto<s n="adj"/></r></p></e>
+	<e><p><l>neprekinjen<s n="adj"/></l><r>ininterrumpido<s n="adj"/></r></p></e>
+	<e><p><l>nepremišljen<s n="adj"/></l><r>imprudente<s n="adj"/></r></p></e>
+	<e><p><l>nepričakovan<s n="adj"/></l><r>inesperado<s n="adj"/></r></p></e>
+	<e><p><l>neurejen<s n="adj"/></l><r>desordenado<s n="adj"/></r></p></e>
+	<e><p><l>neusmiljen<s n="adj"/></l><r>despiadado<s n="adj"/></r></p></e>
+	<e><p><l>neznan<s n="adj"/></l><r>desconocido<s n="adj"/></r></p></e>
+	<e><p><l>oblečen<s n="adj"/></l><r>vestido<s n="adj"/></r></p></e>
+	<e><p><l>obljubljen<s n="adj"/></l><r>prometido<s n="adj"/></r></p></e>
+	<e><p><l>oborožen<s n="adj"/></l><r>armado<s n="adj"/></r></p></e>
+	<e><p><l>lahkomiseln<s n="adj"/></l><r>frívolo<s n="adj"/></r></p></e>
+	<e><p><l>popoln<s n="adj"/></l><r>perfecto<s n="adj"/></r></p></e>
+	<e><p><l>strupen<s n="adj"/></l><r>tóxico<s n="adj"/></r></p></e>
+	<e><p><l>zaupen<s n="adj"/></l><r>confidencial<s n="adj"/></r></p></e>
+	<e><p><l>veder<s n="adj"/></l><r>alegre<s n="adj"/></r></p></e>
+	<e><p><l>levji<s n="adj"/></l><r>leonino<s n="adj"/></r></p></e>
+	<e><p><l>pasji<s n="adj"/></l><r>canino<s n="adj"/></r></p></e>
+	<e><p><l>poslednji<s n="adj"/></l><r>último<s n="adj"/></r></p></e>
+	<e><p><l>sosednji<s n="adj"/></l><r>vecino<s n="adj"/></r></p></e>
+	<e><p><l>takojšnji<s n="adj"/></l><r>inmediato<s n="adj"/></r></p></e>
+	<e><p><l>vrhnji<s n="adj"/></l><r>superior<s n="adj"/></r></p></e>
+	<e><p><l>bos<s n="adj"/></l><r>descalzo<s n="adj"/></r></p></e>
+	<e><p><l>rdečelas<s n="adj"/></l><r>pelirrojo<s n="adj"/></r></p></e>
+	<e><p><l>alarmanten<s n="adj"/></l><r>alarmante<s n="adj"/></r></p></e>
+	<e><p><l>alternativen<s n="adj"/></l><r>alternativo<s n="adj"/></r></p></e>
+	<e><p><l>analitičen<s n="adj"/></l><r>analítico<s n="adj"/></r></p></e>
+	<e><p><l>antibiotičen<s n="adj"/></l><r>antibiótico<s n="adj"/></r></p></e>
+	<e><p><l>apatičen<s n="adj"/></l><r>apático<s n="adj"/></r></p></e>
+	<e><p><l>avtomatičen<s n="adj"/></l><r>automático<s n="adj"/></r></p></e>
+	<e><p><l>bančen<s n="adj"/></l><r>banca<s n="adj"/></r></p></e>
+	<e><p><l>besen<s n="adj"/></l><r>furioso<s n="adj"/></r></p></e>
+	<e><p><l>bežen<s n="adj"/></l><r>fugaz<s n="adj"/></r></p></e>
+	<e><p><l>blagodejen<s n="adj"/></l><r>beneficioso<s n="adj"/></r></p></e>
+	<e><p><l>blazen<s n="adj"/></l><r>demente<s n="adj"/></r></p></e>
+	<e><p><l>blažilen<s n="adj"/></l><r>calmante<s n="adj"/></r></p></e>
+	<e><p><l>bogokleten<s n="adj"/></l><r>blasfemo<s n="adj"/></r></p></e>
+	<e><p><l>boren<s n="adj"/></l><r>pobre<s n="adj"/></r></p></e>
+	<e><p><l>brezhiben<s n="adj"/></l><r>perfecto<s n="adj"/></r></p></e>
+	<e><p><l>brezkončen<s n="adj"/></l><r>infinito<s n="adj"/></r></p></e>
+	<e><p><l>brezmadežen<s n="adj"/></l><r>inmaculado<s n="adj"/></r></p></e>
+	<e><p><l>brezobziren<s n="adj"/></l><r>desconsiderado<s n="adj"/></r></p></e>
+	<e><p><l>brutalen<s n="adj"/></l><r>brutal<s n="adj"/></r></p></e>
+	<e><p><l>celoten<s n="adj"/></l><r>completo<s n="adj"/></r></p></e>
+	<e><p><l>časten<s n="adj"/></l><r>honorable<s n="adj"/></r></p></e>
+	<e><p><l>čistilen<s n="adj"/></l><r>limpieza<s n="adj"/></r></p></e>
+	<e><p><l>daven<s n="adj"/></l><r>antiguo<s n="adj"/></r></p></e>
+	<e><p><l>defekten<s n="adj"/></l><r>retrasado<s n="adj"/></r></p></e>
+	<e><p><l>definitiven<s n="adj"/></l><r>definitivo<s n="adj"/></r></p></e>
+	<e><p><l>delaven<s n="adj"/></l><r>trabajador<s n="adj"/></r></p></e>
+	<e><p><l>deloven<s n="adj"/></l><r>trabajador<s n="adj"/></r></p></e>
+	<e><p><l>denaren<s n="adj"/></l><r>económico<s n="adj"/></r></p></e>
+	<e><p><l>deževen<s n="adj"/></l><r>lluvioso<s n="adj"/></r></p></e>
+	<e><p><l>didaktičen<s n="adj"/></l><r>didáctico<s n="adj"/></r></p></e>
+	<e><p><l>direkten<s n="adj"/></l><r>directo<s n="adj"/></r></p></e>
+	<e><p><l>dobrodelen<s n="adj"/></l><r>caritativo<s n="adj"/></r></p></e>
+	<e><p><l>domneven<s n="adj"/></l><r>presunto<s n="adj"/></r></p></e>
+	<e><p><l>dopusten<s n="adj"/></l><r>admisible<s n="adj"/></r></p></e>
+	<e><p><l>drugoten<s n="adj"/></l><r>secundario<s n="adj"/></r></p></e>
+	<e><p><l>družaben<s n="adj"/></l><r>sociable<s n="adj"/></r></p></e>
+	<e><p><l>državen<s n="adj"/></l><r>miembro<s n="adj"/></r></p></e>
+	<e><p><l>dvoumen<s n="adj"/></l><r>ambiguo<s n="adj"/></r></p></e>
+	<e><p><l>eksistenčen<s n="adj"/></l><r>existencial<s n="adj"/></r></p></e>
+	<e><p><l>eksotičen<s n="adj"/></l><r>exótico<s n="adj"/></r></p></e>
+	<e><p><l>empiričen<s n="adj"/></l><r>empírico<s n="adj"/></r></p></e>
+	<e><p><l>etičen<s n="adj"/></l><r>ético<s n="adj"/></r></p></e>
+	<e><p><l>etničen<s n="adj"/></l><r>étnico<s n="adj"/></r></p></e>
+	<e><p><l>fanatičen<s n="adj"/></l><r>fanático<s n="adj"/></r></p></e>
+	<e><p><l>fantastičen<s n="adj"/></l><r>fantástico<s n="adj"/></r></p></e>
+	<e><p><l>fašističen<s n="adj"/></l><r>fascista<s n="adj"/></r></p></e>
+	<e><p><l>fosilen<s n="adj"/></l><r>fósil<s n="adj"/></r></p></e>
+	<e><p><l>gospodovalen<s n="adj"/></l><r>dominante<s n="adj"/></r></p></e>
+	<e><p><l>gozden<s n="adj"/></l><r>forestal<s n="adj"/></r></p></e>
+	<e><p><l>graniten<s n="adj"/></l><r>granito<s n="adj"/></r></p></e>
+	<e><p><l>hecen<s n="adj"/></l><r>gracioso<s n="adj"/></r></p></e>
+	<e><p><l>hierarhičen<s n="adj"/></l><r>jerárquico<s n="adj"/></r></p></e>
+	<e><p><l>hipnotičen<s n="adj"/></l><r>hipnótico<s n="adj"/></r></p></e>
+	<e><p><l>hladnokrven<s n="adj"/></l><r>a sangre fría<s n="adj"/></r></p></e>
+	<e><p><l>humanističen<s n="adj"/></l><r>humanístico<s n="adj"/></r></p></e>
+	<e><p><l>imaginaren<s n="adj"/></l><r>imaginario<s n="adj"/></r></p></e>
+	<e><p><l>impotenten<s n="adj"/></l><r>impotente<s n="adj"/></r></p></e>
+	<e><p><l>ironičen<s n="adj"/></l><r>irónico<s n="adj"/></r></p></e>
+	<e><p><l>istočasen<s n="adj"/></l><r>simultáneamente<s n="adj"/></r></p></e>
+	<e><p><l>izbiren<s n="adj"/></l><r>opcional<s n="adj"/></r></p></e>
+	<e><p><l>izmeničen<s n="adj"/></l><r>alternativo<s n="adj"/></r></p></e>
+	<e><p><l>kaotičen<s n="adj"/></l><r>caótico<s n="adj"/></r></p></e>
+	<e><p><l>katastrofalen<s n="adj"/></l><r>catastrófico<s n="adj"/></r></p></e>
+	<e><p><l>keramičen<s n="adj"/></l><r>cerámico<s n="adj"/></r></p></e>
+	<e><p><l>klasičen<s n="adj"/></l><r>clásico<s n="adj"/></r></p></e>
+	<e><p><l>kliničen<s n="adj"/></l><r>clínico<s n="adj"/></r></p></e>
+	<e><p><l>ključen<s n="adj"/></l><r>clave<s n="adj"/></r></p></e>
+	<e><p><l>književen<s n="adj"/></l><r>literario<s n="adj"/></r></p></e>
+	<e><p><l>kompleten<s n="adj"/></l><r>completo<s n="adj"/></r></p></e>
+	<e><p><l>kozmetičen<s n="adj"/></l><r>cosmético<s n="adj"/></r></p></e>
+	<e><p><l>kubičen<s n="adj"/></l><r>cúbico<s n="adj"/></r></p></e>
+	<e><p><l>kulturen<s n="adj"/></l><r>cultural<s n="adj"/></r></p></e>
+	<e><p><l>kvadraten<s n="adj"/></l><r>cuadrado<s n="adj"/></r></p></e>
+	<e><p><l>laičen<s n="adj"/></l><r>laico<s n="adj"/></r></p></e>
+	<e><p><l>lažen<s n="adj"/></l><r>falso<s n="adj"/></r></p></e>
+	<e><p><l>ledvičen<s n="adj"/></l><r>renal<s n="adj"/></r></p></e>
+	<e><p><l>legendaren<s n="adj"/></l><r>legendario<s n="adj"/></r></p></e>
+	<e><p><l>lenoben<s n="adj"/></l><r>flojo<s n="adj"/></r></p></e>
+	<e><p><l>materialističen<s n="adj"/></l><r>materialista<s n="adj"/></r></p></e>
+	<e><p><l>medsebojen<s n="adj"/></l><r>mutuo<s n="adj"/></r></p></e>
+	<e><p><l>mejen<s n="adj"/></l><r>limítrofe<s n="adj"/></r></p></e>
+	<e><p><l>mesečen<s n="adj"/></l><r>mensual<s n="adj"/></r></p></e>
+	<e><p><l>mesten<s n="adj"/></l><r>urbano<s n="adj"/></r></p></e>
+	<e><p><l>metafizičen<s n="adj"/></l><r>metafísico<s n="adj"/></r></p></e>
+	<e><p><l>mističen<s n="adj"/></l><r>místico<s n="adj"/></r></p></e>
+	<e><p><l>moden<s n="adj"/></l><r>de moda<s n="adj"/></r></p></e>
+	<e><p><l>mrzličen<s n="adj"/></l><r>febril<s n="adj"/></r></p></e>
+	<e><p><l>nacionalen<s n="adj"/></l><r>nacional<s n="adj"/></r></p></e>
+	<e><p><l>nacističen<s n="adj"/></l><r>nazi<s n="adj"/></r></p></e>
+	<e><p><l>nameren<s n="adj"/></l><r>deliberado<s n="adj"/></r></p></e>
+	<e><p><l>nedopusten<s n="adj"/></l><r>inadmisible<s n="adj"/></r></p></e>
+	<e><p><l>neizpodbiten<s n="adj"/></l><r>irrefutable<s n="adj"/></r></p></e>
+	<e><p><l>nenaden<s n="adj"/></l><r>repentino<s n="adj"/></r></p></e>
+	<e><p><l>neomajen<s n="adj"/></l><r>firme<s n="adj"/></r></p></e>
+	<e><p><l>nepozaben<s n="adj"/></l><r>inolvidable<s n="adj"/></r></p></e>
+	<e><p><l>nepraktičen<s n="adj"/></l><r>poco práctico<s n="adj"/></r></p></e>
+	<e><p><l>nepreklicen<s n="adj"/></l><r>irrevocable<s n="adj"/></r></p></e>
+	<e><p><l>neslišen<s n="adj"/></l><r>inaudible<s n="adj"/></r></p></e>
+	<e><p><l>nesmrten<s n="adj"/></l><r>inmortal<s n="adj"/></r></p></e>
+	<e><p><l>nesorazmeren<s n="adj"/></l><r>desproporcionado<s n="adj"/></r></p></e>
+	<e><p><l>neumoren<s n="adj"/></l><r>incansable<s n="adj"/></r></p></e>
+	<e><p><l>neutruden<s n="adj"/></l><r>incansable<s n="adj"/></r></p></e>
+	<e><p><l>nevtralen<s n="adj"/></l><r>neutral<s n="adj"/></r></p></e>
+	<e><p><l>nezadosten<s n="adj"/></l><r>insuficiente<s n="adj"/></r></p></e>
+	<e><p><l>obetaven<s n="adj"/></l><r>prometedor<s n="adj"/></r></p></e>
+	<e><p><l>obraten<s n="adj"/></l><r>inverso<s n="adj"/></r></p></e>
+	<e><p><l>obvezen<s n="adj"/></l><r>obligatorio<s n="adj"/></r></p></e>
+	<e><p><l>očesen<s n="adj"/></l><r>ocular<s n="adj"/></r></p></e>
+	<e><p><l>okulten<s n="adj"/></l><r>oculto<s n="adj"/></r></p></e>
+	<e><p><l>oranžen<s n="adj"/></l><r>naranja<s n="adj"/></r></p></e>
+	<e><p><l>paralelen<s n="adj"/></l><r>paralelo<s n="adj"/></r></p></e>
+	<e><p><l>patetičen<s n="adj"/></l><r>patético<s n="adj"/></r></p></e>
+	<e><p><l>perverzen<s n="adj"/></l><r>perverso<s n="adj"/></r></p></e>
+	<e><p><l>pnevmatičen<s n="adj"/></l><r>neumático<s n="adj"/></r></p></e>
+	<e><p><l>podvoden<s n="adj"/></l><r>submarino<s n="adj"/></r></p></e>
+	<e><p><l>podzemen<s n="adj"/></l><r>subterráneo<s n="adj"/></r></p></e>
+	<e><p><l>pogovoren<s n="adj"/></l><r>coloquial<s n="adj"/></r></p></e>
+	<e><p><l>poklicen<s n="adj"/></l><r>profesional<s n="adj"/></r></p></e>
+	<e><p><l>poljuben<s n="adj"/></l><r>cualquiera<s n="adj"/></r></p></e>
+	<e><p><l>polnočen<s n="adj"/></l><r>medianoche<s n="adj"/></r></p></e>
+	<e><p><l>pomožen<s n="adj"/></l><r>auxiliar<s n="adj"/></r></p></e>
+	<e><p><l>porazen<s n="adj"/></l><r>aplastante<s n="adj"/></r></p></e>
+	<e><p><l>porozen<s n="adj"/></l><r>poroso<s n="adj"/></r></p></e>
+	<e><p><l>posamezen<s n="adj"/></l><r>individual<s n="adj"/></r></p></e>
+	<e><p><l>posamičen<s n="adj"/></l><r>solo<s n="adj"/></r></p></e>
+	<e><p><l>posloven<s n="adj"/></l><r>comercial<s n="adj"/></r></p></e>
+	<e><p><l>poslušen<s n="adj"/></l><r>obediente<s n="adj"/></r></p></e>
+	<e><p><l>postopen<s n="adj"/></l><r>gradual<s n="adj"/></r></p></e>
+	<e><p><l>povprečen<s n="adj"/></l><r>medio<s n="adj"/></r></p></e>
+	<e><p><l>praktičen<s n="adj"/></l><r>práctico<s n="adj"/></r></p></e>
+	<e><p><l>pravljičen<s n="adj"/></l><r>mágico<s n="adj"/></r></p></e>
+	<e><p><l>pravočasen<s n="adj"/></l><r>oportuno<s n="adj"/></r></p></e>
+	<e><p><l>prazničen<s n="adj"/></l><r>festivo<s n="adj"/></r></p></e>
+	<e><p><l>prebaven<s n="adj"/></l><r>digestión<s n="adj"/></r></p></e>
+	<e><p><l>predhoden<s n="adj"/></l><r>anterior<s n="adj"/></r></p></e>
+	<e><p><l>prediren<s n="adj"/></l><r>penetrante<s n="adj"/></r></p></e>
+	<e><p><l>preiskovalen<s n="adj"/></l><r>investigador<s n="adj"/></r></p></e>
+	<e><p><l>prepoznaven<s n="adj"/></l><r>reconocible<s n="adj"/></r></p></e>
+	<e><p><l>priložnosten<s n="adj"/></l><r>ocasional<s n="adj"/></r></p></e>
+	<e><p><l>prisoten<s n="adj"/></l><r>presente<s n="adj"/></r></p></e>
+	<e><p><l>pritrdilen<s n="adj"/></l><r>afirmativo<s n="adj"/></r></p></e>
+	<e><p><l>prostovoljen<s n="adj"/></l><r>voluntario<s n="adj"/></r></p></e>
+	<e><p><l>prvovrsten<s n="adj"/></l><r>de primer orden<s n="adj"/></r></p></e>
+	<e><p><l>rasističen<s n="adj"/></l><r>racista<s n="adj"/></r></p></e>
+	<e><p><l>razpoznaven<s n="adj"/></l><r>reconocible<s n="adj"/></r></p></e>
+	<e><p><l>reaktiven<s n="adj"/></l><r>reactivo<s n="adj"/></r></p></e>
+	<e><p><l>reklamen<s n="adj"/></l><r>publicitario<s n="adj"/></r></p></e>
+	<e><p><l>rezerven<s n="adj"/></l><r>de repuesto<s n="adj"/></r></p></e>
+	<e><p><l>romantičen<s n="adj"/></l><r>romántico<s n="adj"/></r></p></e>
+	<e><p><l>samoumeven<s n="adj"/></l><r>evidente<s n="adj"/></r></p></e>
+	<e><p><l>sekundaren<s n="adj"/></l><r>secundario<s n="adj"/></r></p></e>
+	<e><p><l>simboličen<s n="adj"/></l><r>simbólico<s n="adj"/></r></p></e>
+	<e><p><l>sindikalen<s n="adj"/></l><r>sindical<s n="adj"/></r></p></e>
+	<e><p><l>skeptičen<s n="adj"/></l><r>escéptico<s n="adj"/></r></p></e>
+	<e><p><l>sladkoren<s n="adj"/></l><r>azúcar<s n="adj"/></r></p></e>
+	<e><p><l>slišen<s n="adj"/></l><r>audible<s n="adj"/></r></p></e>
+	<e><p><l>slučajen<s n="adj"/></l><r>casual<s n="adj"/></r></p></e>
+	<e><p><l>socialen<s n="adj"/></l><r>social<s n="adj"/></r></p></e>
+	<e><p><l>socialističen<s n="adj"/></l><r>socialista<s n="adj"/></r></p></e>
+	<e><p><l>sočasen<s n="adj"/></l><r>simultáneo<s n="adj"/></r></p></e>
+	<e><p><l>sočuten<s n="adj"/></l><r>compasivo<s n="adj"/></r></p></e>
+	<e><p><l>specifičen<s n="adj"/></l><r>específico<s n="adj"/></r></p></e>
+	<e><p><l>statističen<s n="adj"/></l><r>estadístico<s n="adj"/></r></p></e>
+	<e><p><l>telesen<s n="adj"/></l><r>corporal<s n="adj"/></r></p></e>
+	<e><p><l>temeljen<s n="adj"/></l><r>básico<s n="adj"/></r></p></e>
+	<e><p><l>teoretičen<s n="adj"/></l><r>teórico<s n="adj"/></r></p></e>
+	<e><p><l>totalitaren<s n="adj"/></l><r>totalitario<s n="adj"/></r></p></e>
+	<e><p><l>tragičen<s n="adj"/></l><r>trágico<s n="adj"/></r></p></e>
+	<e><p><l>trikoten<s n="adj"/></l><r>triangular<s n="adj"/></r></p></e>
+	<e><p><l>turističen<s n="adj"/></l><r>turístico<s n="adj"/></r></p></e> 
+	<e><p><l>upraven<s n="adj"/></l><r>administrativo<s n="adj"/></r></p></e>
+	<e><p><l>užiten<s n="adj"/></l><r>comestible<s n="adj"/></r></p></e>
+	<e><p><l>vizualen<s n="adj"/></l><r>visual<s n="adj"/></r></p></e>
+	<e><p><l>vladen<s n="adj"/></l><r>gubernamental<s n="adj"/></r></p></e>
+	<e><p><l>vodilen<s n="adj"/></l><r>líder<s n="adj"/></r></p></e>
+	<e><p><l>vzporeden<s n="adj"/></l><r>paralelo<s n="adj"/></r></p></e>
+	<e><p><l>zemljepisen<s n="adj"/></l><r>geográfico<s n="adj"/></r></p></e>
+	<e><p><l>zgleden<s n="adj"/></l><r>ejemplar<s n="adj"/></r></p></e>
+	<e><p><l>žameten<s n="adj"/></l><r>terciopelo<s n="adj"/></r></p></e>
+	<e><p><l>baročen<s n="adj"/></l><r>barroco<s n="adj"/></r></p></e>
+	<e><p><l>beden<s n="adj"/></l><r>miserable<s n="adj"/></r></p></e>
+	<e><p><l>buden<s n="adj"/></l><r>despierto<s n="adj"/></r></p></e>
+	<e><p><l>grozen<s n="adj"/></l><r>horrible<s n="adj"/></r></p></e>
+	<e><p><l>krivičen<s n="adj"/></l><r>injusto<s n="adj"/></r></p></e>
+	<e><p><l>lahkoten<s n="adj"/></l><r>ligero<s n="adj"/></r></p></e>
+	<e><p><l>liberalen<s n="adj"/></l><r>liberal<s n="adj"/></r></p></e>
+	<e><p><l>množičen<s n="adj"/></l><r>masivo<s n="adj"/></r></p></e>
+	<e><p><l>neposreden<s n="adj"/></l><r>directo<s n="adj"/></r></p></e>
+	<e><p><l>neresničen<s n="adj"/></l><r>irreal<s n="adj"/></r></p></e>
+	<e><p><l>neroden<s n="adj"/></l><r>torpe<s n="adj"/></r></p></e>
+	<e><p><l>nesramen<s n="adj"/></l><r>insolente<s n="adj"/></r></p></e>
+	<e><p><l>okoren<s n="adj"/></l><r>lento<s n="adj"/></r></p></e>
+	<e><p><l>optimističen<s n="adj"/></l><r>optimista<s n="adj"/></r></p></e>
+	<e><p><l>pobožen<s n="adj"/></l><r>devoto<s n="adj"/></r></p></e>
+	<e><p><l>pokončen<s n="adj"/></l><r>derecho<s n="adj"/></r></p></e>
+	<e><p><l>ponižen<s n="adj"/></l><r>humilde<s n="adj"/></r></p></e>
+	<e><p><l>posreden<s n="adj"/></l><r>indirecto<s n="adj"/></r></p></e>
+	<e><p><l>prikupen<s n="adj"/></l><r>adorable<s n="adj"/></r></p></e>
+	<e><p><l>prizadeven<s n="adj"/></l><r>diligente<s n="adj"/></r></p></e>
+	<e><p><l>radodaren<s n="adj"/></l><r>generoso<s n="adj"/></r></p></e>
+	<e><p><l>ritmičen<s n="adj"/></l><r>rítmico<s n="adj"/></r></p></e>
+	<e><p><l>sijajen<s n="adj"/></l><r>brillante<s n="adj"/></r></p></e>
+	<e><p><l>skriven<s n="adj"/></l><r>oculto<s n="adj"/></r></p></e>
+	<e><p><l>sramoten<s n="adj"/></l><r>vergonzoso<s n="adj"/></r></p></e>
+	<e><p><l>temačen<s n="adj"/></l><r>sombrío<s n="adj"/></r></p></e>
+	<e><p><l>uren<s n="adj"/></l><r>rápido<s n="adj"/></r></p></e>
+	<e><p><l>verodostojen<s n="adj"/></l><r>confiable<s n="adj"/></r></p></e>
+	<e><p><l>vesten<s n="adj"/></l><r>concienzudo<s n="adj"/></r></p></e>
+	<e><p><l>zakoten<s n="adj"/></l><r>apartado<s n="adj"/></r></p></e>
+	<e><p><l>žalosten<s n="adj"/></l><r>triste<s n="adj"/></r></p></e>
+	<e><p><l>priden<s n="adj"/></l><r>bueno<s n="adj"/></r></p></e>
+	<e><p><l>minul<s n="adj"/></l><r>pasado<s n="adj"/></r></p></e>
+	<e><p><l>uvel<s n="adj"/></l><r>marchito<s n="adj"/></r></p></e>
+	<e><p><l>zagorel<s n="adj"/></l><r>bronceado<s n="adj"/></r></p></e>
+	<e><p><l>drzen<s n="adj"/></l><r>audaz<s n="adj"/></r></p></e>
+	<e><p><l>eleganten<s n="adj"/></l><r>elegante<s n="adj"/></r></p></e>
+	<e><p><l>eliten<s n="adj"/></l><r>elitista<s n="adj"/></r></p></e>
+	<e><p><l>enoten<s n="adj"/></l><r>uniforme<s n="adj"/></r></p></e>
+	<e><p><l>izdaten<s n="adj"/></l><r>abundante<s n="adj"/></r></p></e>
+	<e><p><l>izzivalen<s n="adj"/></l><r>desafiante<s n="adj"/></r></p></e>
+	<e><p><l>južen<s n="adj"/></l><r>del sur<s n="adj"/></r></p></e>
+	<e><p><l>konkreten<s n="adj"/></l><r>concreto<s n="adj"/></r></p></e>
+	<e><p><l>lojalen<s n="adj"/></l><r>leal<s n="adj"/></r></p></e>
+	<e><p><l>mogočen<s n="adj"/></l><r>poderoso<s n="adj"/></r></p></e>
+	<e><p><l>mračen<s n="adj"/></l><r>oscuro<s n="adj"/></r></p></e>
+	<e><p><l>nemiren<s n="adj"/></l><r>inquieto<s n="adj"/></r></p></e>
+	<e><p><l>nepotreben<s n="adj"/></l><r>innecesario<s n="adj"/></r></p></e>
+	<e><p><l>neprijeten<s n="adj"/></l><r>desagradable<s n="adj"/></r></p></e>
+	<e><p><l>nesposoben<s n="adj"/></l><r>incompetente<s n="adj"/></r></p></e>
+	<e><p><l>neudoben<s n="adj"/></l><r>incómodo<s n="adj"/></r></p></e>
+	<e><p><l>nezadovoljen<s n="adj"/></l><r>insatisfecho<s n="adj"/></r></p></e>
+	<e><p><l>opazen<s n="adj"/></l><r>notable<s n="adj"/></r></p></e>
+	<e><p><l>ošaben<s n="adj"/></l><r>arrogante<s n="adj"/></r></p></e>
+	<e><p><l>pogumen<s n="adj"/></l><r>valiente<s n="adj"/></r></p></e>
+	<e><p><l>prisrčen<s n="adj"/></l><r>cordial<s n="adj"/></r></p></e>
+	<e><p><l>reven<s n="adj"/></l><r>pobre<s n="adj"/></r></p></e>
+	<e><p><l>severen<s n="adj"/></l><r>del norte<s n="adj"/></r></p></e>
+	<e><p><l>skrben<s n="adj"/></l><r>atento<s n="adj"/></r></p></e>
+	<e><p><l>spodoben<s n="adj"/></l><r>decente<s n="adj"/></r></p></e>
+	<e><p><l>spreten<s n="adj"/></l><r>diestro<s n="adj"/></r></p></e>
+	<e><p><l>strahopeten<s n="adj"/></l><r>cobarde<s n="adj"/></r></p></e>
+	<e><p><l>ustrezen<s n="adj"/></l><r>correspondiente<s n="adj"/></r></p></e>
+	<e><p><l>zabaven<s n="adj"/></l><r>divertido<s n="adj"/></r></p></e>
+	<e><p><l>zmožen<s n="adj"/></l><r>capaz<s n="adj"/></r></p></e>
+	<e><p><l>avtohton<s n="adj"/></l><r>autóctono<s n="adj"/></r></p></e>
+	<e><p><l>oddaljen<s n="adj"/></l><r>distante<s n="adj"/></r></p></e>
+	<e><p><l>težek<s n="adj"/></l><r>difícil<s n="adj"/></r></p></e>
+	<e><p><l>nor<s n="adj"/></l><r>loco<s n="adj"/></r></p></e>
+	<e><p><l>vreden<s n="adj"/></l><r>valioso<s n="adj"/></r></p></e>
+	<e><p><l>zloben<s n="adj"/></l><r>malo<s n="adj"/></r></p></e>
+	<e><p><l>znosen<s n="adj"/></l><r>soportable<s n="adj"/></r></p></e>
+	<e><p><l>zahteven<s n="adj"/></l><r>exigente<s n="adj"/></r></p></e>
+	<e><p><l>bridek<s n="adj"/></l><r>amargo<s n="adj"/></r></p></e>
+	<e><p><l>rahel<s n="adj"/></l><r>leve<s n="adj"/></r></p></e>
+	<e><p><l>akuten<s n="adj"/></l><r>agudo<s n="adj"/></r></p></e>
+	<e><p><l>daljen<s n="adj"/></l><r>lejano<s n="adj"/></r></p></e>
+	<e><p><l>dolgoročen<s n="adj"/></l><r>a largo plazo<s n="adj"/></r></p></e>
+	<e><p><l>dominanten<s n="adj"/></l><r>dominante<s n="adj"/></r></p></e>
+	<e><p><l>dostojen<s n="adj"/></l><r>decente<s n="adj"/></r></p></e>
+	<e><p><l>dostopen<s n="adj"/></l><r>accesible<s n="adj"/></r></p></e>
+	<e><p><l>izčrpen<s n="adj"/></l><r>exhaustivo<s n="adj"/></r></p></e>
+	<e><p><l>neopazen<s n="adj"/></l><r>desapercibido<s n="adj"/></r></p></e>
+	<e><p><l>netočen<s n="adj"/></l><r>inexacto<s n="adj"/></r></p></e>
+	<e><p><l>neustrezen<s n="adj"/></l><r>inapropiado<s n="adj"/></r></p></e>
+	<e><p><l>obilen<s n="adj"/></l><r>abundante<s n="adj"/></r></p></e>
+	<e><p><l>obširen<s n="adj"/></l><r>extenso<s n="adj"/></r></p></e>
+	<e><p><l>ostuden<s n="adj"/></l><r>repugnante<s n="adj"/></r></p></e>
+	<e><p><l>ploden<s n="adj"/></l><r>fértil<s n="adj"/></r></p></e>
+	<e><p><l>pravičen<s n="adj"/></l><r>justo<s n="adj"/></r></p></e>
+	<e><p><l>prijazen<s n="adj"/></l><r>amable<s n="adj"/></r></p></e>
+	<e><p><l>prodoren<s n="adj"/></l><r>penetrante<s n="adj"/></r></p></e>
+	<e><p><l>radioaktiven<s n="adj"/></l><r>radioactivo<s n="adj"/></r></p></e>
+	<e><p><l>reden<s n="adj"/></l><r>regular<s n="adj"/></r></p></e>
+	<e><p><l>sočen<s n="adj"/></l><r>jugoso<s n="adj"/></r></p></e>
+	<e><p><l>sposoben<s n="adj"/></l><r>capaz<s n="adj"/></r></p></e>
+	<e><p><l>težaven<s n="adj"/></l><r>difícil<s n="adj"/></r></p></e>
+	<e><p><l>udoben<s n="adj"/></l><r>cómodo<s n="adj"/></r></p></e>
+	<e><p><l>uspešen<s n="adj"/></l><r>exitoso<s n="adj"/></r></p></e>
+	<e><p><l>zmeren<s n="adj"/></l><r>moderado<s n="adj"/></r></p></e>
+	<e><p><l>žlahten<s n="adj"/></l><r>precioso<s n="adj"/></r></p></e>
+	<e><p><l>grozljiv<s n="adj"/></l><r>horrible<s n="adj"/></r></p></e>
+	<e><p><l>marljiv<s n="adj"/></l><r>diligente<s n="adj"/></r></p></e>
+	<e><p><l>neobčutljiv<s n="adj"/></l><r>insensible<s n="adj"/></r></p></e>
+	<e><p><l>nerazumljiv<s n="adj"/></l><r>incomprensible<s n="adj"/></r></p></e>
+	<e><p><l>nespoštljiv<s n="adj"/></l><r>irrespetuoso<s n="adj"/></r></p></e>
 
 
     <!-- SECTION: Adverbs -->
@@ -4527,6 +6309,70 @@
 	<e><p><l>večkrat<s n="adv"/></l><r>repetidamente<s n="adv"/></r></p></e>
 	<e><p><l>zlahka<s n="adv"/></l><r>fácilmente<s n="adv"/></r></p></e>
 	<e><p><l>počasi<s n="adv"/></l><r>lentamente<s n="adv"/></r></p></e>
+	
+	<e><p><l>gor<s n="adv"/></l><r>arriba<s n="adv"/></r></p></e>
+	<e><p><l>kako<s n="adv"/></l><r>cómo<s n="adv"/></r></p></e>
+	<e><p><l>kakor<s n="adv"/></l><r>como<s n="adv"/></r></p></e>
+	<e><p><l>kje<s n="adv"/></l><r>dónde<s n="adv"/></r></p></e>
+	<e><p><l>naravnost<s n="adv"/></l><r>recto<s n="adv"/></r></p></e>
+	<e><p><l>tako<s n="adv"/></l><r>así<s n="adv"/></r></p></e>
+	<e><p><l>tam<s n="adv"/></l><r>allí<s n="adv"/></r></p></e>
+	<e><p><l>vključno<s n="adv"/></l><r>incluso<s n="adv"/></r></p></e>
+	<e><p><l>blizu<s n="adv"/></l><r>cerca<s n="adv"/></r></p></e>
+	<e><p><l>hitro<s n="adv"/></l><r>rápidamente<s n="adv"/></r></p></e> 
+	<e><p><l>bolj<s n="adv"/></l><r>más<s n="adv"/></r></p></e>
+	<e><p><l>čedalje<s n="adv"/></l><r>cada vez<s n="adv"/></r></p></e>
+	<e><p><l>deloma<s n="adv"/></l><r>parcialmente<s n="adv"/></r></p></e>
+	<e><p><l>dol<s n="adv"/></l><r>abajo<s n="adv"/></r></p></e>
+	<e><p><l>doma<s n="adv"/></l><r>en casa<s n="adv"/></r></p></e>
+	<e><p><l>domov<s n="adv"/></l><r>a casa<s n="adv"/></r></p></e>
+	<e><p><l>drugič<s n="adv"/></l><r>otra vez<s n="adv"/></r></p></e>
+	<e><p><l>enkrat<s n="adv"/></l><r>una vez<s n="adv"/></r></p></e>
+	<e><p><l>glede<s n="adv"/></l><r>en<s n="adv"/></r></p></e>
+	<e><p><l>kadarkoli<s n="adv"/></l><r>en cualquier momento<s n="adv"/></r></p></e>
+	<e><p><l>kajne<s n="adv"/></l><r>verdad<s n="adv"/></r></p></e>
+	<e><p><l>kod<s n="adv"/></l><r>donde<s n="adv"/></r></p></e>
+	<e><p><l>komajda<s n="adv"/></l><r>apenas<s n="adv"/></r></p></e>
+	<e><p><l>kvišku<s n="adv"/></l><r>hacia arriba<s n="adv"/></r></p></e>
+	<e><p><l>letos<s n="adv"/></l><r>este año<s n="adv"/></r></p></e>
+	<e><p><l>mimo<s n="adv"/></l><r>delante de<s n="adv"/></r></p></e>
+	<e><p><l>naenkrat<s n="adv"/></l><r>de repente<s n="adv"/></r></p></e>
+	<e><p><l>nalašč<s n="adv"/></l><r>intencionadamente<s n="adv"/></r></p></e>
+	<e><p><l>narobe<s n="adv"/></l><r>mal<s n="adv"/></r></p></e>
+	<e><p><l>nasploh<s n="adv"/></l><r>generalmente<s n="adv"/></r></p></e>
+	<e><p><l>navzdol<s n="adv"/></l><r>abajo<s n="adv"/></r></p></e>
+	<e><p><l>navzgor<s n="adv"/></l><r>arriba<s n="adv"/></r></p></e>
+	<e><p><l>navzven<s n="adv"/></l><r>afuera<s n="adv"/></r></p></e>
+	<e><p><l>nazadnje<s n="adv"/></l><r>por último<s n="adv"/></r></p></e>
+	<e><p><l>nekoč<s n="adv"/></l><r>una vez<s n="adv"/></r></p></e>
+	<e><p><l>nenadoma<s n="adv"/></l><r>de repente<s n="adv"/></r></p></e>
+	<e><p><l>nocoj<s n="adv"/></l><r>esta noche<s n="adv"/></r></p></e>
+	<e><p><l>notri<s n="adv"/></l><r>dentro<s n="adv"/></r></p></e>
+	<e><p><l>obilo<s n="adv"/></l><r>mucho<s n="adv"/></r></p></e>
+	<e><p><l>okoli<s n="adv"/></l><r>sobre<s n="adv"/></r></p></e>
+	<e><p><l>okrog<s n="adv"/></l><r>alrededor de<s n="adv"/></r></p></e>
+	<e><p><l>pokonci<s n="adv"/></l><r>derecho<s n="adv"/></r></p></e>
+	<e><p><l>popoldne<s n="adv"/></l><r>por la tarde<s n="adv"/></r></p></e>
+	<e><p><l>posebej<s n="adv"/></l><r>por separado<s n="adv"/></r></p></e>
+	<e><p><l>proč<s n="adv"/></l><r>allá<s n="adv"/></r></p></e>
+	<e><p><l>spredaj<s n="adv"/></l><r>delante<s n="adv"/></r></p></e>
+	<e><p><l>tja<s n="adv"/></l><r>allá<s n="adv"/></r></p></e>
+	<e><p><l>trikrat<s n="adv"/></l><r>tres veces<s n="adv"/></r></p></e>
+	<e><p><l>več<s n="adv"/></l><r>más<s n="adv"/></r></p></e>
+	<e><p><l>vnaprej<s n="adv"/></l><r>por adelantado<s n="adv"/></r></p></e>
+	<e><p><l>vred<s n="adv"/></l><r>junto con<s n="adv"/></r></p></e>
+	<e><p><l>vsakič<s n="adv"/></l><r>cada vez<s n="adv"/></r></p></e>
+	<e><p><l>vsakokrat<s n="adv"/></l><r>siempre<s n="adv"/></r></p></e>
+	<e><p><l>zadaj<s n="adv"/></l><r>detrás<s n="adv"/></r></p></e>
+	<e><p><l>zadnjič<s n="adv"/></l><r>el otro día<s n="adv"/></r></p></e>
+	<e><p><l>zaman<s n="adv"/></l><r>en vano<s n="adv"/></r></p></e>
+	<e><p><l>zapored<s n="adv"/></l><r>consecutivamente<s n="adv"/></r></p></e>
+	<e><p><l>zastonj<s n="adv"/></l><r>gratis<s n="adv"/></r></p></e>
+	<e><p><l>zjutraj<s n="adv"/></l><r>por la mañana<s n="adv"/></r></p></e>
+	<e><p><l>zlasti<s n="adv"/></l><r>sobre todo<s n="adv"/></r></p></e>
+	<e><p><l>znotraj<s n="adv"/></l><r>dentro<s n="adv"/></r></p></e>
+	<e><p><l>zraven<s n="adv"/></l><r>al lado<s n="adv"/></r></p></e>
+	<e><p><l>zvečer<s n="adv"/></l><r>por la tarde<s n="adv"/></r></p></e>
 	
 
     <!-- SECTION: Verbs -->
@@ -6806,8 +8652,8 @@
 	<e><p><l>ne<s n="cnjcoo"/></l><r>que<s n="cnjcoo"/></r></p></e>
 	<e><p><l>niti<s n="cnjcoo"/></l><r>ni<s n="cnjcoo"/></r></p></e>
 	
-	<!-- PR -->
-	
+	<!-- DET -->
+	<e><p><l>ves<s n="det"/></l><r>todo<s n="predet"/></r></p></e>
 	
 	<!-- NP -->
 	<e><p><l>Srbija<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Serbia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
