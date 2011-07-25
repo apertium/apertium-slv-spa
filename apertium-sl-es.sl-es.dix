@@ -6307,6 +6307,81 @@
 	<e><p><l>pregrešen<s n="adj"/></l><r>vicioso<s n="adj"/></r></p></e>
 	<e><p><l>teoretičen<s n="adj"/></l><r>teórico<s n="adj"/></r></p></e>
 	<e><p><l>masten<s n="adj"/></l><r>grasiento<s n="adj"/></r></p></e>
+	
+	<!-- de "_something_" Adjectives -->
+	<e><p><l>pihalen<s n="adj"/></l><r>de viento<s n="adj"/></r></p></e>
+	<e><p><l>skalen<s n="adj"/></l><r>de roca<s n="adj"/></r></p></e>
+	<e><p><l>temperaturen<s n="adj"/></l><r>de la temperatura<s n="adj"/></r></p></e>
+	<e><p><l>raziskovalen<s n="adj"/></l><r>de investigación<s n="adj"/></r></p></e>
+	<e><p><l>kratkotrajen<s n="adj"/></l><r>de corta duración<s n="adj"/></r></p></e>
+	<e><p><l>zoben<s n="adj"/></l><r>de dientes<s n="adj"/></r></p></e>
+	<e><p><l>varnosten<s n="adj"/></l><r>de seguridad<s n="adj"/></r></p></e>
+	<e><p><l>vojen<s n="adj"/></l><r>de guerra<s n="adj"/></r></p></e>
+	<e><p><l>ugleden<s n="adj"/></l><r>de reputación<s n="adj"/></r></p></e>
+	<e><p><l>kakovosten<s n="adj"/></l><r>de calidad<s n="adj"/></r></p></e>
+	<e><p><l>zloglasen<s n="adj"/></l><r>de mala fama<s n="adj"/></r></p></e>
+	<e><p><l>snežen<s n="adj"/></l><r>de nieve<s n="adj"/></r></p></e>
+	<e><p><l>usnjen<s n="adj"/></l><r>de piel<s n="adj"/></r></p></e>
+	<e><p><l>porcelanast<s n="adj"/></l><r>de porcelana<s n="adj"/></r></p></e>
+	<e><p><l>marmornat<s n="adj"/></l><r>de mármol<s n="adj"/></r></p></e>
+	<e><p><l>pločevinast<s n="adj"/></l><r>de chapa<s n="adj"/></r></p></e>
+	<e><p><l>papirnat<s n="adj"/></l><r>de papel<s n="adj"/></r></p></e>
+	<e><p><l>vzorčen<s n="adj"/></l><r>de muestra<s n="adj"/></r></p></e>
+	<e><p><l>avgustovski<s n="adj"/></l><r>de agosto<s n="adj"/></r></p></e>
+	<e><p><l>hotelski<s n="adj"/></l><r>de hotel<s n="adj"/></r></p></e>
+	<e><p><l>igralski<s n="adj"/></l><r>de actores<s n="adj"/></r></p></e>
+	<e><p><l>informacijski<s n="adj"/></l><r>de información<s n="adj"/></r></p></e>
+	<e><p><l>intervencijski<s n="adj"/></l><r>de intervención<s n="adj"/></r></p></e>
+	<e><p><l>betonski<s n="adj"/></l><r>de hormigón<s n="adj"/></r></p></e>
+	<e><p><l>gverilski<s n="adj"/></l><r>de guerrilla<s n="adj"/></r></p></e>
+	<e><p><l>hokejski<s n="adj"/></l><r>de hockey<s n="adj"/></r></p></e>
+	<e><p><l>košarkarski<s n="adj"/></l><r>de baloncesto<s n="adj"/></r></p></e>
+	<e><p><l>kuhinjski<s n="adj"/></l><r>de cocina<s n="adj"/></r></p></e>
+	<e><p><l>letalski<s n="adj"/></l><r>de avión<s n="adj"/></r></p></e>
+	<e><p><l>loterijski<s n="adj"/></l><r>de lotería<s n="adj"/></r></p></e>
+	<e><p><l>majski<s n="adj"/></l><r>de mayo<s n="adj"/></r></p></e>
+	<e><p><l>koledarski<s n="adj"/></l><r>de calendario<s n="adj"/></r></p></e>
+	<e><p><l>kolesarski<s n="adj"/></l><r>de ciclistas<s n="adj"/></r></p></e>
+	<e><p><l>kartonski<s n="adj"/></l><r>de cartón<s n="adj"/></r></p></e>
+	<e><p><l>mlinski<s n="adj"/></l><r>de molino<s n="adj"/></r></p></e>
+	<e><p><l>oktobrski<s n="adj"/></l><r>de octubre<s n="adj"/></r></p></e>
+	<e><p><l>septembrski<s n="adj"/></l><r>de septiembre<s n="adj"/></r></p></e>
+	<e><p><l>višinski<s n="adj"/></l><r>de altura<s n="adj"/></r></p></e>
+	<e><p><l>jeklen<s n="adj"/></l><r>de acero<s n="adj"/></r></p></e>
+	<e><p><l>kositrn<s n="adj"/></l><r>de estaño<s n="adj"/></r></p></e>
+	<e><p><l>lončen<s n="adj"/></l><r>de arcilla<s n="adj"/></r></p></e>
+	<e><p><l>današnji<s n="adj"/></l><r>de hoy<s n="adj"/></r></p></e>
+	<e><p><l>gosji<s n="adj"/></l><r>de oca<s n="adj"/></r></p></e>
+	<e><p><l>jutrišnji<s n="adj"/></l><r>de mañana<s n="adj"/></r></p></e>
+	<e><p><l>kozji<s n="adj"/></l><r>de cabra<s n="adj"/></r></p></e>
+	<e><p><l>letošnji<s n="adj"/></l><r>de este año<s n="adj"/></r></p></e>
+	<e><p><l>kopalen<s n="adj"/></l><r>de baño<s n="adj"/></r></p></e>
+	<e><p><l>koralen<s n="adj"/></l><r>de coral<s n="adj"/></r></p></e>
+	<e><p><l>koruzen<s n="adj"/></l><r>de maíz<s n="adj"/></r></p></e>
+	<e><p><l>čakalen<s n="adj"/></l><r>de espera<s n="adj"/></r></p></e>
+	<e><p><l>nocojšnji<s n="adj"/></l><r>de esta noche<s n="adj"/></r></p></e>
+	<e><p><l>ovčji<s n="adj"/></l><r>de oveja<s n="adj"/></r></p></e>
+	<e><p><l>petelinji<s n="adj"/></l><r>de gallos<s n="adj"/></r></p></e>
+	<e><p><l>polžji<s n="adj"/></l><r>de caracol<s n="adj"/></r></p></e>
+	<e><p><l>ptičji<s n="adj"/></l><r>de los pájaros<s n="adj"/></r></p></e>
+	<e><p><l>ribji<s n="adj"/></l><r>de pescado<s n="adj"/></r></p></e>
+	<e><p><l>tukajšnji<s n="adj"/></l><r>de aquí<s n="adj"/></r></p></e>
+	<e><p><l>včerajšnji<s n="adj"/></l><r>de ayer<s n="adj"/></r></p></e>
+	<e><p><l>zgornji<s n="adj"/></l><r>de arriba<s n="adj"/></r></p></e>
+	<e><p><l>žabji<s n="adj"/></l><r>de rana<s n="adj"/></r></p></e>
+	<e><p><l>kulten<s n="adj"/></l><r>de culto<s n="adj"/></r></p></e>
+	<e><p><l>lepoten<s n="adj"/></l><r>de belleza<s n="adj"/></r></p></e>
+	<e><p><l>luksuzen<s n="adj"/></l><r>de lujo<s n="adj"/></r></p></e>
+	<e><p><l>inteligenčen<s n="adj"/></l><r>de inteligencia<s n="adj"/></r></p></e>
+	<e><p><l>izpušen<s n="adj"/></l><r>de escape<s n="adj"/></r></p></e>
+	<e><p><l>operen<s n="adj"/></l><r>de ópera<s n="adj"/></r></p></e>
+	<e><p><l>povečevalen<s n="adj"/></l><r>de aumento<s n="adj"/></r></p></e>
+	<e><p><l>spomladanski<s n="adj"/></l><r>de<b/>primavera<s n="adj"/></r></p></e>
+	<e><p><l>svarilen<s n="adj"/></l><r>de aviso<s n="adj"/></r></p></e>
+	<e><p><l>monopolen<s n="adj"/></l><r>de monopolio<s n="adj"/></r></p></e>
+	<e><p><l>hladnokrven<s n="adj"/></l><r>de sangre fría<s n="adj"/></r></p></e>
+	<e><p><l>jesenski<s n="adj"/></l><r>de otoño<s n="adj"/></r></p></e>
+	<e><p><l>junijski<s n="adj"/></l><r>de junio<s n="adj"/></r></p></e>
 
 
     <!-- SECTION: Adverbs -->
