@@ -612,6 +612,40 @@
 	<e><p><l>ta<s n="prn"/><s n="dem"/></l><r>este<s n="prn"/><s n="dem"/></r></p></e>
 
 
+	<!-- Need to check tags -->
+	<e><p><l>se<s n="prn"/></l><r>se<s n="prn"/></r></p></e>
+	<e><p><l>kaj<s n="prn"/></l><r>qué<s n="prn"/></r></p></e>
+	<e><p><l>enak<s n="prn"/></l><r>igual<s n="prn"/></r></p></e>
+	<e><p><l>isti<s n="prn"/></l><r>mismo<s n="prn"/></r></p></e>
+	<e><p><l>kateri<s n="prn"/></l><r>cuál<s n="prn"/></r></p></e>
+	<e><p><l>kdo<s n="prn"/></l><r>quién<s n="prn"/></r></p></e>
+	<e><p><l>koliko<s n="prn"/></l><r>cómo<s n="prn"/></r></p></e>
+	<e><p><l>ta<s n="prn"/></l><r>este<s n="prn"/></r></p></e>
+	<e><p><l>nekdo<s n="prn"/></l><r>alguien<s n="prn"/></r></p></e>
+	<e><p><l>nič<s n="prn"/></l><r>nada<s n="prn"/></r></p></e>
+	<e><p><l>nihče<s n="prn"/></l><r>nadie<s n="prn"/></r></p></e>
+	<e><p><l>vsak<s n="prn"/></l><r>cada<s n="prn"/></r></p></e>
+	<e><p><l>drug<s n="prn"/></l><r>otro<s n="prn"/></r></p></e> 
+	<e><p><l>en<s n="prn"/></l><r>uno<s n="prn"/></r></p></e>
+	<e><p><l>kakršenkoli<s n="prn"/></l><r>cualquiera<s n="prn"/></r></p></e>
+	<e><p><l>karkoli<s n="prn"/></l><r>cualquier cosa<s n="prn"/></r></p></e>
+	<e><p><l>katerikoli<s n="prn"/></l><r>cualquiera<s n="prn"/></r></p></e>
+	<e><p><l>drugačen<s n="prn"/></l><r>diferente<s n="prn"/></r></p></e>
+	<e><p><l>kakšen<s n="prn"/></l><r>qué<s n="prn"/></r></p></e>
+	<e><p><l>kar<s n="prn"/></l><r>lo que<s n="prn"/></r></p></e>
+	<e><p><l>marsikateri<s n="prn"/></l><r>mucho<s n="prn"/></r></p></e>
+	<e><p><l>kdorkoli<s n="prn"/></l><r>quienquiera<s n="prn"/></r></p></e>
+	<e><p><l>le-ta<s n="prn"/></l><r>éste<s n="prn"/></r></p></e>
+	<e><p><l>marsikdo<s n="prn"/></l><r>muchos<s n="prn"/></r></p></e>
+	<e><p><l>nikakršen<s n="prn"/></l><r>ninguno<s n="prn"/></r></p></e>
+	<e><p><l>oba<s n="prn"/></l><r>ambos<s n="prn"/></r></p></e>
+	<e><p><l>tak<s n="prn"/></l><r>tal<s n="prn"/></r></p></e>
+	<e><p><l>takšen<s n="prn"/></l><r>tal<s n="prn"/></r></p></e>
+	<e><p><l>tale<s n="prn"/></l><r>este<s n="prn"/></r></p></e>
+	<e><p><l>vsakršen<s n="prn"/></l><r>todo<s n="prn"/></r></p></e>
+	<e><p><l>čigar<s n="prn"/></l><r>cuyo<s n="prn"/></r></p></e>
+	<e><p><l>kolikor<s n="prn"/></l><r>cuanto<s n="prn"/></r></p></e>
+	<!-- End -->
  
     <!-- SECTION: Determiners -->
 
