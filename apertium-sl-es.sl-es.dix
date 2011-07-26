@@ -645,6 +645,12 @@
 	<e><p><l>vsakršen<s n="prn"/></l><r>todo<s n="prn"/></r></p></e>
 	<e><p><l>čigar<s n="prn"/></l><r>cuyo<s n="prn"/></r></p></e>
 	<e><p><l>kolikor<s n="prn"/></l><r>cuanto<s n="prn"/></r></p></e>
+	
+	<e><p><l>njen<s n="prn"/></l><r>el<b/>suyo<s n="prn"/></r></p></e>
+	<e><p><l>nič<s n="prn"/></l><r>nada<s n="prn"/></r></p></e>
+	<e><p><l>kateri<s n="prn"/></l><r>cuál<s n="prn"/></r></p></e>
+	<e><p><l>ves<s n="prn"/></l><r>todo<s n="prn"/></r></p></e>
+	<e><p><l>noben<s n="prn"/></l><r>ninguno<s n="prn"/></r></p></e>
 	<!-- End -->
  
     <!-- SECTION: Determiners -->
@@ -4864,6 +4870,42 @@
 	<e><p><l>polom<s n="n"/><s n="mi"/></l><r>fracaso<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>okupator<s n="n"/><s n="ma"/></l><r>ocupante<s n="n"/><s n="mf"/></r></p></e>
 	
+	<e><p><l>enota<s n="n"/><s n="f"/></l><r>unidad<s n="n"/><s n="f"/></r></p></e> 
+	<e><p><l>narednik<s n="n"/><s n="ma"/></l><r>sargento<s n="n"/><s n="mf"/></r></p></e> 
+	<e><p><l>razred<s n="n"/><s n="mi"/></l><r>clase<s n="n"/><s n="f"/></r></p></e> 
+	<e><p><l>letalo<s n="n"/><s n="nt"/></l><r>avión<s n="n"/><s n="m"/></r></p></e> 	
+	<e><p><l>dekle<s n="n"/><s n="nt"/></l><r>joven<s n="n"/><s n="mf"/></r></p></e> 
+	<e><p><l>hitrost<s n="n"/><s n="f"/></l><r>velocidad<s n="n"/><s n="f"/></r></p></e> 
+	<e><p><l>avto<s n="n"/><s n="mi"/></l><r>coche<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kadet<s n="n"/><s n="ma"/></l><r>cadete<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>nasmeh<s n="n"/><s n="mi"/></l><r>sonrisa<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>vožnja<s n="n"/><s n="f"/></l><r>viaje<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>padalo<s n="n"/><s n="nt"/></l><r>paracaídas<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>helikopter<s n="n"/><s n="mi"/></l><r>helicóptero<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>vrata<s n="n"/><s n="f"/></l><r>puerta<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>trenutek<s n="n"/><s n="mi"/></l><r>momento<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>moški<s n="n"/><s n="ma"/></l><r>hombre<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>ptica<s n="n"/><s n="f"/></l><r>ave<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>ptica<s n="n"/><s n="f"/></l><r>pájaro<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kolega<s n="n"/><s n="ma"/></l><r>compañero<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kolegica<s n="n"/><s n="f"/></l><r>compañero<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>odnos<s n="n"/><s n="mi"/></l><r>relación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>inštruktor<s n="n"/><s n="ma"/></l><r>instructor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>inštruktorica<s n="n"/><s n="f"/></l><r>instructor<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>instruktor<s n="n"/><s n="ma"/></l><r>instructor<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>instruktorica<s n="n"/><s n="f"/></l><r>instructor<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>kabina<s n="n"/><s n="f"/></l><r>cabina<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>leto<s n="n"/><s n="nt"/></l><r>año<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>izpit<s n="n"/><s n="mi"/></l><r>examen<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>letenje<s n="n"/><s n="nt"/></l><r>vuelo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>torta<s n="n"/><s n="f"/></l><r>tarta<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>torta<s n="n"/><s n="f"/></l><r>pastel<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>sorodnik<s n="n"/><s n="ma"/></l><r>pariente<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>posel<s n="n"/><s n="mi"/></l><r>negocio<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>vpis<s n="n"/><s n="mi"/></l><r>inscripción<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>mesto<s n="n"/><s n="nt"/></l><r>puesto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>mesto<s n="n"/><s n="nt"/></l><r>capital<s n="n"/><s n="m"/></r></p></e>
+	
 		
     <!-- SECTION: Proper nouns -->
 
@@ -6416,6 +6458,22 @@
 	<e><p><l>hladnokrven<s n="adj"/></l><r>de sangre fría<s n="adj"/></r></p></e>
 	<e><p><l>jesenski<s n="adj"/></l><r>de otoño<s n="adj"/></r></p></e>
 	<e><p><l>junijski<s n="adj"/></l><r>de junio<s n="adj"/></r></p></e>
+	
+	<e><p><l>star<s n="adj"/></l><r>viejo<s n="adj"/></r></p></e>
+	<e><p><l>sprejet<s n="adj"/></l><r>aceptable<s n="adj"/></r></p></e>
+	<e><p><l>prijateljski<s n="adj"/></l><r>amistoso<s n="adj"/></r></p></e>
+	<e><p><l>dober<s n="adj"/></l><r>bueno<s n="adj"/></r></p></e>
+	<e><p><l>usposobljen<s n="adj"/></l><r>competente<s n="adj"/></r></p></e>
+	<e><p><l>bodoč<s n="adj"/></l><r>futuro<s n="adj"/></r></p></e>
+	<e><p><l>čudovit<s n="adj"/></l><r>maravilloso<s n="adj"/></r></p></e>
+	<e><p><l>mnog<s n="adj"/></l><r>maravilloso<s n="adj"/></r></p></e>
+	<e><p><l>težek<s n="adj"/></l><r>pesado<s n="adj"/></r></p></e>
+	<e><p><l>vojaški<s n="adj"/></l><r>militar<s n="adj"/></r></p></e>
+	<e><p><l>ostal<s n="adj"/></l><r>restante<s n="adj"/></r></p></e>
+	<e><p><l>dober<s n="adj"/></l><r>bueno<s n="adj"/></r></p></e>
+	<e><p><l>pripravljen<s n="adj"/></l><r>pronto<s n="adj"/></r></p></e>
+	<e><p><l>leten<s n="adj"/></l><r>anual<s n="adj"/></r></p></e>
+	<e><p><l>velik<s n="adj"/></l><r>grande<s n="adj"/></r></p></e>
 
 
     <!-- SECTION: Adverbs -->
@@ -6597,6 +6655,10 @@
 	<e><p><l>znotraj<s n="adv"/></l><r>dentro<s n="adv"/></r></p></e>
 	<e><p><l>zraven<s n="adv"/></l><r>al lado<s n="adv"/></r></p></e>
 	<e><p><l>zvečer<s n="adv"/></l><r>por la tarde<s n="adv"/></r></p></e>
+	
+	<e><p><l>kako<s n="adv"/></l><r>cómo<s n="adv"/></r></p></e>
+	<e><p><l>pozno<s n="adv"/></l><r>tarde<s n="adv"/></r></p></e>
+	<e><p><l>dobro<s n="adv"/></l><r>bien<s n="adv"/></r></p></e>
 	
 
     <!-- SECTION: Verbs -->
@@ -9050,6 +9112,8 @@
 	<e><p><l>smukniti<s n="vblex"/></l><r>deslizar<s n="vblex"/></r></p></e>
 	<e><p><l>usahniti<s n="vblex"/></l><r>desvanecerse<s n="vblex"/></r></p></e>
 	<e><p><l>raztreščiti<s n="vblex"/></l><r>estallar<s n="vblex"/></r></p></e>
+	<e><p><l>razpirati<s n="vblex"/></l><r>abrir<s n="vblex"/></r></p></e>
+	<e><p><l>odpasti<s n="vblex"/></l><r>caer<s n="vblex"/></r></p></e>
 	
     <!-- SECTION: Interjections -->
 
@@ -9069,75 +9133,11 @@
 	<!-- MANUAL ADDON FOR MIDTERM ARTICLE -->
 	
 	<!-- Nouns -->
-	<e><p><l>enota<s n="n"/><s n="f"/></l><r>unidad<s n="n"/><s n="f"/></r></p></e> 
-	<e><p><l>narednik<s n="n"/><s n="ma"/></l><r>sargento<s n="n"/><s n="mf"/></r></p></e> 
-	<e><p><l>razred<s n="n"/><s n="mi"/></l><r>clase<s n="n"/><s n="f"/></r></p></e> 
-	<e><p><l>letalo<s n="n"/><s n="nt"/></l><r>avión<s n="n"/><s n="m"/></r></p></e> 	
-	<e><p><l>dekle<s n="n"/><s n="nt"/></l><r>joven<s n="n"/><s n="mf"/></r></p></e> 
-	<e><p><l>hitrost<s n="n"/><s n="f"/></l><r>velocidad<s n="n"/><s n="f"/></r></p></e> 
-	<!-- <e><p><l>nadmorska<b/>višina<s n="n"/><s n="f"/></l><r>metros<b/>sobre<b/>el<b/>nivel<b/>del<b/>mar<s n="n"/><s n="f"/></r></p></e>  ADD TO SL MONO -->
-	<e><p><l>avto<s n="n"/><s n="mi"/></l><r>coche<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>kadet<s n="n"/><s n="ma"/></l><r>cadete<s n="n"/><s n="mf"/></r></p></e>
-	<e><p><l>nasmeh<s n="n"/><s n="mi"/></l><r>sonrisa<s n="n"/><s n="f"/></r></p></e>
-	<e><p><l>vožnja<s n="n"/><s n="f"/></l><r>viaje<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>padalo<s n="n"/><s n="nt"/></l><r>paracaídas<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>helikopter<s n="n"/><s n="mi"/></l><r>helicóptero<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>vrata<s n="n"/><s n="f"/></l><r>puerta<s n="n"/><s n="f"/></r></p></e>
-	<e><p><l>trenutek<s n="n"/><s n="mi"/></l><r>momento<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>moški<s n="n"/><s n="ma"/></l><r>hombre<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>ptica<s n="n"/><s n="f"/></l><r>ave<s n="n"/><s n="f"/></r></p></e>
-	<e><p><l>ptica<s n="n"/><s n="f"/></l><r>pájaro<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>kolega<s n="n"/><s n="ma"/></l><r>compañero<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>kolegica<s n="n"/><s n="f"/></l><r>compañero<s n="n"/><s n="f"/></r></p></e>
-	<e><p><l>odnos<s n="n"/><s n="mi"/></l><r>relación<s n="n"/><s n="f"/></r></p></e>
-	<e><p><l>inštruktor<s n="n"/><s n="ma"/></l><r>instructor<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>inštruktorica<s n="n"/><s n="f"/></l><r>instructor<s n="n"/><s n="f"/></r></p></e>
-	<e><p><l>instruktor<s n="n"/><s n="ma"/></l><r>instructor<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>instruktorica<s n="n"/><s n="f"/></l><r>instructor<s n="n"/><s n="f"/></r></p></e>
-	<e><p><l>kabina<s n="n"/><s n="f"/></l><r>cabina<s n="n"/><s n="f"/></r></p></e>
-	<e><p><l>leto<s n="n"/><s n="nt"/></l><r>año<s n="n"/><s n="f"/></r></p></e>
-	<e><p><l>izpit<s n="n"/><s n="mi"/></l><r>examen<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>letenje<s n="n"/><s n="nt"/></l><r>vuelo<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>torta<s n="n"/><s n="f"/></l><r>tarta<s n="n"/><s n="f"/></r></p></e>
-	<e><p><l>torta<s n="n"/><s n="f"/></l><r>pastel<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>sorodnik<s n="n"/><s n="ma"/></l><r>pariente<s n="n"/><s n="mf"/></r></p></e>
-	<e><p><l>posel<s n="n"/><s n="mi"/></l><r>negocio<s n="n"/><s n="mf"/></r></p></e>
-	<e><p><l>vpis<s n="n"/><s n="mi"/></l><r>inscripción<s n="n"/><s n="f"/></r></p></e>
-	<e><p><l>mesto<s n="n"/><s n="nt"/></l><r>puesto<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>mesto<s n="n"/><s n="nt"/></l><r>capital<s n="n"/><s n="m"/></r></p></e>
-	
-	
+		<!-- <e><p><l>nadmorska<b/>višina<s n="n"/><s n="f"/></l><r>metros<b/>sobre<b/>el<b/>nivel<b/>del<b/>mar<s n="n"/><s n="f"/></r></p></e>  ADD TO SL MONO -->
+
 	<!-- AJD -->
-	<e><p><l>star<s n="adj"/></l><r>viejo<s n="adj"/></r></p></e>
 	<!-- <e><p><l>sprejemni<b/>izpit<s n="adj"/></l><r>prueba<b/>de<b/>admisión<s n="adj"/></r></p></e>  ADD TO SL MONO -->
-	<e><p><l>sprejet<s n="adj"/></l><r>aceptable<s n="adj"/></r></p></e>
-	<e><p><l>prijateljski<s n="adj"/></l><r>amistoso<s n="adj"/></r></p></e>
-	<e><p><l>dober<s n="adj"/></l><r>bueno<s n="adj"/></r></p></e>
-	<e><p><l>usposobljen<s n="adj"/></l><r>competente<s n="adj"/></r></p></e>
-	<e><p><l>bodoč<s n="adj"/></l><r>futuro<s n="adj"/></r></p></e>
-	<e><p><l>čudovit<s n="adj"/></l><r>maravilloso<s n="adj"/></r></p></e>
-	<e><p><l>mnog<s n="adj"/></l><r>maravilloso<s n="adj"/></r></p></e>
-	<e><p><l>težek<s n="adj"/></l><r>pesado<s n="adj"/></r></p></e>
-	<e><p><l>vojaški<s n="adj"/></l><r>militar<s n="adj"/></r></p></e>
-	<e><p><l>ostal<s n="adj"/></l><r>restante<s n="adj"/></r></p></e>
-	<e><p><l>dober<s n="adj"/></l><r>bueno<s n="adj"/></r></p></e>
-	<e><p><l>pripravljen<s n="adj"/></l><r>pronto<s n="adj"/></r></p></e>
-	<e><p><l>leten<s n="adj"/></l><r>anual<s n="adj"/></r></p></e>
-	<e><p><l>velik<s n="adj"/></l><r>grande<s n="adj"/></r></p></e>
-	 
-	 
-	<!-- ADV -->
-	<e><p><l>kako<s n="adv"/></l><r>cómo<s n="adv"/></r></p></e>
-	<e><p><l>pozno<s n="adv"/></l><r>tarde<s n="adv"/></r></p></e>
-	<e><p><l>dobro<s n="adv"/></l><r>bien<s n="adv"/></r></p></e>
-	
-	<!-- PRN -->
-	<e><p><l>njen<s n="prn"/></l><r>el<b/>suyo<s n="prn"/></r></p></e>
-	<e><p><l>nič<s n="prn"/></l><r>nada<s n="prn"/></r></p></e>
-	<e><p><l>kateri<s n="prn"/></l><r>cuál<s n="prn"/></r></p></e>
-	<e><p><l>ves<s n="prn"/></l><r>todo<s n="prn"/></r></p></e>
-	<e><p><l>noben<s n="prn"/></l><r>ninguno<s n="prn"/></r></p></e>
-	
+
 	<!-- VBLEX -->
 	<e><p><l>manevrirati<s n="vblex"/></l><r>maniobrar<s n="vblex"/></r></p></e>
 	<e><p><l>skakati<s n="vblex"/></l><r>saltar<s n="vblex"/></r></p></e> <!-- ES: CNI etc -->
