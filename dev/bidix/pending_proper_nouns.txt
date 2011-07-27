@@ -1,2 +1,0 @@
-      2 ^@Srbija<np><top><f>$ --- OK
-      1 ^@Beograd<np><top><mi>$  --- OK

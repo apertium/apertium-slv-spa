@@ -1,7 +1,0 @@
-      5 ^@prvi<num>$ --- OK
-      1 ^@tretji<num>$ --- OK
-      1 ^@šest<num>$ --- OK
-      1 ^@en<num>$ --- OK
-      1 ^@drugi<num>$ --- OK
-      1 ^@deveti<num>$ --- OK
-      1 ^@četrti<num>$ --- OK

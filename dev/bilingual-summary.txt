@@ -1,11 +1,11 @@
- 181 total
-  62 /home/fran/source/apertium/incubator/apertium-sl-es/dev/bidix//pending_nouns.txt
-  36 /home/fran/source/apertium/incubator/apertium-sl-es/dev/bidix//pending_adjectives.txt
-  32 /home/fran/source/apertium/incubator/apertium-sl-es/dev/bidix//pending_verbs.txt
-  14 /home/fran/source/apertium/incubator/apertium-sl-es/dev/bidix//pending_adverbs.txt
-  10 /home/fran/source/apertium/incubator/apertium-sl-es/dev/bidix//pending_conjunctions.txt
-   9 /home/fran/source/apertium/incubator/apertium-sl-es/dev/bidix//pending_pronouns.txt
-   9 /home/fran/source/apertium/incubator/apertium-sl-es/dev/bidix//pending_numerals.txt
-   7 /home/fran/source/apertium/incubator/apertium-sl-es/dev/bidix//pending_prepositions.txt
-   2 /home/fran/source/apertium/incubator/apertium-sl-es/dev/bidix//pending_proper_nouns.txt
-   0 /home/fran/source/apertium/incubator/apertium-sl-es/dev/bidix//pending_determiners.txt
+0 total
+0 /home/fran/source/apertium/incubator/apertium-sl-es/dev/bidix//pending_verbs.txt
+0 /home/fran/source/apertium/incubator/apertium-sl-es/dev/bidix//pending_proper_nouns.txt
+0 /home/fran/source/apertium/incubator/apertium-sl-es/dev/bidix//pending_pronouns.txt
+0 /home/fran/source/apertium/incubator/apertium-sl-es/dev/bidix//pending_prepositions.txt
+0 /home/fran/source/apertium/incubator/apertium-sl-es/dev/bidix//pending_numerals.txt
+0 /home/fran/source/apertium/incubator/apertium-sl-es/dev/bidix//pending_nouns.txt
+0 /home/fran/source/apertium/incubator/apertium-sl-es/dev/bidix//pending_determiners.txt
+0 /home/fran/source/apertium/incubator/apertium-sl-es/dev/bidix//pending_conjunctions.txt
+0 /home/fran/source/apertium/incubator/apertium-sl-es/dev/bidix//pending_adverbs.txt
+0 /home/fran/source/apertium/incubator/apertium-sl-es/dev/bidix//pending_adjectives.txt

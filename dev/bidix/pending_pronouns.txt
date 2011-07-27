@@ -1,5 +1,0 @@
-      2 ^@ta<prn><dem><f>$ --- OK
-      1 ^@ta<prn><dem><m>$ --- OK
-      1 ^@njen<prn><pos><p3><m>$ --- OK
-      1 ^@nič<prn><neg>$ --- OK
-      1 ^@kateri<prn><itg><m>$ --- OK

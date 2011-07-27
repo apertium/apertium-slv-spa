@@ -1,7 +1,0 @@
-      6 ^@z<pr>$ --- OK
-      4 ^@s<pr>$ --- OK
-      2 ^@pri<pr>$ --- OK
-      1 ^@pred<pr>$ --- OK
-      1 ^@poleg<pr>$ --- OK
-      1 ^@h<pr>$ --- OK
-      1 ^@do<pr>$ --- OK
