@@ -1,4 +1,4 @@
-INPUT=/tmp/sl-es.gentest.transfer
+INPUT=/tmp/sl-es.gentest.postchunk
 DEV=/home/fran/source/apertium/incubator/apertium-sl-es/dev/bidix/
 
 echo "SECTION

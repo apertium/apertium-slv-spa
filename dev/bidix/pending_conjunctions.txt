@@ -1,0 +1,11 @@
+   8496 ^@če<cnjsub>$
+   8358 ^@naj<cnjsub>$
+   5337 ^@sicer<cnjcoo>$
+   4428 ^@oziroma<cnjsub>$
+   3959 ^@čeprav<cnjsub>$
+   1325 ^@kadar<cnjsub>$
+    209 ^@vendarle<cnjcoo>$
+    187 ^@četudi<cnjsub>$
+    128 ^@odkar<cnjcoo>$
+     40 ^@čeravno<cnjsub>$
+     13 ^@najsi<cnjsub>$
