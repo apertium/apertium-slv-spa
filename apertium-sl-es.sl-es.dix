@@ -9126,6 +9126,86 @@
 	<e><p><l>razpirati<s n="vblex"/></l><r>abrir<s n="vblex"/></r></p></e>
 	<e><p><l>odpasti<s n="vblex"/></l><r>caer<s n="vblex"/></r></p></e>
 	
+	<!-- Verbs combined with the opposite (perf/imperf) form -->
+	<e r="LR"><p><l>izpričati<s n="vblex"/></l><r>pagar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>obzidati<s n="vblex"/></l><r>construir<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>pobutati<s n="vblex"/></l><r>empujar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>pomendrati<s n="vblex"/></l><r>pisar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>posvinjati<s n="vblex"/></l><r>manchar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>sestradati<s n="vblex"/></l><r>pasar hambre<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>spihati<s n="vblex"/></l><r>soplar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>zadelati<s n="vblex"/></l><r>trabajar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>zapihati<s n="vblex"/></l><r>soplar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>zasekati<s n="vblex"/></l><r>cortar<s n="vblex"/></r></p></e>  
+	<e r="LR"><p><l>zavrtati<s n="vblex"/></l><r>perforar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>zažvižgati<s n="vblex"/></l><r>silbar<s n="vblex"/></r></p></e>  
+	<e r="LR"><p><l>dorasti<s n="vblex"/></l><r>crecer<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>vrasti<s n="vblex"/></l><r>encarnar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>podržati<s n="vblex"/></l><r>sujetar<s n="vblex"/></r></p></e>  
+	<e r="LR"><p><l>prekričati<s n="vblex"/></l><r>gritar<s n="vblex"/></r></p></e>  
+	<e r="LR"><p><l>zapovedati<s n="vblex"/></l><r>decir<s n="vblex"/></r></p></e>  
+	<e r="LR"><p><l>dogorevati<s n="vblex"/></l><r>arder<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>doumevati<s n="vblex"/></l><r>comprender<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>izvabljati<s n="vblex"/></l><r>invitar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>kotalikati<s n="vblex"/></l><r>rodar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>krevsati<s n="vblex"/></l><r>caminar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>nadejati<s n="vblex"/></l><r>atreverse<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>odpevati<s n="vblex"/></l><r>cantar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>ovohavati<s n="vblex"/></l><r>oler<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>poklekati<s n="vblex"/></l><r>arrodillar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>ponehavati<s n="vblex"/></l><r>cesar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>pozibavati<s n="vblex"/></l><r>balancear<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>prečesavati<s n="vblex"/></l><r>peinar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>preobračati<s n="vblex"/></l><r>girar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>razletavati<s n="vblex"/></l><r>desenredar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>odveslati<s n="vblex"/></l><r>remar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>potišati<s n="vblex"/></l><r>apagarse<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>prikorakati<s n="vblex"/></l><r>marchar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>vzdrgetati<s n="vblex"/></l><r>temblar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>zagodrnjati<s n="vblex"/></l><r>gruñir<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>zakorakati<s n="vblex"/></l><r>marchar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>zaplapolati<s n="vblex"/></l><r>ondear<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>zdirjati<s n="vblex"/></l><r>correr<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>odmajati<s n="vblex"/></l><r>sacudir<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>zaskeleti<s n="vblex"/></l><r>picar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>izčistiti<s n="vblex"/></l><r>limpiar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>prekrstiti<s n="vblex"/></l><r>bautizar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>nalomiti<s n="vblex"/></l><r>romper<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>polepiti<s n="vblex"/></l><r>pegar<s n="vblex"/></r></p></e>  
+	<e r="LR"><p><l>prikupiti<s n="vblex"/></l><r>comprar<s n="vblex"/></r></p></e>  
+	<e r="LR"><p><l>zakriviti<s n="vblex"/></l><r>doblar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>porezati<s n="vblex"/></l><r>cortar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>prekoračevati<s n="vblex"/></l><r>exceder<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>okaditi<s n="vblex"/></l><r>fumar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>preutruditi<s n="vblex"/></l><r>cansar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>ugladiti<s n="vblex"/></l><r>alisar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>zagraditi<s n="vblex"/></l><r>cercar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>zazibati<s n="vblex"/></l><r>balancear<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>pozobati<s n="vblex"/></l><r>picar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>zašepetati<s n="vblex"/></l><r>susurrar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>zasikati<s n="vblex"/></l><r>silbar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>izjokati<s n="vblex"/></l><r>llorar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>pritegovati<s n="vblex"/></l><r>atraer<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>privzdigovati<s n="vblex"/></l><r>levantar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>govoričiti<s n="vblex"/></l><r>hablar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>obsvetiti<s n="vblex"/></l><r>avisar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>prepešačiti<s n="vblex"/></l><r>caminar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>spozabiti<s n="vblex"/></l><r>olvidar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>zatuliti<s n="vblex"/></l><r>gritar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>prepluti<s n="vblex"/></l><r>navegar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>obsijati<s n="vblex"/></l><r>brillar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>prijahati<s n="vblex"/></l><r>montar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>podkuriti<s n="vblex"/></l><r>calentar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>prekotaliti<s n="vblex"/></l><r>rodar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>skotaliti<s n="vblex"/></l><r>rodar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>zamoriti<s n="vblex"/></l><r>atormentar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>zaobliti<s n="vblex"/></l><r>bañar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>prečesati<s n="vblex"/></l><r>peinar<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>pogasniti<s n="vblex"/></l><r>apagarse<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>trzniti<s n="vblex"/></l><r>estremecerse<s n="vblex"/></r></p></e> 
+	<e r="LR"><p><l>napoditi<s n="vblex"/></l><r>perseguir<s n="vblex"/></r></p></e>
+	<e r="LR"><p><l>zgubati<s n="vblex"/></l><r>arrugar<s n="vblex"/></r></p></e>
+	
     <!-- SECTION: Interjections -->
 
     <e><p><l>hej<s n="ij"/></l><r>ei<s n="ij"/></r></p></e>
