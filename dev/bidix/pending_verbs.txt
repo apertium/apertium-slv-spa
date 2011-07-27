@@ -1,32 +1,33 @@
-      4 leteti<vblex><imperf><inf>
-      4 dejati<vblex><perf><inf>
-      3 letati<vblex><imperf><inf>
-      2 vstopiti<vblex><perf><inf>
-      2 upravljati<vblex><imperf><inf>
-      2 učiti<vblex><imperf><inf>
-      2 povedati<vblex><perf><inf>
-      2 narediti<vblex><perf><inf>
-      2 delati<vblex><imperf><inf>
-      1 znati<vblex><imperf><inf>
-      1 zapisati<vblex><perf><inf>
-      1 začenjati<vblex><imperf><inf>
-      1 vpisati<vblex><perf><inf>
-      1 voziti<vblex><imperf><inf>
-      1 upati<vblex><imperf><inf>
-      1 reči<vblex><perf><inf>
-      1 razmišljati<vblex><imperf><inf>
-      1 priznati<vblex><perf><inf>
-      1 prisiliti<vblex><imperf><inf>
-      1 primerjati<vblex><imperf><inf>
-      1 prijaviti<vblex><perf><inf>
-      1 pozabiti<vblex><perf><inf>
-      1 povabiti<vblex><perf><inf>
-      1 potovati<vblex><imperf><inf>
-      1 poleteti<vblex><perf><inf>
-      1 početi<vblex><imperf><inf>
-      1 opravljati<vblex><imperf><inf>
-      1 odpreti<vblex><perf><inf>
-      1 obrniti<vblex><perf><inf>
-      1 motivirati<vblex><perf><inf>/motivirati<vblex><imperf><inf>
-      1 izginiti<vblex><perf><inf>
-      1 beležiti<vblex><imperf><inf>
+      4 leteti<vblex><imperf><inf> --- OK
+      4 dejati<vblex><perf><inf> --- OK
+      2 vstopiti<vblex><perf><inf> --- OK
+      2 upravljati<vblex><imperf><inf> --- OK
+      2 učiti<vblex><imperf><inf> --- OK
+      2 povedati<vblex><perf><inf> --- OK
+      2 narediti<vblex><perf><inf> --- OK
+      2 delati<vblex><imperf><inf> --- OK
+      1 znati<vblex><imperf><inf> --- OK
+      1 zapisati<vblex><perf><inf> --- OK
+      1 začenjati<vblex><imperf><inf> --- OK
+      1 vpisati<vblex><perf><inf> --- OK
+      1 voziti<vblex><imperf><inf> --- OK
+      1 upati<vblex><imperf><inf> --- OK
+      1 reči<vblex><perf><inf> --- OK
+      1 razmišljati<vblex><imperf><inf> --- OK
+      1 priznati<vblex><perf><inf> --- OK
+      1 prisiliti<vblex><imperf><inf> --- OK
+      1 primerjati<vblex><imperf><inf> --- OK
+      1 prijaviti<vblex><perf><inf> --- OK
+      1 pozabiti<vblex><perf><inf> --- OK
+      1 povabiti<vblex><perf><inf> --- OK
+      1 potovati<vblex><imperf><inf> --- OK
+      1 poleteti<vblex><perf><inf> --- OK
+      1 početi<vblex><imperf><inf> --- OK
+      1 opravljati<vblex><imperf><inf> --- OK
+      1 odpreti<vblex><perf><inf> --- OK
+      1 obrniti<vblex><perf><inf> --- OK
+      1 motivirati<vblex><perf><inf>/motivirati<vblex><imperf><inf> --- OK
+      1 izginiti<vblex><perf><inf> --- OK
+      1 beležiti<vblex><imperf><inf> --- OK
+
+

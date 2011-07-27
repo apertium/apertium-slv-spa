@@ -4977,6 +4977,9 @@
     <e><p><l>Watson<s n="np"/><s n="cog"/><s n="ma"/></l><r>Watson<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Wilson<s n="np"/><s n="cog"/><s n="ma"/></l><r>Wilson<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 
+	<e><p><l>Srbija<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Serbia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+	<e><p><l>Beograd<s n="np"/><s n="top"/><s n="mi"/></l><r>Belgrado<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+
     <!-- SECTION: Adjectives -->
 
     <e><p><l>lep<s n="adj"/></l><r>guapo<s n="adj"/></r></p></e>
@@ -5363,7 +5366,6 @@
 	<e><p><l>umski<s n="adj"/></l><r>mental<s n="adj"/></r></p></e>
 	<e><p><l>uporniški<s n="adj"/></l><r>rebelde<s n="adj"/></r></p></e>
 	<e><p><l>velikanski<s n="adj"/></l><r>gigante<s n="adj"/></r></p></e>
-	<e><p><l>vojaški<s n="adj"/></l><r>militar<s n="adj"/></r></p><par n="moj_mío__det"/></e>
 	<e><p><l>vsestranski<s n="adj"/></l><r>universal<s n="adj"/></r></p></e>
 	<e><p><l>zadnji<s n="adj"/></l><r>último<s n="adj"/></r></p></e>
 	<e><p><l>zavezniški<s n="adj"/></l><r>aliado<s n="adj"/></r></p></e>
@@ -6296,6 +6298,7 @@
 	<e><p><l>avtohton<s n="adj"/></l><r>autóctono<s n="adj"/></r></p></e>
 	<e><p><l>oddaljen<s n="adj"/></l><r>distante<s n="adj"/></r></p></e>
 	<e><p><l>težek<s n="adj"/></l><r>difícil<s n="adj"/></r></p></e>
+	<e><p><l>težek<s n="adj"/></l><r>pesado<s n="adj"/></r></p></e>
 	<e><p><l>nor<s n="adj"/></l><r>loco<s n="adj"/></r></p></e>
 	<e><p><l>vreden<s n="adj"/></l><r>valioso<s n="adj"/></r></p></e>
 	<e><p><l>zloben<s n="adj"/></l><r>malo<s n="adj"/></r></p></e>
@@ -6393,6 +6396,7 @@
 	<e><p><l>zoben<s n="adj"/></l><r>de dientes<s n="adj"/></r></p></e>
 	<e><p><l>varnosten<s n="adj"/></l><r>de seguridad<s n="adj"/></r></p></e>
 	<e><p><l>vojen<s n="adj"/></l><r>de guerra<s n="adj"/></r></p></e>
+	<e><p><l>bojen<s n="adj"/></l><r>de guerra<s n="adj"/></r></p></e>
 	<e><p><l>ugleden<s n="adj"/></l><r>de reputación<s n="adj"/></r></p></e>
 	<e><p><l>kakovosten<s n="adj"/></l><r>de calidad<s n="adj"/></r></p></e>
 	<e><p><l>zloglasen<s n="adj"/></l><r>de mala fama<s n="adj"/></r></p></e>
@@ -6474,6 +6478,9 @@
 	<e><p><l>pripravljen<s n="adj"/></l><r>pronto<s n="adj"/></r></p></e>
 	<e><p><l>leten<s n="adj"/></l><r>anual<s n="adj"/></r></p></e>
 	<e><p><l>velik<s n="adj"/></l><r>grande<s n="adj"/></r></p></e>
+	
+	
+	<e><p><l>uspel<s n="adj"/></l><r>exitoso<s n="adj"/></r></p></e>
 
 
     <!-- SECTION: Adverbs -->
@@ -6659,6 +6666,10 @@
 	<e><p><l>kako<s n="adv"/></l><r>cómo<s n="adv"/></r></p></e>
 	<e><p><l>pozno<s n="adv"/></l><r>tarde<s n="adv"/></r></p></e>
 	<e><p><l>dobro<s n="adv"/></l><r>bien<s n="adv"/></r></p></e>
+	
+	<e><p><l>prvič<s n="adv"/></l><r>por primera vez<s n="adv"/></r></p></e>
+	<e><p><l>vse<s n="adv"/></l><r>cada vez más<s n="adv"/></r></p></e>
+	
 	
 
     <!-- SECTION: Verbs -->
@@ -9155,10 +9166,7 @@
 	
 	<!-- DET -->
 	<e><p><l>ves<s n="det"/></l><r>todo<s n="predet"/></r></p></e>
-	
-	<!-- NP -->
-	<e><p><l>Srbija<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Serbia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-	<e><p><l>Beograd<s n="np"/><s n="top"/><s n="mi"/></l><r>Belgrado<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+
 
   </section> 
 </dictionary>

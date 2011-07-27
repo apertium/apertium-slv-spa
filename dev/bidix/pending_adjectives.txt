@@ -1,36 +1,33 @@
-      4 ^@vojaški<adj>$
-      4 ^@bojen<adj>$
-      3 ^@srbski<adj>$
-      2 ^@ženski<adj>$
-      2 ^@težek<adj>$
-      2 ^@sprejet<adj>$
-      2 ^@sprejemen<adj>$
-      2 ^@padel<adj>$
-      2 ^@izpit<adj>$
-      1 ^@zadovoljen<adj>$
-      1 ^@zadnji<adj>$
-      1 ^@velik<adj><comp>$
-      1 ^@velik<adj>$
-      1 ^@usposobljen<adj>$
-      1 ^@uspel<adj>$
-      1 ^@trd<adj>$
-      1 ^@star<adj>$
-      1 ^@srečen<adj>$
-      1 ^@sam<adj>$
-      1 ^@pripravljen<adj>$
-      1 ^@prijateljski<adj>$
-      1 ^@potreben<adj>$
-      1 ^@pet<adj>$
-      1 ^@ostal<adj>$
-      1 ^@odločilen<adj>$
-      1 ^@nevaren<adj>$
-      1 ^@moški<adj>$
-      1 ^@mnog<adj>$
-      1 ^@mlad<adj>$
-      1 ^@leten<adj>$
-      1 ^@kandidatov<adj>$
-      1 ^@edin<adj>$
-      1 ^@dober<adj>$
-      1 ^@čudovit<adj>$
-      1 ^@bodoč<adj>$
-      1 ^@akademski<adj>$
+      4 ^@vojaški<adj>$ -- OK
+      4 ^@bojen<adj>$ --- OK
+      3 ^@srbski<adj>$ --- OK
+      2 ^@ženski<adj>$ --- OK
+      2 ^@težek<adj>$ --- OK
+      2 ^@sprejet<adj>$ --- OK
+      2 ^@izpit<adj>$ --- OK
+      1 ^@zadovoljen<adj>$ --- OK
+      1 ^@zadnji<adj>$ --- OK
+      1 ^@velik<adj><comp>$ --- OK
+      1 ^@velik<adj>$ --- OK
+      1 ^@usposobljen<adj>$ --- OK
+      1 ^@trd<adj>$ --- OK
+      1 ^@star<adj>$ --- OK
+      1 ^@srečen<adj>$ --- OK
+      1 ^@sam<adj>$ --- OK
+      1 ^@pripravljen<adj>$ --- OK
+      1 ^@prijateljski<adj>$ --- OK
+      1 ^@potreben<adj>$ --- OK
+      1 ^@pet<adj>$ --- OK
+      1 ^@ostal<adj>$ --- OK
+      1 ^@odločilen<adj>$ --- OK
+      1 ^@nevaren<adj>$ --- OK
+      1 ^@moški<adj>$ --- OK
+      1 ^@mnog<adj>$ --- OK
+      1 ^@mlad<adj>$ --- OK
+      1 ^@leten<adj>$ --- OK
+      1 ^@edin<adj>$ --- OK
+      1 ^@dober<adj>$ --- OK
+      1 ^@čudovit<adj>$ --- OK
+      1 ^@bodoč<adj>$ --- OK
+      1 ^@akademski<adj>$ --- OK
+      1 ^@uspel<adj>$ --- OK

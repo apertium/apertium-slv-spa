@@ -1,62 +1,56 @@
-      7 ^@ženska<n><f>$
-      5 ^@akademija<n><f>$
-      4 ^@vojska<n><f>$
-      4 ^@trema<n><f>$
-      3 ^@pilot<n>$
-      3 ^@let<n>$
-      3 ^@letalstvo<n><nt>$
-      3 ^@kota<n><f>$
-      3 ^@galeb<n>$
-      2 ^@zgodovina<n><f>$
-      2 ^@starš<n>$
-      2 ^@smer<n><f>$
-      2 ^@skrb<n><f>$
-      2 ^@oda<n><f>$
-      2 ^@mora<n><f>$
-      2 ^@misel<n><f>$
-      2 ^@letnik<n>$
-      2 ^@letalo<n><nt>$
-      2 ^@kolega<n>$
-      1 ^@vsebina<n><f>$
-      1 ^@vrat<n>$
-      1 ^@vpis<n>$
-      1 ^@vožnja<n><f>$
-      1 ^@vodnik<n>$
-      1 ^@višina<n><f>$
-      1 ^@trenutek<n>$
-      1 ^@torta<n><f>$
-      1 ^@stvar<n><f>$
-      1 ^@steza<n><f>$
-      1 ^@sporočilo<n><nt>$
-      1 ^@sorodnik<n>$
-      1 ^@razred<n>$
-      1 ^@ptica<n><f>$
-      1 ^@program<n>$
-      1 ^@pristanek<n>$
-      1 ^@prijatelj<n>$
-      1 ^@praznovanje<n><nt>$
-      1 ^@posel<n>$
-      1 ^@padalo<n><nt>$
-      1 ^@opravilo<n><nt>$
-      1 ^@odnos<n>$
-      1 ^@nit<n><f>$
-      1 ^@nasmeh<n>$
-      1 ^@meter<n>$
-      1 ^@mesto<n><nt>$
-      1 ^@manevriranje<n><nt>$
-      1 ^@manever<n>$
-      1 ^@mana<n><f>$
-      1 ^@mama<n><f>$
-      1 ^@leto<n><nt>$
-      1 ^@letenje<n><nt>$
-      1 ^@krov<n>$
-      1 ^@kapitan<n>$
-      1 ^@izpit<n>$
-      1 ^@izkušnja<n><f>$
-      1 ^@interes<n>$
-      1 ^@hitrost<n><f>$
-      1 ^@helikopter<n>$
-      1 ^@gazela<n><f>$
-      1 ^@enota<n><f>$
-      1 ^@deklica<n><f>$
-      1 ^@avto<n>$
+      7 ^@ženska<n><f>$ --- OK
+      5 ^@akademija<n><f>$ --- OK
+      4 ^@vojska<n><f>$ --- OK
+      3 ^@pilot<n>$ --- OK
+      3 ^@letalstvo<n><nt>$ --- OK
+      3 ^@galeb<n>$ --- OK
+      2 ^@zgodovina<n><f>$ --- OK
+      2 ^@starš<n>$ --- OK
+      2 ^@smer<n><f>$ --- OK
+      2 ^@skrb<n><f>$ --- OK
+      2 ^@mora<n><f>$ --- OK
+      2 ^@misel<n><f>$ --- OK
+      2 ^@letnik<n>$ --- OK
+      2 ^@letalo<n><nt>$ --- OK
+      2 ^@kolega<n>$ --- OK
+      1 ^@vsebina<n><f>$ --- OK
+      1 ^@vrat<n>$ --- OK
+      1 ^@vpis<n>$ --- OK
+      1 ^@vožnja<n><f>$ --- OK
+      1 ^@vodnik<n>$ --- OK
+      1 ^@višina<n><f>$ --- OK
+      1 ^@trenutek<n>$ --- OK
+      1 ^@torta<n><f>$ --- OK
+      1 ^@stvar<n><f>$ --- OK
+      1 ^@steza<n><f>$ --- OK
+      1 ^@sporočilo<n><nt>$ --- OK
+      1 ^@sorodnik<n>$ --- OK
+      1 ^@razred<n>$ --- OK
+      1 ^@ptica<n><f>$ --- OK
+      1 ^@program<n>$ --- OK
+      1 ^@pristanek<n>$ --- OK
+      1 ^@prijatelj<n>$ --- OK
+      1 ^@praznovanje<n><nt>$ --- OK
+      1 ^@posel<n>$ --- OK
+      1 ^@padalo<n><nt>$ --- OK
+      1 ^@opravilo<n><nt>$ --- OK
+      1 ^@odnos<n>$ --- OK
+      1 ^@nit<n><f>$ --- OK
+      1 ^@nasmeh<n>$ --- OK
+      1 ^@meter<n>$ --- OK
+      1 ^@mesto<n><nt>$ --- OK
+      1 ^@manevriranje<n><nt>$ --- OK
+      1 ^@manever<n>$ --- OK
+      1 ^@mama<n><f>$ --- OK
+      1 ^@leto<n><nt>$ --- OK
+      1 ^@letenje<n><nt>$ --- OK
+      1 ^@krov<n>$ --- OK
+      1 ^@kapitan<n>$ --- OK
+      1 ^@izpit<n>$ --- OK
+      1 ^@izkušnja<n><f>$ --- OK
+      1 ^@interes<n>$ --- OK
+      1 ^@hitrost<n><f>$ --- OK
+      1 ^@helikopter<n>$ --- OK
+      1 ^@gazela<n><f>$ --- OK
+      1 ^@enota<n><f>$ --- OK
+      1 ^@avto<n>$ --- OK

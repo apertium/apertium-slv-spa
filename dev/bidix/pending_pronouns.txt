@@ -1,9 +1,5 @@
-      2 ^@ta<prn><dem><f>$
-      2 ^@oni<prn><dem><m>$
-      1 ^@ta<prn><dem><m>$
-      1 ^@svoj<prn><ref><m>$
-      1 ^@nobeden<prn><neg><m>$
-      1 ^@njihov<prn><pos><p3><m>$
-      1 ^@njen<prn><pos><p3><m>$
-      1 ^@nič<prn><neg>$
-      1 ^@kateri<prn><itg><m>$
+      2 ^@ta<prn><dem><f>$ --- OK
+      1 ^@ta<prn><dem><m>$ --- OK
+      1 ^@njen<prn><pos><p3><m>$ --- OK
+      1 ^@nič<prn><neg>$ --- OK
+      1 ^@kateri<prn><itg><m>$ --- OK
