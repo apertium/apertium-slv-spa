@@ -6539,6 +6539,28 @@
 
     <e><p><l>kakor<s n="adv"/></l><r>como<s n="adv"/></r></p></e>
 
+    <e><p><l>enkrat<s n="adv"/></l><r>una<b/>vez<s n="adv"/></r></p></e>
+    <e><p><l>dvakrat<s n="adv"/></l><r>dos<b/>veces<s n="adv"/></r></p></e>
+    <e><p><l>trikrat<s n="adv"/></l><r>tres<b/>veces<s n="adv"/></r></p></e>
+    <e><p><l>štirikrat<s n="adv"/></l><r>cuatro<b/>veces<s n="adv"/></r></p></e>
+    <e><p><l>petkrat<s n="adv"/></l><r>cinco<b/>veces<s n="adv"/></r></p></e>
+    <e><p><l>šestkrat<s n="adv"/></l><r>seis<b/>veces<s n="adv"/></r></p></e>
+    <e><p><l>sedemkrat<s n="adv"/></l><r>siete<b/>veces<s n="adv"/></r></p></e>
+    <e><p><l>osemkrat<s n="adv"/></l><r>ocho<b/>veces<s n="adv"/></r></p></e>
+    <e><p><l>devetkrat<s n="adv"/></l><r>nueve<b/>veces<s n="adv"/></r></p></e>
+    <e><p><l>desetkrat<s n="adv"/></l><r>diez<b/>veces<s n="adv"/></r></p></e>
+    <e><p><l>enkraten<s n="adj"/></l><r>de<b/>una<b/>vez<s n="adj"/><s n="mf"/></r></p></e>
+    <e><p><l>dvakraten<s n="adj"/></l><r>de<b/>dos<b/>veces<s n="adj"/><s n="mf"/></r></p></e>
+    <e><p><l>trikraten<s n="adj"/></l><r>de<b/>tres<b/>veces<s n="adj"/><s n="mf"/></r></p></e>
+    <e><p><l>štirikraten<s n="adj"/></l><r>de<b/>cuatro<b/>veces<s n="adj"/><s n="mf"/></r></p></e>
+    <e><p><l>petkraten<s n="adj"/></l><r>de<b/>cinco<b/>veces<s n="adj"/><s n="mf"/></r></p></e>
+    <e><p><l>šestkraten<s n="adj"/></l><r>de<b/>seis<b/>veces<s n="adj"/><s n="mf"/></r></p></e>
+    <e><p><l>sedemkraten<s n="adj"/></l><r>de<b/>siete<b/>veces<s n="adj"/><s n="mf"/></r></p></e>
+    <e><p><l>osemkraten<s n="adj"/></l><r>de<b/>ocho<b/>veces<s n="adj"/><s n="mf"/></r></p></e>
+    <e><p><l>devetkraten<s n="adj"/></l><r>de<b/>nueve<b/>veces<s n="adj"/><s n="mf"/></r></p></e>
+    <e><p><l>desetkraten<s n="adj"/></l><r>de<b/>diez<b/>veces<s n="adj"/><s n="mf"/></r></p></e>
+
+
 	<e><p><l>danes<s n="adv"/></l><r>hoy<s n="adv"/></r></p></e> 
 	<e><p><l>dovolj<s n="adv"/></l><r>bastante<s n="adv"/></r></p></e> 
 	<e><p><l>jutri<s n="adv"/></l><r>mañana<s n="adv"/></r></p></e> 
