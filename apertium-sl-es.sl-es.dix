@@ -4906,39 +4906,39 @@
 	<e><p><l>mesto<s n="n"/><s n="nt"/></l><r>puesto<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>mesto<s n="n"/><s n="nt"/></l><r>capital<s n="n"/><s n="m"/></r></p></e>
 	
-	<e><p><l>dlaka<s n="n"/></l><r>pelo<s n="n"/></r></p></e> 
-	<e><p><l>izboklina<s n="n"/></l><r>bulto<s n="n"/></r></p></e> 
-	<e><p><l>kletvica<s n="n"/></l><r>palabrota<s n="n"/></r></p></e> 
-	<e><p><l>krama<s n="n"/></l><r>trasto<s n="n"/></r></p></e> 
-	<e><p><l>legitimacija<s n="n"/></l><r>legitimación<s n="n"/></r></p></e> 
-	<e><p><l>mrcina<s n="n"/></l><r>bicho<s n="n"/></r></p></e> 
-	<e><p><l>nepremičnina<s n="n"/></l><r>inmueble<s n="n"/></r></p></e> 
-	<e><p><l>pručka<s n="n"/></l><r>escabel<s n="n"/></r></p></e> 
-	<e><p><l>prepona<s n="n"/></l><r>diafragma<s n="n"/></r></p></e> 
-	<e><p><l>trska<s n="n"/></l><r>astilla<s n="n"/></r></p></e> 
-	<e><p><l>vzporednica<s n="n"/></l><r>paralela<s n="n"/></r></p></e> 
-	<e><p><l>hranilnik<s n="n"/></l><r>hucha<s n="n"/></r></p></e> 
-	<e><p><l>vodnjak<s n="n"/></l><r>pozo<s n="n"/></r></p></e> 
-	<e><p><l>kol<s n="n"/></l><r>estaca<s n="n"/></r></p></e> 
-	<e><p><l>poštenjak<s n="n"/></l><r>honestidad<s n="n"/></r></p></e> 
-	<e><p><l>vrstnik<s n="n"/></l><r>coetáneo<s n="n"/></r></p></e> 
-	<e><p><l>leglo<s n="n"/></l><r>camada<s n="n"/></r></p></e> 
-	<e><p><l>mošnja<s n="n"/></l><r>monedero<s n="n"/></r></p></e> 
-	<e><p><l>mošt<s n="n"/></l><r>mosto<s n="n"/></r></p></e> 
-	<e><p><l>zatič<s n="n"/></l><r>clavija<s n="n"/></r></p></e> 
-	<e><p><l>gospodič<s n="n"/></l><r>señorito<s n="n"/></r></p></e>
-	<e><p><l>zapoved<s n="n"/></l><r>mandamiento<s n="n"/></r></p></e> 
-	<e><p><l>žleb<s n="n"/></l><r>canalón<s n="n"/></r></p></e> 
-	<e><p><l>kap<s n="n"/></l><r>apoplejía<s n="n"/></r></p></e> 
-	<e><p><l>grobnica<s n="n"/></l><r>sepultura<s n="n"/></r></p></e>
-	<e><p><l>risanka<s n="n"/></l><r>viñeta<s n="n"/></r></p></e>
-	<e><p><l>zvijača<s n="n"/></l><r>artimaña<s n="n"/></r></p></e>
-	<e><p><l>nemir<s n="n"/></l><r>desasosiego<s n="n"/></r></p></e>
-	<e><p><l>tabornik<s n="n"/></l><r>boy scout<s n="n"/></r></p></e>
-	<e><p><l>razvrat<s n="n"/></l><r>libertinaje<s n="n"/></r></p></e>
-	<e><p><l>potapljač<s n="n"/></l><r>buceador<s n="n"/></r></p></e>
-	<e><p><l>cepec<s n="n"/></l><r>bobo<s n="n"/></r></p></e>
-	<e><p><l>višek<s n="n"/></l><r>apogeo<s n="n"/></r></p></e>
+	<e><p><l>dlaka<s n="n"/><s n="f"/></l><r>pelo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>izboklina<s n="n"/><s n="f"/></l><r>bulto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kletvica<s n="n"/><s n="f"/></l><r>palabrota<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>krama<s n="n"/><s n="f"/></l><r>trasto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>legitimacija<s n="n"/><s n="f"/></l><r>legitimación<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>mrcina<s n="n"/><s n="f"/></l><r>bicho<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>nepremičnina<s n="n"/><s n="f"/></l><r>inmueble<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>pručka<s n="n"/><s n="f"/></l><r>escabel<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>prepona<s n="n"/><s n="f"/></l><r>diafragma<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>trska<s n="n"/><s n="f"/></l><r>astilla<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>vzporednica<s n="n"/><s n="f"/></l><r>paralela<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>hranilnik<s n="n"/><s n="mi"/></l><r>hucha<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>vodnjak<s n="n"/><s n="mi"/></l><r>pozo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kol<s n="n"/><s n="mi"/></l><r>estaca<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>poštenjak<s n="n"/><s n="ma"/></l><r>honestidad<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>vrstnik<s n="n"/><s n="ma"/></l><r>coetáneo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>leglo<s n="n"/><s n="nt"/></l><r>camada<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>mošnja<s n="n"/><s n="f"/></l><r>monedero<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>mošt<s n="n"/><s n="mi"/></l><r>mosto<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>zatič<s n="n"/><s n="mi"/></l><r>clavija<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>gospodič<s n="n"/><s n="ma"/></l><r>señorito<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>zapoved<s n="n"/><s n="f"/></l><r>mandamiento<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>žleb<s n="n"/><s n="mi"/></l><r>canalón<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>kap<s n="n"/><s n="f"/></l><r>apoplejía<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>grobnica<s n="n"/><s n="f"/></l><r>sepultura<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>risanka<s n="n"/><s n="f"/></l><r>viñeta<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>zvijača<s n="n"/><s n="f"/></l><r>artimaña<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>nemir<s n="n"/><s n="mi"/></l><r>desasosiego<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>tabornik<s n="n"/><s n="ma"/></l><r>boy scout<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>razvrat<s n="n"/><s n="mi"/></l><r>libertinaje<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>potapljač<s n="n"/><s n="ma"/></l><r>buceador<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>cepec<s n="n"/><s n="ma"/></l><r>bobo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>višek<s n="n"/><s n="mi"/></l><r>apogeo<s n="n"/><s n="m"/></r></p></e>
 	
 		
     <!-- SECTION: Proper nouns -->
