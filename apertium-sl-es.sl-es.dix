@@ -4906,6 +4906,40 @@
 	<e><p><l>mesto<s n="n"/><s n="nt"/></l><r>puesto<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>mesto<s n="n"/><s n="nt"/></l><r>capital<s n="n"/><s n="m"/></r></p></e>
 	
+	<e><p><l>dlaka<s n="n"/></l><r>pelo<s n="n"/></r></p></e> 
+	<e><p><l>izboklina<s n="n"/></l><r>bulto<s n="n"/></r></p></e> 
+	<e><p><l>kletvica<s n="n"/></l><r>palabrota<s n="n"/></r></p></e> 
+	<e><p><l>krama<s n="n"/></l><r>trasto<s n="n"/></r></p></e> 
+	<e><p><l>legitimacija<s n="n"/></l><r>legitimación<s n="n"/></r></p></e> 
+	<e><p><l>mrcina<s n="n"/></l><r>bicho<s n="n"/></r></p></e> 
+	<e><p><l>nepremičnina<s n="n"/></l><r>inmueble<s n="n"/></r></p></e> 
+	<e><p><l>pručka<s n="n"/></l><r>escabel<s n="n"/></r></p></e> 
+	<e><p><l>prepona<s n="n"/></l><r>diafragma<s n="n"/></r></p></e> 
+	<e><p><l>trska<s n="n"/></l><r>astilla<s n="n"/></r></p></e> 
+	<e><p><l>vzporednica<s n="n"/></l><r>paralela<s n="n"/></r></p></e> 
+	<e><p><l>hranilnik<s n="n"/></l><r>hucha<s n="n"/></r></p></e> 
+	<e><p><l>vodnjak<s n="n"/></l><r>pozo<s n="n"/></r></p></e> 
+	<e><p><l>kol<s n="n"/></l><r>estaca<s n="n"/></r></p></e> 
+	<e><p><l>poštenjak<s n="n"/></l><r>honestidad<s n="n"/></r></p></e> 
+	<e><p><l>vrstnik<s n="n"/></l><r>coetáneo<s n="n"/></r></p></e> 
+	<e><p><l>leglo<s n="n"/></l><r>camada<s n="n"/></r></p></e> 
+	<e><p><l>mošnja<s n="n"/></l><r>monedero<s n="n"/></r></p></e> 
+	<e><p><l>mošt<s n="n"/></l><r>mosto<s n="n"/></r></p></e> 
+	<e><p><l>zatič<s n="n"/></l><r>clavija<s n="n"/></r></p></e> 
+	<e><p><l>gospodič<s n="n"/></l><r>señorito<s n="n"/></r></p></e>
+	<e><p><l>zapoved<s n="n"/></l><r>mandamiento<s n="n"/></r></p></e> 
+	<e><p><l>žleb<s n="n"/></l><r>canalón<s n="n"/></r></p></e> 
+	<e><p><l>kap<s n="n"/></l><r>apoplejía<s n="n"/></r></p></e> 
+	<e><p><l>grobnica<s n="n"/></l><r>sepultura<s n="n"/></r></p></e>
+	<e><p><l>risanka<s n="n"/></l><r>viñeta<s n="n"/></r></p></e>
+	<e><p><l>zvijača<s n="n"/></l><r>artimaña<s n="n"/></r></p></e>
+	<e><p><l>nemir<s n="n"/></l><r>desasosiego<s n="n"/></r></p></e>
+	<e><p><l>tabornik<s n="n"/></l><r>boy scout<s n="n"/></r></p></e>
+	<e><p><l>razvrat<s n="n"/></l><r>libertinaje<s n="n"/></r></p></e>
+	<e><p><l>potapljač<s n="n"/></l><r>buceador<s n="n"/></r></p></e>
+	<e><p><l>cepec<s n="n"/></l><r>bobo<s n="n"/></r></p></e>
+	<e><p><l>višek<s n="n"/></l><r>apogeo<s n="n"/></r></p></e>
+	
 		
     <!-- SECTION: Proper nouns -->
 
@@ -6479,8 +6513,26 @@
 	<e><p><l>leten<s n="adj"/></l><r>anual<s n="adj"/></r></p></e>
 	<e><p><l>velik<s n="adj"/></l><r>grande<s n="adj"/></r></p></e>
 	
-	
 	<e><p><l>uspel<s n="adj"/></l><r>exitoso<s n="adj"/></r></p></e>
+	
+	<e><p><l>študentski<s n="adj"/></l><r>estudiantil<s n="adj"/></r></p></e>
+	<e><p><l>pomladanski<s n="adj"/></l><r>primaveral<s n="adj"/></r></p></e>
+	<e><p><l>nedeljski<s n="adj"/></l><r>dominical<s n="adj"/></r></p></e>
+	<e><p><l>očetovski<s n="adj"/></l><r>paterno<s n="adj"/></r></p></e>
+	<e><p><l>peklenski<s n="adj"/></l><r>infernal<s n="adj"/></r></p></e>
+	<e><p><l>hormonski<s n="adj"/></l><r>hormonal<s n="adj"/></r></p></e>
+	<e><p><l>angelski<s n="adj"/></l><r>angelical<s n="adj"/></r></p></e>
+	<e><p><l>mučen<s n="adj"/></l><r>penoso<s n="adj"/></r></p></e>
+	<e><p><l>uličen<s n="adj"/></l><r>callejero<s n="adj"/></r></p></e>
+	<e><p><l>genialen<s n="adj"/></l><r>genial<s n="adj"/></r></p></e>
+	<e><p><l>solidaren<s n="adj"/></l><r>solidario<s n="adj"/></r></p></e>
+	<e><p><l>prednosten<s n="adj"/></l><r>prioritario<s n="adj"/></r></p></e>
+	<e><p><l>krvoločen<s n="adj"/></l><r>sanguinario<s n="adj"/></r></p></e>
+	<e><p><l>nezaslišan<s n="adj"/></l><r>inaudito<s n="adj"/></r></p></e>
+	<e><p><l>odločen<s n="adj"/></l><r>decidido<s n="adj"/></r></p></e>
+	<e><p><l>dotrajan<s n="adj"/></l><r>vetusto<s n="adj"/></r></p></e>
+	<e><p><l>milosten<s n="adj"/></l><r>clemente<s n="adj"/></r></p></e>
+	<e><p><l>prevzeten<s n="adj"/></l><r>soberbio<s n="adj"/></r></p></e>
 
 
     <!-- SECTION: Adverbs -->
