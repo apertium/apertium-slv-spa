@@ -6754,13 +6754,16 @@
     <e><p><l>imeti<s n="vblex"/></l><r>tener<s n="vblex"/></r></p></e>
     <e><p><l>priti<s n="vblex"/></l><r>venir<s n="vblex"/></r></p></e> <!-- perf -->
     <e><p><l>stati<s n="vblex"/></l><r>quedar<s n="vblex"/></r></p></e>
-    <e><p><l>stresti<s n="vblex"/></l><r>sacudir<s n="vblex"/></r></p></e>
     <e><p><l>živeti<s n="vblex"/></l><r>vivir<s n="vblex"/></r></p></e>
     <e><p><l>lomiti<s n="vblex"/></l><r>quebrar<s n="vblex"/></r></p></e>
     <e slr="romper"><p><l>lomiti<s n="vblex"/></l><r>romper<s n="vblex"/></r></p></e>
 
     <e><p><l>dajati<s n="vblex"/></l><r>dar<s n="vblex"/></r></p><par n="imperf"/></e>
     <e><p><l>dati<s n="vblex"/></l><r>dar<s n="vblex"/></r></p><par n="perf"/></e>
+    <e><p><l>tresti<s n="vblex"/></l><r>sacudir<s n="vblex"/></r></p><par n="imperf"/></e>
+    <e><p><l>stresti<s n="vblex"/></l><r>sacudir<s n="vblex"/></r></p><par n="perf"/></e>
+	<e><p><l>misliti<s n="vblex"/></l><r>pensar<s n="vblex"/></r></p><par n="imperf"/></e> 
+	<e><p><l>pomisliti<s n="vblex"/></l><r>pensar<s n="vblex"/></r></p><par n="perf"/></e>
 
 	<e><p><l>prodati<s n="vblex"/></l><r>vender<s n="vblex"/></r></p></e> 
 	<e><p><l>bežati<s n="vblex"/></l><r>correr<s n="vblex"/></r></p></e> 
@@ -6809,7 +6812,6 @@
 	<e><p><l>potovati<s n="vblex"/></l><r>viajar<s n="vblex"/></r></p></e> 
 	<e><p><l>žalovati<s n="vblex"/></l><r>llorar<s n="vblex"/></r></p></e> 
 	<e><p><l>svetovati<s n="vblex"/></l><r>aconsejar<s n="vblex"/></r></p></e> 
-	<e><p><l>misliti<s n="vblex"/></l><r>pensar<s n="vblex"/></r></p></e> 
 	<e><p><l>prositi<s n="vblex"/></l><r>pedir<s n="vblex"/></r></p></e> 
 	<e><p><l>soditi<s n="vblex"/></l><r>juzgar<s n="vblex"/></r></p></e> 
 	<e><p><l>sovražiti<s n="vblex"/></l><r>odiar<s n="vblex"/></r></p></e> 
@@ -7136,12 +7138,11 @@
 	<e><p><l>sanjariti<s n="vblex"/></l><r>soñar<s n="vblex"/></r></p></e>
 	<e><p><l>okoristiti<s n="vblex"/></l><r>explotar<s n="vblex"/></r></p></e>
 	<e><p><l>poistovetiti<s n="vblex"/></l><r>identificar<s n="vblex"/></r></p></e>
-	<e><p><l>pomisliti<s n="vblex"/></l><r>pensar<s n="vblex"/></r></p></e>
 	<e><p><l>zakriliti<s n="vblex"/></l><r>agitar<s n="vblex"/></r></p></e>
 	<e><p><l>zmanjkati<s n="vblex"/></l><r>faltar<s n="vblex"/></r></p></e>
 	<e><p><l>jemati<s n="vblex"/></l><r>tomar<s n="vblex"/></r></p></e>
 	<e><p><l>pozivati<s n="vblex"/></l><r>solicitar<s n="vblex"/></r></p></e>
-	<e><p><l>tresti<s n="vblex"/></l><r>temblar<s n="vblex"/></r></p></e>
+	<e r="RL"><p><l>tresti<s n="vblex"/></l><r>temblar<s n="vblex"/></r></p></e>
 	<e><p><l>izkopati<s n="vblex"/></l><r>socavar<s n="vblex"/></r></p></e>
 	<e><p><l>raziskati<s n="vblex"/></l><r>explorar<s n="vblex"/></r></p></e>
 	<e><p><l>razjesti<s n="vblex"/></l><r>comer<s n="vblex"/></r></p></e>
