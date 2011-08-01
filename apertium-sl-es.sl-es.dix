@@ -764,28 +764,6 @@
 
 	<!-- Check out these => primer or primero
 	
-	<e><p><l>devetdeseti<s n="det"/><s n="ord"/></l><r>nonagésimo<s n="det"/><s n="ord"/></r></p></e>
-    <e><p><l>dvaindevetdeseti<s n="det"/><s n="ord"/></l><r>nonagésimo<b/>segundo<s n="det"/><s n="ord"/></r></p></e>
-    <e><p><l>dvestoti<s n="det"/><s n="ord"/></l><r>ducentésimo<s n="det"/><s n="ord"/></r></p></e>
-    <e><p><l>enaindvajseti<s n="det"/><s n="ord"/></l><r>vigésimo<b/>primer<s n="det"/><s n="ord"/></r></p></e>
-    <e><p><l>osemdeseti<s n="det"/><s n="ord"/></l><r>octogésimo<s n="det"/><s n="ord"/></r></p></e>
-    <e><p><l>petdeseti<s n="det"/><s n="ord"/></l><r>quincuagésimo<s n="det"/><s n="ord"/></r></p></e>
-    <e><p><l>petindvajseti<s n="det"/><s n="ord"/></l><r>vigésimo<b/>quinto<s n="det"/><s n="ord"/></r></p></e>
-    <e><p><l>petinosemdeseti<s n="det"/><s n="ord"/></l><r>octogésimo<b/>quinto<s n="det"/><s n="ord"/></r></p></e>
-    <e><p><l>petinštirideseti<s n="det"/><s n="ord"/></l><r>cuadragésimo<b/>quinto<s n="det"/><s n="ord"/></r></p></e>
-    <e><p><l>petintrideseti<s n="det"/><s n="ord"/></l><r>trigésimo<b/>quinto<s n="det"/><s n="ord"/></r></p></e>
-    <e><p><l>sedemdeseti<s n="det"/><s n="ord"/></l><r>septuagésimo<s n="det"/><s n="ord"/></r></p></e>
-    <e><p><l>sedemindvajseti<s n="det"/><s n="ord"/></l><r>vigésimo<b/>séptimo<s n="det"/><s n="ord"/></r></p></e>
-    <e><p><l>stoti<s n="det"/><s n="ord"/></l><r>centésimo<s n="det"/><s n="ord"/></r></p></e>
-    <e><p><l>šestdeseti<s n="det"/><s n="ord"/></l><r>sexagésimo<s n="det"/><s n="ord"/></r></p></e>
-    <e><p><l>štirideseti<s n="det"/><s n="ord"/></l><r>cuadragésimo<s n="det"/><s n="ord"/></r></p></e>
-    <e><p><l>štiriindvajseti<s n="det"/><s n="ord"/></l><r>vigésimo<b/>cuarto<s n="det"/><s n="ord"/></r></p></e>
-    <e><p><l>trideseti<s n="det"/><s n="ord"/></l><r>trigésimo<s n="det"/><s n="ord"/></r></p></e>
-    <e><p><l>triindvajseti<s n="det"/><s n="ord"/></l><r>vigésimo<b/>tercer<s n="det"/><s n="ord"/></r></p></e>
-    <e><p><l>triintrideseti<s n="det"/><s n="ord"/></l><r>trigésimo<b/>tercer<s n="det"/><s n="ord"/></r></p></e>
-    <e><p><l>tristoti<s n="det"/><s n="ord"/></l><r>tricentésimo<s n="det"/><s n="ord"/></r></p></e>	
-	-->
-	
 	<!-- Cardinal -->
     <e><p><l>en<s n="num"/></l><r>un<s n="num"/></r></p></e>	
     <e><p><l>dva<s n="num"/></l><r>dos<s n="num"/></r></p></e>

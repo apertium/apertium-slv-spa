@@ -1,17 +1,4 @@
-   4391 ^@vsak<det><m>$
-   2493 ^@oba<det><f>$
-   1654 ^@vsak<det><f>$
-    970 ^@Vsak<det><m>$
-    381 ^@Vsak<det><f>$
-    353 ^@Oba<det><f>$
-     84 ^@vsakršen<det><m>$
-     61 ^@stoti<det><ord><f>$
-     53 ^@oba<det><m>$
-     45 ^@vsak<det><mi>$
-     43 ^@vsakršen<det><f>$
-     26 ^@OBA<det><f>$
-     22 ^@stoti<det><ord><m>$
-     14 ^@oba<det><nt>$
+
       9 ^@vsak<det><nt>$
       9 ^@vsak<det><ma>$
       7 ^@Vsak<det><mi>$

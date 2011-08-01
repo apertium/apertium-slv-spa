@@ -1094,5 +1094,49 @@
     </action>
   </rule>
 
+	<!-- added by Aleš - copied from en-es -->
+	
+	<rule comment="PREP">
+      <pattern>
+	<pattern-item n="prep"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <chunk name="pr" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="PREP"/></tag>
+	    </tags>
+	    <lu>
+	      <clip pos="1" side="tl" part="whole"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+	<rule comment="CNJ">
+	      <pattern>
+		<pattern-item n="cnj"/>
+	      </pattern>
+	      <action>
+		<call-macro n="firstWord">
+		  <with-param pos="1"/>
+		</call-macro>	
+		<out>
+		  <chunk name="cnj" case="caseFirstWord">
+		    <tags>
+		      <tag><clip pos="1" side="tl" part="tags"/></tag>		
+		    </tags>
+		    <lu>
+		      <clip pos="1" side="tl" part="whole"/>
+		    </lu>
+		  </chunk>
+		</out>
+	      </action>
+	    </rule>
+
   </section-rules>
 </transfer>
