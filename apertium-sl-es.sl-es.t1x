@@ -72,23 +72,12 @@
     <def-cat n="vbpast">
       <cat-item tags="vblex.perf.past.*"/>
       <cat-item tags="vblex.imperf.past.*"/>
-    </def-cat>
-
-    <def-cat n="cnj">
-      <cat-item tags="cnjcoo"/>
-      <cat-item tags="cnjsub"/>
-      <cat-item tags="cnjadv"/>
-    </def-cat>
-
-    <def-cat n="prep">
-      <cat-item tags="pr"/>
-    </def-cat>
-
-    <def-cat n="vbser_prespast">
-      <cat-item tags="vbser.pres.*"/>
       <cat-item tags="vbser.past.*"/>
-      <cat-item tags="vblex.perf.past.*"/>
-      <cat-item tags="vblex.imperf.past.*"/>
+    </def-cat>
+
+    <def-cat n="vbser_presfut">
+      <cat-item tags="vbser.pres.*"/>
+      <cat-item tags="vbser.fut.*"/>
     </def-cat>
 
   </section-def-cats>
@@ -1167,7 +1156,8 @@
 	<!-- new rule -->
 	<rule comment="je bil">
 		<pattern>
-			<pattern-item n="vbser_prespast" />
+			<pattern-item n="vbser_presfut" />
+			<pattern-item n="vbpast" />
 		</pattern>
 		<action>
 			<choose>
@@ -1179,6 +1169,10 @@
 						</equal>
 					</test>
 					<out>
+					  <chunk name="vbcnj_inf" case="caseFirstWord">
+						<tags>
+							<tag><lit-tag v="SV"/></tag>
+						</tags>
 						<lu>
 							<lit v="ser"/>
 							<lit-tag v="vbser"/>
@@ -1186,12 +1180,13 @@
 							<clip pos="1" side="tl" part="pers"/>
 							<clip pos="1" side="tl" part="nbr"/>
 						</lu>
-						<b/>
+						<b pos="1"/>
 						<lu>
-							<clip pos="1" side="tl" part="lem"/>
-							<clip pos="1" side="tl" part="a_nom"/>
+							<clip pos="2" side="tl" part="lem"/>
+							<clip pos="2" side="tl" part="a_nom"/>
 							<lit-tag v="inf"/>
 						</lu>
+   					</chunk>
 					</out>
 				</when>
 			</choose>
