@@ -1198,7 +1198,7 @@
               </equal>
               <equal>
                 <clip pos="2" side="sl" part="aspect"/>
-                <lit-tag v="imperf"/>
+                <lit-tag v="perf"/>
               </equal>
              </and>
           </test>
@@ -1210,7 +1210,7 @@
               <lu>
                 <clip pos="2" side="tl" part="lemh"/>
                 <clip pos="2" side="tl" part="a_verb"/>
-                <lit-tag v="pii"/>
+                <lit-tag v="ifi"/>
                 <clip pos="1" side="tl" part="pers"/>
                 <clip pos="1" side="tl" part="nbr"/>
                 <clip pos="2" side="tl" part="lemq"/>
@@ -1227,7 +1227,7 @@
               <lu>
                 <clip pos="2" side="tl" part="lemh"/>
                 <clip pos="2" side="tl" part="a_verb"/>
-                <lit-tag v="ifi"/>
+                <lit-tag v="pii"/>
                 <clip pos="1" side="tl" part="pers"/>
                 <clip pos="1" side="tl" part="nbr"/>
                 <clip pos="2" side="tl" part="lemq"/>
