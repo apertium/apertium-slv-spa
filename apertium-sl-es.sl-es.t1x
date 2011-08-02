@@ -3,7 +3,14 @@
 <transfer default="chunk">
 
   <section-def-cats>
-
+    <def-cat n="cnj">
+      <cat-item tags="cnjadv"/>
+      <cat-item tags="cnjcoo"/>
+      <cat-item tags="cnjsub"/>
+    </def-cat>
+    <def-cat n="prep">
+      <cat-item tags="pr"/>
+    </def-cat>
     <def-cat n="adj">
       <cat-item tags="adj"/>
       <cat-item tags="adj.*"/>
