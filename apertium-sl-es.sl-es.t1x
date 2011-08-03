@@ -1241,7 +1241,7 @@
      </choose>
    </action>
  </rule>
-	<rule comment="bi bil">
+	<rule comment="bi delal">
 		<pattern>
 			<pattern-item n="bi" />
 			<pattern-item n="vbpast" />
@@ -1261,6 +1261,39 @@
 					<lit-tag v="cni"/>
 					<lit-tag v="p3"/>
 					<clip pos="2" side="tl" part="nbr"/>
+				</lu>
+			</chunk>
+			</out>
+		</action>
+	</rule>
+	
+	<rule comment="bi bil delal">
+		<pattern>
+			<pattern-item n="bi" />
+			<pattern-item n="bil" />
+			<pattern-item n="vbpast" />
+		</pattern>
+		<action>
+			<call-macro n="firstWord">
+			        <with-param pos="1"/>
+			</call-macro>
+			<out>
+			  <chunk name="vbcnj" case="caseFirstWord">
+				<tags>
+					<tag><lit-tag v="SV"/></tag>
+				</tags>
+				<lu>
+					<lit v="haber"/>
+                    <lit-tag v="vbhaver"/>
+                    <lit-tag v="cni"/>
+                    <lit-tag v="p3"/>
+					<clip pos="3" side="tl" part="nbr"/>
+					<b/>
+					<clip pos="3" side="tl" part="lem"/>
+					<clip pos="3" side="tl" part="a_verb"/>
+					<lit-tag v="pp"/>
+					<clip pos="3" side="tl" part="gen"/>
+					<clip pos="3" side="tl" part="nbr"/>
 				</lu>
 			</chunk>
 			</out>
