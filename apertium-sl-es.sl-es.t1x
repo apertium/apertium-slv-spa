@@ -79,6 +79,10 @@
       <cat-item tags="vbser.pres.*"/>
       <cat-item tags="vbser.fut.*"/>
     </def-cat>
+	
+    <def-cat n="hoteti_neg">
+      <cat-item lemma="hoteti" tags="vblex.imperf.pres.neg.*"/>
+    </def-cat>
 
   </section-def-cats>
 
@@ -1153,150 +1157,301 @@
         </action>
       </rule>
   
-  <!-- new rule -->
-  <rule comment="je bil">
-    <pattern>
-      <pattern-item n="vbser_presfut" />
-      <pattern-item n="vbpast" />
-    </pattern>
-    <action>
-    <call-macro n="firstWord">
-      <with-param pos="1"/>
-    </call-macro>
-      <choose>
-        <when>
-          <test>
+
+
+<!-- New verb rules -->
+
+<rule comment="je delal/bo delal">
+  <pattern>
+    <pattern-item n="vbser_presfut" />
+    <pattern-item n="vbpast" />
+  </pattern>
+  <action>
+  <call-macro n="firstWord">
+    <with-param pos="1"/>
+  </call-macro>
+    <choose>
+      <when>
+        <test>
+          <equal>
+            <clip pos="1" side="sl" part="temps"/>
+            <lit-tag v="fut"/>
+          </equal>
+        </test>
+        <out>
+          <chunk name="vbcnj_inf" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <lit v="ser"/>
+              <lit-tag v="vbser"/>
+              <lit-tag v="fti"/>
+              <clip pos="1" side="tl" part="pers"/>
+              <clip pos="1" side="tl" part="nbr"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <lit-tag v="inf"/>
+            </lu>
+         </chunk>
+       </out>
+     </when>
+      <when>
+        <test>
+          <and>
             <equal>
               <clip pos="1" side="sl" part="temps"/>
-              <lit-tag v="fut"/>
+              <lit-tag v="pres"/>
             </equal>
-          </test>
-          <out>
-            <chunk name="vbcnj_inf" case="caseFirstWord">
-              <tags>
-                <tag><lit-tag v="SV"/></tag>
-              </tags>
-              <lu>
-                <lit v="ser"/>
-                <lit-tag v="vbser"/>
-                <lit-tag v="fti"/>
-                <clip pos="1" side="tl" part="pers"/>
-                <clip pos="1" side="tl" part="nbr"/>
-              </lu>
-              <b pos="1"/>
-              <lu>
-                <clip pos="2" side="tl" part="lem"/>
-                <clip pos="2" side="tl" part="a_verb"/>
-                <lit-tag v="inf"/>
-              </lu>
-           </chunk>
-         </out>
-       </when>
-        <when>
-          <test>
-            <and>
-              <equal>
-                <clip pos="1" side="sl" part="temps"/>
-                <lit-tag v="pres"/>
-              </equal>
-              <equal>
-                <clip pos="2" side="sl" part="aspect"/>
-                <lit-tag v="perf"/>
-              </equal>
-             </and>
-          </test>
-          <out>
-            <chunk name="vbcnj" case="caseFirstWord">
-              <tags>
-                <tag><lit-tag v="SV"/></tag>
-              </tags>
-              <lu>
-                <clip pos="2" side="tl" part="lemh"/>
-                <clip pos="2" side="tl" part="a_verb"/>
-                <lit-tag v="ifi"/>
-                <clip pos="1" side="tl" part="pers"/>
-                <clip pos="1" side="tl" part="nbr"/>
-                <clip pos="2" side="tl" part="lemq"/>
-              </lu>
-           </chunk>
-         </out>
-       </when>
-       <otherwise>
-          <out>
-            <chunk name="vbcnj" case="caseFirstWord">
-              <tags>
-                <tag><lit-tag v="SV"/></tag>
-              </tags>
-              <lu>
-                <clip pos="2" side="tl" part="lemh"/>
-                <clip pos="2" side="tl" part="a_verb"/>
-                <lit-tag v="pii"/>
-                <clip pos="1" side="tl" part="pers"/>
-                <clip pos="1" side="tl" part="nbr"/>
-                <clip pos="2" side="tl" part="lemq"/>
-              </lu>
-           </chunk>
-         </out>
-       </otherwise>
-     </choose>
-   </action>
- </rule>
-	<rule comment="bi delal">
-		<pattern>
-			<pattern-item n="bi" />
-			<pattern-item n="vbpast" />
-		</pattern>
-		<action>
-			<call-macro n="firstWord">
-			        <with-param pos="1"/>
-			</call-macro>
-			<out>
-			  <chunk name="vbcnj" case="caseFirstWord">
-				<tags>
-					<tag><lit-tag v="SV"/></tag>
-				</tags>
-				<lu>
-					<clip pos="2" side="tl" part="lem"/>
-					<clip pos="2" side="tl" part="a_verb"/>
-					<lit-tag v="cni"/>
-					<lit-tag v="p3"/>
-					<clip pos="2" side="tl" part="nbr"/>
-				</lu>
-			</chunk>
-			</out>
-		</action>
-	</rule>
-	
-	<rule comment="bi bil delal">
-		<pattern>
-			<pattern-item n="bi" />
-			<pattern-item n="bil" />
-			<pattern-item n="vbpast" />
-		</pattern>
-		<action>
-			<call-macro n="firstWord">
-			        <with-param pos="1"/>
-			</call-macro>
-			<out>
-			  <chunk name="vbcnj" case="caseFirstWord">
-				<tags>
-					<tag><lit-tag v="SV"/></tag>
-				</tags>
-				<lu>
-					<lit v="haber"/>
-                    <lit-tag v="vbhaver"/>
-                    <lit-tag v="cni"/>
-                    <lit-tag v="p3"/>
-					<clip pos="3" side="tl" part="nbr"/>
-					<b/>
-					<clip pos="3" side="tl" part="lem"/>
-					<clip pos="3" side="tl" part="a_verb"/>
-					<lit-tag v="pp.m.sg"/>
-				</lu>
-			</chunk>
-			</out>
-		</action>
-	</rule>
+            <equal>
+              <clip pos="2" side="sl" part="aspect"/>
+              <lit-tag v="perf"/>
+            </equal>
+           </and>
+        </test>
+        <out>
+          <chunk name="vbcnj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <lit-tag v="ifi"/>
+              <clip pos="1" side="tl" part="pers"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+         </chunk>
+       </out>
+     </when>
+     <otherwise>
+        <out>
+          <chunk name="vbcnj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <lit-tag v="pii"/>
+              <clip pos="1" side="tl" part="pers"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+         </chunk>
+       </out>
+     </otherwise>
+   </choose>
+ </action>
+</rule>
+
+ <rule comment="delal je/delal bo">
+   <pattern>
+     <pattern-item n="vbpast" />
+     <pattern-item n="vbser_presfut" />
+   </pattern>
+   <action>
+   <call-macro n="firstWord">
+     <with-param pos="1"/>
+   </call-macro>
+     <choose>
+       <when>
+         <test>
+           <equal>
+             <clip pos="2" side="sl" part="temps"/>
+             <lit-tag v="fut"/>
+           </equal>
+         </test>
+         <out>
+           <chunk name="vbcnj_inf" case="caseFirstWord">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lem"/>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="inf"/>
+             </lu>
+          <b pos="1"/>
+		  <lu>
+               <lit v="ser"/>
+               <lit-tag v="vbser"/>
+               <lit-tag v="fti"/>
+               <clip pos="2" side="tl" part="pers"/>
+               <clip pos="2" side="tl" part="nbr"/>
+             </lu>
+          </chunk>
+        </out>
+      </when>
+       <when>
+         <test>
+           <and>
+             <equal>
+               <clip pos="1" side="sl" part="aspect"/>
+               <lit-tag v="perf"/>
+             </equal>
+             <equal>
+               <clip pos="2" side="sl" part="temps"/>
+               <lit-tag v="pres"/>
+             </equal>
+            </and>
+         </test>
+         <out>
+           <chunk name="vbcnj" case="caseFirstWord">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="ifi"/>
+               <clip pos="2" side="tl" part="pers"/>
+               <clip pos="2" side="tl" part="nbr"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+          </chunk>
+        </out>
+      </when>
+      <otherwise>
+         <out>
+           <chunk name="vbcnj" case="caseFirstWord">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="pii"/>
+               <clip pos="2" side="tl" part="pers"/>
+               <clip pos="2" side="tl" part="nbr"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+          </chunk>
+        </out>
+      </otherwise>
+    </choose>
+  </action>
+</rule>
+
+<rule comment="bi delal">
+	<pattern>
+		<pattern-item n="bi" />
+		<pattern-item n="vbpast" />
+	</pattern>
+	<action>
+		<call-macro n="firstWord">
+		        <with-param pos="1"/>
+		</call-macro>
+		<out>
+		  <chunk name="vbcnj" case="caseFirstWord">
+			<tags>
+				<tag><lit-tag v="SV"/></tag>
+			</tags>
+			<lu>
+				<clip pos="2" side="tl" part="lem"/>
+				<clip pos="2" side="tl" part="a_verb"/>
+				<lit-tag v="cni"/>
+				<lit-tag v="p3"/>
+				<clip pos="2" side="tl" part="nbr"/>
+			</lu>
+		</chunk>
+		</out>
+	</action>
+</rule>
+
+<rule comment="delal bi">
+	<pattern>
+		<pattern-item n="vbpast" />
+		<pattern-item n="bi" />
+	</pattern>
+	<action>
+		<call-macro n="firstWord">
+		        <with-param pos="1"/>
+		</call-macro>
+		<out>
+		  <chunk name="vbcnj" case="caseFirstWord">
+			<tags>
+				<tag><lit-tag v="SV"/></tag>
+			</tags>
+			<lu>
+				<clip pos="1" side="tl" part="lem"/>
+				<clip pos="1" side="tl" part="a_verb"/>
+				<lit-tag v="cni"/>
+				<lit-tag v="p3"/>
+				<clip pos="1" side="tl" part="nbr"/>
+			</lu>
+		</chunk>
+		</out>
+	</action>
+</rule>
+
+<rule comment="bi bil delal">
+	<pattern>
+		<pattern-item n="bi" />
+		<pattern-item n="bil" />
+		<pattern-item n="vbpast" />
+	</pattern>
+	<action>
+		<call-macro n="firstWord">
+		        <with-param pos="1"/>
+		</call-macro>
+		<out>
+		  <chunk name="vbcnj" case="caseFirstWord">
+			<tags>
+				<tag><lit-tag v="SV"/></tag>
+			</tags>
+			<lu>
+				<lit v="haber"/>
+                   <lit-tag v="vbhaver"/>
+                   <lit-tag v="cni"/>
+                   <lit-tag v="p3"/>
+				<clip pos="3" side="tl" part="nbr"/>
+				<b/>
+				<clip pos="3" side="tl" part="lem"/>
+				<clip pos="3" side="tl" part="a_verb"/>
+				<lit-tag v="pp.m.sg"/>
+			</lu>
+		</chunk>
+		</out>
+	</action>
+</rule>
+
+<rule comment="nočem delati - No quiero trabajar">
+	<pattern>
+		<pattern-item n="hoteti_neg" />
+		<pattern-item n="vbpast" />
+	</pattern>
+	<action>
+		<call-macro n="firstWord">
+		        <with-param pos="1"/>
+		</call-macro>
+		<out>
+		  <chunk name="vbcnj" case="caseFirstWord">
+			<tags>
+				<tag><lit-tag v="SV"/></tag>
+			</tags>
+			<lu>
+				<lit v="no"/>
+				<b/>
+				<lit v="querer"/>
+                <lit-tag v="vbmod"/>
+                <lit-tag v="pri"/>
+				<clip pos="2" side="tl" part="pers"/>
+				<clip pos="2" side="tl" part="nbr"/>
+				<b/>
+				<lit v="trabajar"/>
+	            <lit-tag v="vblex.inf"/>
+			</lu>
+		</chunk>
+		</out>
+	</action>
+</rule>
+
+
 
   </section-rules>
 </transfer>
