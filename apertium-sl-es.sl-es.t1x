@@ -1291,9 +1291,7 @@
 					<b/>
 					<clip pos="3" side="tl" part="lem"/>
 					<clip pos="3" side="tl" part="a_verb"/>
-					<lit-tag v="pp"/>
-					<clip pos="3" side="tl" part="gen"/>
-					<clip pos="3" side="tl" part="nbr"/>
+					<lit-tag v="pp.m.sg"/>
 				</lu>
 			</chunk>
 			</out>
