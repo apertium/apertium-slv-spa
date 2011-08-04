@@ -2,6 +2,8 @@
 /*.hfst
 /*.mode
 /.deps
+/COPYING
+/INSTALL
 /Makefile
 /Makefile.in
 /aclocal.m4
