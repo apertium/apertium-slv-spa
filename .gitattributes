@@ -18,6 +18,7 @@
 /apertium-sl-es.sl-es.t3x -text
 /apertium-sl-es.sl.acx -text
 /apertium-sl-es.sl.dix -text
+/apertium-sl-es.sl.tsx -text
 /autogen.sh -text
 /configure.ac -text
 dev/apertium-sl-es.sl-es-crossed.dix -text
@@ -49,4 +50,6 @@ dev/tests/wiki-tests.sh -text
 /es-sl.prob -text svneol=unset#unset
 /lexchoicebil.xsl -text
 /modes.xml -text
+/sl-es-unsupervised.make -text
 /sl-es.prob -text
+sl-tagger-data/sl.crp.txt -text
