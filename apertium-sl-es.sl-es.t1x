@@ -75,6 +75,12 @@
       <cat-item tags="vbser.past.*"/>
     </def-cat>
 
+	<def-cat n="vblex_inf">
+      <cat-item tags="vblex.perf.inf"/>
+      <cat-item tags="vblex.imperf.inf"/>
+      <cat-item tags="vbser.inf"/> <!-- not sure about that -->
+    </def-cat>
+
     <def-cat n="vbser_presfut">
       <cat-item tags="vbser.pres.*"/>
       <cat-item tags="vbser.fut.*"/>
@@ -1423,7 +1429,7 @@
 <rule comment="nočem delati - No quiero trabajar">
 	<pattern>
 		<pattern-item n="hoteti_neg" />
-		<pattern-item n="vbpast" />
+		<pattern-item n="vblex_inf" />
 	</pattern>
 	<action>
 		<call-macro n="firstWord">
@@ -1436,14 +1442,18 @@
 			</tags>
 			<lu>
 				<lit v="no"/>
-				<b/>
-				<lit v="querer"/>
-                <lit-tag v="vbmod"/>
-                <lit-tag v="pri"/>
-				<clip pos="2" side="tl" part="pers"/>
-				<clip pos="2" side="tl" part="nbr"/>
-				<b/>
-				<lit v="trabajar"/>
+	            <lit-tag v="adv"/>
+			</lu>
+			<b/>
+			<lu>
+				<clip pos="1" side="tl" part="lem"/>
+	            <lit-tag v="vbmod.pri"/>
+				<clip pos="1" side="tl" part="pers"/>
+				<clip pos="1" side="tl" part="nbr"/>
+			</lu>
+			<b/>
+			<lu>
+				<clip pos="2" side="tl" part="lem"/>
 	            <lit-tag v="vblex.inf"/>
 			</lu>
 		</chunk>
