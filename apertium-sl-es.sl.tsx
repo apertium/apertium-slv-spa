@@ -146,4 +146,12 @@
       <label-item label="NOMNT"/>
     </label-sequence>
   </forbid>
+  <preferences>
+    <!-- biti - inf/adj/n: prefer inf -->
+    <prefer tags="vbser.inf"/>
+    <!-- prefer past.f.sg to past.m.du -->
+    <prefer tags="vblex.imperf.past.f.sg"/>
+    <prefer tags="vblex.perf.past.f.sg"/>
+    <prefer tags="vbser.past.f.sg"/>
+  </preferences>
 </tagger>
