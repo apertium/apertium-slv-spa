@@ -659,6 +659,8 @@
     <e><p><l>naš<s n="det"/><s n="pos"/></l><r>nuestro<s n="det"/><s n="pos"/></r></p></e>
     <e><p><l>vaš<s n="det"/><s n="pos"/></l><r>vuestro<s n="det"/><s n="pos"/></r></p></e>
 
+    <e><p><l>ta<s n="det"/><s n="dem"/></l><r>este<s n="det"/><s n="dem"/></r></p></e>
+
     <!-- SECTION: Numerals -->
 	
 	<!-- Ordinal -->
@@ -4917,6 +4919,7 @@
 	<e><p><l>potapljač<s n="n"/><s n="ma"/></l><r>buceador<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>cepec<s n="n"/><s n="ma"/></l><r>bobo<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>višek<s n="n"/><s n="mi"/></l><r>apogeo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>miza<s n="n"/><s n="f"/></l><r>mesa<s n="n"/><s n="f"/></r></p></e>
 	
 		
     <!-- SECTION: Proper nouns -->
