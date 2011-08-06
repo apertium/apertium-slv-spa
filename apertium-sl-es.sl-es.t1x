@@ -55,6 +55,7 @@
       <cat-item tags="vblex.imperf.imp.*"/>
       <cat-item tags="vblex.perf.imp.*"/>
     </def-cat>
+
     <def-cat n="bi">
       <cat-item lemma="bi" tags="cnjsub.*"/>
       <cat-item lemma="biti" tags="vbser.cni"/>
@@ -86,6 +87,16 @@
       <cat-item tags="vbser.fut.*"/>
     </def-cat>
 	
+    <def-cat n="hoteti_posneg">
+      <cat-item lemma="hoteti" tags="vblex.imperf.pres.*"/>
+    </def-cat>
+	<def-cat n="verb_infsupn">
+      <cat-item tags="vbser.inf"/>
+	  <cat-item tags="vbser.supn"/>
+      <cat-item tags="vblex.inf"/>
+	  <cat-item tags="vblex.supn"/>
+    </def-cat>
+
     <def-cat n="hoteti_neg">
       <cat-item lemma="hoteti" tags="vblex.imperf.pres.neg.*"/>
     </def-cat>
@@ -186,6 +197,11 @@
       <attr-item tags="p2"/>
       <attr-item tags="p3"/>
       <attr-item tags="PD"/>
+    </def-attr>
+
+    <def-attr n="a_verb_infsupn">
+      <attr-item tags="inf"/>
+      <attr-item tags="supn"/>
     </def-attr>
 
   </section-def-attrs>
@@ -1282,8 +1298,8 @@
                <clip pos="1" side="tl" part="a_verb"/>
                <lit-tag v="inf"/>
              </lu>
-          <b pos="1"/>
-		  <lu>
+        	 <b pos="1"/>
+			 <lu>
                <lit v="ser"/>
                <lit-tag v="vbser"/>
                <lit-tag v="fti"/>
@@ -1457,6 +1473,37 @@
 	            <lit-tag v="vblex.inf"/>
 			</lu>
 		</chunk>
+		</out>
+	</action>
+</rule>
+
+<rule comment="hočem VERB -> quiero VERB">
+	<pattern>
+		<pattern-item n="hoteti_posneg" />
+		<pattern-item n="verb_infsupn" />
+	</pattern>
+	<action>
+		<call-macro n="firstWord">
+		        <with-param pos="1"/>
+		</call-macro>
+		<out>
+			<chunk name="vbcnj222" case="caseFirstWord">
+			<tags>
+				<tag><lit-tag v="SV"/></tag>
+			</tags>
+			<lu>
+				<clip pos="1" side="tl" part="lem"/>
+	            <lit-tag v="vbmod.pri"/>
+				<clip pos="1" side="tl" part="pers"/>
+				<clip pos="1" side="tl" part="nbr"/>
+			</lu>
+			<b/>
+			<lu>
+				<clip pos="2" side="tl" part="lem"/>
+				<clip pos="2" side="tl" part="a_verb"/>
+				<clip pos="2" side="tl" part="a_verb_infsupn"/>
+			</lu>
+			</chunk>
 		</out>
 	</action>
 </rule>
