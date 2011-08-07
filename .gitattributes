@@ -49,6 +49,7 @@ dev/tests/MidtermEvalTestCase.txt -text
 dev/tests/pending-tests.sh -text
 dev/tests/regression-tests.sh -text
 dev/tests/wiki-tests.sh -text
+dev/testvoc-summary.sl-es.txt -text
 dev/testvoc.sh -text
 /es-sl.prob -text svneol=unset#unset
 /lexchoicebil.xsl -text
