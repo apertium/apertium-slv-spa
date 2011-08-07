@@ -4,7 +4,7 @@ TESTTYPE="$1_tests"
 SRCLANG="$2"
 TRGLANG="$3"
 mode="$SRCLANG-$TRGLANG"
-HTML="dev/$TESTTYPE.html"
+HTML="$TESTTYPE.html"
 
 if [ "$#" -lt 3 ]; then echo "Usage: wiki-tests.sh {Regression,Pending} SRCLANG TRGLANG [update]"; exit 1; fi
 

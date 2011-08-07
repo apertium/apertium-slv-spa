@@ -2,7 +2,7 @@ TMPDIR=/tmp
 
 if [[ $1 = "es-sl" ]]; then
 
-lt-expand ../apertium-sl-es.mk.dix | grep -v '<prn><enc>' | grep -v 'REGEX' | grep -e ':>:' -e '\w:\w' | sed 's/:>:/%/g' | sed 's/:/%/g' | cut -f2 -d'%' |  sed 's/^/^/g' | sed 's/$/$ ^.<sent>$/g' | tee $TMPDIR/tmp_testvoc1.txt |
+lt-expand ../apertium-sl-es.es.dix | grep -v '<prn><enc>' | grep -v 'REGEX' | grep -e ':>:' -e '\w:\w' | sed 's/:>:/%/g' | sed 's/:/%/g' | cut -f2 -d'%' |  sed 's/^/^/g' | sed 's/$/$ ^.<sent>$/g' | tee $TMPDIR/tmp_testvoc1.txt |
         apertium-pretransfer|
         apertium-transfer ../apertium-sl-es.es-sl.t1x  ../es-sl.t1x.bin  ../es-sl.autobil.bin |
         apertium-interchunk ../apertium-sl-es.es-sl.t2x  ../es-sl.t2x.bin |
