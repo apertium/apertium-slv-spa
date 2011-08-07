@@ -45,6 +45,9 @@ dev/midterm/article.es.txt -text
 dev/midterm/article.sl.txt -text
 dev/missing-bidix-freq.sh -text
 dev/parcount -text
+dev/sl/apertium-sl-es.sl.dix.full -text
+dev/sl/trimDict.py -text
+dev/sl/update.sh -text
 dev/tests/MidtermEvalTestCase.txt -text
 dev/tests/pending-tests.sh -text
 dev/tests/regression-tests.sh -text
