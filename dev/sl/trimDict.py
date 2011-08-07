@@ -1,4 +1,5 @@
 #Usage: Place in apertium-af-nl/nl
+import sys, time
 fulldix = open('apertium-sl-es.sl.dix.full', 'r')
 exp = open('/tmp/apertium-sl-es.sl-es.exp', 'r')
 posList = ['n','vbser','vblex', 'vbmod', 'vbhaver', 'vaux', 'adj', 'adv', 'pr', 'prn', 'det',
@@ -18,7 +19,6 @@ for line in fulldix:
             pos = line[line.find('__')+2:line.find('\"',line.find('__')+2)]
          
         fulldixDict[(lemma, pos)] = fulldixDict.get((lemma, pos),"") + line
-        
         
 for line in exp:
     lanPart = line[line.rfind(':')+1:]
