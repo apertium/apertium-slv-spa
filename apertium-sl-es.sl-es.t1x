@@ -153,6 +153,7 @@
     <def-attr n="a_det">
       <attr-item tags="det"/>
       <attr-item tags="det.ord"/>
+      <attr-item tags="det.dem"/>
     </def-attr>
 
     <def-attr n="noun_pos">
@@ -1524,7 +1525,7 @@
 			</tags>
 			<lu>
 				<clip pos="1" side="tl" part="lem"/>
-	            <lit-tag v="det.dem"/>
+				<clip pos="1" side="tl" part="a_det"/>
 				<clip pos="1" side="tl" part="gen"/>
 				<clip pos="1" side="tl" part="nbr"/>
 			</lu>
