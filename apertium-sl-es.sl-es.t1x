@@ -768,6 +768,68 @@
         </choose>
     </def-macro>
 
+<def-macro n="f_verb1" npar="1"> <!-- not used -->
+  <choose>
+    <when>
+      <test>
+        <equal>
+          <clip pos="1" side="sl" part="nbr"/>
+          <lit-tag v="du"/>
+        </equal>
+      </test>
+      <let>
+        <clip pos="1" side="tl" part="nbr"/>
+        <lit-tag v="pl"/>
+      </let>
+    </when>
+  </choose>
+  <choose>
+    <when>
+      <test>
+        <equal>
+          <clip pos="1" side="sl" part="a_verb_infsupn"/>
+          <lit-tag v="supn"/>
+        </equal>
+      </test>
+      <let>
+        <clip pos="1" side="tl" part="a_verb_infsupn"/>
+        <lit-tag v="inf"/>
+      </let>
+    </when>
+  </choose>
+</def-macro>
+
+<def-macro n="f_verb2" npar="2">
+  <choose>
+    <when>
+      <test>
+        <equal>
+          <clip pos="1" side="sl" part="nbr"/>
+          <lit-tag v="du"/>
+        </equal>
+      </test>
+      <let>
+        <clip pos="1" side="tl" part="nbr"/>
+        <lit-tag v="pl"/>
+      </let>
+    </when>
+  </choose>
+  <choose>
+    <when>
+      <test>
+        <equal>
+          <clip pos="1" side="sl" part="a_verb_infsupn"/>
+          <lit-tag v="supn"/>
+        </equal>
+      </test>
+      <let>
+        <clip pos="1" side="tl" part="a_verb_infsupn"/>
+        <lit-tag v="inf"/>
+      </let>
+    </when>
+  </choose>
+</def-macro>
+
   </section-def-macros>
 
   <section-rules>
