@@ -800,34 +800,64 @@
 </def-macro>
 
 <def-macro n="f_verb2" npar="2">
-  <choose>
-    <when>
-      <test>
-        <equal>
-          <clip pos="1" side="sl" part="nbr"/>
-          <lit-tag v="du"/>
-        </equal>
-      </test>
-      <let>
-        <clip pos="1" side="tl" part="nbr"/>
-        <lit-tag v="pl"/>
-      </let>
-    </when>
-  </choose>
-  <choose>
-    <when>
-      <test>
-        <equal>
-          <clip pos="1" side="sl" part="a_verb_infsupn"/>
-          <lit-tag v="supn"/>
-        </equal>
-      </test>
-      <let>
-        <clip pos="1" side="tl" part="a_verb_infsupn"/>
-        <lit-tag v="inf"/>
-      </let>
-    </when>
-  </choose>
+	<choose>
+		<when>
+			<test>
+				<and>
+					<equal>
+				          <clip pos="1" side="sl" part="nbr"/>
+				          <lit-tag v="sg"/>
+					</equal>
+					<equal>
+				          <clip pos="2" side="sl" part="nbr"/>
+				          <lit-tag v="du"/>
+					</equal>
+				</and>
+			</test>
+				<let>
+		       		<clip pos="2" side="tl" part="nbr"/>
+			        <lit-tag v="sg"/>
+		      	</let>
+		</when>
+	</choose>
+	<choose>
+		<when>
+		<test>
+			<and>
+				<equal>
+			          <clip pos="1" side="sl" part="nbr"/>
+				      <clip pos="2" side="sl" part="nbr"/>
+				</equal>
+				<equal>
+			          <clip pos="1" side="sl" part="nbr"/>
+			          <lit-tag v="du"/>
+				</equal>
+			</and>
+		</test>
+			<let>
+	       		<clip pos="1" side="tl" part="nbr"/>
+		        <lit-tag v="pl"/>
+	      	</let>
+			<let>
+	       		<clip pos="2" side="tl" part="nbr"/>
+		        <lit-tag v="pl"/>
+	      	</let>
+		</when>
+	</choose>
+  	<choose>
+	    <when>
+	      <test>
+	        <equal>
+	          <clip pos="2" side="sl" part="a_verb_infsupn"/>
+	          <lit-tag v="supn"/>
+	        </equal>
+	      </test>
+	      <let>
+	        <clip pos="2" side="tl" part="a_verb_infsupn"/>
+	        <lit-tag v="inf"/>
+	      </let>
+	    </when>
+	  </choose>
 </def-macro>
 
   </section-def-macros>
@@ -1255,6 +1285,10 @@
   <call-macro n="firstWord">
     <with-param pos="1"/>
   </call-macro>
+  <call-macro n="f_verb2">
+    <with-param pos="1"/>
+    <with-param pos="2"/>
+  </call-macro>
     <choose>
       <when>
         <test>
@@ -1343,6 +1377,10 @@
    <call-macro n="firstWord">
      <with-param pos="1"/>
    </call-macro>
+  <call-macro n="f_verb2">
+    <with-param pos="2"/>
+    <with-param pos="1"/>
+  </call-macro>
      <choose>
        <when>
          <test>
