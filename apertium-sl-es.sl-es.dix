@@ -6890,7 +6890,7 @@
 	<e><p><l>hecen<s n="adj"/></l><r>gracioso<s n="adj"/></r></p></e>
 	<e><p><l>hierarhičen<s n="adj"/></l><r>jerárquico<s n="adj"/></r></p></e>
 	<e><p><l>hipnotičen<s n="adj"/></l><r>hipnótico<s n="adj"/></r></p></e>
-	<e><p><l>hladnokrven<s n="adj"/></l><r>a<b/>sangre<b/>fría<s n="adj"/></r></p></e>
+	<e><p><l>hladnokrven<s n="adj"/></l><r>a<b/>sangre<b/>fría<s n="adj"/><s n="mf"/></r></p></e>
 	<e><p><l>humanističen<s n="adj"/></l><r>humanístico<s n="adj"/></r></p></e>
 	<e><p><l>imaginaren<s n="adj"/></l><r>imaginario<s n="adj"/></r></p></e>
 	<e><p><l>impotenten<s n="adj"/></l><r>impotente<s n="adj"/></r></p></e>
@@ -7057,7 +7057,7 @@
 	<e><p><l>enoten<s n="adj"/></l><r>uniforme<s n="adj"/></r></p></e>
 	<e><p><l>izdaten<s n="adj"/></l><r>abundante<s n="adj"/></r></p></e>
 	<e><p><l>izzivalen<s n="adj"/></l><r>desafiante<s n="adj"/></r></p></e>
-	<e><p><l>južen<s n="adj"/></l><r>del<b/>sur<s n="adj"/></r></p></e>
+	<e><p><l>južen<s n="adj"/></l><r>del<b/>sur<s n="adj"/><s n="mf"/></r></p></e>
 	<e><p><l>konkreten<s n="adj"/></l><r>concreto<s n="adj"/></r></p></e>
 	<e><p><l>lojalen<s n="adj"/></l><r>leal<s n="adj"/></r></p></e>
 	<e><p><l>mogočen<s n="adj"/></l><r>poderoso<s n="adj"/></r></p></e>
