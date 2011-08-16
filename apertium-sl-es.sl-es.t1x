@@ -90,11 +90,16 @@
     <def-cat n="hoteti_posneg">
       <cat-item lemma="hoteti" tags="vblex.imperf.pres.*"/>
     </def-cat>
+
 	<def-cat n="verb_infsupn">
       <cat-item tags="vbser.inf"/>
 	  <cat-item tags="vbser.supn"/>
-      <cat-item tags="vblex.inf"/>
-	  <cat-item tags="vblex.supn"/>
+      <cat-item tags="vblex.inf"/> <!-- just in case -->
+	  <cat-item tags="vblex.supn"/> <!-- just in case -->
+      <cat-item tags="vblex.perf.inf"/>
+      <cat-item tags="vblex.imperf.inf"/>
+      <cat-item tags="vblex.perf.supn"/>
+      <cat-item tags="vblex.imperf.supn"/>
     </def-cat>
 
     <def-cat n="hoteti_neg">
@@ -768,7 +773,7 @@
         </choose>
     </def-macro>
 
-<def-macro n="f_verb1" npar="1"> <!-- not used -->
+<def-macro n="f_verb1" npar="1">
   <choose>
     <when>
       <test>
@@ -783,6 +788,23 @@
       </let>
     </when>
   </choose>
+  <choose>
+    <when>
+      <test>
+        <equal>
+          <clip pos="1" side="sl" part="a_verb_infsupn"/>
+          <lit-tag v="supn"/>
+        </equal>
+      </test>
+      <let>
+        <clip pos="1" side="tl" part="a_verb_infsupn"/>
+        <lit-tag v="inf"/>
+      </let>
+    </when>
+  </choose>
+</def-macro>
+
+<def-macro n="f_verb_infsupn1" npar="1">
   <choose>
     <when>
       <test>
@@ -1469,6 +1491,9 @@
 		<call-macro n="firstWord">
 		        <with-param pos="1"/>
 		</call-macro>
+		<call-macro n="f_verb1">
+		        <with-param pos="2"/>
+		</call-macro>
 		<out>
 		  <chunk name="vbcnj" case="caseFirstWord">
 			<tags>
@@ -1493,6 +1518,9 @@
 	</pattern>
 	<action>
 		<call-macro n="firstWord">
+		        <with-param pos="1"/>
+		</call-macro>
+		<call-macro n="f_verb1">
 		        <with-param pos="1"/>
 		</call-macro>
 		<out>
@@ -1546,11 +1574,17 @@
 <rule comment="nočem delati - No quiero trabajar">
 	<pattern>
 		<pattern-item n="hoteti_neg" />
-		<pattern-item n="vblex_inf" />
+		<pattern-item n="verb_infsupn" />
 	</pattern>
 	<action>
 		<call-macro n="firstWord">
 		        <with-param pos="1"/>
+		</call-macro>
+		<call-macro n="f_verb1">
+		        <with-param pos="1"/>
+		</call-macro>
+		<call-macro n="f_verb_infsupn1">
+		        <with-param pos="2"/>
 		</call-macro>
 		<out>
 		  <chunk name="vbcnj" case="caseFirstWord">
@@ -1578,7 +1612,7 @@
 	</action>
 </rule>
 
-<rule comment="hočem VERB -> quiero VERB"> <!-- doesnt get selected -->
+<rule comment="hočem VERB -> quiero VERB">
 	<pattern>
 		<pattern-item n="hoteti_posneg" />
 		<pattern-item n="verb_infsupn" />
@@ -1587,8 +1621,14 @@
 		<call-macro n="firstWord">
 		        <with-param pos="1"/>
 		</call-macro>
+		<call-macro n="f_verb1">
+		        <with-param pos="1"/>
+		</call-macro>
+		<call-macro n="f_verb_infsupn1">
+		        <with-param pos="2"/>
+		</call-macro>
 		<out>
-			<chunk name="vbcnj222" case="caseFirstWord">
+			<chunk name="vbcnj" case="caseFirstWord">
 			<tags>
 				<tag><lit-tag v="SV"/></tag>
 			</tags>
