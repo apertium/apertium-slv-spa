@@ -54,6 +54,9 @@
       <cat-item tags="vbser.imp.*"/>
       <cat-item tags="vblex.imperf.imp.*"/>
       <cat-item tags="vblex.perf.imp.*"/>
+      <cat-item tags="vbser.pp.*"/>
+      <cat-item tags="vblex.imperf.pp.*"/>
+      <cat-item tags="vblex.perf.pp.*"/>
     </def-cat>
 
     <def-cat n="bi">
@@ -420,7 +423,22 @@
           </let>
         </when>
       </choose>
-    </def-macro>
+	  <choose>
+		<when>
+			<test>
+		       <equal>
+		         <clip pos="1" side="sl" part="temps"/>
+		         <lit-tag v="pp"/>
+		       </equal>
+		    </test>
+		    <let>
+		       <clip pos="1" side="tl" part="a_def"/>
+		       <lit-tag v=""/>
+		    </let>
+		</when>
+	  </choose>
+   </def-macro>
+
     <def-macro n="f_aspect" npar="1">
       <choose>
         <when>
@@ -443,6 +461,7 @@
         </otherwise>
       </choose>
     </def-macro>
+
     <def-macro n="f_concord2" npar="2">
       <choose>
         <when>
@@ -734,7 +753,19 @@
               </otherwise>
             </choose>
           </when>
-          <otherwise>
+		  <when>
+			<test>
+				<equal>
+	                <clip pos="1" side="sl" part="temps"/>
+	                <lit-tag v="pp"/>
+				</equal>
+			</test>
+			<let>
+            	<var n="gender_chunk"/>
+	        	<clip pos="1" side="sl" part="gen"/>
+            </let>
+		 </when>
+		 <otherwise>
             <let>
               <var n="pers_chunk"/>
               <clip pos="1" side="tl" part="pers"/>
@@ -743,7 +774,7 @@
               <var n="gender_chunk"/>
               <lit-tag v="mf"/>
             </let>
-          </otherwise>
+	 	 </otherwise>
         </choose>
         <choose>
           <when>
