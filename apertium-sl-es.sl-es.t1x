@@ -3,6 +3,16 @@
 <transfer default="chunk">
 
   <section-def-cats>
+	
+	<def-cat n="sent">
+	      <cat-item tags="sent"/>
+	</def-cat>
+	
+	<def-cat n="coma">
+	      <cat-item tags="cm"/>
+	</def-cat>
+	
+	
     <def-cat n="cnj">
       <cat-item tags="cnjadv"/>
       <cat-item tags="cnjcoo"/>
@@ -57,6 +67,8 @@
       <cat-item tags="vbser.pp.*"/>
       <cat-item tags="vblex.imperf.pp.*"/>
       <cat-item tags="vblex.perf.pp.*"/>
+      <cat-item tags="vblex.imperf.ger.*"/>
+      <cat-item tags="vblex.perf.ger.*"/>
     </def-cat>
 
     <def-cat n="bi">
@@ -1266,7 +1278,7 @@
 	          </equal>
 	        </test>
 	        <out>
-				<chunk name="verbcj" case="caseFirstWord">
+				<chunk name="pp" case="caseFirstWord">
 		            <tags>
 		              <tag><lit-tag v="SV"/></tag>
 		              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
@@ -1279,10 +1291,36 @@
 		            <lu>
 		              <clip pos="1" side="tl" part="lemh"/>
 		              <clip pos="1" side="tl" part="a_verb"/>
-		              <clip pos="1" side="tl" part="temps"/>
-		              <clip pos="1" side="tl" part="gen"/>
-		              <clip pos="1" side="tl" part="nbr"/>
-		              <clip pos="1" side="tl" part="lemq"/>
+		              <clip pos="1" side="tl" part="temps"/> <!-- missing link -->
+		              <clip pos="1" side="tl" part="gen"/> <!-- missing link -->
+		              <clip pos="1" side="tl" part="nbr"/> <!-- missing link -->
+		              <clip pos="1" side="tl" part="lemq"/> <!-- missing link -->
+		            </lu>
+		          </chunk>
+	       </out>
+	     </when>
+	      <when>
+	        <test>
+	          <equal>
+	            <clip pos="1" side="sl" part="temps"/>
+	            <lit-tag v="ger"/>
+	          </equal>
+	        </test>
+	        <out>
+				<chunk name="ger" case="caseFirstWord">
+		            <tags>
+		              <tag><lit-tag v="SV"/></tag>
+		              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+		              <tag><var n="aspect_chunk"/></tag>
+		              <tag><clip pos="1" side="tl" part="temps"/></tag>
+		              <tag><var n="pers_chunk"/></tag>
+		              <tag><var n="gender_chunk"/></tag>
+		              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+		            </tags>
+		            <lu>
+		              <clip pos="1" side="tl" part="lemh"/>
+		              <clip pos="1" side="tl" part="a_verb"/>
+		              <clip pos="1" side="tl" part="temps"/> <!-- missing link -->
 		            </lu>
 		          </chunk>
 	       </out>
@@ -1747,6 +1785,71 @@
 		</out>
 	</action>
 </rule>
+
+
+
+<!-- Last two rules -->
+<rule> <!-- REGLA: reset variables-->
+      <pattern>
+        <pattern-item n="sent"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <not>
+                <or>
+                  <equal>
+                    <clip pos="1" side="sl" part="lem"/>
+                    <lit v=";"/>
+                  </equal>
+                  <equal>
+                    <clip pos="1" side="sl" part="lem"/>
+                    <lit v=":"/>
+                  </equal>
+                </or>
+              </not>
+            </test>           
+            <let>
+              <var n="EOS"/>
+              <lit v="true"/>
+            </let>
+          </when>
+        </choose>
+        <out>
+          <chunk name="punt">
+            <tags>
+              <tag><lit-tag v="sent"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    
+  <rule comment="REGLA: reset variables">
+      <pattern>
+        <pattern-item n="coma"/>
+      </pattern>
+      <action>
+        <let>
+          <var n="EOS"/>
+          <lit v="false"/>
+        </let>
+        <out>
+          <chunk name="coma">
+            <tags>
+              <tag><lit-tag v="cm"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+  </rule>
 
 
 
