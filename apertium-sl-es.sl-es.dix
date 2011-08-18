@@ -8415,7 +8415,7 @@
 		<e><p><l>srečati<s n="vblex"/></l><r>encontrarse<s n="vblex"/></r></p><par n="perf"/></e>
 		<e><p><l>pomagati<s n="vblex"/></l><r>ayudar<s n="vblex"/></r></p><par n="imperf"/></e>
 		<e><p><l>boleti<s n="vblex"/></l><r>doler<s n="vblex"/></r></p><par n="imperf"/></e>
-		<e><p><l>hiteti<s n="vblex"/></l><r>darse prisa<s n="vblex"/></r></p><par n="imperf"/></e>
+		<e><p><l>hiteti<s n="vblex"/></l><r>darse<b/>prisa<s n="vblex"/></r></p><par n="imperf"/></e>
 		<e><p><l>hrepeneti<s n="vblex"/></l><r>ansiar<s n="vblex"/></r></p><par n="imperf"/></e>
 		<e><p><l>odpustiti<s n="vblex"/></l><r>despedir<s n="vblex"/></r></p><par n="perf"/></e>
 		<e><p><l>oprostiti<s n="vblex"/></l><r>perdonar<s n="vblex"/></r></p><par n="perf"/></e>
@@ -9782,7 +9782,7 @@
 		<e><p><l>škropiti<s n="vblex"/></l><r>rociar<s n="vblex"/></r></p><par n="imperf"/></e>
 		<e><p><l>razmetati<s n="vblex"/></l><r>desordenar<s n="vblex"/></r></p><par n="perf"/></e>
 		<e><p><l>blesti<s n="vblex"/></l><r>delirar<s n="vblex"/></r></p><par n="imperf"/></e>
-		<e><p><l>gosti<s n="vblex"/></l><r>tocarelviolín<s n="vblex"/></r></p><par n="imperf"/></e>
+		<e><p><l>gosti<s n="vblex"/></l><r>tocar<g><b/>el<b/>violín</g><s n="vblex"/></r></p><par n="imperf"/></e>
 		<e><p><l>presti<s n="vblex"/></l><r>ronronear<s n="vblex"/></r></p><par n="imperf"/></e>
 		<e><p><l>strmeti<s n="vblex"/></l><r>mirarfijamente<s n="vblex"/></r></p><par n="imperf"/></e>
 		<e><p><l>zagoreti<s n="vblex"/></l><r>encenderse<s n="vblex"/></r></p><par n="perf"/></e>
@@ -9883,7 +9883,7 @@
 		<e><p><l>ozdraveti<s n="vblex"/></l><r>sanar<s n="vblex"/></r></p><par n="perf"/></e>
 		<e><p><l>pobledeti<s n="vblex"/></l><r>palidecer<s n="vblex"/></r></p><par n="perf"/></e>
 		<e><p><l>pogoreti<s n="vblex"/></l><r>fundirse<s n="vblex"/></r></p><par n="perf"/></e>
-		<e><p><l>pohiteti<s n="vblex"/></l><r>darseprisa<s n="vblex"/></r></p><par n="perf"/></e>
+		<e><p><l>pohiteti<s n="vblex"/></l><r>darse<b/>prisa<s n="vblex"/></r></p><par n="perf"/></e>
 		<e><p><l>ponoreti<s n="vblex"/></l><r>volverse<b/>loco<s n="vblex"/></r></p><par n="perf"/></e>
 		<e><p><l>prekipeti<s n="vblex"/></l><r>derramarse<s n="vblex"/></r></p><par n="perf"/></e>
 		<e><p><l>razplamteti<s n="vblex"/></l><r>echar<b/>chispas<s n="vblex"/></r></p><par n="perf"/></e>
@@ -10515,6 +10515,8 @@
 		<e><p><l>približevati<s n="vblex"/></l><r>acercar<s n="vblex"/></r></p><par n="imperf"/></e>
 		<e><p><l>odseliti<s n="vblex"/></l><r>mudar<s n="vblex"/></r></p><par n="imperf"/></e>
 		<e><p><l>cepiti<s n="vblex"/></l><r>injertar<s n="vblex"/></r></p><par n="perf"/></e>
+		
+		<e><p><l>dati<s n="vblex"/></l><r>dar<s n="vblex"/></r></p><par n="perf"/></e>
 
 		<!-- Verbs combined with the opposite (perf/imperf) form -->
 		<e r="LR"><p><l>izpričati<s n="vblex"/></l><r>pagar<s n="vblex"/></r></p></e>

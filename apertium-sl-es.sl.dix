@@ -25265,7 +25265,7 @@
 
       <e>       <p><l>al</l>        <r>ati<s n="vblex"/><s n="imperf"/></r></p><par n="BASE__bil"/></e>
 
-	  <e>       <p><l>oj</l>        <r>ati<s n="vblex"/><s n="imperf"/><s n="perf"/></r></p><par n="BASE__imperative"/></e>
+	  <e>       <p><l>oj</l>        <r>ati<s n="vblex"/><s n="imperf"/></r></p><par n="BASE__imperative"/></e>
 	
 	<!-- gerund form? -->
     </pardef>
