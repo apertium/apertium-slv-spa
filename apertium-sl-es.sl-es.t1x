@@ -1286,27 +1286,60 @@
 	            <lit-tag v="pp"/>
 	          </equal>
 	        </test>
-	        <out>
-				<chunk name="pp" case="caseFirstWord">
-		            <tags>
-		              <tag><lit-tag v="SV"/></tag>
-		              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
-		              <tag><var n="aspect_chunk"/></tag>
-		              <tag><clip pos="1" side="tl" part="temps"/></tag>
-		              <tag><var n="pers_chunk"/></tag>
-		              <tag><var n="gender_chunk"/></tag>
-		              <tag><clip pos="1" side="tl" part="nbr"/></tag>
-		            </tags>
-		            <lu>
-		              <clip pos="1" side="tl" part="lemh"/>
-		              <clip pos="1" side="tl" part="a_verb"/>
-		              <clip pos="1" side="tl" part="temps"/> <!-- missing link -->
-		              <clip pos="1" side="tl" part="gen"/> <!-- missing link -->
-		              <clip pos="1" side="tl" part="nbr"/> <!-- missing link -->
-		              <clip pos="1" side="tl" part="lemq"/> <!-- missing link -->
-		            </lu>
-		          </chunk>
-	       </out>
+			<choose>
+				<when> <!-- if gender == female, then leave it female, else make it M -->
+					<test>
+						<equal>
+				            <clip pos="1" side="sl" part="gen"/>
+				            <lit-tag v="f"/>
+						</equal>
+					</test>
+					<out>
+					<chunk name="pp" case="caseFirstWord">
+			            <tags>
+			              <tag><lit-tag v="SV"/></tag>
+			              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+			              <tag><var n="aspect_chunk"/></tag>
+			              <tag><clip pos="1" side="tl" part="temps"/></tag>
+			              <tag><var n="pers_chunk"/></tag>
+			              <tag><var n="gender_chunk"/></tag>
+			              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+			            </tags>
+			            <lu>
+			              <clip pos="1" side="tl" part="lemh"/>
+			              <clip pos="1" side="tl" part="a_verb"/>
+			              <clip pos="1" side="tl" part="temps"/> <!-- missing link -->
+			              <clip pos="1" side="tl" part="gen"/> <!-- missing link -->
+			              <clip pos="1" side="tl" part="nbr"/> <!-- missing link -->
+			              <clip pos="1" side="tl" part="lemq"/> <!-- missing link -->
+			            </lu>
+			          </chunk>
+		       		</out>
+				</when>
+				<otherwise>
+				<out>
+					<chunk name="pp" case="caseFirstWord">
+			            <tags>
+			              <tag><lit-tag v="SV"/></tag>
+			              <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+			              <tag><var n="aspect_chunk"/></tag>
+			              <tag><clip pos="1" side="tl" part="temps"/></tag>
+			              <tag><var n="pers_chunk"/></tag>
+			              <tag><var n="gender_chunk"/></tag>
+			              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+			            </tags>
+			            <lu>
+			              <clip pos="1" side="tl" part="lemh"/>
+			              <clip pos="1" side="tl" part="a_verb"/>
+			              <clip pos="1" side="tl" part="temps"/> <!-- missing link -->
+			              <lit-tag v="m"/>
+			              <clip pos="1" side="tl" part="nbr"/> <!-- missing link -->
+			              <clip pos="1" side="tl" part="lemq"/> <!-- missing link -->
+			            </lu>
+			          </chunk>
+		       	</out>
+				</otherwise>
+			</choose>
 	     </when>
 	      <when>
 	        <test>

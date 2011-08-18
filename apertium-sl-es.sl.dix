@@ -25943,7 +25943,7 @@
       <e> 	    <p><l>rete</l>        <r>či<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>rejo</l>        <r>či<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p3"/><s n="pl"/></r></p></e>
       
-      <e>       <p><l>g</l>          <r>či<s n="vblex"/><s n="perf"/><s n="perf"/></r></p><par n="priš/el__BASE__bil"/></e>
+      <e>       <p><l>g</l>          <r>či<s n="vblex"/><s n="perf"/></r></p><par n="priš/el__BASE__bil"/></e>
 
 	<!-- gerund form? -->
     </pardef>
