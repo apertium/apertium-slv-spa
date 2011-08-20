@@ -26059,26 +26059,26 @@
     </pardef>
 
 	<pardef n="podp/reti__vblex">
-     <e>       <p><l>eti</l>      <r>eti<s n="vblex"/><s n="perf"/><s n="inf"/></r></p></e>
-     <e>       <p><l>et</l>       <r>eti<s n="vblex"/><s n="perf"/><s n="supn"/></r></p></e>
+     <e>       <p><l>eti</l>      <r>reti<s n="vblex"/><s n="perf"/><s n="inf"/></r></p></e>
+     <e>       <p><l>et</l>       <r>reti<s n="vblex"/><s n="perf"/><s n="supn"/></r></p></e>
 
-     <e>       <p><l>rem</l>         <r>eti<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p1"/><s n="sg"/></r></p></e>
-     <e>       <p><l>reš</l>         <r>eti<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p2"/><s n="sg"/></r></p></e>
-     <e>       <p><l>re</l>          <r>eti<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p3"/><s n="sg"/></r></p></e>
-     <e>       <p><l>reva</l>        <r>eti<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p1"/><s n="du"/></r></p></e>
-     <e> 	   <p><l>reta</l>        <r>eti<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p2"/><s n="du"/></r></p></e>
-     <e>       <p><l>reta</l>        <r>eti<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p3"/><s n="du"/></r></p></e>
-     <e>       <p><l>remo</l>        <r>eti<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p1"/><s n="pl"/></r></p></e>
-     <e> 	   <p><l>rete</l>        <r>eti<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p2"/><s n="pl"/></r></p></e>
-     <e>       <p><l>rejo</l>        <r>eti<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p3"/><s n="pl"/></r></p></e>
-     <e r="LR"><p><l>ro</l>          <r>eti<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p3"/><s n="pl"/></r></p></e>
+     <e>       <p><l>rem</l>         <r>reti<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p1"/><s n="sg"/></r></p></e>
+     <e>       <p><l>reš</l>         <r>reti<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p2"/><s n="sg"/></r></p></e>
+     <e>       <p><l>re</l>          <r>reti<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p3"/><s n="sg"/></r></p></e>
+     <e>       <p><l>reva</l>        <r>reti<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p1"/><s n="du"/></r></p></e>
+     <e> 	   <p><l>reta</l>        <r>reti<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p2"/><s n="du"/></r></p></e>
+     <e>       <p><l>reta</l>        <r>reti<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p3"/><s n="du"/></r></p></e>
+     <e>       <p><l>remo</l>        <r>reti<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p1"/><s n="pl"/></r></p></e>
+     <e> 	   <p><l>rete</l>        <r>reti<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p2"/><s n="pl"/></r></p></e>
+     <e>       <p><l>rejo</l>        <r>reti<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p3"/><s n="pl"/></r></p></e>
+     <e r="LR"><p><l>ro</l>          <r>reti<s n="vblex"/><s n="perf"/><s n="fut"/><s n="p3"/><s n="pl"/></r></p></e>
 
-     <e>       <p><l>rl</l>        <r>eti<s n="vblex"/><s n="perf"/></r></p><par n="BASE__bil"/></e>
-     <e>       <p><l>rt</l>        <r>eti<s n="vblex"/><s n="perf"/><s n="pp"/></r></p><par n="BASE__dan"/></e>
+     <e>       <p><l>rl</l>        <r>reti<s n="vblex"/><s n="perf"/></r></p><par n="BASE__bil"/></e>
+     <e>       <p><l>rt</l>        <r>reti<s n="vblex"/><s n="perf"/><s n="pp"/></r></p><par n="BASE__dan"/></e>
 
-	 <e>       <p><l>ri</l>        <r>eti<s n="vblex"/><s n="perf"/></r></p><par n="BASE__imperative"/></e>
+	 <e>       <p><l>ri</l>        <r>reti<s n="vblex"/><s n="perf"/></r></p><par n="BASE__imperative"/></e>
 
-	  <e>       <p><l>rtj</l>      <r>eti<s n="vblex"/><s n="perf"/><s n="ger"/></r></p><par n="BASE__žvižganje"/></e>
+	  <e>       <p><l>rtj</l>      <r>reti<s n="vblex"/><s n="perf"/><s n="ger"/></r></p><par n="BASE__žvižganje"/></e>
     </pardef>
 
 	<pardef n="zme/tati__vblex">
@@ -39379,7 +39379,7 @@
 	<e lm="umreti">          <i>umr</i><par n="umr/eti__vblex"/></e>
 	<e lm="držati">          <i>drž</i><par n="renč/ati__vblex"/></e>
 	<e lm="renčati">         <i>renč</i><par n="renč/ati__vblex"/></e>
-	<e lm="prerasti">        <i>prerast</i><par n="vra/sti__vblex"/></e>
+	<e lm="prerasti">        <i>prera</i><par n="vra/sti__vblex"/></e>
 	<e lm="dovoliti">        <i>dovol</i><par n="dovol/iti__vblex"/></e>
 	<e lm="ozreti">          <i>ozr</i><par n="ozr/eti__vblex"/></e>
 	<e lm="prodreti">        <i>prodr</i><par n="ozr/eti__vblex"/></e>
@@ -40117,8 +40117,7 @@
 	<e lm="zaklepati">       <i>zaklepa</i><par n="zdirja/ti__vblex"/></e>
 	<e lm="naklepati">       <i>naklepa</i><par n="zdirja/ti__vblex"/></e>
 	<e lm="popadati">        <i>popada</i><par n="zdirja/ti__vblex"/></e>
-	<e lm="leteti">          <i>lete</i><par n="let/eti__vblex"/></e>
-	<e lm="leteti">          <i>lete</i><par n="let/eti__vblex"/></e>
+	<e lm="leteti">          <i>let</i><par n="let/eti__vblex"/></e>
 	<e lm="vpiti">           <i>vpi</i><par n="vpi/ti__vblex"/></e>
 	<e lm="zapeti">          <i>zap</i><par n="zap/eti__vblex"/></e>
 	<e lm="zahoteti">        <i>zaho</i><par n="zaho/teti__vblex"/></e>
@@ -40706,7 +40705,7 @@
 	<e lm="gomazeti">        <i>gomaz</i><par n="rd/eti__vblex"/></e>
 	<e lm="storiti">         <i>stor</i><par n="stor/iti__vblex"/></e>
 	<e lm="razdrobiti">      <i>razdrob</i><par n="razdrob/iti__vblex"/></e>
-	<e lm="iti">             <i>iti</i><par n="/iti__vblex"/></e>
+	<e lm="iti">             <i></i><par n="/iti__vblex"/></e>
 	<e lm="iznajti">         <i>izna</i><par n="zna/jti__vblex"/></e>
 	<e lm="najti">           <i>na</i><par n="zna/jti__vblex"/></e>
 	<e lm="znajti">          <i>zna</i><par n="zna/jti__vblex"/></e>
@@ -40741,12 +40740,11 @@
 	<e lm="nagibati">        <i>nagib</i><par n="zasip/ati__vblex"/></e>
 	<e lm="prejemati">       <i>prejem</i><par n="zasip/ati__vblex"/></e>
 	<e lm="zasipati">        <i>zasip</i><par n="zasip/ati__vblex"/></e>
-	<e lm="graditi">         <i>grad</i><par n="gra/diti__vblex"/></e>
+	<e lm="graditi">         <i>gra</i><par n="gra/diti__vblex"/></e>
 	<e lm="sloneti">         <i>slon</i><par n="slon/eti__vblex"/></e>
 	<e lm="naložiti">        <i>nalož</i><par n="nalož/iti__vblex"/></e>
 	<e lm="pridržati">       <i>pridrž</i><par n="pridrž/ati__vblex"/></e>
-	<e lm="marati">          <i>mara</i><par n="mar/ati__vblex"/></e>
-	<e lm="morati">          <i>mora</i><par n="mor/ati__vblex"/></e>
+	<e lm="marati">          <i>mar</i><par n="mar/ati__vblex"/></e>
 	<e lm="smeti">           <i>sme</i><par n="sme/ti__vblex"/></e>
 	<e lm="spremeniti">      <i>spremen</i><par n="spremen/iti__vblex"/></e>
 	<e lm="potrgati">        <i>potr</i><par n="potr/gati__vblex"/></e>
