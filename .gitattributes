@@ -33,6 +33,7 @@ dev/Scripts/Nouns[!!-~]/3)[!!-~]Merge[!!-~]with[!!-~]genders/1)[!!-~]Back[!!-~]t
 dev/Scripts/Nouns[!!-~]/3)[!!-~]Merge[!!-~]with[!!-~]genders/2)[!!-~]Create[!!-~]intersect[!!-~]with[!!-~]target[!!-~]monodix.php -text
 dev/Scripts/Nouns[!!-~]/3)[!!-~]Merge[!!-~]with[!!-~]genders/3)[!!-~]Bidix[!!-~]intersect.php -text
 dev/Scripts/Remove[!!-~]duplicate[!!-~]lemmas.awk -text
+dev/Scripts/Remove[!!-~]not_translated[!!-~]lemms[!!-~]from[!!-~]MONO/Check.php -text
 dev/Scripts/Useless[!!-~]scripts/Top10000[!!-~]-[!!-~]back[!!-~]to[!!-~]bidix.php -text
 dev/Scripts/Verbs[!!-~]-[!!-~]perf:imperf/1)[!!-~]Get[!!-~]perf[!!-~]or[!!-~]imperf.awk -text
 dev/Scripts/Verbs[!!-~]-[!!-~]perf:imperf/2)[!!-~]Back[!!-~]to[!!-~]bidix[!!-~]with[!!-~]aspect.php -text
