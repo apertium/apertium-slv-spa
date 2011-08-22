@@ -51,6 +51,12 @@
       <cat-item tags="det.*"/>
       <cat-item tags="det.ord"/> 
       <cat-item tags="det.ord.*"/> 
+      <cat-item tags="det.pos.*"/>
+    </def-cat>
+
+    <def-cat n="detpos">
+      <cat-item tags="det.pos"/>
+      <cat-item tags="det.pos.*"/>
     </def-cat>
 
     <def-cat n="verb">
@@ -183,6 +189,7 @@
       <attr-item tags="det"/>
       <attr-item tags="det.ord"/>
       <attr-item tags="det.dem"/>
+      <attr-item tags="det.pos"/>
     </def-attr>
 
     <def-attr n="noun_pos">
@@ -1179,6 +1186,34 @@
        </out>
      </action>
   </rule>
+<!--
+  <rule comment="REGLA: detpos">
+     <pattern>
+       <pattern-item n="detpos"/>
+     </pattern>
+     <action>
+       <out>
+         <chunk name="det" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="DET"/></tag>
+	     <tag><lit-tag v="pos"/></tag>
+             <tag><clip pos="1" side="tl" part="gen"/></tag>
+             <tag><clip pos="1" side="tl" part="nbr"/></tag>
+             <tag><clip pos="1" side="tl" part="pers"/></tag>
+             <tag><clip pos="1" side="sl" part="cas"/></tag>
+             <tag><clip pos="1" side="sl" part="a_def"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="a_det"/>
+             <clip pos="1" side="tl" part="gen"/>
+             <clip pos="1" side="tl" part="nbr"/>
+           </lu>
+         </chunk>
+       </out>
+     </action>
+  </rule>
+-->
   <rule comment="REGLA: det">
      <pattern>
        <pattern-item n="det"/>
@@ -1210,6 +1245,7 @@
        </out>
      </action>
   </rule>
+
   <rule comment="REGLA: bi bil PAST">
       <pattern>
         <pattern-item n="bi"/>
