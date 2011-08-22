@@ -67,6 +67,8 @@
   </sdefs>
   <pardefs>
     <pardef n="moj_mío__det">
+      <e r="LR"><p><l><s n="ma"/></l><r><s n="mf"/></r></p></e>
+      <e r="LR"><p><l><s n="mi"/></l><r><s n="mf"/></r></p></e>
       <e r="LR"><p><l><s n="m"/></l><r><s n="mf"/></r></p></e>
       <e r="LR"><p><l><s n="f"/></l><r><s n="mf"/></r></p></e>
       <e r="LR"><p><l><s n="nt"/></l><r><s n="mf"/></r></p></e>
