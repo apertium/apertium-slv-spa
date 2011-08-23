@@ -1565,22 +1565,51 @@
 	    <call-macro n="f_concord1">
 	      <with-param pos="1"/>
 	    </call-macro>
-		<out>
-		<chunk name="num" case="caseFirstWord">
-	      <tags>
-	        <tag><clip pos="1" side="tl" part="lemh"/></tag>
-	        <tag><lit-tag v="num"/></tag>
-	        <tag><clip pos="1" side="tl" part="gen"/></tag>
-	        <tag><clip pos="1" side="tl" part="nbr"/></tag>
-	      </tags>
-	        <lu>
-	          <clip pos="1" side="tl" part="lemh"/>
-	          <lit-tag v="num"/>
-	          <clip pos="1" side="tl" part="gen"/>
-	          <clip pos="1" side="tl" part="nbr"/>
-	        </lu>
-		</chunk>
-		</out>
+		<choose>
+			<when>
+				<test>
+					<equal>
+					    <clip pos="1" side="tl" part="lem"/>
+				        <lit v="un"/>
+					</equal>
+				</test>
+				<out>
+					<chunk name="num_en" case="caseFirstWord">
+				      <tags>
+				        <tag><clip pos="1" side="tl" part="lemh"/></tag>
+				        <tag><lit-tag v="num"/></tag>
+				        <tag><clip pos="1" side="tl" part="gen"/></tag>
+				        <tag><clip pos="1" side="tl" part="nbr"/></tag>
+				      </tags>
+				        <lu>
+				          <clip pos="1" side="tl" part="lemh"/>
+				          <lit-tag v="num"/>
+				          <clip pos="1" side="tl" part="gen"/>
+				          <clip pos="1" side="tl" part="nbr"/>
+				        </lu>
+					</chunk>
+				</out>
+			</when>
+			<otherwise>
+			<out>
+				<chunk name="num_sp" case="caseFirstWord">
+			      <tags>
+			        <tag><clip pos="1" side="tl" part="lemh"/></tag>
+			        <tag><lit-tag v="num"/></tag>
+			        <tag><clip pos="1" side="tl" part="gen"/></tag>
+			        <tag><clip pos="1" side="tl" part="nbr"/></tag>
+			      </tags>
+			        <lu>
+			          <clip pos="1" side="tl" part="lemh"/>
+			          <lit-tag v="num"/>
+			          <!-- <clip pos="1" side="tl" part="gen"/>	does not work -->
+			          <lit-tag v="mf"/>
+				      <lit-tag v="sp"/>
+			        </lu>
+				</chunk>
+			</out>
+			</otherwise>
+		</choose>
 	</action>
 </rule>
   
