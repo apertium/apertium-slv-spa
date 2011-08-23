@@ -86,6 +86,10 @@
       <cat-item tags="vblex.imperf.supn"/>
     </def-cat>
 
+    <def-cat n="num">
+      <cat-item tags="num.*"/>
+    </def-cat>
+
     <def-cat n="bi">
       <cat-item lemma="bi" tags="cnjsub.*"/>
       <cat-item lemma="biti" tags="vbser.cni"/>
@@ -142,6 +146,10 @@
     <def-attr n="a_nom">
       <attr-item tags="n"/>
       <attr-item tags="np"/>
+    </def-attr>
+
+    <def-attr n="a_num">
+      <attr-item tags="num"/>
     </def-attr>
 
     <def-attr n="gen">
@@ -433,6 +441,10 @@
                 <equal>
                   <clip pos="1" side="sl" part="a_det"/>
                   <lit-tag v="det.ord"/>
+                </equal>
+                <equal>
+                  <clip pos="1" side="sl" part="a_num"/>
+                  <lit-tag v="num"/>
                 </equal>
               </or>
               <or>
@@ -1541,6 +1553,36 @@
     </out>
         </action>
       </rule>
+
+<rule comment="Rule: num">
+    <pattern>
+      <pattern-item n="num" />
+    </pattern>
+	<action>
+	    <call-macro n="firstWord">
+	      <with-param pos="1"/>
+	    </call-macro>
+	    <call-macro n="f_concord1">
+	      <with-param pos="1"/>
+	    </call-macro>
+		<out>
+		<chunk name="num" case="caseFirstWord">
+	      <tags>
+	        <tag><clip pos="1" side="tl" part="lemh"/></tag>
+	        <tag><lit-tag v="num"/></tag>
+	        <tag><clip pos="1" side="tl" part="gen"/></tag>
+	        <tag><clip pos="1" side="tl" part="nbr"/></tag>
+	      </tags>
+	        <lu>
+	          <clip pos="1" side="tl" part="lemh"/>
+	          <lit-tag v="num"/>
+	          <clip pos="1" side="tl" part="gen"/>
+	          <clip pos="1" side="tl" part="nbr"/>
+	        </lu>
+		</chunk>
+		</out>
+	</action>
+</rule>
   
 
 
