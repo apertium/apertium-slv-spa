@@ -74,6 +74,14 @@
       <e r="LR"><p><l><s n="nt"/></l><r><s n="mf"/></r></p></e>
       <e r="RL"><p><l><s n="GD"/></l><r><s n="mf"/></r></p></e>
     </pardef>
+    <pardef n="naš_nuestro__det">
+      <e r="LR"><p><l><s n="ma"/></l><r><s n="m"/></r></p></e>
+      <e r="LR"><p><l><s n="mi"/></l><r><s n="m"/></r></p></e>
+      <e r="LR"><p><l><s n="m"/></l><r><s n="m"/></r></p></e>
+      <e r="LR"><p><l><s n="f"/></l><r><s n="f"/></r></p></e>
+      <e r="LR"><p><l><s n="nt"/></l><r><s n="m"/></r></p></e>
+      <e r="RL"><p><l><s n="GD"/></l><r><s n="mf"/></r></p></e>
+    </pardef>
     <pardef n="imperf">
       <e r="LR"><p><l><s n="imperf"/></l><r></r></p></e>
       <e r="RL"><p><l><s n="imperf"/></l><r><s n="imperf"/></r></p></e>
@@ -607,6 +615,7 @@
 
     <e><p><l>moj<s n="prn"/><s n="pos"/></l><r>mío<s n="prn"/><s n="pos"/></r></p></e>
     <e><p><l>naš<s n="prn"/><s n="pos"/></l><r>nuestro<s n="prn"/><s n="pos"/></r></p></e>
+    <e><p><l>tvoj<s n="prn"/><s n="pos"/></l><r>tuyo<s n="prn"/><s n="pos"/></r></p></e>
     <e><p><l>vaš<s n="prn"/><s n="pos"/></l><r>vuestro<s n="prn"/><s n="pos"/></r></p></e>
 
     <e><p><l>se<s n="prn"/><s n="ref"/></l><r>se<s n="prn"/><s n="pro"/><s n="ref"/></r></p></e>
@@ -663,8 +672,13 @@
     <!-- SECTION: Determiners -->
 
     <e><p><l>moj<s n="det"/><s n="pos"/></l><r>mío<s n="det"/><s n="pos"/></r></p><par n="moj_mío__det"/></e>
-    <e><p><l>naš<s n="det"/><s n="pos"/></l><r>nuestro<s n="det"/><s n="pos"/></r></p></e>
-    <e><p><l>vaš<s n="det"/><s n="pos"/></l><r>vuestro<s n="det"/><s n="pos"/></r></p></e>
+    <e><p><l>tvoj<s n="det"/><s n="pos"/></l><r>tuyo<s n="det"/><s n="pos"/></r></p><par n="moj_mío__det"/></e>    
+    <e><p><l>njegov<s n="det"/><s n="pos"/></l><r>suyo<s n="det"/><s n="pos"/></r></p><par n="moj_mío__det"/></e>    
+    <e><p><l>naš<s n="det"/><s n="pos"/></l><r>nuestro<s n="det"/><s n="pos"/></r></p><par n="naš_nuestro__det"/></e>    
+    <e><p><l>vaš<s n="det"/><s n="pos"/></l><r>vuestro<s n="det"/><s n="pos"/></r></p><par n="naš_nuestro__det"/></e>    
+    <e><p><l>njihov<s n="det"/><s n="pos"/></l><r>vuestro<s n="det"/><s n="pos"/></r></p><par n="naš_nuestro__det"/></e>
+    
+
 
     <e><p><l>ta<s n="det"/><s n="dem"/></l><r>este<s n="det"/><s n="dem"/></r></p></e>
 

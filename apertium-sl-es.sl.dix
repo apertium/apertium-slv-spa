@@ -983,7 +983,7 @@
       <e>       <p><l>imi</l>       <r><s n="prn"/><s n="pos"/><s n="nt"/><s n="pl"/><s n="ins"/></r></p></e>
     </pardef>
 
-	<pardef n="tvoj__prn">
+    <pardef n="tvoj__prn">
       <e>       <p><l></l>          <r><s n="prn"/><s n="pos"/><s n="p2"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
       <e>       <p><l>ega</l>       <r><s n="prn"/><s n="pos"/><s n="p2"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
       <e>       <p><l>emu</l>       <r><s n="prn"/><s n="pos"/><s n="p2"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
@@ -35562,6 +35562,7 @@
 	<e lm="karkoli">         <i></i><par n="/karkoli__prn"/></e>
 	<e lm="katerikoli">      <i>kater</i><par n="kater/ikoli__prn"/></e>
 	<e lm="moj">             <i>moj</i><par n="moj__prn"/></e>
+	<e lm="tvoj">             <i>tvoj</i><par n="tvoj__prn"/></e>
 	<e lm="njen">            <i>njen</i><par n="njen__prn"/></e>
 	<e lm="naš">             <i>naš</i><par n="naš__prn"/></e>
 	<e lm="vaš">             <i>vaš</i><par n="vaš__prn"/></e>
@@ -35596,12 +35597,15 @@
 	<e lm="ves">             <i>v</i><par n="v/es__prn"/></e>
 	<e lm="vsak">            <i>vsak</i><par n="vsak__prn"/></e>
 	<e lm="vsakršen">        <i>vsakrš</i><par n="vsakrš/en__prn"/></e>
-	<e lm="noben">          <i>noben</i><par n="noben__prn"/></e>
+	<e lm="noben">           <i>noben</i><par n="noben__prn"/></e>
 	<e lm="čigar">           <i>čigar</i><par n="kolikor__prn"/></e>
 	<e lm="kolikor">         <i>kolikor</i><par n="kolikor__prn"/></e>
-	<e lm="moj">           <i>moj</i><par n="moj__det"/></e>
-	<e lm="naš">           <i>naš</i><par n="naš__det"/></e>
-	<e lm="vaš">           <i>vaš</i><par n="naš__det"/></e>
+	<e lm="moj">             <i>moj</i><par n="moj__det"/></e>
+	<e lm="tvoj">            <i>tvoj</i><par n="moj__det"/></e>
+	<e lm="njegov">          <i>njegov</i><par n="moj__det"/></e>
+	<e lm="naš">             <i>naš</i><par n="naš__det"/></e>
+	<e lm="vaš">             <i>vaš</i><par n="naš__det"/></e>
+	<e lm="njihov">          <i>njihov</i><par n="naš__det"/></e>
 	<e lm="oba">           <i>ob</i><par n="ob/a__det"/></e>
 	<e lm="ves">           <i>v</i><par n="v/es__det"/></e>
 	<e lm="vsak">          <i>vsak</i><par n="vsak__det"/></e>
