@@ -5917,7 +5917,7 @@
       <e>       <p><l>njo</l>       <r>nja<s n="n"/><s n="f"/><s n="sg"/><s n="ins"/></r></p></e>
 	</pardef>							
 	
-    <pardef n="oč/i__n">
+    <pardef n="oč/i__eyes__n">
       <e>       <p><l>i</l>         <r>i<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
       <e>       <p><l>i</l>         <r>i<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r></p></e>
       <e>       <p><l>em</l>        <r>i<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/></r></p></e>
@@ -35553,6 +35553,29 @@
   </pardefs>
 
   <section id="main" type="standard">
+	
+	<e lm="le">              <i>le</i><par n="že/_part"/></e>
+	<e lm="še">              <i>še</i><par n="že/_part"/></e>
+	<e lm="že">              <i>že</i><par n="že/_part"/></e>
+	<e lm="tudi">            <i>tudi</i><par n="zlasti/_part"/></e>
+	<e lm="skoraj">          <i>skoraj</i><par n="zgolj/_part"/></e>
+	<e lm="morda">           <i>morda</i><par n="skorajda/_part"/></e>
+	<e lm="sploh">           <i>sploh</i><par n="sploh/_part"/></e>
+	
+	<e lm="naj">             <i>naj</i><par n="ki__cnjsub"/></e>
+	<e lm="kadar">           <i>kadar</i><par n="ki__cnjsub"/></e>
+	
+	<e lm="treba"><i>treba</i><par n="nikoli__adv"/></e>
+	
+	<e lm="videti">          <i>vid</i><par n="zvrt/eti__vblex"/></e>
+	
+	<e lm="tisti">           <i>tist</i><par n="tist/i__prn"/></e>
+	
+	<e lm="zato"><i>zato</i><par n="nikoli__adv"/></e>
+	
+	<e lm="oči">             <i>oč</i><par n="oč/i__n"/></e>
+	<e lm="oči">             <i>oč</i><par n="oč/i__eyes__n"/></e>
+	
 	<e lm="prpers">          <i></i><par n="/prpers__prn"/></e>
 	<e lm="se">              <i>s</i><par n="s/e__prn"/></e>
 	<e lm="se">              <i>s</i><par n="s/e__prn"/></e>
@@ -47239,7 +47262,8 @@
 	<e lm="osem">            <i>os</i><par n="sed/em__num"/></e>
 	<e lm="sedem">           <i>sed</i><par n="sed/em__num"/></e>
 	<e lm="tisoč">           <i>tisoč</i><par n="žolč__n"/></e>
-	<e lm="hej">             <i>hej</i><par n="hej__ij"/></e>
+	
+	<!-- <e lm="hej">             <i>hej</i><par n="hej__ij"/></e> -->
 	
 	
   </section>

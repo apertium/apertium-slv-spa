@@ -667,6 +667,8 @@
 	
 	<e><p><l>kdor<s n="prn"/></l><r>quien<s n="prn"/><s n="tn"/></r></p></e>
 	<e><p><l>kdor<s n="prn"/></l><r>el<b/>que<s n="prn"/><s n="tn"/></r></p></e>
+	
+	<e><p><l>tisti<s n="prn"/></l><r>ese<s n="prn"/><s n="tn"/></r></p></e>
 	<!-- End -->
  
     <!-- SECTION: Determiners -->
@@ -5707,6 +5709,7 @@
 	<e><p><l>izvajalec<s n="n"/><s n="ma"/></l><r>ejecutor<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>malta<s n="n"/><s n="f"/></l><r>argamasa<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>lina<s n="n"/><s n="f"/></l><r>tragaluz<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>oči<s n="n"/><s n="ma"/><s n="sg"/></l><r>ojo<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 	
 		
     <!-- SECTION: Proper nouns -->
@@ -10911,6 +10914,8 @@
 		<e><p><l>dajati<s n="vblex"/></l><r>dar<s n="vblex"/></r></p><par n="imperf"/></e>
 		<e><p><l>misliti<s n="vblex"/></l><r>pensar<s n="vblex"/></r></p><par n="imperf"/></e>
 		<e><p><l>pomisliti<s n="vblex"/></l><r>pensar<s n="vblex"/></r></p><par n="perf"/></e>
+		
+		<e><p><l>videti<s n="vblex"/></l><r>ver<s n="vblex"/></r></p><par n="perf"/></e>
 
 		<!-- Verbs combined with the opposite (perf/imperf) form -->
 		<e r="LR"><p><l>izpričati<s n="vblex"/></l><r>pagar<s n="vblex"/></r></p></e>
@@ -11081,6 +11086,7 @@
 	<e><p><l>ko<s n="cnjsub"/></l><r>cuando<s n="cnjadv"/></r></p></e>
 	<e><p><l>kot<s n="cnjsub"/></l><r>como<s n="cnjadv"/></r></p></e> <!-- can be cnjcoo too ? -->
 	<e><p><l>ker<s n="cnjsub"/></l><r>porque<s n="cnjadv"/></r></p></e>
+	<e><p><l>kadar<s n="cnjsub"/></l><r>cuando<s n="cnjadv"/></r></p></e>
 	
 	<e><p><l>če<s n="cnjsub"/></l><r>si<s n="cnjsub"/></r></p></e>
 	<e><p><l>čeprav<s n="cnjsub"/></l><r>aunque<s n="cnjsub"/></r></p></e>
@@ -11091,6 +11097,14 @@
 	
 	<!-- DET -->
 	<e><p><l>ves<s n="det"/></l><r>todo<s n="predet"/></r></p></e>
+	
+	
+	<e><p><l>treba<s n="adv"/></l><r>si<g><b/>es<b/>necesario</g><s n="adv"/></r></p></e> <!-- check ? -->
+	<e><p><l>zato<s n="adv"/></l><r>porque<s n="cnjadv"/></r></p></e> <!-- check ? -->
+	
+	
+	
+	
 
 
   </section> 
