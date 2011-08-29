@@ -83,5 +83,4 @@ dev/testvoc.sh -text
 /pending-tests.sh -text
 /sl-es-unsupervised.make -text
 /sl-es.prob -text
-sl-tagger-data/sl.crp.txt -text
 /wiki-tests.sh -text
