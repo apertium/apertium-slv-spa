@@ -35553,7 +35553,7 @@
   </pardefs>
 
   <section id="main" type="standard">
-	
+	<e lm="gospod">          <i>gospod</i><par n="gospod__n"/></e>
 	<e lm="le">              <i>le</i><par n="že/_part"/></e>
 	<e lm="še">              <i>še</i><par n="že/_part"/></e>
 	<e lm="že">              <i>že</i><par n="že/_part"/></e>
