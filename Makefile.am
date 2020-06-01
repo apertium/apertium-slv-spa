@@ -1,4 +1,3 @@
-VERSION=0.0.1
 LANG1=sl
 LANG2=es
 PREFIX1=$(LANG1)-$(LANG2)
@@ -12,10 +11,11 @@ TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
 	$(PREFIX1).autogen.bin $(PREFIX2).autogen.bin \
 	$(PREFIX1).t1x.bin $(PREFIX2).t1x.bin \
 	$(PREFIX1).t2x.bin $(PREFIX2).t2x.bin \
-	$(PREFIX1).t3x.bin $(PREFIX2).t3x.bin \
-	modes
+	$(PREFIX1).t3x.bin $(PREFIX2).t3x.bin
 
 TARGETS = $(TARGETS_COMMON)
+
+@ap_include@
 
 $(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).dix
 	apertium-validate-dictionary $(BASENAME).$(LANG1).dix
@@ -60,7 +60,7 @@ $(PREFIX2).t3x.bin: $(BASENAME).$(PREFIX2).t3x
 	apertium-preprocess-transfer $(BASENAME).$(PREFIX2).t3x $@
 
 $(PREFIX1).autobil.bin: $(BASENAME).$(PREFIX1).dix
-	if [ ! -d .deps ]; then mkdir .deps; fi
+	if [ ! -d .deps ]; then $(MKDIR_P) .deps; fi
 	xsltproc lexchoicebil.xsl $(BASENAME).$(PREFIX1).dix > .deps/$(BASENAME).$(PREFIX1).dix
 	apertium-validate-dictionary .deps/$(BASENAME).$(PREFIX1).dix
 	lt-comp lr .deps/$(BASENAME).$(PREFIX1).dix $@
@@ -100,32 +100,13 @@ apertium_sl_es_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
 		$(PREFIX1).prob $(PREFIX2).prob \
 		$(PREFIX1).t1x.bin $(PREFIX2).t1x.bin \
 		$(PREFIX1).t2x.bin $(PREFIX2).t2x.bin \
-		$(PREFIX1).t3x.bin $(PREFIX2).t3x.bin \
-		$(PREFIX1).mode $(PREFIX2).mode 
+		$(PREFIX1).t3x.bin $(PREFIX2).t3x.bin
 
 apertium_sl_esdir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
-apertium_sl_es_modesdir=$(prefix)/share/apertium/modes/
 
-$(PREFIX1).mode: modes.xml
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
-
-$(PREFIX2).mode: modes.xml
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
-
-modes: modes.xml
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
-
-install-data-local:
-	apertium-gen-modes modes.xml apertium-$(PREFIX1)
-	test -d $(DESTDIR)$(apertium_sl_es_modesdir) || mkdir $(DESTDIR)$(apertium_sl_es_modesdir)
-	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_sl_es_modesdir)
-	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_sl_es_modesdir)
+install-data-local: install-modes
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x $(DESTDIR)$(apertium_sl_esdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_sl_esdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x $(DESTDIR)$(apertium_sl_esdir)
 
-CLEANFILES = -rf $(TARGETS) modes
-
+CLEANFILES = -rf $(TARGETS)
