@@ -1,0 +1,108 @@
+[1AT-C8D7K9Dt#0] ^Vbcnj_inf<SV>{^ser<vbser><fti><p3><pl>$ ^trabajar<vblex><inf>$}$^punt<sent>{^.<sent>$}$
+[/1AT-C8D7K9Dt]
+[24tB-aVpOSBU#0] ^Pr<PREP>{^de<pr>/Desde<pr>/A partir de<pr>$}$ ^default<default>{^aquí<adv>$}$ ^default<default>{^se<prn><pro><ref><mf><sp><loc>$}$ ^verbcj<SV><vblex><perf><imp><p2><mf><sg>{^ver<vblex><4><5><7>$}$ ^det_nom<SN>{^todo<mi><pl>$ ^puesto<n><m><sg>$}$^punt<sent>{^.<sent>$}$
+[/24tB-aVpOSBU]
+[2F6gO9K4tpC0#0] ^Vbcnj<SV>{^trabajar<vblex><pii><p3><sg>$}$ ^det_nom<SN>{^todo<mi><sg>$ ^día<n><m><sg>$}$^punt<sent>{^.<sent>$}$
+[/2F6gO9K4tpC0]
+[2JhRugHmZfdv#0] ^Vbcnj_inf<SV>{^ser<vbser><fti><p2><sg>$ ^trabajar<vblex><inf>$}$^punt<sent>{^.<sent>$}$
+[/2JhRugHmZfdv]
+[2mMxw6UjXBXV#0] ^Np<SN><UNDETadd><m><sg><nom>{^sergio<np><ant><3><sg>$}$ ^verbcj<SV><vbser><NONE><pri><p3><mf><sg>{^ser<vbser><4><5><7>$}$ ^det_nom<SN>{^mío<det><pos><mf><sg>$ ^hermano<n><m><sg>$}$^punt<sent>{^.<sent>$}$
+[/2mMxw6UjXBXV]
+[4MIeb-86qQig#0] ^Vbcnj_inf<SV>{^ser<vbser><fti><p2><sg>$ ^trabajar<vblex><inf>$}$^punt<sent>{^.<sent>$}$
+[/4MIeb-86qQig]
+[5uiV4NSaxkWw#0] ^Det_nom<SN>{^este<det><dem><f><sg>$ ^sol<n><m><sg>$}$^punt<sent>{^.<sent>$}$
+[/5uiV4NSaxkWw]
+[7Cg1E7USzz8x#0] ^Vbcnj_inf<SV>{^ser<vbser><fti><p1><pl>$ ^trabajar<vblex><inf>$}$^punt<sent>{^.<sent>$}$
+[/7Cg1E7USzz8x]
+[9wuKwqcGwcIG#0] ^unknown<unknown>{^*Vprašimo$}$ ^default<default>{^quién<prn><itg><gen>$}$^punt<sent>{^.<sent>$}$
+[/9wuKwqcGwcIG]
+[AX2-CqxU7Bqv#0] ^Vbcnj_inf<SV>{^ser<vbser><fti><p3><sg>$ ^trabajar<vblex><inf>$}$^punt<sent>{^.<sent>$}$
+[/AX2-CqxU7Bqv]
+[CAtrYJLLSUmC#0] ^Vbcnj<SV>{^intercambiar<vblex><ifi><p1><sg>$}$ ^default<default>{^prpers<prn><emph><p3><mfn><sg><gen>$}$ ^pr<PREP>{^con<pr>$}$ ^det_nom<SN>{^suyo<det><pos><mf><sg>$ ^padre<n><m><sg>$}$^punt<sent>{^.<sent>$}$
+[/CAtrYJLLSUmC]
+[CozMqTe8F57_#0] ^Vbcnj_inf<SV>{^ser<vbser><fti><p2><pl>$ ^trabajar<vblex><inf>$}$^punt<sent>{^.<sent>$}$
+[/CozMqTe8F57_]
+[DBvk1vBmzqab#0] ^Nom<SN><UNDETadd><f><sg><nom>{^tierra<n><3><4>$}$^punt<sent>{^.<sent>$}$
+[/DBvk1vBmzqab]
+[E4uq7p_lDarz#0] ^Verbcj<SV><vblex><imperf><pri><p2><mf><sg>{^trabajar<vblex><4><5><7>$}$^punt<sent>{^.<sent>$}$
+[/E4uq7p_lDarz]
+[FMwWt6qL-moq#0] ^default<default>{^@Tudi<part>$}$ ^unknown<unknown>{^*Agata$}$ ^default<default>{^se<prn><pro><ref><mf><sp><loc>$}$ ^Verbcj<SV><vbser><NONE><pri><p3><mf><sg>{^ser<vbser><4><5><7>$}$ ^default<default>{^mucho<adv><sint>/fuertemente<adv><sint>$}$ ^verbcj<SV><vblex><perf><ifi><p3><f><sg>{^cambiar<vblex><4><5><7>$}$^punt<sent>{^.<sent>$}$
+[/FMwWt6qL-moq]
+[Gptqi9ADnMSc#0] ^Vbcnj<SV>{^trabajar<vblex><pii><p2><sg>$}$^punt<sent>{^.<sent>$}$
+[/Gptqi9ADnMSc]
+[MzP3LVXkj4LV#0] ^Vbcnj<SV>{^trabajar<vblex><pii><p1><sg>$}$^punt<sent>{^.<sent>$}$
+[/MzP3LVXkj4LV]
+[NTwhtbkra86O#0] ^unknown<unknown>{^*Gremolata$}$ ^Pr<PREP>{^a<pr>/en<pr>/dentro de<pr>$}$ ^adj_nom<SN><UNDET><m><sg><loc><ind>{^vaso<n><3><4>$ ^cristalino<adj><3><4>$}$ ^pr<PREP>{^con<pr>$}$ ^adj_nom<SN><UNDET><mi><sg><dat><ind>{^@pecelj<n><3><4>$ ^alto<adj><3><4>$}$ ^default<default>{^se<prn><pro><ref><mf><sp><loc>$}$ ^verbcj<SV><vbser><NONE><pri><p3><mf><sg>{^ser<vbser><4><5><7>$}$ ^default<default>{^@že<part>$}$ ^verbcj<SV><vblex><imperf><pii><p3><f><sg>{^fundir<vblex><4><5><7>$}$^punt<sent>{^.<sent>$}$
+[/NTwhtbkra86O]
+[NzO5f-qRWTCM#0] ^Det_nom<SN>{^este<det><dem><ma><sg>$ ^Tío<n><m><sg>$}$^punt<sent>{^.<sent>$}$
+[/NzO5f-qRWTCM]
+[O6x128DFn3Ho#0] ^Vbcnj<SV>{^no<adv>$ ^querer<vbmod><pri><p2><pl>$ ^trabajar<vblex><inf>$}$^punt<sent>{^.<sent>$}$
+[/O6x128DFn3Ho]
+[OE-Svgwu_WE9#0] ^Vbcnj<SV>{^no<adv>$ ^querer<vbmod><pri><p1><pl>$ ^trabajar<vblex><inf>$}$^punt<sent>{^.<sent>$}$
+[/OE-Svgwu_WE9]
+[Onn--xQ9KGNx#0] ^Det_nom<SN>{^mío<det><pos><mf><sg>$ ^hermano<n><m><sg>$}$^punt<sent>{^.<sent>$}$
+[/Onn--xQ9KGNx]
+[P6TGz4ftb18t#0] ^Cnj<cnjadv>{^cuando<cnjadv>$}$ ^verbcj<SV><vbser><NONE><pri><p1><mf><sg>{^ser<vbser><4><5><7>$}$ ^default<default>{^prpers<prn><emph><p3><mfn><sg><gen>$}$ ^verbcj<SV><vblex><perf><ifi><p3><m><sg>{^convocar<vblex><4><5><7>$}$^coma<cm>{^,<cm>$}$ ^vbcnj<SV>{^trabajar<vblex><pii><p3><sg>$}$^punt<sent>{^.<sent>$}$
+[/P6TGz4ftb18t]
+[PWYZeSXqnkGm#0] ^Vbcnj<SV>{^no<adv>$ ^querer<vbmod><pri><p1><sg>$ ^trabajar<vblex><inf>$}$^punt<sent>{^.<sent>$}$
+[/PWYZeSXqnkGm]
+[PzIrS6pJdJry#0] ^Np<SN><UNDETadd><m><sg><nom>{^janez<np><ant><3><sg>$}$ ^verbcj<SV><vbser><NONE><pri><p3><mf><sg>{^ser<vbser><4><5><7>$}$ ^default<default>{^ahora mismo<adv>$}$ ^verbcj<SV><vblex><perf><ifi><p3><m><sg>{^venir<vblex><4><5><7>$}$^punt<sent>{^.<sent>$}$
+[/PzIrS6pJdJry]
+[QAKhyfQ6_zeJ#0] ^Nom<SN><UNDETadd><m><sg><nom>{^automóvil<n><3><4>$}$^punt<sent>{^.<sent>$}$
+[/QAKhyfQ6_zeJ]
+[V3YDqM3dUnv9#0] ^Vbcnj<SV>{^trabajar<vblex><pii><p2><sg>$}$^punt<sent>{^.<sent>$}$
+[/V3YDqM3dUnv9]
+[VoyKxrE_W7AO#0] ^Adj_nom<SN><UNDET><f><pl><nom><ind>{^lengua<n><3><4>$ ^diferente<adj><3><4>$}$^punt<sent>{^.<sent>$}$
+[/VoyKxrE_W7AO]
+[ZyZjvZb-HKP1#0] ^default<default>{^Mañana<adv>$}$ ^Verbcj<SV><vblex><perf><fti><p3><mf><pl>{^salir<vblex><4><5><7>$}$ ^pr<PREP>{^a<pr>/en<pr>/dentro de<pr>$}$ ^np<SN><UNDETadd><mi><sg><nom>{^@London<np><top><3><sg>$}$^punt<sent>{^.<sent>$}$
+[/ZyZjvZb-HKP1]
+[_XKRtUjeIqe3#0] ^Det_nom<SN>{^mío<det><pos><mf><pl>$ ^hermano<n><f><sg>$}$^punt<sent>{^.<sent>$}$
+[/_XKRtUjeIqe3]
+[a5hKkQ4dEGQK#0] ^Vbcnj<SV>{^no<adv>$ ^querer<vbmod><pri><p3><pl>$ ^trabajar<vblex><inf>$}$^punt<sent>{^.<sent>$}$
+[/a5hKkQ4dEGQK]
+[bkoWTHZRbvSo#0] ^Vbcnj<SV>{^no<adv>$ ^querer<vbmod><pri><p2><sg>$ ^trabajar<vblex><inf>$}$^punt<sent>{^.<sent>$}$
+[/bkoWTHZRbvSo]
+[bwCP65RWLdcH#0] ^unknown<unknown>{^*Marianna$}$ ^default<default>{^se<prn><pro><ref><mf><sp><loc>$}$ ^default<default>{^@sunkovito<adv><sint>$}$ ^Verbcj<SV><vblex><perf><imp><p2><mf><sg>{^despertar<vblex><4><5><7>$}$ ^pr<PREP>{^con<pr>$}$ ^nom<SN><UNDETadd><f><sg><ins>{^sensación<n><3><4>$}$ ^unknown<unknown>{^*poraženosti$}$^punt<sent>{^.<sent>$}$
+[/bwCP65RWLdcH]
+[fJni6N75RTr7#0] ^unknown<unknown>{^*Bramov$}$ ^Nom<SN><UNDETadd><mi><sg><nom>{^@poljub<n><3><4>$}$^punt<sent>{^.<sent>$}$
+[/fJni6N75RTr7]
+[gQnta53sMyWc#0] ^Nom<SN><UNDETadd><f><pl><gen>{^@vena<n><3><4>$}$ ^vbcnj<SV>{^ir<vblex><ifi><p1><pl>$}$ ^pr<PREP>{^por<pr>/durante<pr>/a través de<pr>$}$ ^adj_nom<SN><UNDET><f><pl><nom><ind>{^puerta<n><3><4>$ ^lateral<adj><3><4>$}$^punt<sent>{^.<sent>$}$
+[/gQnta53sMyWc]
+[jWfP-5E1Rww7#0] ^Vbcnj<SV>{^venir<vblex><ifi><p1><sg>$}$^coma<cm>{^,<cm>$}$ ^verbcj<SV><vblex><perf><fti><p3><mf><sg>{^dar<vblex><4><5><7>$}$ ^default<default>{^ser<vbser><cni>$}$ ^det_nom<SN>{^este<det><dem><ma><pl>$ ^ayuda<n><f><du>$}$^punt<sent>{^.<sent>$}$
+[/jWfP-5E1Rww7]
+[jYhTMwOfZd44#0] ^default<default>{^Prpers<prn><tn><p1><mf><sg>$}$^punt<sent>{^.<sent>$}$
+[/jYhTMwOfZd44]
+[k7rNwKQLVKDi#0] ^Verbcj<SV><vblex><imperf><pri><p1><mf><pl>{^trabajar<vblex><4><5><7>$}$^punt<sent>{^.<sent>$}$
+[/k7rNwKQLVKDi]
+[lYwChdQJLEBK#0] ^Vbcnj<SV>{^cocinar<vblex><ifi><p3><sg>$}$ ^adj_nom<SN><UNDET><m><sg><nom><ind>{^almuerzo<n><3><4>$ ^bueno<adj><3><4>$}$^punt<sent>{^.<sent>$}$
+[/lYwChdQJLEBK]
+[m139q9FYyfJ9#0] ^Vbcnj<SV>{^entrar<vblex><ifi><p1><sg>$}$ ^pr<PREP>{^a<pr>/en<pr>/dentro de<pr>$}$ ^nom<SN><UNDETadd><f><sg><ins>{^casa<n><3><4>$}$^punt<sent>{^.<sent>$}$
+[/m139q9FYyfJ9]
+[mFbUSeRL5fpI#0] ^Vbcnj<SV>{^trabajar<vblex><pii><p1><pl>$}$^punt<sent>{^.<sent>$}$
+[/mFbUSeRL5fpI]
+[msldyzdQ3EW2#0] ^Cnj<cnjadv>{^cuando<cnjadv>$}$ ^vbcnj<SV>{^entrar<vblex><ifi><p1><pl>$}$^coma<cm>{^,<cm>$}$ ^vbcnj<SV>{^cocinar<vblex><pii><p3><sg>$}$ ^nom<SN><UNDETadd><m><sg><nom>{^almuerzo<n><3><4>$}$^punt<sent>{^.<sent>$}$
+[/msldyzdQ3EW2]
+[sl1df5it7OJ9#0] ^Nom<SN><UNDETadd><f><sg><nom>{^mesa<n><3><4>$}$ ^verbcj<SV><vbser><NONE><pri><p3><mf><sg>{^ser<vbser><4><5><7>$}$ ^pp<SV><vblex><imperf><pp><p3><f><sg>{^@rdeti<vblex><pp><f><sg>$}$^punt<sent>{^.<sent>$}$
+[/sl1df5it7OJ9]
+[sp46BKiqDFef#0] ^Nom<SN><UNDETadd><m><sg><nom>{^sol<n><3><4>$}$^punt<sent>{^.<sent>$}$
+[/sp46BKiqDFef]
+[ufhJVL7SwOAU#0] ^Vbcnj<SV>{^trabajar<vblex><pii><p3><pl>$}$^punt<sent>{^.<sent>$}$
+[/ufhJVL7SwOAU]
+[wFGWDzOBs-5D#0] ^Verbcj<SV><vblex><imperf><pri><p3><mf><pl>{^trabajar<vblex><4><5><7>$}$^punt<sent>{^.<sent>$}$
+[/wFGWDzOBs-5D]
+[wcjXR4Bnnhbi#0] ^Nom<SN><UNDETadd><m><pl><acc>{^alumno<n><3><4>$}$ ^vbcnj<SV>{^convocar<vblex><ifi><p1><sg>$}$ ^pr<PREP>{^a<pr>/de<pr>/por<pr>/como<pr>/después de<pr>$}$ ^nom<SN><UNDETadd><m><sg><loc>{^nombre<n><3><4>$}$^punt<sent>{^.<sent>$}$
+[/wcjXR4Bnnhbi]
+[xCbxd6EVqWlx#0] ^Verbcj<SV><vblex><imperf><pri><p1><mf><sg>{^trabajar<vblex><4><5><7>$}$^punt<sent>{^.<sent>$}$
+[/xCbxd6EVqWlx]
+[xFYr574ndN-7#0] ^default<default>{^Todo<prn><ind><m><sg><gen>$}$ ^Cnj<cnjcoo>{^sin<cnjcoo>/que<cnjcoo>$}$ ^verbcj<SV><vblex><imperf><pri><p1><mf><pl>{^deber<vblex><4><5><7>$}$ ^inf<SV><vblex><perf><inf>{^ver<vblex><inf>$}$^punt<sent>{^.<sent>$}$
+[/xFYr574ndN-7]
+[xjh0Aqa2VEDI#0] ^Verbcj<SV><vblex><imperf><pri><p3><mf><sg>{^colorear<vblex><4><5><7>$}$ ^adj_nom<SN><UNDET><m><sg><gen><ind>{^automóvil<n><3><4>$ ^@očetov<adj><3><4>$}$ ^verbcj<SV><vbser><NONE><pri><p3><mf><sg>{^ser<vbser><4><5><7>$}$ ^pp<SV><vblex><imperf><pp><p3><f><sg>{^@rdeti<vblex><pp><f><sg>$}$^punt<sent>{^.<sent>$}$
+[/xjh0Aqa2VEDI]
+[yeO76t-erOJL#0] ^Verbcj<SV><vblex><imperf><pri><p2><mf><pl>{^trabajar<vblex><4><5><7>$}$^punt<sent>{^.<sent>$}$
+[/yeO76t-erOJL]
+[yxilG5lxehdG#0] ^Nom<SN><UNDETadd><m><sg><nom>{^tío<n><3><4>$}$^punt<sent>{^.<sent>$}$
+[/yxilG5lxehdG]
+[zIO3LEPaiBUM#0] ^Adj<SA><UNDET><m><sg><nom><ind>{^@prispel<adj><3><4>$}$ ^verbcj<SV><vbser><NONE><pri><p3><mf><sg>{^ser<vbser><4><5><7>$}$ ^nom<SN><UNDETadd><f><sg><nom>{^carta<n><3><4>$}$ ^pr<PREP>{^de<pr>/por<pr>/para<pr>/tras<pr>/detrás de<pr>$}$ ^unknown<unknown>{^*Giannija$}$^punt<sent>{^.<sent>$}$
+[/zIO3LEPaiBUM]
+[znsl4aRdzZYF#0] ^Nom<SN><UNDETadd><m><sg><nom>{^desfile<n><3><4>$}$ ^verbcj<SV><vblex><perf><ifi><p3><m><sg>{^ir<vblex><4><5><7>$}$ ^pr<PREP>{^a<pr>/de<pr>/por<pr>/como<pr>/después de<pr>$}$ ^nom<SN><UNDETadd><m><sg><loc>{^puesto<n><3><4>$}$^punt<sent>{^.<sent>$}$
+[/znsl4aRdzZYF]

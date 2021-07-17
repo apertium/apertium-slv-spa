@@ -1,0 +1,4 @@
+[2mMxw6UjXBXV#0] ^Sergio/Sergio<np><ant><ma><sg><nom>$ ^je/biti<vbser><pres><p3><sg>/prpers<prn><emph><p3><f><sg><gen>$ ^moj/moj<prn><pos><m><sg><nom>/moj<prn><pos><m><sg><acc>/moj<det><pos><ma><sg><nom>/moj<det><pos><ma><sg><acc>$ ^brat/brat<n><ma><sg><nom>/brati<vblex><imperf><supn>$^./.<sent>$
+[/2mMxw6UjXBXV]
+[DBvk1vBmzqab#0] ^Zemlja/Zemlja<n><f><sg><nom>/Zemlja<n><f><du><gen>/Zemlja<n><f><pl><gen>$^./.<sent>$
+[/DBvk1vBmzqab]

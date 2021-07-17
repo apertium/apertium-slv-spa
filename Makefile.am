@@ -93,20 +93,19 @@ EXTRA_DIST=$(BASENAME).post-$(LANG1).dix $(BASENAME).post-$(LANG2).dix \
 clean-dicts:
 	if [ -d .deps ]; then rm .deps/*; fi
 
-apertium_sl_es_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
-		$(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
-		$(PREFIX1).autogen.bin $(PREFIX2).autogen.bin \
-		$(PREFIX1).autopgen.bin $(PREFIX2).autopgen.bin \
+apertium_sl_es_DATA=$(TARGETS_COMMON) \
 		$(PREFIX1).prob $(PREFIX2).prob \
-		$(PREFIX1).t1x.bin $(PREFIX2).t1x.bin \
-		$(PREFIX1).t2x.bin $(PREFIX2).t2x.bin \
-		$(PREFIX1).t3x.bin $(PREFIX2).t3x.bin
+		$(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x \
+		$(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x \
+		$(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x
+
+noinst_DATA=modes/$(PREFIX1).mode
 
 apertium_sl_esdir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 
 install-data-local: install-modes
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x $(DESTDIR)$(apertium_sl_esdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t3x $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_sl_esdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x $(DESTDIR)$(apertium_sl_esdir)
 
 CLEANFILES = -rf $(TARGETS)
+
+test: all
+	apertium-regtest test

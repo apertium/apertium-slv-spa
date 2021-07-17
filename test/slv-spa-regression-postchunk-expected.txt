@@ -1,0 +1,4 @@
+[2mMxw6UjXBXV#0] ^Sergio<np><ant><m><sg>$ ^ser<vbser><pri><p3><sg>$ ^mío<det><pos><mf><sg>$ ^hermano<n><m><sg>$^.<sent>$
+[/2mMxw6UjXBXV]
+[DBvk1vBmzqab#0] ^Tierra<n><f><sg>$^.<sent>$
+[/DBvk1vBmzqab]

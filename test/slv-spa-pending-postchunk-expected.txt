@@ -1,0 +1,108 @@
+[1AT-C8D7K9Dt#0] ^Ser<vbser><fti><p3><pl>$ ^trabajar<vblex><inf>$^.<sent>$
+[/1AT-C8D7K9Dt]
+[24tB-aVpOSBU#0] ^De<pr>/Desde<pr>/A partir de<pr>$ ^aquí<adv>$ ^se<prn><pro><ref><mf><sp><loc>$ ^ver<vblex><imp><p2><sg>$ ^todo<mi><pl>$ ^puesto<n><m><sg>$^.<sent>$
+[/24tB-aVpOSBU]
+[2F6gO9K4tpC0#0] ^Trabajar<vblex><pii><p3><sg>$ ^todo<mi><sg>$ ^día<n><m><sg>$^.<sent>$
+[/2F6gO9K4tpC0]
+[2JhRugHmZfdv#0] ^Ser<vbser><fti><p2><sg>$ ^trabajar<vblex><inf>$^.<sent>$
+[/2JhRugHmZfdv]
+[2mMxw6UjXBXV#0] ^Sergio<np><ant><m><sg>$ ^ser<vbser><pri><p3><sg>$ ^mío<det><pos><mf><sg>$ ^hermano<n><m><sg>$^.<sent>$
+[/2mMxw6UjXBXV]
+[4MIeb-86qQig#0] ^Ser<vbser><fti><p2><sg>$ ^trabajar<vblex><inf>$^.<sent>$
+[/4MIeb-86qQig]
+[5uiV4NSaxkWw#0] ^Este<det><dem><f><sg>$ ^sol<n><m><sg>$^.<sent>$
+[/5uiV4NSaxkWw]
+[7Cg1E7USzz8x#0] ^Ser<vbser><fti><p1><pl>$ ^trabajar<vblex><inf>$^.<sent>$
+[/7Cg1E7USzz8x]
+[9wuKwqcGwcIG#0] ^*Vprašimo$ ^quién<prn><itg><gen>$^.<sent>$
+[/9wuKwqcGwcIG]
+[AX2-CqxU7Bqv#0] ^Ser<vbser><fti><p3><sg>$ ^trabajar<vblex><inf>$^.<sent>$
+[/AX2-CqxU7Bqv]
+[CAtrYJLLSUmC#0] ^Intercambiar<vblex><ifi><p1><sg>$ ^prpers<prn><emph><p3><mfn><sg><gen>$ ^con<pr>$ ^suyo<det><pos><mf><sg>$ ^padre<n><m><sg>$^.<sent>$
+[/CAtrYJLLSUmC]
+[CozMqTe8F57_#0] ^Ser<vbser><fti><p2><pl>$ ^trabajar<vblex><inf>$^.<sent>$
+[/CozMqTe8F57_]
+[DBvk1vBmzqab#0] ^Tierra<n><f><sg>$^.<sent>$
+[/DBvk1vBmzqab]
+[E4uq7p_lDarz#0] ^Trabajar<vblex><pri><p2><sg>$^.<sent>$
+[/E4uq7p_lDarz]
+[FMwWt6qL-moq#0] ^@Tudi<part>$ ^*Agata$ ^se<prn><pro><ref><mf><sp><loc>$ ^Ser<vbser><pri><p3><sg>$ ^mucho<adv><sint>/fuertemente<adv><sint>$ ^cambiar<vblex><ifi><p3><sg>$^.<sent>$
+[/FMwWt6qL-moq]
+[Gptqi9ADnMSc#0] ^Trabajar<vblex><pii><p2><sg>$^.<sent>$
+[/Gptqi9ADnMSc]
+[MzP3LVXkj4LV#0] ^Trabajar<vblex><pii><p1><sg>$^.<sent>$
+[/MzP3LVXkj4LV]
+[NTwhtbkra86O#0] ^*Gremolata$ ^A<pr>/en<pr>/dentro de<pr>$ ^vaso<n><m><sg>$ ^cristalino<adj><m><sg>$ ^con<pr>$ ^@pecelj<n><mi><sg>$ ^alto<adj><mi><sg>$ ^se<prn><pro><ref><mf><sp><loc>$ ^ser<vbser><pri><p3><sg>$ ^@že<part>$ ^fundir<vblex><pii><p3><sg>$^.<sent>$
+[/NTwhtbkra86O]
+[NzO5f-qRWTCM#0] ^Este<det><dem><ma><sg>$ ^Tío<n><m><sg>$^.<sent>$
+[/NzO5f-qRWTCM]
+[O6x128DFn3Ho#0] ^No<adv>$ ^querer<vbmod><pri><p2><pl>$ ^trabajar<vblex><inf>$^.<sent>$
+[/O6x128DFn3Ho]
+[OE-Svgwu_WE9#0] ^No<adv>$ ^querer<vbmod><pri><p1><pl>$ ^trabajar<vblex><inf>$^.<sent>$
+[/OE-Svgwu_WE9]
+[Onn--xQ9KGNx#0] ^Mío<det><pos><mf><sg>$ ^hermano<n><m><sg>$^.<sent>$
+[/Onn--xQ9KGNx]
+[P6TGz4ftb18t#0] ^Cuando<cnjadv>$ ^ser<vbser><pri><p1><sg>$ ^prpers<prn><emph><p3><mfn><sg><gen>$ ^convocar<vblex><ifi><p3><sg>$^,<cm>$ ^trabajar<vblex><pii><p3><sg>$^.<sent>$
+[/P6TGz4ftb18t]
+[PWYZeSXqnkGm#0] ^No<adv>$ ^querer<vbmod><pri><p1><sg>$ ^trabajar<vblex><inf>$^.<sent>$
+[/PWYZeSXqnkGm]
+[PzIrS6pJdJry#0] ^Janez<np><ant><m><sg>$ ^ser<vbser><pri><p3><sg>$ ^ahora mismo<adv>$ ^venir<vblex><ifi><p3><sg>$^.<sent>$
+[/PzIrS6pJdJry]
+[QAKhyfQ6_zeJ#0] ^Automóvil<n><m><sg>$^.<sent>$
+[/QAKhyfQ6_zeJ]
+[V3YDqM3dUnv9#0] ^Trabajar<vblex><pii><p2><sg>$^.<sent>$
+[/V3YDqM3dUnv9]
+[VoyKxrE_W7AO#0] ^Lengua<n><f><pl>$ ^diferente<adj><f><pl>$^.<sent>$
+[/VoyKxrE_W7AO]
+[ZyZjvZb-HKP1#0] ^Mañana<adv>$ ^Salir<vblex><fti><p3><pl>$ ^a<pr>/en<pr>/dentro de<pr>$ ^@London<np><top><mi><sg>$^.<sent>$
+[/ZyZjvZb-HKP1]
+[_XKRtUjeIqe3#0] ^Mío<det><pos><mf><pl>$ ^hermano<n><f><sg>$^.<sent>$
+[/_XKRtUjeIqe3]
+[a5hKkQ4dEGQK#0] ^No<adv>$ ^querer<vbmod><pri><p3><pl>$ ^trabajar<vblex><inf>$^.<sent>$
+[/a5hKkQ4dEGQK]
+[bkoWTHZRbvSo#0] ^No<adv>$ ^querer<vbmod><pri><p2><sg>$ ^trabajar<vblex><inf>$^.<sent>$
+[/bkoWTHZRbvSo]
+[bwCP65RWLdcH#0] ^*Marianna$ ^se<prn><pro><ref><mf><sp><loc>$ ^@sunkovito<adv><sint>$ ^Despertar<vblex><imp><p2><sg>$ ^con<pr>$ ^sensación<n><f><sg>$ ^*poraženosti$^.<sent>$
+[/bwCP65RWLdcH]
+[fJni6N75RTr7#0] ^*Bramov$ ^@Poljub<n><mi><sg>$^.<sent>$
+[/fJni6N75RTr7]
+[gQnta53sMyWc#0] ^@Vena<n><f><pl>$ ^ir<vblex><ifi><p1><pl>$ ^por<pr>/durante<pr>/a través de<pr>$ ^puerta<n><f><pl>$ ^lateral<adj><f><pl>$^.<sent>$
+[/gQnta53sMyWc]
+[jWfP-5E1Rww7#0] ^Venir<vblex><ifi><p1><sg>$^,<cm>$ ^dar<vblex><fti><p3><sg>$ ^ser<vbser><cni>$ ^este<det><dem><ma><pl>$ ^ayuda<n><f><du>$^.<sent>$
+[/jWfP-5E1Rww7]
+[jYhTMwOfZd44#0] ^Prpers<prn><tn><p1><mf><sg>$^.<sent>$
+[/jYhTMwOfZd44]
+[k7rNwKQLVKDi#0] ^Trabajar<vblex><pri><p1><pl>$^.<sent>$
+[/k7rNwKQLVKDi]
+[lYwChdQJLEBK#0] ^Cocinar<vblex><ifi><p3><sg>$ ^almuerzo<n><m><sg>$ ^bueno<adj><m><sg>$^.<sent>$
+[/lYwChdQJLEBK]
+[m139q9FYyfJ9#0] ^Entrar<vblex><ifi><p1><sg>$ ^a<pr>/en<pr>/dentro de<pr>$ ^casa<n><f><sg>$^.<sent>$
+[/m139q9FYyfJ9]
+[mFbUSeRL5fpI#0] ^Trabajar<vblex><pii><p1><pl>$^.<sent>$
+[/mFbUSeRL5fpI]
+[msldyzdQ3EW2#0] ^Cuando<cnjadv>$ ^entrar<vblex><ifi><p1><pl>$^,<cm>$ ^cocinar<vblex><pii><p3><sg>$ ^almuerzo<n><m><sg>$^.<sent>$
+[/msldyzdQ3EW2]
+[sl1df5it7OJ9#0] ^Mesa<n><f><sg>$ ^ser<vbser><pri><p3><sg>$ ^@rdeti<vblex><pp><f><sg>$^.<sent>$
+[/sl1df5it7OJ9]
+[sp46BKiqDFef#0] ^Sol<n><m><sg>$^.<sent>$
+[/sp46BKiqDFef]
+[ufhJVL7SwOAU#0] ^Trabajar<vblex><pii><p3><pl>$^.<sent>$
+[/ufhJVL7SwOAU]
+[wFGWDzOBs-5D#0] ^Trabajar<vblex><pri><p3><pl>$^.<sent>$
+[/wFGWDzOBs-5D]
+[wcjXR4Bnnhbi#0] ^Alumno<n><m><pl>$ ^convocar<vblex><ifi><p1><sg>$ ^a<pr>/de<pr>/por<pr>/como<pr>/después de<pr>$ ^nombre<n><m><sg>$^.<sent>$
+[/wcjXR4Bnnhbi]
+[xCbxd6EVqWlx#0] ^Trabajar<vblex><pri><p1><sg>$^.<sent>$
+[/xCbxd6EVqWlx]
+[xFYr574ndN-7#0] ^Todo<prn><ind><m><sg><gen>$ ^Sin<cnjcoo>/que<cnjcoo>$ ^deber<vblex><pri><p1><pl>$ ^ver<vblex><inf>$^.<sent>$
+[/xFYr574ndN-7]
+[xjh0Aqa2VEDI#0] ^Colorear<vblex><pri><p3><sg>$ ^automóvil<n><m><sg>$ ^@očetov<adj><m><sg>$ ^ser<vbser><pri><p3><sg>$ ^@rdeti<vblex><pp><f><sg>$^.<sent>$
+[/xjh0Aqa2VEDI]
+[yeO76t-erOJL#0] ^Trabajar<vblex><pri><p2><pl>$^.<sent>$
+[/yeO76t-erOJL]
+[yxilG5lxehdG#0] ^Tío<n><m><sg>$^.<sent>$
+[/yxilG5lxehdG]
+[zIO3LEPaiBUM#0] ^@Prispel<adj><m><sg>$ ^ser<vbser><pri><p3><sg>$ ^carta<n><f><sg>$ ^de<pr>/por<pr>/para<pr>/tras<pr>/detrás de<pr>$ ^*Giannija$^.<sent>$
+[/zIO3LEPaiBUM]
+[znsl4aRdzZYF#0] ^Desfile<n><m><sg>$ ^ir<vblex><ifi><p3><sg>$ ^a<pr>/de<pr>/por<pr>/como<pr>/después de<pr>$ ^puesto<n><m><sg>$^.<sent>$
+[/znsl4aRdzZYF]

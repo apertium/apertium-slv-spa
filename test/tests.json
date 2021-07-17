@@ -1,0 +1,10 @@
+{
+    "slv-spa-pending": {
+        "input": "slv-spa-pending-input.txt",
+        "mode": "sl-es"
+    },
+    "slv-spa-regression": {
+        "input": "slv-spa-regression-input.txt",
+        "mode": "sl-es"
+    }
+}

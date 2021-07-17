@@ -1,0 +1,4 @@
+[2mMxw6UjXBXV#0] ^Sergio<np><ant><ma><sg><nom>$ ^biti<vbser><pres><p3><sg>$ ^moj<det><pos><ma><sg><nom>$ ^brat<n><ma><sg><nom>$^.<sent>$
+[/2mMxw6UjXBXV]
+[DBvk1vBmzqab#0] ^Zemlja<n><f><sg><nom>$^.<sent>$
+[/DBvk1vBmzqab]

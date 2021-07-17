@@ -1,0 +1,4 @@
+[2mMxw6UjXBXV#0] ^Np<SN><UNDETadd><m><sg><nom>{^sergio<np><ant><3><sg>$}$ ^verbcj<SV><vbser><NONE><pri><p3><mf><sg>{^ser<vbser><4><5><7>$}$ ^det_nom<SN>{^mío<det><pos><mf><sg>$ ^hermano<n><m><sg>$}$^punt<sent>{^.<sent>$}$
+[/2mMxw6UjXBXV]
+[DBvk1vBmzqab#0] ^Nom<SN><UNDETadd><f><sg><nom>{^tierra<n><3><4>$}$^punt<sent>{^.<sent>$}$
+[/DBvk1vBmzqab]

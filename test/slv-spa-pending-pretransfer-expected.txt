@@ -1,0 +1,108 @@
+[1AT-C8D7K9Dt#0] ^Biti<vbser><fut><p3><pl>$ ^delati<vblex><imperf><past><m><pl>$^.<sent>$
+[/1AT-C8D7K9Dt]
+[24tB-aVpOSBU#0] ^Od<pr>$ ^tukaj<adv>$ ^se<prn><ref><mf><sp><loc>$ ^videti<vblex><perf><imp><p2><sg>$ ^ves<det><ind><mi><pl><acc>$ ^mesto<n><nt><sg><nom>$^.<sent>$
+[/24tB-aVpOSBU]
+[2F6gO9K4tpC0#0] ^Delati<vblex><imperf><past><m><sg>$ ^biti<vbser><pres><p3><sg>$ ^ves<det><ind><mi><sg><nom>$ ^dan<n><mi><sg><nom>$^.<sent>$
+[/2F6gO9K4tpC0]
+[2JhRugHmZfdv#0] ^Biti<vbser><fut><p2><sg>$ ^delati<vblex><imperf><past><f><sg>$^.<sent>$
+[/2JhRugHmZfdv]
+[2mMxw6UjXBXV#0] ^Sergio<np><ant><ma><sg><nom>$ ^biti<vbser><pres><p3><sg>$ ^moj<det><pos><ma><sg><nom>$ ^brat<n><ma><sg><nom>$^.<sent>$
+[/2mMxw6UjXBXV]
+[4MIeb-86qQig#0] ^Biti<vbser><fut><p2><sg>$ ^delati<vblex><imperf><past><m><sg>$^.<sent>$
+[/4MIeb-86qQig]
+[5uiV4NSaxkWw#0] ^Ta<det><dem><f><sg><ins>$ ^sonce<n><nt><sg><nom>$^.<sent>$
+[/5uiV4NSaxkWw]
+[7Cg1E7USzz8x#0] ^Biti<vbser><fut><p1><pl>$ ^delati<vblex><imperf><past><m><pl>$^.<sent>$
+[/7Cg1E7USzz8x]
+[9wuKwqcGwcIG#0] ^*Vprašimo$ ^kdo<prn><itg><gen>$^.<sent>$
+[/9wuKwqcGwcIG]
+[AX2-CqxU7Bqv#0] ^Biti<vbser><fut><p3><sg>$ ^delati<vblex><imperf><past><m><sg>$^.<sent>$
+[/AX2-CqxU7Bqv]
+[CAtrYJLLSUmC#0] ^Zamenjati<vblex><perf><past><m><sg>$ ^biti<vbser><pres><p1><sg>$ ^prpers<prn><emph><p3><mfn><sg><gen>$ ^z<pr>$ ^njegov<det><pos><ma><sg><ins>$ ^oče<n><ma><sg><ins>$^.<sent>$
+[/CAtrYJLLSUmC]
+[CozMqTe8F57_#0] ^Biti<vbser><fut><p2><pl>$ ^delati<vblex><imperf><past><m><pl>$^.<sent>$
+[/CozMqTe8F57_]
+[DBvk1vBmzqab#0] ^Zemlja<n><f><sg><nom>$^.<sent>$
+[/DBvk1vBmzqab]
+[E4uq7p_lDarz#0] ^Delati<vblex><imperf><pres><p2><sg>$^.<sent>$
+[/E4uq7p_lDarz]
+[FMwWt6qL-moq#0] ^Tudi<part>$ ^*Agata$ ^se<prn><ref><mf><sp><loc>$ ^biti<vbser><pres><p3><sg>$ ^močno<adv><sint>$ ^spremeniti<vblex><perf><past><f><sg>$^.<sent>$
+[/FMwWt6qL-moq]
+[Gptqi9ADnMSc#0] ^Biti<vbser><pres><p2><sg>$ ^delati<vblex><imperf><past><m><sg>$^.<sent>$
+[/Gptqi9ADnMSc]
+[MzP3LVXkj4LV#0] ^Biti<vbser><pres><p1><sg>$ ^delati<vblex><imperf><past><m><sg>$^.<sent>$
+[/MzP3LVXkj4LV]
+[NTwhtbkra86O#0] ^*Gremolata$ ^v<pr>$ ^kristalen<adj><m><sg><loc><ind>$ ^kozarec<n><mi><sg><loc>$ ^z<pr>$ ^visok<adj><m><pl><dat><ind>$ ^pecelj<n><mi><sg><ins>$ ^se<prn><ref><mf><sp><loc>$ ^biti<vbser><pres><p3><sg>$ ^že<part>$ ^staliti<vblex><imperf><past><f><sg>$^.<sent>$
+[/NTwhtbkra86O]
+[NzO5f-qRWTCM#0] ^Ta<det><dem><ma><sg><nom>$ ^Stric<n><ma><sg><nom>$^.<sent>$
+[/NzO5f-qRWTCM]
+[O6x128DFn3Ho#0] ^Hoteti<vblex><imperf><pres><neg><p2><pl>$ ^delati<vblex><imperf><inf>$^.<sent>$
+[/O6x128DFn3Ho]
+[OE-Svgwu_WE9#0] ^Hoteti<vblex><imperf><pres><neg><p1><pl>$ ^delati<vblex><imperf><inf>$^.<sent>$
+[/OE-Svgwu_WE9]
+[Onn--xQ9KGNx#0] ^Moj<det><pos><ma><sg><nom>$ ^brat<n><ma><sg><nom>$^.<sent>$
+[/Onn--xQ9KGNx]
+[P6TGz4ftb18t#0] ^Ko<cnjsub>$ ^biti<vbser><pres><p1><sg>$ ^prpers<prn><emph><p3><mfn><sg><gen>$ ^poklicati<vblex><perf><past><m><sg>$^,<cm>$ ^biti<vbser><pres><p3><sg>$ ^delati<vblex><imperf><past><m><sg>$^.<sent>$
+[/P6TGz4ftb18t]
+[PWYZeSXqnkGm#0] ^Hoteti<vblex><imperf><pres><neg><p1><sg>$ ^delati<vblex><imperf><inf>$^.<sent>$
+[/PWYZeSXqnkGm]
+[PzIrS6pJdJry#0] ^Janez<np><ant><ma><sg><nom>$ ^biti<vbser><pres><p3><sg>$ ^pravkar<adv>$ ^priti<vblex><perf><past><m><sg>$^.<sent>$
+[/PzIrS6pJdJry]
+[QAKhyfQ6_zeJ#0] ^Avtomobil<n><mi><sg><nom>$^.<sent>$
+[/QAKhyfQ6_zeJ]
+[V3YDqM3dUnv9#0] ^Biti<vbser><pres><p2><sg>$ ^delati<vblex><imperf><past><f><sg>$^.<sent>$
+[/V3YDqM3dUnv9]
+[VoyKxrE_W7AO#0] ^Različen<adj><m><pl><nom><ind>$ ^jezik<n><mi><pl><nom>$^.<sent>$
+[/VoyKxrE_W7AO]
+[ZyZjvZb-HKP1#0] ^Jutri<adv>$ ^odpotovati<vblex><perf><fut><p3><pl>$ ^v<pr>$ ^London<np><top><mi><sg><nom>$^.<sent>$
+[/ZyZjvZb-HKP1]
+[_XKRtUjeIqe3#0] ^Moj<det><pos><ma><du><nom>$ ^sestra<n><f><sg><nom>$^.<sent>$
+[/_XKRtUjeIqe3]
+[a5hKkQ4dEGQK#0] ^Hoteti<vblex><imperf><pres><neg><p3><pl>$ ^delati<vblex><imperf><inf>$^.<sent>$
+[/a5hKkQ4dEGQK]
+[bkoWTHZRbvSo#0] ^Hoteti<vblex><imperf><pres><neg><p2><sg>$ ^delati<vblex><imperf><inf>$^.<sent>$
+[/bkoWTHZRbvSo]
+[bwCP65RWLdcH#0] ^*Marianna$ ^se<prn><ref><mf><sp><loc>$ ^sunkovito<adv><sint>$ ^zbuditi<vblex><perf><imp><p2><sg>$ ^z<pr>$ ^občutek<n><mi><sg><ins>$ ^*poraženosti$^.<sent>$
+[/bwCP65RWLdcH]
+[fJni6N75RTr7#0] ^*Bramov$ ^poljub<n><mi><sg><nom>$^.<sent>$
+[/fJni6N75RTr7]
+[gQnta53sMyWc#0] ^Vena<n><f><du><gen>$ ^biti<vbser><pres><p1><pl>$ ^iti<vblex><perf><past><f><du>$ ^skoz<pr>$ ^stranski<adj><f><sg><nom><ind>$ ^vrata<n><f><pl><nom>$^.<sent>$
+[/gQnta53sMyWc]
+[jWfP-5E1Rww7#0] ^Priti<vblex><perf><past><m><sg>$ ^biti<vbser><pres><p1><sg>$^,<cm>$ ^dati<vblex><perf><fut><p3><sg>$ ^biti<vbser><cni>$ ^ta<det><dem><ma><pl><nom>$ ^pomagalo<n><nt><du><gen>$^.<sent>$
+[/jWfP-5E1Rww7]
+[jYhTMwOfZd44#0] ^Prpers<prn><pers><p1><mfn><sg><nom>$^.<sent>$
+[/jYhTMwOfZd44]
+[k7rNwKQLVKDi#0] ^Delati<vblex><imperf><pres><p1><pl>$^.<sent>$
+[/k7rNwKQLVKDi]
+[lYwChdQJLEBK#0] ^Skuhati<vblex><perf><past><m><sg>$ ^biti<vbser><pres><p3><sg>$ ^dober<adj><nt><sg><nom><ind>$ ^kosilo<n><nt><sg><nom>$^.<sent>$
+[/lYwChdQJLEBK]
+[m139q9FYyfJ9#0] ^Vstopiti<vblex><perf><past><m><sg>$ ^biti<vbser><pres><p1><sg>$ ^v<pr>$ ^hiša<n><f><sg><ins>$^.<sent>$
+[/m139q9FYyfJ9]
+[mFbUSeRL5fpI#0] ^Biti<vbser><pres><p1><pl>$ ^delati<vblex><imperf><past><m><pl>$^.<sent>$
+[/mFbUSeRL5fpI]
+[msldyzdQ3EW2#0] ^Ko<cnjsub>$ ^biti<vbser><pres><p1><pl>$ ^vstopiti<vblex><perf><past><m><pl>$^,<cm>$ ^biti<vbser><pres><p3><sg>$ ^kuhati<vblex><imperf><past><m><sg>$ ^kosilo<n><nt><sg><nom>$^.<sent>$
+[/msldyzdQ3EW2]
+[sl1df5it7OJ9#0] ^Miza<n><f><sg><nom>$ ^biti<vbser><pres><p3><sg>$ ^rdeti<vblex><imperf><pp><f><sg><nom><ind>$^.<sent>$
+[/sl1df5it7OJ9]
+[sp46BKiqDFef#0] ^Sonce<n><nt><sg><nom>$^.<sent>$
+[/sp46BKiqDFef]
+[ufhJVL7SwOAU#0] ^Biti<vbser><pres><p3><pl>$ ^delati<vblex><imperf><past><m><pl>$^.<sent>$
+[/ufhJVL7SwOAU]
+[wFGWDzOBs-5D#0] ^Delati<vblex><imperf><pres><p3><pl>$^.<sent>$
+[/wFGWDzOBs-5D]
+[wcjXR4Bnnhbi#0] ^Učenec<n><ma><pl><acc>$ ^biti<vbser><pres><p1><sg>$ ^poklicati<vblex><perf><past><m><sg>$ ^po<pr>$ ^ime<n><nt><sg><loc>$^.<sent>$
+[/wcjXR4Bnnhbi]
+[xCbxd6EVqWlx#0] ^Delati<vblex><imperf><pres><p1><sg>$^.<sent>$
+[/xCbxd6EVqWlx]
+[xFYr574ndN-7#0] ^Ves<prn><ind><m><sg><gen>$ ^ne<cnjcoo>$ ^smeti<vblex><imperf><pres><p1><pl>$ ^videti<vblex><perf><inf>$^.<sent>$
+[/xFYr574ndN-7]
+[xjh0Aqa2VEDI#0] ^Barvati<vblex><imperf><pres><p3><sg>$ ^očetov<adj><mi><sg><gen><ind>$ ^avtomobil<n><mi><sg><gen>$ ^biti<vbser><pres><p3><sg>$ ^rdeti<vblex><imperf><pp><f><sg><nom><ind>$^.<sent>$
+[/xjh0Aqa2VEDI]
+[yeO76t-erOJL#0] ^Delati<vblex><imperf><pres><p2><pl>$^.<sent>$
+[/yeO76t-erOJL]
+[yxilG5lxehdG#0] ^Stric<n><ma><sg><nom>$^.<sent>$
+[/yxilG5lxehdG]
+[zIO3LEPaiBUM#0] ^Prispel<adj><nt><sg><nom><ind>$ ^biti<vbser><pres><p3><sg>$ ^pismo<n><nt><sg><nom>$ ^za<pr>$ ^*Giannija$^.<sent>$
+[/zIO3LEPaiBUM]
+[znsl4aRdzZYF#0] ^Sprevod<n><mi><sg><nom>$ ^iti<vblex><perf><past><m><sg>$ ^po<pr>$ ^mesto<n><nt><sg><loc>$^.<sent>$
+[/znsl4aRdzZYF]
